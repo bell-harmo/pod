@@ -524,8 +524,8 @@ ItemDisplay[NMAG ETH !RW !SOCK=1 uth DEF>768]: %DGREEN%ETH %NAME% highest Def%GR
 ItemDisplay[NMAG ETH !RW !SOCK=1 uul DEF>792]: %DGREEN%ETH %NAME% highest Def%GRAY%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>849]: %DGREEN%ETH %NAME% highest Def%GRAY%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>720]: %DGREEN%ETH %NAME% highest Def%GRAY%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 (xtp OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %GRAY%ETH %NAME%%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG !ETH !RW !SOCK=1 (xtp OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !INF !SOCK=1 (xtp OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %GRAY%ETH %NAME%%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG !ETH !RW !INF !SOCK=1 (xtp OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]
 ////Gloves////
 //+3 자벨/보우 Magical/RARE Gloves
 ItemDisplay[EQ4 (MAG OR RARE) !ETH TABSK0>2 IAS=20]: %NAME% %PURPLE%+3 보우 20공속
