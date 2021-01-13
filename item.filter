@@ -2,7 +2,7 @@
 //ItemDisplay[(hp5 OR hp4)]: %RED%!%WHITE%HP
 //ItemDisplay[(mp5 OR mp4)]: %BLUE%!%WHITE%MP
 // Unid Relic
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) !ID]:%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %YELLOW%%NAME% %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) !ID]:%YELLOW%%NAME%
 ItemDisplay[ma5]:프리지드 플레트우%CONTINUE%
 ItemDisplay[ma4]:데서크리드 템플%CONTINUE%
 ItemDisplay[ma8]:머스티 크립트%CONTINUE%
