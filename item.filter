@@ -123,7 +123,6 @@ ItemDisplay[cm3 TABSK40>0]: %PURPLE%드루 소환 스킬 참 %GRAY%[%ILVL%]
 ItemDisplay[cm3 TABSK41>0]: %PURPLE%변신 스킬 참 %GRAY%[%ILVL%]
 ItemDisplay[cm3 TABSK42>0]: %PURPLE%드루 엘리멘탈 스킬 참 %GRAY%[%ILVL%]
 ItemDisplay[cm3 TABSK48>0]: %PURPLE%트랩 스킬 참 %GRAY%[%ILVL%]
-//Basics
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<1000 CLVL<40]:
 ItemDisplay[GOLD<2000 (CLVL>39 AND CLVL<=69)]:
@@ -194,53 +193,49 @@ ItemDisplay[RARE (amu OR rin OR jew) !ID]: %PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤
 ItemDisplay[SET !ID amu]: %PURPLE%¤ %GREEN%%NAME% %PURPLE% ¤
 ItemDisplay[MAG (amu OR rin)]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
 //Charms/JEWELS
-ItemDisplay[MAG (cm1 OR cm2 OR cm3 OR jew) !ID]: %GREEN% ¤%BLUE% %NAME% %ORANGE%[L%ILVL%]%GREEN%  ¤
+ItemDisplay[MAG (cm1 OR cm2 OR cm3 OR jew) !ID]: %GREEN% ¤%BLUE% %NAME% %ORANGE%[L%ILVL%]%GREEN%¤
 ItemDisplay[MAG (cm1 OR cm2 OR cm3 OR jew)]: %BLUE%%NAME%%ORANGE%[L%ILVL%]
 ////Unique Charms
 ItemDisplay[UNI !ID cm1]: %PURPLE%  O %ORANGE%애니힐러스%PURPLE% O
 ItemDisplay[UNI !ID cm2]: %PURPLE%  O %ORANGE%지옥의 횃불%PURPLE% O
 ItemDisplay[UNI !ID cm3]: %PURPLE%  O %RED%기드의 행운%PURPLE% O
 /ARROWS
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT96>0 AND ITEMSTAT62>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %TAN%마흡 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0 AND ITEMSTAT62>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %TAN%마흡 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0 AND ITEMSTAT96>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %TAN%달려 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT96>0 AND TABSK0>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %TAN%보우스킬 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0 AND TABSK0>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %TAN%보우스킬 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT62>0 AND TABSK0>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%마흡 %TAN%보우스킬 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT96>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %GREEN%올저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT62>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%마흡 %GREEN%올저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %GREEN%올저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND TABSK0>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%보우스킬 %GREEN%올저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT96>0 AND (ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %GREEN%저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0 AND (ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %GREEN%저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT62>0 AND (ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%마흡 %GREEN%저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND TABSK0>0 AND (ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %TAN%보우스킬 %GREEN%저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT96>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT62>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%마흡 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND TABSK0>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%보우스킬 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %GREEN%올저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND (ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %GREEN%저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 (ITEMSTAT48>0 OR ITEMSTAT49>0 OR ITEMSTAT50>0 OR ITEMSTAT51>0 OR ITEMSTAT52>0 OR ITEMSTAT55>0)]: %PURPLE%맥뎀 %RED%추뎀 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT96>0)]: %PURPLE%맥뎀 %ORANGE%달려 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT62>0)]: %PURPLE%맥뎀 %TAN%마흡 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT68>0)]: %PURPLE%맥뎀 %ORANGE%공속 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND RES>0)]: %PURPLE%맥뎀 %GREEN%올저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND (ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0))]: %PURPLE%맥뎀 %GREEN%저항 %YELLOW%애로우
-ItemDisplay[aq2 RARE ITEMSTAT218>0]: %PURPLE%맥뎀 %YELLOW%애로우
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT96>0 AND ITEMSTAT62>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %TAN%마흡 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0 AND ITEMSTAT62>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %TAN%마흡 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0 AND ITEMSTAT96>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %TAN%달려 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT96>0 AND TABSK0>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %TAN%보우스킬 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0 AND TABSK0>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %TAN%보우스킬 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT62>0 AND TABSK0>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%마흡 %TAN%보우스킬 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT96>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %GREEN%올저항 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT62>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%마흡 %GREEN%올저항 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %GREEN%올저항 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND TABSK0>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%보우스킬 %GREEN%올저항 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT96>0 AND (ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %GREEN%저항 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0 AND (ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %GREEN%저항 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT62>0 AND (ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%마흡 %GREEN%저항 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND TABSK0>0 AND (ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %TAN%보우스킬 %GREEN%저항 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT96>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT62>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%마흡 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND ITEMSTAT68>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND TABSK0>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%보우스킬 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %GREEN%올저항 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 AND (ITEMSTAT39>0 OR ITEMSTAT41>0 OR ITEMSTAT43>0 OR ITEMSTAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %GREEN%저항 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE (ITEMSTAT218>0 AND ITEMSTAT22>0 (ITEMSTAT48>0 OR ITEMSTAT49>0 OR ITEMSTAT50>0 OR ITEMSTAT51>0 OR ITEMSTAT52>0 OR ITEMSTAT55>0)]: %PURPLE%맥뎀 %RED%추뎀 %YELLOW%애로우%CONTINUE%
+ItemDisplay[aq2 RARE ID ITEMSTAT360=1]:%NAME% %RED%타락됨 
 //Belt&Boots&Clew
-ItemDisplay[EQ5 RARE ID (ITEMSTAT96>0 AND (ITEMSTAT39>30 OR ITEMSTAT41>30 OR ITEMSTAT43>30 OR ITEMSTAT45>30))]: %PURPLE%달려 %GREEN%저항 %YELLOW%%NAME%
-ItemDisplay[EQ5 RARE ID (ITEMSTAT96>0 AND ITEMSTAT99>0)]: %PURPLE%패힛 %RED%달려 %YELLOW%%NAME%
-ItemDisplay[EQ6 RARE ID (ITEMSTAT99>0 AND (ITEMSTAT0>0 OR ITEMSTAT0>2))]: %PURPLE%패힛 %RED%스텟 %YELLOW%%NAME%
-ItemDisplay[CL5 RARE ID (ITEMSTAT17>200 AND ITEMSTAT218>0)]: %PURPLE%증뎀 %RED%맥뎀 %YELLOW%%NAME%
-ItemDisplay[CL5 RARE ID ITEMSTAT17>350]: %PURPLE%증뎀 %YELLOW%%NAME%
+ItemDisplay[EQ5 RARE ID (ITEMSTAT96>0 AND (ITEMSTAT39>30 OR ITEMSTAT41>30 OR ITEMSTAT43>30 OR ITEMSTAT45>30))]: %PURPLE%달려 %GREEN%저항 %YELLOW%부츠%CONTINUE%
+ItemDisplay[EQ5 RARE ID (ITEMSTAT96>0 AND ITEMSTAT99>0)]: %PURPLE%패힛 %RED%달려 %YELLOW%부츠%CONTINUE%
+ItemDisplay[EQ5 RARE ID ITEMSTAT360=1]:%NAME% %RED%타락됨  
+ItemDisplay[EQ6 RARE ID (ITEMSTAT99>0 AND (ITEMSTAT0>0 OR ITEMSTAT0>2))]:  %PURPLE%패힛 %RED%스텟 %YELLOW%벨트%CONTINUE%
+ItemDisplay[EQ6 RARE ID ITEMSTAT360=1]:%NAME% %RED%타락됨  
+ItemDisplay[CL5 RARE ID (ITEMSTAT17>200 AND ITEMSTAT218>0)]: %PURPLE%증뎀 %RED%맥뎀 %YELLOW%클로%CONTINUE%
+ItemDisplay[CL5 RARE ID ITEMSTAT17>350]: %PURPLE%증뎀 %YELLOW%클로%CONTINUE%
+ItemDisplay[CL5 RARE ID ITEMSTAT360=1]:%NAME% %RED%타락됨  
 ItemDisplay[(aq2 OR EQ6 OR EQ5 OR CL5) RARE ID]: %GRAY%%NAME%
 //RARES (All elite rares exept dagger and xbow)
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ3 OR EQ4 OR EQ5 OR EQ6 OR EQ7) !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ3 OR EQ4 OR EQ5 OR EQ6 OR EQ7) ETH !ID]: ETH %YELLOW%%NAME%
 ////UNIQUE ITEMS////
-ItemDisplay[UNI !ID (cap OR skp OR hlm OR fhl OR ghm OR msk OR crn OR bhm OR xap OR xkp OR xlm OR xhl OR xhm OR xsk OR xrn OR uh9) !ETH]: %TAN%%NAME%[일반유니크모자]
-ItemDisplay[UNI !ID (cap OR skp OR hlm OR fhl OR ghm OR msk OR crn OR bhm OR xap OR xkp OR xlm OR xhl OR xhm OR xsk OR xrn OR uh9) ETH]: %TAN%%NAME%[일반유니크모자ETH]
 ItemDisplay[UNI !ID xh9 !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%뱀파이어의 응시[업3솟] %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
 ItemDisplay[UNI !ID xh9 ETH]: %RED%O ETH 뱀파이어의 응시 %RED%O
 ItemDisplay[UNI !ID uap !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%샤코 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
@@ -258,8 +253,6 @@ ItemDisplay[UNI !ID ci3 ETH]: %RED%O ETH 그리폰의 눈%RED% O
 ItemDisplay[UNI !ID ci2 !ETH]: %RED%O 키라의 수호자%RED% O
 ItemDisplay[UNI !ID ci2 ETH]: %RED%O ETH 키라의 수호자%RED% O
 ////Unique Armor
-ItemDisplay[UNI !ID (qui OR lea OR hla OR stu OR rng OR scl OR brs OR chn OR spl OR ltp OR fld OR plt OR gth OR ful OR aar OR xui OR xla OR xtu OR xcl OR xng OR xld OR xth OR xul OR xar OR uul) !ETH]: %TAN%%NAME%[일반유니크갑옷]
-ItemDisplay[UNI !ID (qui OR lea OR hla OR stu OR rng OR scl OR brs OR chn OR spl OR ltp OR fld OR plt OR gth OR ful OR aar OR xui OR xla OR xtu OR xcl OR xng OR xld OR xth OR xul OR xar OR uul) ETH]: %TAN%%NAME%[일반유니크갑옷ETH]
 ItemDisplay[UNI !ID xea !ETH]: %RED%O 뱀 주술사의 가죽[업4솟] %RED%O
 ItemDisplay[UNI !ID xea ETH]: %RED%O ETH 뱀 주술사의 가죽 %RED%O
 ItemDisplay[UNI !ID xrs !ETH]: %RED%O 듀리엘의 껍데기 %RED%O
@@ -283,8 +276,6 @@ ItemDisplay[UNI !ID uld ETH]: %RED%O ETH 레비아탄 %RED%O
 ItemDisplay[UNI !ID uar !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%티리얼or기사단의권능%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
 ItemDisplay[UNI !ID uar ETH]: %RED%O %PURPLE%ETH 티리얼 or 기사단의 권능 %RED%O
 ////Unique Shields
-ItemDisplay[UNI !ID (buc OR sml OR lrg OR kit OR spk OR tow OR bsh OR gts OR xuc OR xml OR xrg OR xit OR xpk OR xow OR xsh OR xts OR uml OR upk) !ETH]: %TAN%%NAME%[일반유니크방패]
-ItemDisplay[UNI !ID (buc OR sml OR lrg OR kit OR spk OR tow OR bsh OR gts OR xuc OR xml OR xrg OR xit OR xpk OR xow OR xsh OR xts OR uml OR upk) ETH]: %TAN%%NAME%[일반유니크방패ETH]
 ItemDisplay[UNI !ID uit !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%폭풍막이 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
 ItemDisplay[UNI !ID uit ETH]: %RED%O %PURPLE%ETH 폭풍막이 %RED%O
 ItemDisplay[UNI !ID uow !ETH]: %TAN%메두사의 응시
@@ -294,8 +285,6 @@ ItemDisplay[UNI !ID ush ETH]: %TAN%ETH 인간사냥꾼의 전리품
 ItemDisplay[UNI !ID uts !ETH]: %TAN%영혼 방벽
 ItemDisplay[UNI !ID uts ETH]: %TAN%ETH 영혼 방벽
 ////Unique Gloves
-ItemDisplay[UNI !ID (lgl OR vgl OR xlg OR xvg OR xmg OR xtg OR xhg) !ETH]: %TAN%%NAME%[일반유니크장갑]
-ItemDisplay[UNI !ID (lgl OR vgl OR xlg OR xvg OR xmg OR xtg OR xhg) ETH]: %TAN%%NAME%[일반유니크장갑ETH]
 ItemDisplay[UNI !ID mgl !ETH]: %RED%기회의 장갑
 ItemDisplay[UNI !ID mgl ETH]: %TAN%ETH 기회의 장갑
 ItemDisplay[UNI !ID tgl !ETH]: %RED%마수
@@ -309,8 +298,6 @@ ItemDisplay[UNI !ID umg ETH]: %TAN%ETH 영혼흡수 완갑
 ItemDisplay[UNI !ID uhg !ETH]: %RED%O 강철 찢개 %RED%O
 ItemDisplay[UNI !ID uhg ETH]: %TAN%ETH 강철 찢개
 ////Unique Boots
-ItemDisplay[UNI !ID (lbt OR vbt OR tbt OR hbt OR mbt) !ETH]: %TAN%%NAME%[일반유니크신발]
-ItemDisplay[UNI !ID (lbt OR vbt OR tbt OR hbt OR mbt) ETH]: %TAN%%NAME%[일반유니크신발ETH]
 ItemDisplay[UNI !ID xlb !ETH]: %TAN%불꽃걸음
 ItemDisplay[UNI !ID xlb ETH]: %TAN%ETH 불꽃걸음
 ItemDisplay[UNI !ID xvb !ETH]: %RED%물걸음 장화
@@ -328,8 +315,6 @@ ItemDisplay[UNI !ID umb ETH]: %TAN%ETH 뼈걸음 장화
 ItemDisplay[UNI !ID uhb !ETH]: %RED%그림자 춤꾼
 ItemDisplay[UNI !ID uhb ETH]: %TAN%ETH 그림자 춤꾼
 ////Unique Belts
-ItemDisplay[UNI !ID (lbl OR vbl OR mbl OR tbl OR hbl OR zlb) !ETH]: %TAN%%NAME%[일반유니크벨트]
-ItemDisplay[UNI !ID (lbl OR vbl OR mbl OR tbl OR hbl OR zlb) ETH]: %TAN%%NAME%[일반유니크벨트ETH]
 ItemDisplay[UNI !ID zvb !ETH]: %RED%O 날카로운 꼬리 %RED%O
 ItemDisplay[UNI !ID zvb ETH]: %TAN%ETH 날카로운 꼬리
 ItemDisplay[UNI !ID zmb !ETH]: %RED%우울의 올가미
@@ -344,23 +329,13 @@ ItemDisplay[UNI !ID uvc !ETH]: %RED% 노스페라투의 고리
 ItemDisplay[UNI !ID uvc ETH]: %TAN%ETH 노스페라투의 고리
 ItemDisplay[UNI !ID umc !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%베르던고의든든한끈%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
 ItemDisplay[UNI !ID umc ETH]: %RED%ETH 베르던고의 든든한 끈
-////Unique Weapons
-ItemDisplay[UNI !ID (hax OR axe OR 2ax OR mpi OR wax OR lax OR bax OR btx OR gax OR gix OR 9ha OR 9ax OR 92a OR 9mp OR 9wa OR 9la OR 9ba OR 9bt OR 9ga OR 9gi OR 7ha OR 72a OR 7mp OR 7wa OR 7ba OR 7bt OR 7ga OR 7gi) !ETH]: %TAN%%NAME%[일반유니크도끼]
-ItemDisplay[UNI !ID (hax OR axe OR 2ax OR mpi OR wax OR lax OR bax OR btx OR gax OR gix OR 9ha OR 9ax OR 92a OR 9mp OR 9wa OR 9la OR 9ba OR 9bt OR 9ga OR 9gi OR 7ha OR 72a OR 7mp OR 7wa OR 7ba OR 7bt OR 7ga OR 7gi) ETH]: %TAN%%NAME%[일반유니크도끼ETH]
 ////Unique Bows
-ItemDisplay[UNI !ID (sbw OR hbw OR cbw OR lbw OR sbb OR lbb OR swb OR lwb OR 8sb OR 8hb OR 8lb OR 8cb OR 8s8 OR 8l8 OR 8sw OR 8lw OR 6l7 OR 6sw)]: %TAN%%NAME%[일반유니크활]
 ItemDisplay[UNI !ID 6lw]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%바람살 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
-////Unique Crossbows
-ItemDisplay[UNI !ID (lxb OR mxb OR hxb OR rxb OR 8lx OR 8mx OR 8hx OR 8rx OR 6hx OR 6rx)]: %TAN%%NAME%[일반유니크크로스보우]
 ////Unique Daggers
-ItemDisplay[UNI !ID (dgr OR dir OR kri OR bld OR 9dg OR 9di OR 9kr OR 9bl OR 7dg) !ETH]: %TAN%%NAME%[일반유니크대거]
-ItemDisplay[UNI !ID (dgr OR dir OR kri OR bld OR 9dg OR 9di OR 9kr OR 9bl OR 7dg) ETH]: %TAN%%NAME%[일반유니크대거ETH]
 ItemDisplay[UNI !ID 7kr !ETH]: %RED%O 살갗 찢개 %RED%O
 ItemDisplay[UNI !ID 7kr ETH]: %TAN%ETH 살갗 찢개
 ItemDisplay[UNI !ID 7bl ETH]: %TAN%ETH 유령불꽃
 ////Unique Maces
-ItemDisplay[UNI !ID (clb OR spc OR mac OR mst OR fla OR whm OR mau OR gma OR 9cl OR 9sp OR 9ma OR 9mt OR 9fl OR 9wh OR 9m9 OR 9gm OR 7cl OR 7sp OR 7mt OR 7m7) !ETH]: %TAN%%NAME%[일반유니크메이스]
-ItemDisplay[UNI !ID (clb OR spc OR mac OR mst OR fla OR whm OR mau OR gma OR 9cl OR 9sp OR 9ma OR 9mt OR 9fl OR 9wh OR 9m9 OR 9gm OR 7cl OR 7sp OR 7mt OR 7m7) ETH]: %TAN%%NAME%[일반유니크메이스ETH]
 ItemDisplay[UNI !ID 7fl !ETH]: %RED%O 호라즌의 회오리바람 or 천둥채찍 %RED%O
 ItemDisplay[UNI !ID 7fl ETH]: %RED%ETH 호라즌의 회오리바람 or ETH 천둥채찍
 ItemDisplay[UNI !ID 7wh !ETH]: %RED%O 바위 격파기 or 쉐퍼의 망치 %RED%O
@@ -368,8 +343,6 @@ ItemDisplay[UNI !ID 7wh ETH]: %RED%ETH 바위 격파기 or ETH 쉐퍼의 망치
 ItemDisplay[UNI !ID 7gm !ETH]: %RED%O 지축 망치 or 두개골 파괴자 %RED%O
 ItemDisplay[UNI !ID 7gm ETH]: %RED%O ETH 지축 망치 or ETH 두개골 파괴자%RED%O
 ////Unique Polearms
-ItemDisplay[UNI !ID (bar OR vou OR scy OR pax OR hal OR wsc OR 9b7 OR 9vo OR 9s8 OR 9pa OR 9h9 OR 9wc OR 7o7) !ETH]: %TAN%%NAME%[일반유니크폴암]
-ItemDisplay[UNI !ID (bar OR vou OR scy OR pax OR hal OR wsc OR 9b7 OR 9vo OR 9s8 OR 9pa OR 9h9 OR 9wc OR 7o7) ETH]: %TAN%%NAME%[일반유니크폴암ETH]
 ItemDisplay[UNI !ID 7s8 !ETH]: %RED%O 사신의 수확 %RED%O
 ItemDisplay[UNI !ID 7s8 ETH]: %RED%O %PURPLE%ETH 사신의 수확 %RED%O
 ItemDisplay[UNI !ID 7pa !ETH]: %RED%O 무덤 약탈자  %RED%O
@@ -377,8 +350,6 @@ ItemDisplay[UNI !ID 7pa ETH]: %RED%O ETH 무덤 약탈자 %RED%O
 ItemDisplay[UNI !ID 7wc !ETH]: %TAN%폭풍장대
 ItemDisplay[UNI !ID 7wc ETH]: %TAN%ETH 폭풍장대
 ////Unique Scepters
-ItemDisplay[UNI !ID (scp OR gsc OR wsp OR 9sc OR 9qs) !ETH]: %TAN%%NAME%[일반유니크셉터]
-ItemDisplay[UNI !ID (scp OR gsc OR wsp OR 9sc OR 9qs) ETH]: %TAN%%NAME%[일반유니크셉터ETH]
 ItemDisplay[UNI !ID 9ws !ETH]: %RED%축복받은 빛의 손길
 ItemDisplay[UNI !ID 9ws ETH]: %TAN%ETH 축복받은 빛의 손길
 ItemDisplay[UNI !ID 7sc !ETH]: %RED%O 천상의 빛 or 구원자 %RED%O
@@ -386,20 +357,16 @@ ItemDisplay[UNI !ID 7sc ETH]: %RED%ETH 천상의 빛 or ETH 구원자
 ItemDisplay[UNI !ID 7ws !ETH]: %RED%O 아스트리온의 강철 홀 %RED%O
 ItemDisplay[UNI !ID 7ws ETH]: %RED%ETH 아스트리온의 강철 홀
 ////Unique Spears
-ItemDisplay[UNI !ID (spr OR tri OR brn OR spt OR pik OR 9sr OR 9tr OR 9br OR 9st OR 9p9 OR 7sr OR 7br) !ETH]: %TAN%%NAME%[일반유니크스피어]
-ItemDisplay[UNI !ID (spr OR tri OR brn OR spt OR pik OR 9sr OR 9tr OR 9br OR 9st OR 9p9 OR 7sr OR 7br) ETH]: %TAN%%NAME%[일반유니크스피어ETH]
+ItemDisplay[UNI !ID 7br !ETH]: %RED%O 뱀 갈퀴 %RED%O
+ItemDisplay[UNI !ID 7br ETH]: %RED%O ETH 뱀 갈퀴 %RED%O
 ItemDisplay[UNI !ID 7p7 !ETH]: %RED%O 강철 기둥 %RED%O
 ItemDisplay[UNI !ID 7p7 ETH]: %RED%O ETH 강철 기둥 %RED%O
 ////Unique Staves
-ItemDisplay[UNI !ID (sst OR lst OR cst OR bst OR wst OR 8ss OR 8ls OR 8cs OR 8bs OR 8ws) !ETH]: %TAN%%NAME%[일반유니크스태프]
-ItemDisplay[UNI !ID (sst OR lst OR cst OR bst OR wst OR 8ss OR 8ls OR 8cs OR 8bs OR 8ws) ETH]: %TAN%%NAME%[일반유니크스태프ETH]
 ItemDisplay[UNI !ID 6cs !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%온달의지혜 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
 ItemDisplay[UNI !ID 6cs ETH]: %RED%O %PURPLE%ETH 온달의 지혜%RED%O
 ItemDisplay[UNI !ID 6ws !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%망송의교훈 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
 ItemDisplay[UNI !ID 6ws ETH]: %RED%O %PURPLE%ETH 망 송의 교훈%RED%O
 ////Unique Swords
-ItemDisplay[UNI !ID (ssd OR scm OR sbr OR flc OR bsd OR lsd OR wsd OR 2hs OR clm OR gis OR bsw OR flb OR gsd OR 9ss OR 9sm OR 9sb OR 9cr OR 9bs OR 9ls OR 9wd OR 92h OR 9cm OR 9gs OR 9b9 OR 9fb OR 9gd OR 7sm OR 7sb OR 7ls OR 7gs) !ETH]: %TAN%%NAME%[일반유니크칼]
-ItemDisplay[UNI !ID (ssd OR scm OR sbr OR flc OR bsd OR lsd OR wsd OR 2hs OR clm OR gis OR bsw OR flb OR gsd OR 9ss OR 9sm OR 9sb OR 9cr OR 9bs OR 9ls OR 9wd OR 92h OR 9cm OR 9gs OR 9b9 OR 9fb OR 9gd OR 7sm OR 7sb OR 7ls OR 7gs) ETH]: %TAN%%NAME%[일반유니크칼ETH]
 ItemDisplay[UNI !ID  9fc !ETH]: %TAN%알리바바의 검
 ItemDisplay[UNI !ID 9fc ETH]: %TAN%ETH 알리바바의 검
 ItemDisplay[UNI !ID 7cr]: %RED% %PURPLE%광검 or 푸른 서슬 %RED%
@@ -408,8 +375,6 @@ ItemDisplay[UNI !ID 7b7 ETH]: %TAN%ETH 괴멸자
 ItemDisplay[UNI !ID 7gd !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%대선조 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
 ItemDisplay[UNI !ID 7gd ETH]: %RED%O ETH 대선조 %RED%O
 ////Unique Wands
-ItemDisplay[UNI !ID (wnd OR ywn OR bwn OR gwn OR 9wn OR 9yw OR 9bw) !ETH]: %TAN%%NAME%[일반유니크완드]
-ItemDisplay[UNI !ID (wnd OR ywn OR bwn OR gwn OR 9wn OR 9yw OR 9bw) ETH]: %TAN%%NAME%[일반유니크완드ETH]
 ItemDisplay[UNI !ID 9gw !ETH]: %RED%검은손 열쇠
 ItemDisplay[UNI !ID 9gw ETH]: %RED%ETH 검은손 열쇠
 ItemDisplay[UNI !ID 7bw !ETH]: %RED%유령뼈 완드
@@ -417,16 +382,9 @@ ItemDisplay[UNI !ID 7bw ETH]: %RED%ETH 유령뼈 완드
 ItemDisplay[UNI !ID 7gw !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%죽음의 거미줄 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
 ItemDisplay[UNI !ID 7gw ETH]: %RED%O ETH 죽음의 거미줄 %RED%O
 ////Unique Throwing Weapons
-ItemDisplay[UNI !ID (9tk OR 9ta OR 7ta OR 7b8) !ETH]: %TAN%%NAME%[일반유니크쓰로잉]
-ItemDisplay[UNI !ID (9tk OR 9ta OR 7ta OR 7b8) ETH]: %TAN%%NAME%[일반유니크쓰로잉ETH]
 ItemDisplay[UNI !ID 7bk !ETH]: %RED%O 전장의 새 %RED%O
 ItemDisplay[UNI !ID 7bk ETH]: %RED%O %PURPLE%ETH 전장의 새 %RED%O
-////Unique Javelins
-ItemDisplay[UNI !ID (7s7 OR 7gl OR 7ts) !ETH]: %TAN%%NAME%[일반유니크자벨린]
-ItemDisplay[UNI !ID (7s7 OR 7gl OR 7ts) ETH]: %TAN%%NAME%[일반유니크자벨린ETH]
 ////Unique Amazon only items
-ItemDisplay[UNI !ID (amd OR am9) !ETH]: %TAN%%NAME%[일반유니크아마존전용]
-ItemDisplay[UNI !ID (amd OR am9) ETH]: %TAN%%NAME%[일반유니크아마존전용ETH]
 ItemDisplay[UNI !ID am7]: %TAN%라이캔더의 조준
 ItemDisplay[UNI !ID ama !ETH]: %RED%O 타이탄의 복수 %RED%O
 ItemDisplay[UNI !ID ama ETH]: %RED%O ETH 타이탄의 복수 %RED%O
@@ -434,15 +392,11 @@ ItemDisplay[UNI !ID amf !ETH]: %RED%O  낙뢰 %RED%O
 ItemDisplay[UNI !ID amf ETH]: %TAN%ETH 낙뢰
 ItemDisplay[UNI !ID amb]: %TAN%핏빛 까마귀의 임무
 ////Unique Assassin only items
-ItemDisplay[UNI !ID (7cs OR 7wb OR 7lw) ETH]: %TAN%%NAME%[일반유니크어쌔신전용ETH]
-ItemDisplay[UNI !ID (7wb OR 7lw) !ETH]: %TAN%%NAME%[일반유니크어쌔신전용]
 ItemDisplay[UNI !ID 9tw !ETH]: %TAN%바르툭의 목따개
 ItemDisplay[UNI !ID 9tw ETH]: %TAN%ETH 바르툭의 목따개
 ////Unique Necromancer only items
 ItemDisplay[UNI !ID nea !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%호문쿨루스 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
 ItemDisplay[UNI !ID nea ETH]: %RED%ETH 호문쿨루스
-ItemDisplay[UNI !ID (nef OR nee) !ETH]: %TAN%%NAME%[일반유니크네크전용]
-ItemDisplay[UNI !ID (nef OR nee) ETH]: %TAN%%NAME%[일반유니크네크전용ETH]
 ////Unique Barbarian only items
 ItemDisplay[UNI !ID baa !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%아리앗의 얼굴 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
 ItemDisplay[UNI !ID baa ETH]: %RED%ETH 아리앗의 얼굴
@@ -475,6 +429,9 @@ ItemDisplay[UNI !ID pa9 !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY
 ItemDisplay[UNI !ID pa9 ETH]: %RED%ETH 자카룸의 전령
 ItemDisplay[UNI !ID pae !ETH]: %TAN%용의 비늘
 ItemDisplay[UNI !ID pae ETH]: %RED%ETH 용의 비늘
+//Unique Normal Non Poppular
+ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]: %TAN%%NAME%[비인기유니크]
+ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]: %TAN%%NAME%[비인기유니크ETH]
 ////Unique Rings Amulets Jewels Charms
 ItemDisplay[UNI !ID (rin OR amu OR jew)]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%%NAME% %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@
 ////SET ITEMS (no rings or amys edited)
@@ -638,8 +595,14 @@ ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=4]: %NAME% %ORANGE%홀리썬더 룬워드
 //Wand
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK92>2 SOCK=2]: %DGREEN%%NAME% %ORANGE%+3 포노바 %PURPLE%[%SOCKETS%]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK83>2 SOCK=2]: %DGREEN%%NAME% %ORANGE%+3 데서크레이트 %PURPLE%[%SOCKETS%]
+//Marked Corrupted
+ItemDisplay[SET (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
+ItemDisplay[SET (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME% %RED%타락됨
+ItemDisplay[UNI (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
+ItemDisplay[UNI (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME% %RED%타락됨
+ItemDisplay[RARE (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
+ItemDisplay[RARE (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME% %RED%타락됨
 //Catchall
-//UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[(UNI OR SET) ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[(UNI OR SET) ETH !ID]: ETH %NAME%
 ItemDisplay[(UNI OR SET) SOCK>0 !ID]: %NAME% [%SOCKETS%]
