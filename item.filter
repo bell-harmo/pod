@@ -551,7 +551,7 @@ ItemDisplay[WP11 !RW NMAG !SUP (wst OR 8ws OR 6ws) SOCK=0 SK58>2]: %NAME% %ORANG
 ItemDisplay[WP11 !RW NMAG !SUP (wst OR 8ws OR 6ws) SOCK=0 SK58>1]: %NAME% %ORANGE%+2 에쉴 (큐빙4솟) %PURPLE%[%SOCKETS%]
 ItemDisplay[WP11 !RW NMAG SOCK=2 (SK52>2 OR SK47>2 OR SK46>2)]: %DGREEN%%NAME% %ORANGE%+3 인플레임 OR +3파볼 OR +3이몰레이트 %PURPLE%[%SOCKETS%]
 //ETH Elite Staffs 0, 4 and 6 sox
-ItemDisplay[6ws NMAG ETH SOCK=6]: %DGREEN%ETH %NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[6ws !RW NMAG ETH SOCK=6]: %DGREEN%ETH %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[(6cs OR 6bs OR 6ws) NMAG !RW ETH (SOCK=0 OR SOCK=4)]: %GRAY%ETH %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[(6cs OR 6bs OR 6ws) NMAG !RW ETH ED=15 (SOCK=4 OR SOCK=0)]: %DGREEN%ETH %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 //lvling staffs
