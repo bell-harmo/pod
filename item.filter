@@ -572,7 +572,7 @@ ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOC
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=2 SK277>2]: %NAME% %ORANGE%+3 블쉴 %PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG !RW ELT ETH (7ar OR 7qr) !SOCK=1 !SOCK=2 ED=15]: ETH %NAME%%BLUE% +15%증뎀 블쉴씬 클로 %PURPLE%[%SOCKETS%]
 //helm
-ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (msk OR xsk OR ci2 OR ci3)]: %NAME%[재료] [L%ILVL%] %PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (uh9 OR msk OR xsk OR ci2 OR ci3)]: %NAME%[재료] [L%ILVL%] %PURPLE%[%SOCKETS%]
 //6 sox good weapon bases
 ItemDisplay[WEAPON !RW NMAG (mpi OR wax OR 7mp OR 7wa OR 7gi OR 7gm OR hal OR spt OR 9cr OR 7gd OR lbb) SOCK=6]: %GRAY%%NAME% %PURPLE%[%SOCKETS%]
 //Non Magic Primal Helm +3 to 워크라이
