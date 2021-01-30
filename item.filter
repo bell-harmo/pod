@@ -150,6 +150,11 @@ ItemDisplay[(aq2 OR cq2) MAG ILVL>50]:
 ItemDisplay[cq2 RARE !ID ILVL>50]:
 //misc
 ItemDisplay[(bbb OR ass OR bkd OR bks OR box OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz)]: %TAN%%NAME%
+//Wand +WHITE
+ItemDisplay[WP12 !wnd !ywn !9wn !7wn NMAG SK92>2 (SOCK=0 OR SOCK=2)]: %DGREEN%%NAME% %ORANGE%+3 포노바 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn !7wn NMAG SK83>2 (SOCK=0 OR SOCK=2)]: %DGREEN%%NAME% %ORANGE%+3 데서크레이트 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn !7wn NMAG SK84>2 (SOCK=0 OR SOCK=2)]: %DGREEN%%NAME% %ORANGE%+3 본스피어 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP12 !wnd !ywn !9wn !7wn NMAG SK93>2 (SOCK=0 OR SOCK=2)]: %DGREEN%%NAME% %ORANGE%+3 본스프리츠 %PURPLE%[%SOCKETS%]
 //Vendor items
 //SK88=1 =32453 Gold. SK73=1 =32453 Gold.
 ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
@@ -533,6 +538,7 @@ ItemDisplay[(7wc OR 7o7 OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7br OR 7st OR 7p7) ETH !R
 ItemDisplay[(7wc OR 7o7 OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7br OR 7st OR 7p7) !ETH !RW NMAG (SOCK=0 OR SOCK>3)]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[(7wc OR 7o7 OR 7vo OR 7s8 OR 7pa OR 7h7 OR 7br OR 7st OR 7p7) ETH !RW NMAG (SOCK=0 OR SOCK>3)]: %DGREEN%ETH %NAME% %PURPLE%[%SOCKETS%]
 ////Amazon Javelins////
+ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW]: %NAME% %ORANGE%자벨린 스킬 확인! %PURPLE%[%SOCKETS%]
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2>5]: %NAME% %ORANGE%+6 자벨 %PURPLE%[%SOCKETS%]
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2=5]: %NAME% %ORANGE%+5 자벨 %PURPLE%[%SOCKETS%]
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1)]: %NAME% %ORANGE%+3 자벨 +2 아마 %PURPLE%[%SOCKETS%]
@@ -554,8 +560,8 @@ ItemDisplay[6ws !RW NMAG ETH SOCK=6]: %DGREEN%ETH %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[(6cs OR 6bs OR 6ws) NMAG !RW ETH (SOCK=0 OR SOCK=4)]: %GRAY%ETH %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[(6cs OR 6bs OR 6ws) NMAG !RW ETH ED=15 (SOCK=4 OR SOCK=0)]: %DGREEN%ETH %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 //lvling staffs
-ItemDisplay[WP11 !RW NMAG (SK38>2 OR SK44>2 OR SK47>2) ILVL<30]: %GRAY%%NAME% %ORANGE%+3 차지드or프노바or파볼 %PURPLE%[%SOCKETS%]
-ItemDisplay[WP11 !RW NMAG (SK38=2 OR SK44=2 OR SK47=2) ILVL<30]: %GRAY%%NAME% %ORANGE%+2 차지드or프노바or파볼 %PURPLE%[%SOCKETS%]
+ItemDisplay[WP11 !RW NMAG (SK38>2 OR SK44>2 OR SK47>2) ILVL<30]: %GRAY%%NAME% %ORANGE%+3 차지드or프노바or파볼(렙업용) %PURPLE%[%SOCKETS%]
+ItemDisplay[WP11 !RW NMAG (SK38=2 OR SK44=2 OR SK47=2) ILVL<30]: %GRAY%%NAME% %ORANGE%+2 차지드or프노바or파볼(렙업용) %PURPLE%[%SOCKETS%]
 ////Amazon Bows////
 ItemDisplay[(amb OR amc OR 6sw OR 6l7 OR 6s7 OR 6lb OR 6hb OR 6cb OR 6lw) !RW NMAG ED=15 (TABSK0>2 OR TABSK0=0) SOCK=4]: %DGREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 ItemDisplay[(amb OR amc OR 6sw OR 6l7 OR 6s7 OR 6lb OR 6hb OR 6cb OR 6lw) !RW NMAG ED=15 (TABSK0>2 OR TABSK0=0) SOCK=0]: %DGREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
@@ -570,8 +576,11 @@ ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 ED=15]: %NAME%%BLUE%
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=2 (SK278>2 AND SK277>2)]: %NAME% %ORANGE%+3 베놈 +3 블쉴 %PURPLE%[%SOCKETS%]
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=2 SK277>2]: %NAME% %ORANGE%+3 블쉴 %PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG !RW ELT ETH (7ar OR 7qr) !SOCK=1 !SOCK=2 ED=15]: ETH %NAME%%BLUE% +15%증뎀 블쉴씬 클로 %PURPLE%[%SOCKETS%]
-//helm
-ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (uh9 OR msk OR xsk OR ci2 OR ci3)]: %NAME%[재료] [L%ILVL%] %PURPLE%[%SOCKETS%]
+//Dream helm+Shield
+ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (uh9 OR ush) ED=15]: %NAME%[드림재료] 15%방상 %PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (uh9 OR ush) ITEMSTAT91=-10]: %NAME%[드림재료] 10%리콰 %PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH ush]: %NAME%[드림재료] %PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (uh9 OR msk OR xsk OR ci2 OR ci3)]: %NAME%[드림재료] %PURPLE%[%SOCKETS%]
 //6 sox good weapon bases
 ItemDisplay[WEAPON !RW NMAG (mpi OR wax OR 7mp OR 7wa OR 7gi OR 7gm OR hal OR spt OR 9cr OR 7gd OR lbb) SOCK=6]: %GRAY%%NAME% %PURPLE%[%SOCKETS%]
 //Non Magic Primal Helm +3 to 워크라이
@@ -591,9 +600,7 @@ ItemDisplay[CL1 !ETH NMAG SK239>2]: %DGREEN%%NAME% %ORANGE%+3 파클 %PURPLE%[%S
 ItemDisplay[WP13 !RW !ETH NMAG SK118>2 SOCK=3]: %NAME% %ORANGE%+3 홀리쇼크 %PURPLE%[%SOCKETS%]
 ItemDisplay[WP13 !RW !ETH NMAG SK101>2]: %NAME% %ORANGE%+3 홀리볼트 %PURPLE%[%SOCKETS%]
 ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=4]: %NAME% %ORANGE%홀리썬더 룬워드베이스 %PURPLE%[%SOCKETS%]
-//Wand
-ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK92>2 SOCK=2]: %DGREEN%%NAME% %ORANGE%+3 포노바 %PURPLE%[%SOCKETS%]
-ItemDisplay[WP12 !wnd !ywn !9wn NMAG SK83>2 SOCK=2]: %DGREEN%%NAME% %ORANGE%+3 데서크레이트 %PURPLE%[%SOCKETS%]
+ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=5]: %NAME% %ORANGE%비스트 룬워드베이스 %PURPLE%[%SOCKETS%]
 //Marked Corrupted
 ItemDisplay[SET (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
 ItemDisplay[SET (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME% %RED%타락됨
