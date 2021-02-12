@@ -578,9 +578,9 @@ ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOC
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=2 SK277>2]: %NAME% %ORANGE%+3 블쉴 %PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG !RW ELT ETH (7ar OR 7qr) !SOCK=1 !SOCK=2 ED=15]: ETH %NAME%%BLUE% +15%증뎀 블쉴씬 클로 %PURPLE%[%SOCKETS%]
 //Dream helm+Shield
-ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (uh9 OR ush) ED=15]: %DGREEN%%NAME%[드림재료] 15%방상 %PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (uh9 OR ush) ITEMSTAT91=-10]: %DGREEN%%NAME%[드림재료] 10%리콰 %PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (uh9 OR ush OR xsk OR ci2 OR ci3)]: %GRAY% %NAME%[드림재료] %PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (uh9 OR ush OR urg) ED=15]: %DGREEN%%NAME%[드림재료] 15%방상 %PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (uh9 OR ush OR urg) ITEMSTAT91=-10]: %DGREEN%%NAME%[드림재료] 10%리콰 %PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG !RW (SOCK=3 OR SOCK=0) !ETH (uh9 OR ush OR urg OR ci2 OR ci3)]: %GRAY% %NAME%[드림재료] %PURPLE%[%SOCKETS%]
 //6 sox good weapon bases
 ItemDisplay[WEAPON !RW NMAG (mpi OR wax OR 7mp OR 7wa OR 7gi OR 7gm OR hal OR spt OR 9cr OR 7gd OR lbb) SOCK=6]: %GRAY%%NAME% %PURPLE%[%SOCKETS%]
 //Non Magic Primal Helm +3 to 워크라이
@@ -602,13 +602,13 @@ ItemDisplay[WP13 !RW !ETH NMAG SK101>2]: %NAME% %ORANGE%+3 홀리볼트 %PURPLE%
 ItemDisplay[wsp !RW NMAG !ETH !RW (SOCK=4 OR SOCK=5)]: %ORANGE% %NAME% %PURPLE%[%SOCKETS%]
 //Marked Corrupted
 ItemDisplay[SET (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
-ItemDisplay[SET (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME% %PURPLE%[%SOCKETS%] %RED%타락됨
+ItemDisplay[SET (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME%%PURPLE%[%SOCKETS%] %RED%타락됨
 ItemDisplay[UNI (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
-ItemDisplay[UNI (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME% %PURPLE%[%SOCKETS%] %RED%타락됨
+ItemDisplay[UNI (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME%%PURPLE%[%SOCKETS%] %RED%타락됨
 ItemDisplay[RARE (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
-ItemDisplay[RARE (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME% %PURPLE%[%SOCKETS%] %RED%타락됨
+ItemDisplay[RARE (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME%%PURPLE%[%SOCKETS%] %RED%타락됨
 ItemDisplay[(!INF AND !NMAG AND !MAG AND !RARE AND !UNI AND !SET) (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
-ItemDisplay[(!INF AND !NMAG AND !MAG AND !RARE AND !UNI AND !SET) (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME% %PURPLE%[%SOCKETS%] %RED%타락됨
+ItemDisplay[(!INF AND !NMAG AND !MAG AND !RARE AND !UNI AND !SET) (amu OR rin OR WEAPON OR ARMOR OR aq2 OR cq2) ID ITEMSTAT360=1]: %NAME%%PURPLE%[%SOCKETS%] %RED%타락됨
 //Catchall
 ItemDisplay[(UNI OR SET) ETH SOCK>0 !ID]: ETH %NAME% [%SOCKETS%]
 ItemDisplay[(UNI OR SET) ETH !ID]: ETH %NAME%
