@@ -12,9 +12,9 @@ ItemDisplay[isc CLVL>30]:
 ItemDisplay[INF WEAPON NMAG]:
 ItemDisplay[INF ARMOR NMAG]:
 // Unid Relic
-ItemDisplay[(ma1 OR ma5) !ID]:%WHITE%@@ %YELLOW%%NAME% %WHITE%@@
-ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%WHITE%@@ %DGREEN%%NAME% %WHITE%@@
-ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%WHITE%@@ %RED%%NAME% %WHITE%@@
+ItemDisplay[(ma1 OR ma5) !ID]:%WHITE%@@ %YELLOW%%NAME% %WHITE%@@ %map%
+ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%WHITE%@@ %DGREEN%%NAME% %WHITE%@@ %map%
+ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%WHITE%@@ %RED%%NAME% %WHITE%@@ %map%
 ItemDisplay[ma5]:프리지드 플레트우%CONTINUE%
 ItemDisplay[ma4]:데서크리드 템플%CONTINUE%
 ItemDisplay[ma8]:머스티 크립트%CONTINUE%
@@ -145,14 +145,14 @@ ItemDisplay[rvs]: %PURPLE%RP %WHITE%35%
 ItemDisplay[(hp5 OR mp4 OR mp5 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR tsc OR isc OR wms OR yps OR gpm OR opm OR opl OR ops OR gps OR gpl OR vps) CLVL<31]:%NAME%
 ItemDisplay[(hp5 OR mp4 OR mp5 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR tsc OR isc OR wms OR yps OR gpm OR opm OR opl OR ops OR gps OR gpl OR vps) CLVL>30]:
 //Essences (Respec Token)
-ItemDisplay[(tes OR ceh OR bet OR fed OR toa)]: %PURPLE%¤ %GOLD%%NAME% %PURPLE%¤ 
+ItemDisplay[(tes OR ceh OR bet OR fed OR toa)]: %PURPLE%¤ %GOLD%%NAME% %PURPLE%¤ %map%
 //PoD Items
-ItemDisplay[cx5]: %PURPLE%타락의 오브
-ItemDisplay[cx7]: %PURPLE%혼돈의 열쇠
-ItemDisplay[(cx6 OR std OR cx8 OR cx9 OR maz OR leg OR ear)]: %PURPLE%¤ %PURPLE%%NAME%  %PURPLE%¤
-ItemDisplay[UNI !ID cm4]: %RED%%NAME%
+ItemDisplay[cx5]: %PURPLE%타락의 오브 %map%
+ItemDisplay[cx7]: %PURPLE%혼돈의 열쇠 %map%
+ItemDisplay[(cx6 OR std OR cx8 OR cx9 OR maz OR leg OR ear)]: %PURPLE%¤ %PURPLE%%NAME%  %PURPLE%¤ %map%
+ItemDisplay[UNI !ID cm4]: %RED%%NAME% %map%
 //Uber Keys
-ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %PURPLE%¤ %DGREEN%%NAME% %PURPLE%¤ 
+ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %PURPLE%¤ %DGREEN%%NAME% %PURPLE%¤ %map%
 //Tomes
 ItemDisplay[(tbk OR ibk)]: %WHITE%%NAME%
 //Hide MAGIC Quivers & Bolts above level 40
