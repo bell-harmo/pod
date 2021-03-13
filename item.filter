@@ -12,9 +12,9 @@ ItemDisplay[isc CLVL>30]:
 ItemDisplay[INF WEAPON NMAG]:
 ItemDisplay[INF ARMOR NMAG]:
 // Unid Relic
-ItemDisplay[(ma1 OR ma5) !ID]:%WHITE%@@ %YELLOW%%NAME% %WHITE%@@ %map%
-ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%WHITE%@@ %DGREEN%%NAME% %WHITE%@@ %map%
-ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%WHITE%@@ %RED%%NAME% %WHITE%@@ %map%
+ItemDisplay[(ma1 OR ma5) !ID]:%NL%%WHITE%@@ %YELLOW%%NAME% %WHITE%@@%NL% %NOTIFY-YELLOW%
+ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%NL%%WHITE%@@ %DGREEN%%NAME% %WHITE%@@%NL% %NOTIFY-DGREEN%
+ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%NL%%WHITE%@@ %RED%%NAME% %WHITE%@@%NL% %NOTIFY-RED%
 ItemDisplay[ma5]:프리지드 플레트우%CONTINUE%
 ItemDisplay[ma4]:데서크리드 템플%CONTINUE%
 ItemDisplay[ma8]:머스티 크립트%CONTINUE%
@@ -145,14 +145,14 @@ ItemDisplay[rvs]: %PURPLE%RP %WHITE%35%
 ItemDisplay[(hp5 OR mp4 OR mp5 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR tsc OR isc OR wms OR yps OR gpm OR opm OR opl OR ops OR gps OR gpl OR vps) CLVL<31]:%NAME%
 ItemDisplay[(hp5 OR mp4 OR mp5 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR tsc OR isc OR wms OR yps OR gpm OR opm OR opl OR ops OR gps OR gpl OR vps) CLVL>30]:
 //Essences (Respec Token)
-ItemDisplay[(tes OR ceh OR bet OR fed OR toa)]: %PURPLE%¤ %GOLD%%NAME% %PURPLE%¤ %map%
+ItemDisplay[(tes OR ceh OR bet OR fed OR toa)]: %NL%%PURPLE%¤ %GOLD%%NAME% %PURPLE%¤%NL%%NOTIFY-GOLD%
 //PoD Items
-ItemDisplay[cx5]: %PURPLE%타락의 오브 %map%
-ItemDisplay[cx7]: %PURPLE%혼돈의 열쇠 %map%
-ItemDisplay[(cx6 OR std OR cx8 OR cx9 OR maz OR leg OR ear)]: %PURPLE%¤ %PURPLE%%NAME%  %PURPLE%¤ %map%
-ItemDisplay[UNI !ID cm4]: %RED%%NAME% %map%
+ItemDisplay[cx5]: %NL%%PURPLE%타락의 오브 %NL%%NOTIFY-PURPLE%
+ItemDisplay[cx7]: %NL%%PURPLE%혼돈의 열쇠 %NL%%NOTIFY-PURPLE%
+ItemDisplay[(cx6 OR std OR cx8 OR cx9 OR maz OR leg OR ear)]: %NL%%PURPLE%¤ %PURPLE%%NAME%  %PURPLE%¤ %NL%%NOTIFY-PURPLE%
+ItemDisplay[UNI !ID cm4]: %NL%%RED%%NAME%%NL% %NOTIFY-PURPLE%
 //Uber Keys
-ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %PURPLE%¤ %DGREEN%%NAME% %PURPLE%¤ %map%
+ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %NL%%PURPLE%¤ %DGREEN%%NAME% %PURPLE%¤ %NL%%NOTIFY-DGREEN%
 //Tomes
 ItemDisplay[(tbk OR ibk)]: %WHITE%%NAME%
 //Hide MAGIC Quivers & Bolts above level 40
@@ -173,12 +173,12 @@ ItemDisplay[WP12 NMAG !ETH (wnd OR ywn OR 9wn) ILVL>49 (SK73>1 OR SK79>2 OR SK82
 ItemDisplay[WP12 NMAG !ETH SOCK=1 (SK73>1 OR SK79>2 OR SK82>2 OR SK83>1 OR SK85>2 OR SK86>1 OR SK87>1 OR SK88>1 OR SK89>0 OR SK90>1 OR SK91>1 OR SK92>0 OR SK93>0 OR SK94>0 OR SK95>0)]: %NAME% %ORANGE%($%PRICE%)
 ItemDisplay[NMAG !ETH !ED=15 (7tk OR 7ta OR 7bk)]: 투척%ORANGE% ($%PRICE%)
 ////RUNES
-ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17)]: %TAN%%RUNENAME% %PURPLE%[%RUNENUM%] %map%
-ItemDisplay[r08]: %ORANGE%%RUNENAME%%RED%[수리용] %PURPLE%[%RUNENUM%] %map%
-ItemDisplay[r18]: %ORANGE%%RUNENAME%%RED%[방어업] %PURPLE%[%RUNENUM%] %map%
-ItemDisplay[r19]: %ORANGE%%RUNENAME%%RED%[LEM업] %PURPLE%[%RUNENUM%] %map%
-ItemDisplay[(r20 OR r21 OR r22 OR r23)]: %ORANGE%@@%YELLOW%@@%GREEN%@@%RED%%RUNENAME%%PURPLE%[%RUNENUM%]%ORANGE%@@%YELLOW%@@%GREEN%@@ %map%
-ItemDisplay[(r24 OR r25 OR r26 OR r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33)]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%%RUNENAME%%PURPLE%[%RUNENUM%] %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %map%
+ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07 OR r09 OR r10 OR r11 OR r12 OR r13 OR r14 OR r15 OR r16 OR r17)]: %NL%%TAN%%RUNENAME% %PURPLE%[%RUNENUM%] %NL%%NOTIFY-TAN%
+ItemDisplay[r08]: %NL%%ORANGE%%RUNENAME%%RED%[수리용] %PURPLE%[%RUNENUM%]%NL% %NOTIFY-TAN%
+ItemDisplay[r18]: %NL%%ORANGE%%RUNENAME%%RED%[방어업] %PURPLE%[%RUNENUM%]%NL% %NOTIFY-TAN%
+ItemDisplay[r19]: %NL%%ORANGE%%RUNENAME%%RED%[LEM업] %PURPLE%[%RUNENUM%]%NL% %NOTIFY-TAN%
+ItemDisplay[(r20 OR r21 OR r22 OR r23)]: %NL%%ORANGE%@%YELLOW%@%GREEN%@%RED%%RUNENAME%%PURPLE%[%RUNENUM%]%ORANGE%@%YELLOW%@%GREEN%@%NL% %NOTIFY-ORANGE%
+ItemDisplay[(r24 OR r25 OR r26 OR r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33)]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%%RUNENAME%%PURPLE%[%RUNENUM%] %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL% %NOTIFY-RED%
 //Gems Chipped/Flawed/Normal
 ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL<20]: %NAME%
 ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL>19]:
@@ -206,16 +206,16 @@ ItemDisplay[skz]: %ORANGE%P %TAN%해골
 //Best Rares/magic (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
 ItemDisplay[RARE EQ7 !ETH !ID]: %PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤
 ItemDisplay[RARE EQ7 ETH !ID]: %PURPLE%¤ %YELLOW%ETH %NAME% %PURPLE% ¤
-ItemDisplay[RARE (amu OR rin OR jew) !ID]: %PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤
-ItemDisplay[SET !ID amu]: %PURPLE%¤ %GREEN%%NAME% %PURPLE% ¤
+ItemDisplay[RARE (amu OR rin OR jew) !ID]: %NL%%PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤%NL%
+ItemDisplay[SET !ID amu]: %NL%%PURPLE%¤ %GREEN%%NAME% %PURPLE% ¤%NL%
 ItemDisplay[MAG (amu OR rin)]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
 //Charms/JEWELS
-ItemDisplay[MAG (cm1 OR cm2 OR cm3 OR jew) !ID]: %GREEN% ¤%BLUE% %NAME% %ORANGE%[L%ILVL%]%GREEN%¤
-ItemDisplay[MAG (cm1 OR cm2 OR cm3 OR jew)]: %BLUE%%NAME%%ORANGE%[L%ILVL%]
+ItemDisplay[MAG (cm1 OR cm2 OR cm3 OR jew) !ID]: %NL%%GREEN% ¤%BLUE% %NAME% %ORANGE%[L%ILVL%]%GREEN%¤%NL%
+ItemDisplay[MAG (cm1 OR cm2 OR cm3 OR jew)]: %NL%%BLUE%%NAME%%ORANGE%[L%ILVL%]%NL%
 ////Unique Charms
-ItemDisplay[UNI !ID cm1]: %PURPLE%  O %ORANGE%애니힐러스%PURPLE% O
-ItemDisplay[UNI !ID cm2]: %PURPLE%  O %ORANGE%지옥의 횃불%PURPLE% O
-ItemDisplay[UNI !ID cm3]: %PURPLE%  O %RED%기드의 행운%PURPLE% O
+ItemDisplay[UNI !ID cm1]: %NL%%PURPLE%  O %ORANGE%애니힐러스%PURPLE% O%NL%
+ItemDisplay[UNI !ID cm2]: %NL%%PURPLE%  O %ORANGE%지옥의 횃불%PURPLE% O%NL%
+ItemDisplay[UNI !ID cm3]: %NL%%PURPLE%  O %RED%기드의 행운%PURPLE% O%NL%
 /ARROWS
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT96>0 AND STAT62>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %TAN%마흡 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT68>0 AND STAT62>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %TAN%마흡 %YELLOW%애로우
@@ -252,225 +252,225 @@ ItemDisplay[(aq2 OR EQ6 OR EQ5 OR CL5) RARE ID]: %GRAY%%NAME%
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ4 OR EQ5 OR EQ6 OR EQ7) !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ4 OR EQ5 OR EQ6 OR EQ7) ETH !ID]: ETH %YELLOW%%NAME%
 ////UNIQUE ITEMS////
-ItemDisplay[UNI !ID xh9 !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%뱀파이어의 응시[업3솟] %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %map%
-ItemDisplay[UNI !ID xh9 ETH]: %RED%O ETH 뱀파이어의 응시 %RED%O %map%
-ItemDisplay[UNI !ID uap !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%샤코 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %map%
-ItemDisplay[UNI !ID uap ETH]: %RED%O ETH 샤코 %RED%O %map%
-ItemDisplay[UNI !ID ulm !ETH]: %RED%O 강철 차양 %RED%O %map%
-ItemDisplay[UNI !ID ulm ETH]: %RED%O ETH 강철 차양 %RED%O %map%
-ItemDisplay[UNI !ID uhm !ETH]: %RED%O 강철 베일 or 나이트윙의 베일 %RED%O %map%
-ItemDisplay[UNI !ID uhm ETH]: %RED%O ETH 강철 베일 or ETH 나이트윙의 베일%RED%O %map%
-ItemDisplay[UNI !ID usk !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%안다리엘의 두개골 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID usk ETH]: %RED%O ETH 안다리엘의 두개골 %RED%O%map%
-ItemDisplay[UNI !ID urn !ETH]: %RED%O 영겁의 왕관 %RED%O%map%
-ItemDisplay[UNI !ID urn ETH]: %RED%O ETH 영겁의 왕관 %RED%O%map%
-ItemDisplay[UNI !ID ci3 !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%그리폰의 눈 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID ci3 ETH]: %RED%O ETH 그리폰의 눈%RED% O%map%
-ItemDisplay[UNI !ID ci2 !ETH]: %RED%O 키라의 수호자%RED% O%map%
-ItemDisplay[UNI !ID ci2 ETH]: %RED%O ETH 키라의 수호자%RED% O%map%
+ItemDisplay[UNI !ID xh9 !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%뱀파이어의 응시[업3솟] %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-RED%
+ItemDisplay[UNI !ID xh9 ETH]: %NL%%RED%O ETH 뱀파이어의 응시 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uap !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%샤코 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-RED%
+ItemDisplay[UNI !ID uap ETH]: %NL%%RED%O ETH 샤코 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ulm !ETH]: %NL%%RED%O 강철 차양 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ulm ETH]: %NL%%RED%O ETH 강철 차양 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uhm !ETH]: %NL%%RED%O 강철 베일 or 나이트윙의 베일 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uhm ETH]: %NL%%RED%O ETH 강철 베일 or ETH 나이트윙의 베일%RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID usk !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%안다리엘의 두개골 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-RED%
+ItemDisplay[UNI !ID usk ETH]: %NL%%RED%O ETH 안다리엘의 두개골 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID urn !ETH]: %NL%%RED%O 영겁의 왕관 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID urn ETH]: %NL%%RED%O ETH 영겁의 왕관 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ci3 !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%그리폰의 눈 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-RED%
+ItemDisplay[UNI !ID ci3 ETH]: %NL%%RED%O ETH 그리폰의 눈%RED% O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ci2 !ETH]: %NL%%RED%O 키라의 수호자%RED% O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ci2 ETH]: %NL%%RED%O ETH 키라의 수호자%RED% O%NL%%NOTIFY-TAN%
 ////Unique Armor
-ItemDisplay[UNI !ID xea !ETH]: %RED%O 뱀 주술사의 가죽[업4솟] %RED%O%map%
-ItemDisplay[UNI !ID xea ETH]: %RED%O ETH 뱀 주술사의 가죽 %RED%O%map%
-ItemDisplay[UNI !ID xrs !ETH]: %RED%O 듀리엘의 껍데기 %RED%O%map%
-ItemDisplay[UNI !ID xrs ETH]: %RED%O ETH 듀리엘의 껍데기 %RED%O%map%
-ItemDisplay[UNI !ID xhn !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%칼날막이 갑옷[업4솟] %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID xhn ETH]: %RED%O ETH 칼날막이 갑옷 %RED%O%map%
-ItemDisplay[UNI !ID xpl !ETH]: %RED%O 스컬더의 분노 %RED%O%map%
-ItemDisplay[UNI !ID xpl ETH]: %RED%O ETH 스컬더의 분노 %RED%O%map%
-ItemDisplay[UNI !ID xtp !ETH]: %RED%O 퀘 히간의 지혜[업4솟]  %RED%O%map%
-ItemDisplay[UNI !ID xtp ETH]: %RED%O ETH 퀘 히간의 지혜 %RED%O%map%
-ItemDisplay[UNI !ID xlt !ETH]: %RED%O 수호 천사 %RED%O%map%
-ItemDisplay[UNI !ID xlt ETH]: %RED%O ETH 수호 천사 %RED%O%map%
-ItemDisplay[UNI !ID uui !ETH]: %RED%O %PURPLE%올머스의 장포 %RED%O%map%
-ItemDisplay[UNI !ID uui ETH]: %RED%O ETH 올머스의 장포 %RED%O%map%
-ItemDisplay[UNI !ID utu !ETH]: %RED%O 검투사의 골칫거리 %RED%O%map%
-ItemDisplay[UNI !ID utu ETH]: %RED%O ETH 검투사의 골칫거리 %RED%O%map%
-ItemDisplay[UNI !ID upl !ETH]: %RED%O %PURPLE%아케인의 용기 %RED%O%map%
-ItemDisplay[UNI !ID upl ETH]: %RED%O ETH 아케인의 용기 %RED%O%map%
-ItemDisplay[UNI !ID uld !ETH]: %RED%O 레비아탄 %RED%O%map%
-ItemDisplay[UNI !ID uld ETH]: %RED%O ETH 레비아탄 %RED%O%map%
-ItemDisplay[UNI !ID uar !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%티리얼or기사단의권능%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID uar ETH]: %RED%O %PURPLE%ETH 티리얼 or 기사단의 권능 %RED%O%map%
+ItemDisplay[UNI !ID xea !ETH]: %NL%%RED%O 뱀 주술사의 가죽[업4솟] %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xea ETH]: %NL%%RED%O ETH 뱀 주술사의 가죽 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xrs !ETH]: %NL%%RED%O 듀리엘의 껍데기 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xrs ETH]: %NL%%RED%O ETH 듀리엘의 껍데기 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xhn !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%칼날막이 갑옷[업4솟] %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-RED%
+ItemDisplay[UNI !ID xhn ETH]: %NL%%RED%O ETH 칼날막이 갑옷 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xpl !ETH]: %NL%%RED%O 스컬더의 분노 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xpl ETH]: %NL%%RED%O ETH 스컬더의 분노 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xtp !ETH]: %NL%%RED%O 퀘 히간의 지혜[업4솟]  %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xtp ETH]: %NL%%RED%O ETH 퀘 히간의 지혜 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xlt !ETH]: %NL%%RED%O 수호 천사 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xlt ETH]: %NL%%RED%O ETH 수호 천사 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uui !ETH]: %NL%%RED%O %PURPLE%올머스의 장포 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uui ETH]: %NL%%RED%O ETH 올머스의 장포 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID utu !ETH]: %NL%%RED%O 검투사의 골칫거리 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID utu ETH]: %NL%%RED%O ETH 검투사의 골칫거리 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID upl !ETH]: %NL%%RED%O %PURPLE%아케인의 용기 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID upl ETH]: %NL%%RED%O ETH 아케인의 용기 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uld !ETH]: %NL%%RED%O 레비아탄 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uld ETH]: %NL%%RED%O ETH 레비아탄 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uar !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%티리얼or기사단의권능%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-RED%
+ItemDisplay[UNI !ID uar ETH]: %NL%%RED%O %PURPLE%ETH 티리얼 or 기사단의 권능 %RED%O%NL%%NOTIFY-TAN%
 ////Unique Shields
-ItemDisplay[UNI !ID uit !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%폭풍막이 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID uit ETH]: %RED%O %PURPLE%ETH 폭풍막이 %RED%O%map%
-ItemDisplay[UNI !ID uow !ETH]: %TAN%메두사의 응시%map%
-ItemDisplay[UNI !ID uow ETH]: %TAN%ETH 메두사의 응시%map%
-ItemDisplay[UNI !ID ush !ETH]: %TAN%인간사냥꾼의 전리품%map%
-ItemDisplay[UNI !ID ush ETH]: %TAN%ETH 인간사냥꾼의 전리품%map%
-ItemDisplay[UNI !ID uts !ETH]: %TAN%영혼 방벽%map%
-ItemDisplay[UNI !ID uts ETH]: %TAN%ETH 영혼 방벽%map%
+ItemDisplay[UNI !ID uit !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%폭풍막이 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-RED%
+ItemDisplay[UNI !ID uit ETH]: %NL%%RED%O %PURPLE%ETH 폭풍막이 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uow !ETH]: %NL%%TAN%메두사의 응시%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uow ETH]: %NL%%TAN%ETH 메두사의 응시%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ush !ETH]: %NL%%TAN%인간사냥꾼의 전리품%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ush ETH]: %NL%%TAN%ETH 인간사냥꾼의 전리품%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uts !ETH]: %NL%%TAN%영혼 방벽%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uts ETH]: %NL%%TAN%ETH 영혼 방벽%NL%%NOTIFY-TAN%
 ////Unique Gloves
-ItemDisplay[UNI !ID mgl !ETH]: %RED%기회의 장갑%map%
-ItemDisplay[UNI !ID mgl ETH]: %TAN%ETH 기회의 장갑%map%
-ItemDisplay[UNI !ID tgl !ETH]: %RED%마수%map%
-ItemDisplay[UNI !ID tgl ETH]: %TAN%ETH 마수%map%
-ItemDisplay[UNI !ID hgl !ETH]: %RED%서리불꽃%map%
-ItemDisplay[UNI !ID hgl ETH]: %TAN%ETH 서리불꽃%map%
-ItemDisplay[UNI !ID uvg !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%드라큘의 손아귀 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID uvg ETH]: %TAN%ETH 드라큘의 손아귀%map%
-ItemDisplay[UNI !ID umg !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%영혼흡수 완갑 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID umg ETH]: %TAN%ETH 영혼흡수 완갑%map%
-ItemDisplay[UNI !ID uhg !ETH]: %RED%O 강철 찢개 %RED%O%map%
-ItemDisplay[UNI !ID uhg ETH]: %TAN%ETH 강철 찢개%map%
+ItemDisplay[UNI !ID mgl !ETH]: %NL%%RED%기회의 장갑%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID mgl ETH]: %NL%%TAN%ETH 기회의 장갑%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID tgl !ETH]: %NL%%RED%마수%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID tgl ETH]: %NL%%TAN%ETH 마수%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID hgl !ETH]: %NL%%RED%서리불꽃%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID hgl ETH]: %NL%%TAN%ETH 서리불꽃%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uvg !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%드라큘의 손아귀 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uvg ETH]: %NL%%TAN%ETH 드라큘의 손아귀%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID umg !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%영혼흡수 완갑 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID umg ETH]: %NL%%TAN%ETH 영혼흡수 완갑%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uhg !ETH]: %NL%%RED%O 강철 찢개 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uhg ETH]: %NL%%TAN%ETH 강철 찢개%NL%%NOTIFY-TAN%
 ////Unique Boots
-ItemDisplay[UNI !ID xlb !ETH]: %TAN%불꽃걸음%map%
-ItemDisplay[UNI !ID xlb ETH]: %TAN%ETH 불꽃걸음%map%
-ItemDisplay[UNI !ID xvb !ETH]: %RED%물걸음 장화%map%
-ItemDisplay[UNI !ID xvb ETH]: %TAN%ETH 물걸음 장화%map%
-ItemDisplay[UNI !ID xmb !ETH]: %RED%O 비단직조 장화 %RED%O%map%
-ItemDisplay[UNI !ID xmb ETH]: %TAN%ETH 비단직조 장화%map%
-ItemDisplay[UNI !ID xtb !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%전장의 여행자 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID xtb ETH]: %RED%O ETH 전장의 여행자 %RED%O%map%
-ItemDisplay[UNI !ID xhb !ETH]: %TAN%선혈의 장화%map%
-ItemDisplay[UNI !ID xhb ETH]: %TAN%ETH 선혈의 장화%map%
-ItemDisplay[UNI !ID uvb !ETH]: %RED%O모래폭풍 등반화%RED%O%map%
-ItemDisplay[UNI !ID uvb ETH]: %RED%OETH 모래폭풍 등반화%RED%O%map%
-ItemDisplay[UNI !ID umb !ETH]: %RED%뼈걸음 장화%map%
-ItemDisplay[UNI !ID umb ETH]: %TAN%ETH 뼈걸음 장화%map%
-ItemDisplay[UNI !ID uhb !ETH]: %RED%그림자 춤꾼%map%
-ItemDisplay[UNI !ID uhb ETH]: %TAN%ETH 그림자 춤꾼%map%
+ItemDisplay[UNI !ID xlb !ETH]: %NL%%TAN%불꽃걸음%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xlb ETH]: %NL%%TAN%ETH 불꽃걸음%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xvb !ETH]: %NL%%RED%물걸음 장화%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xvb ETH]: %NL%%TAN%ETH 물걸음 장화%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xmb !ETH]: %NL%%RED%O 비단직조 장화 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xmb ETH]: %NL%%TAN%ETH 비단직조 장화%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xtb !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%전장의 여행자 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xtb ETH]: %NL%%RED%O ETH 전장의 여행자 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xhb !ETH]: %NL%%TAN%선혈의 장화%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID xhb ETH]: %NL%%TAN%ETH 선혈의 장화%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uvb !ETH]: %NL%%RED%O모래폭풍 등반화%RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uvb ETH]: %NL%%RED%OETH 모래폭풍 등반화%RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID umb !ETH]: %NL%%RED%뼈걸음 장화%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID umb ETH]: %NL%%TAN%ETH 뼈걸음 장화%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uhb !ETH]: %NL%%RED%그림자 춤꾼%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uhb ETH]: %NL%%TAN%ETH 그림자 춤꾼%NL%%NOTIFY-TAN%
 ////Unique Belts
-ItemDisplay[UNI !ID zvb !ETH]: %RED%O 날카로운 꼬리 %RED%O%map%
-ItemDisplay[UNI !ID zvb ETH]: %TAN%ETH 날카로운 꼬리%map%
-ItemDisplay[UNI !ID zmb !ETH]: %RED%우울의 올가미%map%
-ItemDisplay[UNI !ID zmb ETH]: %TAN%ETH 우울의 올가미%map%
-ItemDisplay[UNI !ID ztb !ETH]: %RED%눈꽃충돌%map%
-ItemDisplay[UNI !ID ztb ETH]: %TAN%ETH 눈꽃충돌%map%
-ItemDisplay[UNI !ID zhb !ETH]: %RED%천둥신의 박력%map%
-ItemDisplay[UNI !ID zhb ETH]: %RED%ETH 천둥신의 박력%map%
-ItemDisplay[UNI !ID ulc !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%거미줄 그물끈 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID ulc ETH]: %RED%O ETH 거미줄 그물끈 %RED%O%map%
-ItemDisplay[UNI !ID uvc !ETH]: %RED% 노스페라투의 고리%map%
-ItemDisplay[UNI !ID uvc ETH]: %TAN%ETH 노스페라투의 고리%map%
-ItemDisplay[UNI !ID umc !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%베르던고의든든한끈%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID umc ETH]: %RED%ETH 베르던고의 든든한 끈%map%
+ItemDisplay[UNI !ID zvb !ETH]: %NL%%RED%O 날카로운 꼬리 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID zvb ETH]: %NL%%TAN%ETH 날카로운 꼬리%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID zmb !ETH]: %NL%%RED%우울의 올가미%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID zmb ETH]: %NL%%TAN%ETH 우울의 올가미%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ztb !ETH]: %NL%%RED%눈꽃충돌%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ztb ETH]: %NL%%TAN%ETH 눈꽃충돌%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID zhb !ETH]: %NL%%RED%천둥신의 박력%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID zhb ETH]: %NL%%RED%ETH 천둥신의 박력%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ulc !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%거미줄 그물끈 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ulc ETH]: %NL%%RED%O ETH 거미줄 그물끈 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uvc !ETH]: %NL%%RED% 노스페라투의 고리%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID uvc ETH]: %NL%%TAN%ETH 노스페라투의 고리%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID umc !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%베르던고의든든한끈%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID umc ETH]: %NL%%RED%ETH 베르던고의 든든한 끈%NL%%NOTIFY-TAN%
 ////Unique Bows
-ItemDisplay[UNI !ID 6lw]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%바람살 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
+ItemDisplay[UNI !ID 6lw]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%바람살 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
 ////Unique Daggers
-ItemDisplay[UNI !ID 7kr !ETH]: %RED%O 살갗 찢개 %RED%O%map%
-ItemDisplay[UNI !ID 7kr ETH]: %TAN%ETH 살갗 찢개%map%
-ItemDisplay[UNI !ID 7bl ETH]: %TAN%ETH 유령불꽃%map%
+ItemDisplay[UNI !ID 7kr !ETH]: %NL%%RED%O 살갗 찢개 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7kr ETH]: %NL%%TAN%ETH 살갗 찢개%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7bl ETH]: %NL%%TAN%ETH 유령불꽃%NL%%NOTIFY-TAN%
 ////Unique Maces
-ItemDisplay[UNI !ID 7fl !ETH]: %RED%O 호라즌의 회오리바람 or 천둥채찍 %RED%O%map%
-ItemDisplay[UNI !ID 7fl ETH]: %RED%ETH 호라즌의 회오리바람 or ETH 천둥채찍%map%
-ItemDisplay[UNI !ID 7wh !ETH]: %RED%O 바위 격파기 or 쉐퍼의 망치 %RED%O%map%
-ItemDisplay[UNI !ID 7wh ETH]: %RED%ETH 바위 격파기 or ETH 쉐퍼의 망치%map%
-ItemDisplay[UNI !ID 7gm !ETH]: %RED%O 지축 망치 or 두개골 파괴자 %RED%O%map%
-ItemDisplay[UNI !ID 7gm ETH]: %RED%O ETH 지축 망치 or ETH 두개골 파괴자%RED%O%map%
+ItemDisplay[UNI !ID 7fl !ETH]: %NL%%RED%O 호라즌의 회오리바람 or 천둥채찍 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7fl ETH]: %NL%%RED%ETH 호라즌의 회오리바람 or ETH 천둥채찍%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7wh !ETH]: %NL%%RED%O 바위 격파기 or 쉐퍼의 망치 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7wh ETH]: %NL%%RED%ETH 바위 격파기 or ETH 쉐퍼의 망치%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7gm !ETH]: %NL%%RED%O 지축 망치 or 두개골 파괴자 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7gm ETH]: %NL%%RED%O ETH 지축 망치 or ETH 두개골 파괴자%RED%O%NL%%NOTIFY-TAN%
 ////Unique Polearms
-ItemDisplay[UNI !ID 7s8 !ETH]: %RED%O 사신의 수확 %RED%O%map%
-ItemDisplay[UNI !ID 7s8 ETH]: %RED%O %PURPLE%ETH 사신의 수확 %RED%O%map%
-ItemDisplay[UNI !ID 7pa !ETH]: %RED%O 무덤 약탈자  %RED%O%map%
-ItemDisplay[UNI !ID 7pa ETH]: %RED%O ETH 무덤 약탈자 %RED%O%map%
-ItemDisplay[UNI !ID 7wc !ETH]: %TAN%폭풍장대%map%
-ItemDisplay[UNI !ID 7wc ETH]: %TAN%ETH 폭풍장대%map%
+ItemDisplay[UNI !ID 7s8 !ETH]: %NL%%RED%O 사신의 수확 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7s8 ETH]: %NL%%RED%O %PURPLE%ETH 사신의 수확 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7pa !ETH]: %NL%%RED%O 무덤 약탈자  %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7pa ETH]: %NL%%RED%O ETH 무덤 약탈자 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7wc !ETH]: %NL%%TAN%폭풍장대%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7wc ETH]: %NL%%TAN%ETH 폭풍장대%NL%%NOTIFY-TAN%
 ////Unique Scepters
-ItemDisplay[UNI !ID 9ws !ETH]: %RED%축복받은 빛의 손길%map%
-ItemDisplay[UNI !ID 9ws ETH]: %TAN%ETH 축복받은 빛의 손길%map%
-ItemDisplay[UNI !ID 7sc !ETH]: %RED%O 천상의 빛 or 구원자 %RED%O%map%
-ItemDisplay[UNI !ID 7sc ETH]: %RED%ETH 천상의 빛 or ETH 구원자%map%
-ItemDisplay[UNI !ID 7ws !ETH]: %RED%O 아스트리온의 강철 홀 %RED%O%map%
-ItemDisplay[UNI !ID 7ws ETH]: %RED%ETH 아스트리온의 강철 홀%map%
+ItemDisplay[UNI !ID 9ws !ETH]: %NL%%RED%축복받은 빛의 손길%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 9ws ETH]: %NL%%TAN%ETH 축복받은 빛의 손길%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7sc !ETH]: %NL%%RED%O 천상의 빛 or 구원자 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7sc ETH]: %NL%%RED%ETH 천상의 빛 or ETH 구원자%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7ws !ETH]: %NL%%RED%O 아스트리온의 강철 홀 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7ws ETH]: %NL%%RED%ETH 아스트리온의 강철 홀%NL%%NOTIFY-TAN%
 ////Unique Spears
-ItemDisplay[UNI !ID 7br !ETH]: %RED%O 뱀 갈퀴 %RED%O%map%
-ItemDisplay[UNI !ID 7br ETH]: %RED%O ETH 뱀 갈퀴 %RED%O%map%
-ItemDisplay[UNI !ID 7p7 !ETH]: %RED%O 강철 기둥 %RED%O%map%
-ItemDisplay[UNI !ID 7p7 ETH]: %RED%O ETH 강철 기둥 %RED%O%map%
+ItemDisplay[UNI !ID 7br !ETH]: %NL%%RED%O 뱀 갈퀴 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7br ETH]: %NL%%RED%O ETH 뱀 갈퀴 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7p7 !ETH]: %NL%%RED%O 강철 기둥 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7p7 ETH]: %NL%%RED%O ETH 강철 기둥 %RED%O%NL%%NOTIFY-TAN%
 ////Unique Staves
-ItemDisplay[UNI !ID 6cs !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%온달의지혜 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID 6cs ETH]: %RED%O %PURPLE%ETH 온달의 지혜%RED%O%map%
-ItemDisplay[UNI !ID 6ws !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%망송의교훈 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID 6ws ETH]: %RED%O %PURPLE%ETH 망 송의 교훈%RED%O%map%
+ItemDisplay[UNI !ID 6cs !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%온달의지혜 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 6cs ETH]: %NL%%RED%O %PURPLE%ETH 온달의 지혜%RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 6ws !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%망송의교훈 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 6ws ETH]: %NL%%RED%O %PURPLE%ETH 망 송의 교훈%RED%O%NL%%NOTIFY-TAN%
 ////Unique Swords
-ItemDisplay[UNI !ID  9fc !ETH]: %TAN%알리바바의 검%map%
-ItemDisplay[UNI !ID 9fc ETH]: %TAN%ETH 알리바바의 검%map%
-ItemDisplay[UNI !ID 7cr]: %RED% %PURPLE%광검 or 푸른 서슬 %RED%%map%
-ItemDisplay[UNI !ID 7b7 !ETH]: %TAN%괴멸자%map%
-ItemDisplay[UNI !ID 7b7 ETH]: %TAN%ETH 괴멸자%map%
-ItemDisplay[UNI !ID 7gd !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%대선조 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID 7gd ETH]: %RED%O ETH 대선조 %RED%O%map%
+ItemDisplay[UNI !ID  9fc !ETH]: %NL%%TAN%알리바바의 검%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 9fc ETH]: %NL%%TAN%ETH 알리바바의 검%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7cr]: %NL%%RED% %PURPLE%광검 or 푸른 서슬 %RED%%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7b7 !ETH]: %NL%%TAN%괴멸자%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7b7 ETH]: %NL%%TAN%ETH 괴멸자%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7gd !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%대선조 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7gd ETH]: %NL%%RED%O ETH 대선조 %RED%O%NL%%NOTIFY-TAN%
 ////Unique Wands
-ItemDisplay[UNI !ID 9gw !ETH]: %RED%검은손 열쇠%map%
-ItemDisplay[UNI !ID 9gw ETH]: %RED%ETH 검은손 열쇠%map%
-ItemDisplay[UNI !ID 7bw !ETH]: %RED%유령뼈 완드%map%
-ItemDisplay[UNI !ID 7bw ETH]: %RED%ETH 유령뼈 완드%map%
-ItemDisplay[UNI !ID 7gw !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%죽음의 거미줄 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID 7gw ETH]: %RED%O ETH 죽음의 거미줄 %RED%O%map%
+ItemDisplay[UNI !ID 9gw !ETH]: %NL%%RED%검은손 열쇠%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 9gw ETH]: %NL%%RED%ETH 검은손 열쇠%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7bw !ETH]: %NL%%RED%유령뼈 완드%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7bw ETH]: %NL%%RED%ETH 유령뼈 완드%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7gw !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%죽음의 거미줄 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7gw ETH]: %NL%%RED%O ETH 죽음의 거미줄 %RED%O%NL%%NOTIFY-TAN%
 ////Unique Throwing Weapons
-ItemDisplay[UNI !ID 7bk !ETH]: %RED%O 전장의 새 %RED%O%map%
-ItemDisplay[UNI !ID 7bk ETH]: %RED%O %PURPLE%ETH 전장의 새 %RED%O%map%
+ItemDisplay[UNI !ID 7bk !ETH]: %NL%%RED%O 전장의 새 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 7bk ETH]: %NL%%RED%O %PURPLE%ETH 전장의 새 %RED%O%NL%%NOTIFY-TAN%
 ////Unique Amazon only items
-ItemDisplay[UNI !ID am7]: %TAN%라이캔더의 조준%map%
-ItemDisplay[UNI !ID ama !ETH]: %RED%O 타이탄의 복수 %RED%O%map%
-ItemDisplay[UNI !ID ama ETH]: %RED%O ETH 타이탄의 복수 %RED%O%map%
-ItemDisplay[UNI !ID amf !ETH]: %RED%O  낙뢰 %RED%O%map%
-ItemDisplay[UNI !ID amf ETH]: %TAN%ETH 낙뢰%map%
-ItemDisplay[UNI !ID amb]: %TAN%핏빛 까마귀의 임무%map%
+ItemDisplay[UNI !ID am7]: %NL%%TAN%라이캔더의 조준%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ama !ETH]: %NL%%RED%O 타이탄의 복수 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID ama ETH]: %NL%%RED%O ETH 타이탄의 복수 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID amf !ETH]: %NL%%RED%O  낙뢰 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID amf ETH]: %NL%%TAN%ETH 낙뢰%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID amb]: %NL%%TAN%핏빛 까마귀의 임무%NL%%NOTIFY-TAN%
 ////Unique Assassin only items
-ItemDisplay[UNI !ID 9tw !ETH]: %TAN%바르툭의 목따개%map%
-ItemDisplay[UNI !ID 9tw ETH]: %TAN%ETH 바르툭의 목따개%map%
+ItemDisplay[UNI !ID 9tw !ETH]: %NL%%TAN%바르툭의 목따개%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID 9tw ETH]: %NL%%TAN%ETH 바르툭의 목따개%NL%%NOTIFY-TAN%
 ////Unique Necromancer only items
-ItemDisplay[UNI !ID nea !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%호문쿨루스 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID nea ETH]: %RED%ETH 호문쿨루스%map%
+ItemDisplay[UNI !ID nea !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%호문쿨루스 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID nea ETH]: %NL%%RED%ETH 호문쿨루스%NL%%NOTIFY-TAN%
 ////Unique Barbarian only items
-ItemDisplay[UNI !ID baa !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%아리앗의 얼굴 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID baa ETH]: %RED%ETH 아리앗의 얼굴%map%
-ItemDisplay[UNI !ID bac !ETH]: %TAN%늑대울음%map%
-ItemDisplay[UNI !ID bac ETH]: %TAN%ETH 늑대울음%map%
-ItemDisplay[UNI !ID bad !ETH]: %TAN%악마뿔 투구%map%
-ItemDisplay[UNI !ID bad ETH]: %TAN%ETH 악마뿔 투구%map%
-ItemDisplay[UNI !ID bae !ETH]: %TAN%할라버드의 군림%map%
-ItemDisplay[UNI !ID bae ETH]: %TAN%ETH 할라버드의 군림%map%
+ItemDisplay[UNI !ID baa !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%아리앗의 얼굴 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID baa ETH]: %NL%%RED%ETH 아리앗의 얼굴%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID bac !ETH]: %NL%%TAN%늑대울음%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID bac ETH]: %NL%%TAN%ETH 늑대울음%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID bad !ETH]: %NL%%TAN%악마뿔 투구%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID bad ETH]: %NL%%TAN%ETH 악마뿔 투구%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID bae !ETH]: %NL%%TAN%할라버드의 군림%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID bae ETH]: %NL%%TAN%ETH 할라버드의 군림%NL%%NOTIFY-TAN%
 ////Unique Sorceress only items
-ItemDisplay[UNI !ID oba !ETH]: %RED%망울%map%
-ItemDisplay[UNI !ID oba ETH]: %TAN%ETH 망울%map%
-ItemDisplay[UNI !ID obc !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%에슈타의 성미 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID obc ETH]: %RED%ETH 에슈타의 성미%map%
-ItemDisplay[UNI !ID obf !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%죽음의 헤아림 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID obf ETH]: %RED%ETH 죽음의 헤아림%map%
+ItemDisplay[UNI !ID oba !ETH]: %NL%%RED%망울%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID oba ETH]: %NL%%TAN%ETH 망울%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID obc !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%에슈타의 성미 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID obc ETH]: %NL%%RED%ETH 에슈타의 성미%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID obf !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%죽음의 헤아림 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID obf ETH]: %NL%%RED%ETH 죽음의 헤아림%NL%%NOTIFY-TAN%
 ////Unique Druid only items
-ItemDisplay[UNI !ID dra !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%잘알의 갈기 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID dra ETH]: %RED%ETH 잘알의 갈기%map%
-ItemDisplay[UNI !ID drb !ETH]: %TAN% 세레버스의 이빨%map%
-ItemDisplay[UNI !ID drb ETH]: %TAN%ETH 세레버스의 이빨%map%
-ItemDisplay[UNI !ID dre !ETH]: %RED%O 까마귀 설화 %RED%O%map%
-ItemDisplay[UNI !ID dre ETH]: %RED%ETH %까마귀 설화%map%
-ItemDisplay[UNI !ID drd !ETH]: %RED%O 영혼 수호자 %RED%O%map%
-ItemDisplay[UNI !ID drd ETH]: %TAN%ETH 영혼 수호자%map%
+ItemDisplay[UNI !ID dra !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%잘알의 갈기 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID dra ETH]: %NL%%RED%ETH 잘알의 갈기%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID drb !ETH]: %NL%%TAN% 세레버스의 이빨%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID drb ETH]: %NL%%TAN%ETH 세레버스의 이빨%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID dre !ETH]: %NL%%RED%O 까마귀 설화 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID dre ETH]: %NL%%RED%ETH %까마귀 설화%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID drd !ETH]: %NL%%RED%O 영혼 수호자 %RED%O%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID drd ETH]: %NL%%TAN%ETH 영혼 수호자%NL%%NOTIFY-TAN%
 ////Unique Paladin only items
-ItemDisplay[UNI !ID pac !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED% 알마 네그라 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID pac ETH]: %RED%ETH 알마 네그라%map%
-ItemDisplay[UNI !ID pa9 !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%자카룸의 전령 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
-ItemDisplay[UNI !ID pa9 ETH]: %RED%ETH 자카룸의 전령%map%
-ItemDisplay[UNI !ID pae !ETH]: %TAN%용의 비늘%map%
-ItemDisplay[UNI !ID pae ETH]: %RED%ETH 용의 비늘%map%
+ItemDisplay[UNI !ID pac !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED% 알마 네그라 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID pac ETH]: %NL%%RED%ETH 알마 네그라%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID pa9 !ETH]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%자카룸의 전령 %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID pa9 ETH]: %NL%%RED%ETH 자카룸의 전령%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID pae !ETH]: %NL%%TAN%용의 비늘%NL%%NOTIFY-TAN%
+ItemDisplay[UNI !ID pae ETH]: %NL%%RED%ETH 용의 비늘%NL%%NOTIFY-TAN%
 //Unique Normal Non Poppular
-ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]: %TAN%%NAME%%ORANGE%[비인기유니크]
-ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]: %TAN%%NAME%%ORANGE%[비인기유니크ETH]
+ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]: %NL%%TAN%%NAME%%ORANGE%[비인기유니크]%NL%
+ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]: %NL%%TAN%%NAME%%ORANGE%[비인기유니크ETH]%NL%
 ////Unique Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID (rin OR amu OR jew)]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%%NAME% %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%map%
+ItemDisplay[UNI !ID (rin OR amu OR jew)]: %NL%%RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%%NAME% %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@%NL%%NOTIFY-ORANGE%
 ////SET ITEMS (no rings or amys edited)
-ItemDisplay[SET !ID (bhm OR ful OR lbt OR mpi OR xap OR stu OR vbt OR bwn OR vgl OR cap OR lbb OR lea OR tbt OR rng OR sbr OR skp OR ltp OR wst OR qui OR vbl OR tgl OR swb OR hlm OR spl OR 2ax OR msk OR chn OR bst OR gsc OR lrg OR lsd OR mgl OR sml OR wsd OR lgl OR lbl OR buc OR mbl OR mbt OR cap OR tbl OR gwn OR crn OR tbl OR tgl OR bsd OR fhl OR brs OR gts OR crn OR aar OR kit OR wsp)]: %GREEN%%NAME%%DGREEN%[노말세트]
-ItemDisplay[SET !ID (ghm OR gth OR hbt OR tow OR hbl OR hgl)]: %PURPLE%¤ %GREEN%%NAME%%DGREEN%사이곤%PURPLE% ¤ %map%
-ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:  %PURPLE%¤ %GREEN%%NAME% %DGREEN%알더 %PURPLE% ¤ %map%
-ItemDisplay[SET !ID (7gd OR 7wd)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%불 카토스%PURPLE% ¤ %map%
-ItemDisplay[SET !ID (ulg OR uui OR xlb OR umc)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%사도%PURPLE% ¤%map% 
-ItemDisplay[SET !ID (xar OR urn OR 7ws OR paf)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%그리스월드%PURPLE% ¤ %map%
-ItemDisplay[SET !ID (xrs OR 7ma OR uts OR uhm)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%천인의 형제%PURPLE% ¤ %map%
-ItemDisplay[SET !ID (xrn OR 9vo OR xcl OR mbl)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%환인%PURPLE% ¤ %map%
-ItemDisplay[SET !ID 9vo ETH]: %PURPLE%¤ %GREEN%ETH %NAME% %DGREEN%환인 %RED% ¤%map%
-ItemDisplay[SET !ID (ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%불멸왕%PURPLE% ¤ %map%
-ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%마비나%PURPLE% ¤ %map%
-ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%나탈랴%PURPLE% ¤ %map%
-ItemDisplay[SET !ID (ci0 OR ult OR 6cs)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%나즈%PURPLE% ¤ %map%
-ItemDisplay[SET !ID (xhm OR xml OR xvg OR ztb)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%오펀%PURPLE% ¤ %map%
-ItemDisplay[SET !ID (xhl OR upl)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%사자비%PURPLE% ¤ %map%
-ItemDisplay[SET !ID 7ls !ETH]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%사자비%PURPLE% ¤ %map%
-ItemDisplay[SET !ID 7ls ETH]: %PURPLE%¤ %GREEN%ETH %NAME% %DGREEN%사자비%PURPLE% ¤ %map%
-ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%탈 라샤 %PURPLE% ¤ %map%
-ItemDisplay[SET !ID uth]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%탈 라샤 %PURPLE% ¤ %map%
-ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %PURPLE%¤ %GREEN%%NAME% %DGREEN%트랑 울%PURPLE% ¤ %map%
+ItemDisplay[SET !ID (bhm OR ful OR lbt OR mpi OR xap OR stu OR vbt OR bwn OR vgl OR cap OR lbb OR lea OR tbt OR rng OR sbr OR skp OR ltp OR wst OR qui OR vbl OR tgl OR swb OR hlm OR spl OR 2ax OR msk OR chn OR bst OR gsc OR lrg OR lsd OR mgl OR sml OR wsd OR lgl OR lbl OR buc OR mbl OR mbt OR cap OR tbl OR gwn OR crn OR tbl OR tgl OR bsd OR fhl OR brs OR gts OR crn OR aar OR kit OR wsp)]: %NL%%GREEN%%NAME%%DGREEN%[노말세트]%NL%
+ItemDisplay[SET !ID (ghm OR gth OR hbt OR tow OR hbl OR hgl)]: %NL%%PURPLE%¤ %GREEN%%NAME%%DGREEN%사이곤%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:  %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%알더 %PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (7gd OR 7wd)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%불 카토스%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (ulg OR uui OR xlb OR umc)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%사도%PURPLE% ¤%NL%%NOTIFY-GREEN% 
+ItemDisplay[SET !ID (xar OR urn OR 7ws OR paf)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%그리스월드%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (xrs OR 7ma OR uts OR uhm)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%천인의 형제%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (xrn OR 9vo OR xcl OR mbl)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%환인%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID 9vo ETH]: %NL%%PURPLE%¤ %GREEN%ETH %NAME% %DGREEN%환인 %RED% ¤%NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%불멸왕%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%마비나%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%나탈랴%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (ci0 OR ult OR 6cs)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%나즈%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (xhm OR xml OR xvg OR ztb)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%오펀%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (xhl OR upl)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%사자비%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID 7ls !ETH]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%사자비%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID 7ls ETH]: %NL%%PURPLE%¤ %GREEN%ETH %NAME% %DGREEN%사자비%PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%탈 라샤 %PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID uth]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%탈 라샤 %PURPLE% ¤ %NL%%NOTIFY-GREEN%
+ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %NL%%PURPLE%¤ %GREEN%%NAME% %DGREEN%트랑 울%PURPLE% ¤ %NL%%NOTIFY-GREEN%
 ////Body Armor////
 //ETH Armor +ED
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 (xtp OR uui OR uea OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %DGREEN%ETH %NAME%%BLUE% +15%방상 %PURPLE%[%SOCKETS%]
