@@ -1,8 +1,8 @@
 //potion activation 밑에 두줄의 //을 삭제하면 포션이 드랍됩니다.
-ItemDisplay[(hp5 OR hp4)]: %RED%!%WHITE%HP
+//ItemDisplay[(hp5 OR hp4)]: %RED%!%WHITE%HP
 ItemDisplay[(hp1 OR hp2 OR hp3) CLVL<31]: %RED%!%WHITE%Minor HP
 ItemDisplay[(hp1 OR hp2 OR hp3) CLVL>30]:
-ItemDisplay[(mp5 OR mp4)]: %BLUE%!%WHITE%MP
+//ItemDisplay[(mp5 OR mp4)]: %BLUE%!%WHITE%MP
 ItemDisplay[(mp1 OR mp2 OR mp3) CLVL<31]: %BLUE%!%WHITE%Minor MP
 ItemDisplay[(mp1 OR mp2 OR mp3) CLVL>30]:
 ItemDisplay[tsc CLVL<31]:%BLUE%!%WHITE%TP
@@ -15,19 +15,23 @@ ItemDisplay[INF ARMOR NMAG]:
 ItemDisplay[(ma1 OR ma5) !ID]:%NL%              %WHITE%@@ %YELLOW%%NAME% %WHITE%@@              %NL% %NOTIFY-YELLOW%
 ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%NL%             %WHITE%@@ %DARK_GREEN%%NAME% %WHITE%@@              %NL% %NOTIFY-DARK_GREEN%
 ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%NL%             %WHITE%@@ %RED%%NAME% %WHITE%@@              %NL% %NOTIFY-RED%
-ItemDisplay[ma5]:프리지드 플레트우 티어1%CONTINUE%
-ItemDisplay[ma4]:데서크리드 템플 티어2%CONTINUE%
-ItemDisplay[ma8]:머스티 크립트 티어2%CONTINUE%
-ItemDisplay[ma9]:딤 셀러 티어2%CONTINUE%
-ItemDisplay[ma2]:포가튼 데저트 티어3%CONTINUE%
-ItemDisplay[ma6]:루인드 시타델 티어3%CONTINUE%
-ItemDisplay[ma7]:번트 포레스트 티어3%CONTINUE%
+ItemDisplay[ma5]:프리지드 플레트우%CONTINUE%
+ItemDisplay[ma4]:데서크리드 템플%CONTINUE%
+ItemDisplay[ma8]:머스티 크립트%CONTINUE%
+ItemDisplay[ma9]:딤 셀러%CONTINUE%
+ItemDisplay[ma2]:포가튼 데저트%CONTINUE%
+ItemDisplay[ma6]:루인드 시타델%CONTINUE%
+ItemDisplay[ma7]:번트 포레스트%CONTINUE%
 ItemDisplay[ma6 STAT39>0]:%GRAY%%NAME%%CONTINUE%
 ItemDisplay[(ma2 OR ma7) STAT36>0]:%GRAY%%NAME%%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT80>0]:%NAME% %GREEN%매찬%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT360=1]:%NAME% %RED%타락됨%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) MAG]:%NAME% %BLUE%[L%ILVL%]
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) RARE]:%NAME% %YELLOW%[L%ILVL%]
+ItemDisplay[(ma1 OR ma5) MAG]:%NAME% %WHITE%티어1 %BLUE%[L%ILVL%]
+ItemDisplay[(ma1 OR ma5) RARE]:%NAME% %WHITE%티어1 %YELLOW%[L%ILVL%]
+ItemDisplay[(ma4 OR ma8 OR ma9) MAG]:%NAME% %DARK_GREEN%티어2 %BLUE%[L%ILVL%]
+ItemDisplay[(ma4 OR ma8 OR ma9) RARE]:%NAME% %DARK_GREEN%티어2 %YELLOW%[L%ILVL%]
+ItemDisplay[(ma2 OR ma6 OR ma7) MAG]:%NAME% %RED%티어3 %BLUE%[L%ILVL%]
+ItemDisplay[(ma2 OR ma6 OR ma7) RARE]:%NAME% %RED%티어3 %YELLOW%[L%ILVL%]
 //Good Charms
 ItemDisplay[cm3 (STAT22>6 AND LIFE>0)]: %TAN%맥뎀 %RED%피 %BLUE%그랜드 참 %GRAY%[%ILVL%]
 ItemDisplay[cm3 (STAT22>6 AND STAT96>0)]: %TAN%맥뎀 %ORANGE%달려 %BLUE%그랜드 참 %GRAY%[%ILVL%]
@@ -210,8 +214,8 @@ ItemDisplay[skz]: %ORANGE%P %TAN%해골 {%NL%%YELLOW%레어 옵션 변환 %NL%%O
 ItemDisplay[RARE EQ7 !ETH !ID]: %PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤
 ItemDisplay[RARE EQ7 ETH !ID]: %PURPLE%¤ %YELLOW%ETH %NAME% %PURPLE% ¤
 ItemDisplay[RARE (amu OR rin OR jew) !ID]: %NL%   %PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤   %NL% %NOTIFY-YELLOW%
-ItemDisplay[SET !ID amu]: %NL%        %PURPLE%¤ %GREEN%%NAME% %PURPLE% ¤        %NL%
-ItemDisplay[MAG (amu OR rin)]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
+ItemDisplay[SET !ID (amu OR rin)]: %NL%        %PURPLE%¤ %GREEN%%NAME% %PURPLE% ¤        %NL%
+ItemDisplay[MAG (amu OR rin)]: %BLUE%%NAME% %ORANGE%[L%ILVL%] {%NL%%ORANGE%주얼%WHITE%+%RED%아뮬렛(링)%WHITE%+%YELLOW%랄(엠)%WHITE%+%PURPLE%최상급 자수정%NL%%ORANGE%캐스터 크래프트%NL%}
 //Charms/JEWELS
 ItemDisplay[MAG (cm1 OR cm3) !ID]: %NL%   %GREEN% ¤%BLUE% %NAME% %ORANGE%[L%ILVL%]%GREEN%¤   %NL%
 ItemDisplay[MAG (cm2 OR jew) !ID]: %GREEN% ¤%BLUE% %NAME% %ORANGE%[L%ILVL%]%GREEN%¤
