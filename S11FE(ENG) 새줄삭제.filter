@@ -25,8 +25,12 @@ ItemDisplay[ma6 STAT39>0]:%GRAY%%NAME%%CONTINUE%
 ItemDisplay[(ma2 OR ma7) STAT36>0]:%GRAY%%NAME%%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT80>0]:%NAME% %PURPLE%MF%CONTINUE%
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT360=1]:%NAME% %RED%C%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) MAG]:%NAME% %BLUE%[%ILVL%]
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) RARE]:%NAME% %YELLOW%[%ILVL%]
+ItemDisplay[(ma1 OR ma5) MAG]:%NAME% %WHITE%TEAR1 %BLUE%[L%ILVL%]
+ItemDisplay[(ma1 OR ma5) RARE]:%NAME% %WHITE%TEAR1 %YELLOW%[L%ILVL%]
+ItemDisplay[(ma4 OR ma8 OR ma9) MAG]:%NAME% %DARK_GREEN%TEAR2 %BLUE%[L%ILVL%]
+ItemDisplay[(ma4 OR ma8 OR ma9) RARE]:%NAME% %DARK_GREEN%TEAR2 %YELLOW%[L%ILVL%]
+ItemDisplay[(ma2 OR ma6 OR ma7) MAG]:%NAME% %RED%TEAR3 %BLUE%[L%ILVL%]
+ItemDisplay[(ma2 OR ma6 OR ma7) RARE]:%NAME% %RED%TEAR3 %YELLOW%[L%ILVL%]
 //Good Charms
 ItemDisplay[cm3 (STAT22>6 AND LIFE>0)]: %TAN%MAX %RED%LIFE %BLUE%GRAND CHARM %GRAY%[%ILVL%]
 ItemDisplay[cm3 (STAT22>6 AND STAT96>0)]: %TAN%MAX %ORANGE%FRW %BLUE%GRAND CHARM %GRAY%[%ILVL%]
@@ -209,8 +213,8 @@ ItemDisplay[skz]: %ORANGE%P %TAN%%NAME% {%NL%%YELLOW%RARE OPTION CHANGE %NL%%ORA
 ItemDisplay[RARE EQ7 !ETH !ID]: %PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤
 ItemDisplay[RARE EQ7 ETH !ID]: %PURPLE%¤ %YELLOW%ETH %NAME% %PURPLE% ¤
 ItemDisplay[RARE (amu OR rin OR jew) !ID]: %PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤%NOTIFY-YELLOW%
-ItemDisplay[SET !ID amu]:%PURPLE%¤ %GREEN%%NAME% %PURPLE% ¤
-ItemDisplay[MAG (amu OR rin)]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
+ItemDisplay[SET !ID (amu OR rin)]:%PURPLE%¤ %GREEN%%NAME% %PURPLE% ¤
+ItemDisplay[MAG (amu OR rin)]: %BLUE%%NAME% %ORANGE%[L%ILVL%] {%NL%%ORANGE%JEWEL%WHITE%+%RED%AMULET(RING)%WHITE%+%YELLOW%RAL(AMN)%WHITE%+%PURPLE%P_AMETHYST%NL%%ORANGE%CASTER CRAFT%NL%}
 //Charms/JEWELS
 ItemDisplay[MAG (cm1 OR cm2 OR cm3 OR jew) !ID]:%GREEN% ¤%BLUE% %NAME% %ORANGE%[L%ILVL%]%GREEN%¤
 ItemDisplay[MAG (cm1 OR cm2 OR cm3 OR jew)]: %BLUE%%NAME%%ORANGE%[L%ILVL%]
