@@ -1,8 +1,8 @@
 //potion activation 밑에 두줄의 //을 삭제하면 포션이 드랍됩니다.
-//ItemDisplay[(hp5 OR hp4)]: %RED%!%WHITE%HP
+ItemDisplay[(hp5 OR hp4)]: %RED%!%WHITE%HP
 ItemDisplay[(hp1 OR hp2 OR hp3) CLVL<31]: %RED%!%WHITE%Minor HP
 ItemDisplay[(hp1 OR hp2 OR hp3) CLVL>30]:
-//ItemDisplay[(mp5 OR mp4)]: %BLUE%!%WHITE%MP
+ItemDisplay[(mp5 OR mp4)]: %BLUE%!%WHITE%MP
 ItemDisplay[(mp1 OR mp2 OR mp3) CLVL<31]: %BLUE%!%WHITE%Minor MP
 ItemDisplay[(mp1 OR mp2 OR mp3) CLVL>30]:
 ItemDisplay[tsc CLVL<31]:%BLUE%!%WHITE%TP
