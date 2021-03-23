@@ -215,7 +215,7 @@ ItemDisplay[RARE EQ7 !ETH !ID]: %PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤
 ItemDisplay[RARE EQ7 ETH !ID]: %PURPLE%¤ %YELLOW%ETH %NAME% %PURPLE% ¤
 ItemDisplay[RARE (amu OR rin OR jew) !ID]: %NL%   %PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤   %NL% %NOTIFY-YELLOW%
 ItemDisplay[SET !ID (amu OR rin)]: %NL%        %PURPLE%¤ %GREEN%%NAME% %PURPLE% ¤        %NL%
-ItemDisplay[MAG (amu OR rin)]: %BLUE%%NAME% %ORANGE%[L%ILVL%] {%ORANGE%주얼%WHITE%+%RED%아뮬렛(링)%WHITE%+%YELLOW%랄(엠)%WHITE%+%PURPLE%최상급 자수정%NL%%ORANGE%캐스터 크래프트%NL%}
+ItemDisplay[MAG (amu OR rin)]: %BLUE%%NAME% %ORANGE%[L%ILVL%] {%NL%%ORANGE%주얼%WHITE%+%RED%아뮬렛(링)%WHITE%+%YELLOW%랄(엠)%WHITE%+%PURPLE%최상급 자수정%NL%%ORANGE%캐스터 크래프트}
 //Charms/JEWELS
 ItemDisplay[MAG (cm1 OR cm3) !ID]: %NL%   %GREEN% ¤%BLUE% %NAME% %ORANGE%[L%ILVL%]%GREEN%¤   %NL%
 ItemDisplay[MAG (cm2 OR jew) !ID]: %GREEN% ¤%BLUE% %NAME% %ORANGE%[L%ILVL%]%GREEN%¤
