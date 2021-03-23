@@ -1,9 +1,9 @@
-ItemDisplay[(hp5 OR hp4)]: %RED%!%WHITE%HP
-ItemDisplay[(hp1 OR hp2 OR hp3) CLVL<31]: %RED%!%WHITE%Minor HP
-ItemDisplay[(hp1 OR hp2 OR hp3) CLVL>30]:
-ItemDisplay[(mp5 OR mp4)]: %BLUE%!%WHITE%MP
-ItemDisplay[(mp1 OR mp2 OR mp3) CLVL<31]: %BLUE%!%WHITE%Minor MP
-ItemDisplay[(mp1 OR mp2 OR mp3) CLVL>30]:
+//ItemDisplay[hp5]: %RED%!%WHITE%HP
+ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL<31]: %RED%!%WHITE%Minor HP
+ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL>30]:
+//ItemDisplay[mp5]: %BLUE%!%WHITE%MP
+ItemDisplay[(mp1 OR mp2 OR mp3 OR mp4) CLVL<31]: %BLUE%!%WHITE%Minor MP
+ItemDisplay[(mp1 OR mp2 OR mp3 OR mp4) CLVL>30]:
 ItemDisplay[tsc CLVL<31]:%BLUE%!%WHITE%TP
 ItemDisplay[tsc CLVL>30]:
 ItemDisplay[isc CLVL<31]:%RED%!%WHITE%ID
