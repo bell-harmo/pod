@@ -131,7 +131,7 @@ ItemDisplay[UNI !ID cm4]: %RED%%NAME%%NOTIFY-PURPLE%
 ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %PURPLE%¤ %DARK_GREEN%%NAME% %PURPLE%¤%NOTIFY-DARK_GREEN%
 //Tomes
 ItemDisplay[(tbk OR ibk)]: %WHITE%%NAME%
-//Hide MAGIC Quivers & Bolts above level 40
+//Hide MAGIC Quivers & Bolts above level 30
 ItemDisplay[aq2 RARE !ID]: %PURPLE%¤ %YELLOW% %NAME% %PURPLE% %PURPLE%¤ 
 ItemDisplay[(aq2 OR cq2) UNI !ID]:
 ItemDisplay[(aq2 OR cq2) MAG !ID]:
@@ -162,10 +162,11 @@ ItemDisplay[skz]: %ORANGE%P %TAN%해골 {%NL%%YELLOW%레어 옵션 변환 %NL%%O
 ItemDisplay[RARE EQ7 !ETH !ID]: %PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤
 ItemDisplay[RARE EQ7 ETH !ID]: %PURPLE%¤ %YELLOW%ETH %NAME% %PURPLE% ¤
 ItemDisplay[RARE (amu OR rin OR jew) !ID]: %PURPLE%¤ %YELLOW%%NAME% %PURPLE% ¤%NOTIFY-YELLOW%
-ItemDisplay[SET !ID amu]: %PURPLE%¤ %GREEN%%NAME% %PURPLE% ¤
+ItemDisplay[SET !ID (amu OR rin)]: %PURPLE%¤ %GREEN%%NAME% %PURPLE% ¤
 //Charms/JEWELS
 ItemDisplay[MAG (cm1 OR cm3 OR jew) !ID]: %GREEN% ¤%BLUE% %NAME% %ORANGE%[L%ILVL%]%GREEN%¤
 ItemDisplay[MAG cm2 !ID]:
+ItemDisplay[MAG !ID (amu OR rin)]:																								   
 ItemDisplay[MAG (cm1 OR cm2 OR cm3 OR jew)]: %BLUE%%NAME%%ORANGE%[L%ILVL%]
 ////Unique Charms
 ItemDisplay[UNI !ID (cm1 OR cm2 OR cm3)]: %PURPLE%  O %ORANGE% %NAME% %PURPLE% O%NOTIFY-TAN%
@@ -299,9 +300,6 @@ ItemDisplay[UNI !ID 7s8 !ETH]: %RED%O 사신의 수확 %RED%O  %NOTIFY-TAN%
 ItemDisplay[UNI !ID 7s8 ETH]: %RED%O %PURPLE%ETH 사신의 수확 %RED%O  %NOTIFY-TAN%
 ItemDisplay[UNI !ID 7pa !ETH]: %RED%O 무덤 약탈자  %RED%O  %NOTIFY-TAN%
 ItemDisplay[UNI !ID 7pa ETH]: %RED%O ETH 무덤 약탈자 %RED%O  %NOTIFY-TAN%
-////Unique Spears
-ItemDisplay[UNI !ID 7br !ETH]: %RED%O 뱀 갈퀴 %RED%O  %NOTIFY-TAN%
-ItemDisplay[UNI !ID 7br ETH]: %RED%O ETH 뱀 갈퀴 %RED%O  %NOTIFY-TAN%
 ////Unique Staves
 ItemDisplay[UNI !ID 6cs !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%온달의지혜 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%NOTIFY-RED%
 ItemDisplay[UNI !ID 6cs ETH]: %RED%O %PURPLE%ETH 온달의 지혜%RED%O  %NOTIFY-TAN%
