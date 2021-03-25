@@ -48,7 +48,13 @@ It has special character for several things. Please see the below pictures.
 ![image](https://user-images.githubusercontent.com/76995697/112419119-2add5780-8d6e-11eb-9259-fe0ffb5a1cf2.png)
 
 ## Charms
+  #### Marked GG Charms
+![image](https://user-images.githubusercontent.com/76995697/112419506-e0a8a600-8d6e-11eb-9431-5849fe631e89.png)
+  ##### GG Charms : FHR+Skiller/Life+Skiller/Life+Max DMG and so on.
 
-
-## The others
+## Relic
+  #### Marked Relic 
+  
+  ##### Tear, MF and Corrupted
+## The Others
 
