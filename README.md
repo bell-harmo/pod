@@ -43,8 +43,9 @@ It has special character for several things. Please see the below pictures.
   ##### GG Belt : FHR+STAT Marking
   ##### GG Clew : High ED more than 250%+Max DMG, or High ED more than 350%
   
-  ##### The other item get the gray color for classification.
-
+  ##### NG Items : Marked gray color for classification.
+![image](https://user-images.githubusercontent.com/76995697/112419101-231db300-8d6e-11eb-8990-d4821a952051.png)
+![image](https://user-images.githubusercontent.com/76995697/112419119-2add5780-8d6e-11eb-9259-fe0ffb5a1cf2.png)
 
 ## Charms
 
