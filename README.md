@@ -54,7 +54,11 @@ It has special character for several things. Please see the below pictures.
 
 ## Relic
   #### Marked Relic 
-  
+![image](https://user-images.githubusercontent.com/76995697/112419680-29605f00-8d6f-11eb-8c76-66fa42bf5cb9.png)  
   ##### Tear, MF and Corrupted
+## Base Items
+  #### Marked Item Grade and Rune Word
+  
+  
 ## The Others
 
