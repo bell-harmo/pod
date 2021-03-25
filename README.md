@@ -1,6 +1,6 @@
 # Preview
 
- ## This is DC POD gallary Filter for Everyone and Korean. It has special character for several things.
+ ### This is DC POD gallary Filter for Everyone and Korean. It has special character for several things.
 ----------------------------------------------------------------------------------------------------------------------
 
 # Explanation
