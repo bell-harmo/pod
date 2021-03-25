@@ -66,5 +66,19 @@ It has special character for several things. Please see the below pictures.
   
 ## The Others
   #### Formular Jewels
-  
+![image](https://user-images.githubusercontent.com/76995697/112419931-9ffd5c80-8d6f-11eb-821b-b365de9d6918.png)
+![image](https://user-images.githubusercontent.com/76995697/112419939-a4297a00-8d6f-11eb-9cd9-78990099f9ab.png)
+
   #### Reju Potion and the others
+![image](https://user-images.githubusercontent.com/76995697/112419946-a7bd0100-8d6f-11eb-82e0-ab0aa0064de3.png)
+![image](https://user-images.githubusercontent.com/76995697/112419955-abe91e80-8d6f-11eb-8094-dcb70b8dccfa.png)
+
+
+## Popular Uniq
+  #### GG Item : Same Like High Rune -> Colorful Marking
+  #### Special Purpost : Red Marking
+  #### Non Popular : Tan Color with "Non Popular" Marking
+
+## Set Item
+  #### GG Item : Separated Dropped Marking
+  #### Non Popular : "Normal Sets" Marking
