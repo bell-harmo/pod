@@ -58,7 +58,13 @@ It has special character for several things. Please see the below pictures.
   ##### Tear, MF and Corrupted
 ## Base Items
   #### Marked Item Grade and Rune Word
-  
+![image](https://user-images.githubusercontent.com/76995697/112419788-5ca2ee00-8d6f-11eb-87ba-cc5c7ebedb3d.png)
+![image](https://user-images.githubusercontent.com/76995697/112419791-5e6cb180-8d6f-11eb-9b24-2207ec84ecd2.png)
+![image](https://user-images.githubusercontent.com/76995697/112419801-62003880-8d6f-11eb-93cb-bb78c56eeb9c.png)
+![image](https://user-images.githubusercontent.com/76995697/112419805-6593bf80-8d6f-11eb-9fa9-5062ea62f63b.png)
+![image](https://user-images.githubusercontent.com/76995697/112419819-6a587380-8d6f-11eb-99e8-f28f0680ab04.png) 
   
 ## The Others
-
+  #### Formular Jewels
+  
+  #### Reju Potion and the others
