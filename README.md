@@ -43,18 +43,23 @@
   ##### GG Clew : High ED more than 250%+Max DMG, or High ED more than 350%
   
   ##### NG Items : Marked gray color for classification.
-![image](https://user-images.githubusercontent.com/76995697/112419101-231db300-8d6e-11eb-8990-d4821a952051.png)
-![image](https://user-images.githubusercontent.com/76995697/112419119-2add5780-8d6e-11eb-9259-fe0ffb5a1cf2.png)
+![image](https://user-images.githubusercontent.com/76995697/112482411-605c6200-8dbb-11eb-9bb9-71f2f73aa390.png)
+![image](https://user-images.githubusercontent.com/76995697/112482431-64887f80-8dbb-11eb-834a-7addd9d04dd7.png)
 
 ## Charms
   #### Marked GG Charms
 ![image](https://user-images.githubusercontent.com/76995697/112419506-e0a8a600-8d6e-11eb-9431-5849fe631e89.png)
   ##### GG Charms : FHR+Skiller/Life+Skiller/Life+Max DMG and so on.
+![image](https://user-images.githubusercontent.com/76995697/112482360-533f7300-8dbb-11eb-83c7-7cb33903d04a.png)
+
 
 ## Relic
   #### Marked Relic 
 ![image](https://user-images.githubusercontent.com/76995697/112419680-29605f00-8d6f-11eb-8c76-66fa42bf5cb9.png)  
   ##### Tear, MF and Corrupted
+  ##### Dropped Relic
+![image](https://user-images.githubusercontent.com/76995697/112482456-6eaa7e00-8dbb-11eb-8b71-25548448db5c.png)
+  
 ## Base Items
   #### Marked Item Grade and Rune Word
 ![image](https://user-images.githubusercontent.com/76995697/112419788-5ca2ee00-8d6f-11eb-87ba-cc5c7ebedb3d.png)
@@ -73,11 +78,14 @@
 ![image](https://user-images.githubusercontent.com/76995697/112419955-abe91e80-8d6f-11eb-8094-dcb70b8dccfa.png)
 
   #### Formular Caster
-![image](https://user-images.githubusercontent.com/76995697/112482394-5aff1780-8dbb-11eb-8cc0-837a8901b879.png)
+![image](https://user-images.githubusercontent.com/76995697/112482401-5d617180-8dbb-11eb-8362-bdf7c79b4806.png)
+
 
 
 ## Popular Uniq
   #### GG Item : Same Like High Rune -> Colorful Marking
+![image](https://user-images.githubusercontent.com/76995697/112482446-69e5ca00-8dbb-11eb-830f-e62cf2e656a9.png)
+
   #### Special Purpose : Red Marking
   #### Non Popular : Tan Color with "Non Popular" Marking
 ![image](https://user-images.githubusercontent.com/76995697/112482330-4ae73800-8dbb-11eb-8ddd-28e207ae4188.png)
@@ -86,18 +94,19 @@
 
 ## Set Item
   #### GG Item : Separated Dropped Marking
-  ![image](https://user-images.githubusercontent.com/76995697/112482360-533f7300-8dbb-11eb-83c7-7cb33903d04a.png)
+![image](https://user-images.githubusercontent.com/76995697/112482384-576b9080-8dbb-11eb-8176-b113ad35e08a.png)
+
   #### Non Popular : "Normal Sets" Marking
 
 ## Misc
 ![image](https://user-images.githubusercontent.com/76995697/112482350-50448280-8dbb-11eb-909d-3a9fb5567b2c.png)
-![image](https://user-images.githubusercontent.com/76995697/112482384-576b9080-8dbb-11eb-8176-b113ad35e08a.png)
+
+![image](https://user-images.githubusercontent.com/76995697/112482394-5aff1780-8dbb-11eb-8cc0-837a8901b879.png)
 
 
 
 
-![image](https://user-images.githubusercontent.com/76995697/112482401-5d617180-8dbb-11eb-8362-bdf7c79b4806.png)
-![image](https://user-images.githubusercontent.com/76995697/112482411-605c6200-8dbb-11eb-9bb9-71f2f73aa390.png)
-![image](https://user-images.githubusercontent.com/76995697/112482431-64887f80-8dbb-11eb-834a-7addd9d04dd7.png)
-![image](https://user-images.githubusercontent.com/76995697/112482446-69e5ca00-8dbb-11eb-830f-e62cf2e656a9.png)
-![image](https://user-images.githubusercontent.com/76995697/112482456-6eaa7e00-8dbb-11eb-8b71-25548448db5c.png)
+
+
+
+
