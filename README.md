@@ -75,7 +75,7 @@
 
 ## Popular Uniq
   #### GG Item : Same Like High Rune -> Colorful Marking
-  #### Special Purpost : Red Marking
+  #### Special Purpose : Red Marking
   #### Non Popular : Tan Color with "Non Popular" Marking
 
 ## Set Item
