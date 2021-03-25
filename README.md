@@ -25,6 +25,12 @@ It has special character for several things. Please see the below pictures.
 ![image](https://user-images.githubusercontent.com/76995697/112417946-e94bad00-8d6b-11eb-82fe-f6c83906fa8f.png)
 
 ## Jewels
+ #### Marked GG Jewels
+![image](https://user-images.githubusercontent.com/76995697/112418154-4fd0cb00-8d6c-11eb-97f2-07c98a58032a.png)
+![image](https://user-images.githubusercontent.com/76995697/112418214-670fb880-8d6c-11eb-9263-d639c47d0ff8.png)
+
+ ##### GG jewels : IAS, Mana Each kill, ED, FHR, ALL Resi, Req
+
 
 
 ## Rare
