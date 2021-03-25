@@ -72,12 +72,32 @@
 ![image](https://user-images.githubusercontent.com/76995697/112419946-a7bd0100-8d6f-11eb-82e0-ab0aa0064de3.png)
 ![image](https://user-images.githubusercontent.com/76995697/112419955-abe91e80-8d6f-11eb-8094-dcb70b8dccfa.png)
 
+  #### Formular Caster
+![image](https://user-images.githubusercontent.com/76995697/112482394-5aff1780-8dbb-11eb-8cc0-837a8901b879.png)
+
 
 ## Popular Uniq
   #### GG Item : Same Like High Rune -> Colorful Marking
   #### Special Purpose : Red Marking
   #### Non Popular : Tan Color with "Non Popular" Marking
+![image](https://user-images.githubusercontent.com/76995697/112482330-4ae73800-8dbb-11eb-8ddd-28e207ae4188.png)
+
+
 
 ## Set Item
   #### GG Item : Separated Dropped Marking
+  ![image](https://user-images.githubusercontent.com/76995697/112482360-533f7300-8dbb-11eb-83c7-7cb33903d04a.png)
   #### Non Popular : "Normal Sets" Marking
+
+## Misc
+![image](https://user-images.githubusercontent.com/76995697/112482350-50448280-8dbb-11eb-909d-3a9fb5567b2c.png)
+![image](https://user-images.githubusercontent.com/76995697/112482384-576b9080-8dbb-11eb-8176-b113ad35e08a.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/76995697/112482401-5d617180-8dbb-11eb-8362-bdf7c79b4806.png)
+![image](https://user-images.githubusercontent.com/76995697/112482411-605c6200-8dbb-11eb-9bb9-71f2f73aa390.png)
+![image](https://user-images.githubusercontent.com/76995697/112482431-64887f80-8dbb-11eb-834a-7addd9d04dd7.png)
+![image](https://user-images.githubusercontent.com/76995697/112482446-69e5ca00-8dbb-11eb-830f-e62cf2e656a9.png)
+![image](https://user-images.githubusercontent.com/76995697/112482456-6eaa7e00-8dbb-11eb-8b71-25548448db5c.png)
