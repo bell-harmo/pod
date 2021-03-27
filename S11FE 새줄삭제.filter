@@ -13,7 +13,7 @@ ItemDisplay[INF WEAPON NMAG]:
 ItemDisplay[INF ARMOR NMAG]:
 //Relic
 ItemDisplay[(ma1 OR ma5) !ID]:%WHITE%@@@@ %YELLOW%%NAME% %WHITE%@@@@%NOTIFY-YELLOW%
-ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:WHITE%@@@@ %DARK_GREEN%%NAME% %WHITE%@@@@%NOTIFY-DARK_GREEN%
+ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%WHITE%@@@@ %DARK_GREEN%%NAME% %WHITE%@@@@%NOTIFY-DARK_GREEN%
 ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%WHITE%@@@@ %RED%%NAME% %WHITE%@@@@%NOTIFY-RED%
 ItemDisplay[ma5]:프리지드 플레트우%CONTINUE%
 ItemDisplay[ma4]:데서크리드 템플%CONTINUE%
