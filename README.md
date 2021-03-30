@@ -5,6 +5,7 @@
 
 # Explanation
 
+### All items is shown until LV30, Afterward, it would be turned off.
 
 ## Rune Display
 
