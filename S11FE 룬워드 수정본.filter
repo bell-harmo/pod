@@ -340,7 +340,7 @@ ItemDisplay[MAG jew IAS>0]: %RED%공속 %BLUE%%NAME%%ORANGE%[L%ILVL%]
 ItemDisplay[MAG jew STAT91>0]: %GOLD%리콰 %BLUE%%NAME%%ORANGE%[L%ILVL%]
 ItemDisplay[MAG jew STAT22>0]: %PURPLE%맥뎀 %BLUE%%NAME%%ORANGE%[L%ILVL%]
 ItemDisplay[MAG jew STAT138>0]: %GREEN%마상 %BLUE%%NAME%%ORANGE%[L%ILVL%]
-ItemDisplay[MAG (cm1 OR cm2 OR cm3 OR jew)]: %BLUE%%NAME%%ORANGE%[L%ILVL%]
+ItemDisplay[MAG (cm1 OR cm3 OR jew)]: %BLUE%%NAME%%ORANGE%[L%ILVL%]
 ////Unique Charms
 ItemDisplay[UNI !ID cm1]: %NL%     %RED%»%YELLOW%»%GREEN%»%BLUE%» %ORANGE%애니힐러스 %RED%»%YELLOW%»%GREEN%»%BLUE%»    %NL% %NOTIFY-TAN%
 ItemDisplay[UNI !ID cm2]: %NL%     %RED%»%YELLOW%»%GREEN%»%BLUE%» %ORANGE%지옥의 횃불 %RED%»%YELLOW%»%GREEN%»%BLUE%»    %NL% %NOTIFY-TAN%
