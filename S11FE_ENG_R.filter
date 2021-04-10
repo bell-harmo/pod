@@ -250,6 +250,8 @@ ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !ob5 !oba !obf PRICE>4999 DI
 ItemDisplay[RUNE>0 RUNE<20]: %NL%   %TAN%%RUNENAME% %PURPLE%[%RUNENUM%]   %NL%%NOTIFY-TAN%
 ItemDisplay[RUNE>19 RUNE<24]: %NL%   %RED%@%YELLOW%@%GREEN%@%BLUE%@ %RED%%RUNENAME%%PURPLE%[%RUNENUM%] %RED%@%YELLOW%@%GREEN%@%BLUE%@   %NL% %NOTIFY-ORANGE%
 ItemDisplay[RUNE>23]: %NL%   %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%%RUNENAME%%PURPLE%[%RUNENUM%] %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@   %NL% %NOTIFY-RED%
+ItemDisplay[RUNE=8]:{%YELLOW%Reparing Armor : %RED%RAL%WHITE%+ARMOR%NL%}
+ItemDisplay[RUNE=9]:{%YELLOW%Reparing Weapon : %ORANGE%ORT%WHITE%+WEAPON%NL%}
 //Gems Chipped/Flawed/Normal
 //ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL<20]: %NAME%
 //ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL>19]:
