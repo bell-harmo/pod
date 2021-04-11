@@ -1,4 +1,4 @@
-//Updated 21/04/09
+//Updated 21/04/10
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                 ▬▬▬▬▬  Misc Items  ▬▬▬▬▬                                      ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -72,6 +72,8 @@
 //║                                ▬▬▬▬▬  POTION / MISC  ▬▬▬▬▬                                    ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 //potion activation 밑에 두줄의 //을 삭제하면 포션이 드랍됩니다.
+ItemDisplay[box]: %NAME% %ORANGE%[%ILVL%]
+ItemDisplay[box]:{%NL%%ORANGE%히트파워장갑:%WHITE%P사파이어+쥬얼+부츠+오르트%NL%%RED%블러드투구:%WHITE%P루비+쥬얼+헬멧+투구+랄%NL%%RED%블러드장갑:%WHITE%P루비+쥬얼+장갑+네프%NL%%RED%블러드링:%WHITE%P루비+쥬얼+링+솔%NL%%BLUE%캐스터벨트:%WHITE%P자수정+쥬얼+벨트+아이드%NL%}
 ItemDisplay[hp5]: %RED%!%WHITE%HP
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL<31]: %RED%!%WHITE%Minor HP
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL>30]:
@@ -246,6 +248,8 @@ ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !ob5 !oba !obf PRICE>4999 DI
 ItemDisplay[RUNE>0 RUNE<20]: %NL%   %TAN%%RUNENAME% %PURPLE%[%RUNENUM%]   %NL%%NOTIFY-TAN%
 ItemDisplay[RUNE>19 RUNE<24]: %NL%   %RED%@%YELLOW%@%GREEN%@%BLUE%@ %RED%%RUNENAME%%PURPLE%[%RUNENUM%] %RED%@%YELLOW%@%GREEN%@%BLUE%@   %NL% %NOTIFY-ORANGE%
 ItemDisplay[RUNE>23]: %NL%   %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%%RUNENAME%%PURPLE%[%RUNENUM%] %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@   %NL% %NOTIFY-RED%
+ItemDisplay[RUNE=8]:{%YELLOW%방어구 수리 큐빙 : %RED%랄%WHITE%+수리 방어구%NL%}
+ItemDisplay[RUNE=9]:{%YELLOW%무기 수리 큐빙 : %ORANGE%오르트%WHITE%+수리 무기%NL%}
 //Gems Chipped/Flawed/Normal
 //ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL<20]: %NAME%
 //ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL>19]:
@@ -287,6 +291,8 @@ ItemDisplay[RARE EQ7 !ETH ID STAT360=1]: %NAME% %RED%타락됨
 ItemDisplay[RARE (amu OR rin OR jew) !ID]: %NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%» %YELLOW%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»   %NL% %NOTIFY-YELLOW%
 ItemDisplay[SET !ID amu]: %NL%        %RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»       %NL%
 ItemDisplay[SET !ID rin]: %NL%         %GREEN%%NAME%        %NL%
+ItemDisplay[MAG amu !ID]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
+ItemDisplay[MAG rin !ID]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG amu ID TABSK2>2]: %BLUE%%NAME% %NL% %RED%+3자벨린 %ORANGE%[L%ILVL%] %CONTINUE%
 ItemDisplay[MAG amu ID TABSK9>2]: %BLUE%%NAME% %NL% %YELLOW%+3라이트닝 %ORANGE%[L%ILVL%] %CONTINUE%
 ItemDisplay[MAG amu ID TABSK16>2]: %BLUE%%NAME% %NL% %PURPLE%+3커즈 %ORANGE%[L%ILVL%] %CONTINUE%
@@ -298,6 +304,8 @@ ItemDisplay[MAG amu ID TABSK48>2]: %BLUE%%NAME% %NL% %RED%+3트랩 %ORANGE%[L%IL
 ItemDisplay[MAG (amu OR rin) !TABSK2>2 !TABSK9>2 !TABSK16>2 !TABSK17>2 !TABSK24>2 !TABSK34>2 !TABSK42>2 !TABSK48>2]: %BLUE%%NAME% %ORANGE%[L%ILVL%] %CONTINUE%
 ItemDisplay[MAG amu ID (STAT360=1 AND ALLSK>0)]: %YELLOW%+1모든스킬 %NAME% %RED%타락됨 
 ItemDisplay[MAG amu ID STAT360=1]: %NAME% %RED%타락됨
+ItemDisplay[MAG amu ID]: %BLUE%%NAME%
+ItemDisplay[MAG rin ID]: %BLUE%%NAME%
 //Charms/JEWELS
 ItemDisplay[MAG (cm1 OR cm3) !ID]: %NL%   %RED%»%BLUE% %NAME% %ORANGE%[L%ILVL%] %RED%»   %NL%
 //라지참 삭제 //지우면 라지참 나옴
@@ -529,23 +537,23 @@ ItemDisplay[NMAG !ETH !RW !SOCK=1 STAT91=-10 (xtp OR uui OR ula OR utu OR ung OR
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED>0 ED<15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %DARK_GREEN%%NAME%%BLUE% 방상 %PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED>0 ED<15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %PURPLE%ETH %DARK_GREEN% %NAME%%BLUE% 방상 %PURPLE%[%SOCKETS%]
 //High Def ETH armors (max 5% from highest non ED ETH DEF)
-ItemDisplay[NMAG ETH !RW !SOCK=1 uui DEF>664]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 uea DEF>668]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 ula DEF>674]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 utu DEF>684]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 ung DEF>695]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 ucl DEF>705]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 urs DEF>710]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 uhn DEF>718]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 upl DEF>730]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 utp DEF>735]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 utp DEF>620]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 uld DEF>744]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 ult DEF>754]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 uth DEF>768]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 uul DEF>792]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>849]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
-ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>720]: %PURPLE%ETH %DARK_GREEN% %NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 uui DEF>664]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 uea DEF>668]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 ula DEF>674]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 utu DEF>684]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 ung DEF>695]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 ucl DEF>705]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 urs DEF>710]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 uhn DEF>718]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 upl DEF>730]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 utp DEF>735]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 utp DEF>620]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 uld DEF>744]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 ult DEF>754]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 uth DEF>768]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 uul DEF>792]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>849]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>720]: %PURPLE%ETH %DARK_GREEN%%NAME% highest Def%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW !INF !SOCK=1 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: %PURPLE%ETH %GRAY%%NAME%%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG !ETH !RW !INF !SOCK=1 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]
 //상점용 파밍템//
@@ -565,8 +573,8 @@ ItemDisplay[EQ4 (MAG OR RARE) !ETH TABSK50>2]: %NAME% %NL% %WHITE%+3 마샬
 //4os Monarch, +ed -req Monarch 4os
 ItemDisplay[uit !ETH !RW NMAG ED=15 (SOCK=4 OR SOCK=0)]: %DARK_GREEN%%NAME%%BLUE% +15%방상 %PURPLE%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG STAT91=-10 (SOCK=0 OR SOCK=4)]: %NOTIFY-WHITE%%RED%»%YELLOW%»%GREEN%»%PURPLE%»%BLUE%»%DARK_GREEN%%NAME%%BLUE% -10%리콰 %PURPLE%[%SOCKETS%]%RED%»%YELLOW%»%GREEN%»%PURPLE%»%BLUE%» 
-ItemDisplay[uit !ETH !RW NMAG STAT91>-10 (SOCK=0 OR SOCK=4)]: %DARK_GREEN%%NAME%%BLUE% 리콰 %PURPLE%[%SOCKETS%] 
-ItemDisplay[uit !ETH !RW (SOCK=4 OR SOCK=0) NMAG]: %DARK_GREEN%%NAME% %PURPLE%[%SOCKETS%] 
+ItemDisplay[uit !ETH !RW NMAG STAT91>-10 (SOCK=0 OR SOCK=4)]: %DARK_GREEN%%NAME%%BLUE% 리콰 %PURPLE%[%SOCKETS%]
+ItemDisplay[uit !ETH !RW (SOCK=4 OR SOCK=0) NMAG]: %DARK_GREEN%%NAME% %PURPLE%[%SOCKETS%]
 //Paladin Shields pab SACRED TARGE
 ItemDisplay[pab !ETH NMAG !RW RES=45 (!SOCK=1 OR SOCK=0)]: %NOTIFY-WHITE%%DARK_GREEN%%NAME%%BLUE% 45+ %PURPLE%[%SOCKETS%]
 ItemDisplay[CL3 !ETH NMAG !RW RES=45 (!SOCK=1 OR SOCK=0)]: %DARK_GREEN%%NAME%%BLUE% 45+ %PURPLE%[%SOCKETS%]
@@ -581,14 +589,14 @@ ItemDisplay[CL3 !ETH NMAG !RW !SOCK=1 CLVL<60]: %DARK_GREEN%%NAME% %PURPLE%[%SOC
 ItemDisplay[CL3 ELT ETH NMAG !RW (SOCK=0 OR SOCK=3 OR SOCK=4)]: %PURPLE%ETH %DARK_GREEN% %NAME% %PURPLE%[%SOCKETS%]
 //CRYSTAL SWORD/BROAD SWORD/LONG SWORD/MACE
 ItemDisplay[crs !ETH !RW NMAG ED=15 !SOCK=1 !SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
-ItemDisplay[crs ETH !RW NMAG ED=15  !SOCK=1 !SOCK=3]: %PURPLE%ETH %DARK_GREEN% %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
+ItemDisplay[crs ETH !RW NMAG ED=15  !SOCK=1 !SOCK=3]: %PURPLE%ETH %DARK_GREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 ItemDisplay[(fla OR 7fl) !ETH !RW NMAG ED=15 !SOCK=1 !SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
-ItemDisplay[(fla OR 7fl) ETH !RW NMAG ED=15  !SOCK=1 !SOCK=3]: %PURPLE%ETH %DARK_GREEN% %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
+ItemDisplay[(fla OR 7fl) ETH !RW NMAG ED=15  !SOCK=1 !SOCK=3]: %PURPLE%ETH %DARK_GREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 ItemDisplay[(bsd OR lsd) !ETH !RW NMAG ED=15 !SOCK=1 ILVL<55]: %DARK_GREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 ItemDisplay[crs !ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %GRAY% %NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[crs ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %PURPLE%ETH %GRAY% %NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[crs ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %PURPLE%ETH %GRAY%%NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[fla !ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %GRAY% %NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[fla ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %PURPLE%ETH %GRAY% %NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[fla ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %PURPLE%ETH %GRAY%%NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[(bsd OR crs) !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %GRAY% %NAME%%WHITE% (라죽4솟) %PURPLE%[L%ILVL%]
 ItemDisplay[(bsd OR lsd) !RW CLVL<55 !ETH NMAG SOCK=4]: %GRAY% %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[(bsd OR lsd) !RW CLVL>54 !ETH NMAG SOCK=4]:
@@ -684,19 +692,42 @@ ItemDisplay[(!INF AND !NMAG AND !MAG AND !RARE AND !UNI AND !SET) amu ID (STAT36
 ItemDisplay[(!INF AND !NMAG AND !MAG AND !RARE AND !UNI AND !SET) amu ID STAT360=1]: %NAME%%RED%타락됨
 //Marked Corrupted
 ItemDisplay[SET (amu OR rin) ID]: %NAME% %CONTINUE%
+ItemDisplay[SET amu ID (STAT360=1 AND ALLSK=1 AND CLSK1=2)]: %NAME% %ORANGE%+1올스킬 %RED%타락됨
+ItemDisplay[SET rin ID (STAT360=1 AND STAT105=10)]: %NAME% %ORANGE%10%패캐 %RED%타락됨
+ItemDisplay[SET rin ID (STAT360=1 AND STAT96=10)]: %NAME% %ORANGE%10%달려 %RED%타락됨
+ItemDisplay[SET rin ID (STAT360=1 AND STAT36=5)]: %NAME% %ORANGE%5%뎀감 %RED%타락됨
+ItemDisplay[SET rin ID (STAT360=1 AND STAT36=6)]: %NAME% %ORANGE%6%뎀감 %RED%타락됨
 ItemDisplay[SET (amu OR rin) ID STAT360=1]: %NAME% %RED%타락됨
 ItemDisplay[SET (WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
+ItemDisplay[SET ulg ID (STAT360=1 AND IAS=30)]: %NAME%%ORANGE%10%공속 %RED%타락됨
 ItemDisplay[SET (WEAPON OR ARMOR OR aq2 OR cq2) ID (STAT360=1 AND SOCK>0)]: %NAME%%PURPLE%[%SOCKETS%] %RED%타락됨
 ItemDisplay[SET (WEAPON OR ARMOR OR aq2 OR cq2) ID STAT360=1]: %NAME%%PURPLE% %RED%타락됨
 ItemDisplay[UNI (amu OR rin) ID]: %NAME% %CONTINUE%
+ItemDisplay[UNI amu ID (STAT360=1 AND ALLSK=3)]: %NAME% %ORANGE%+3올스킬 %RED%타락됨
+ItemDisplay[UNI amu ID (STAT360=1 AND ALLSK=1 AND STAT96=30)]: %NAME% %ORANGE%+1올스킬 %RED%타락됨
+ItemDisplay[UNI amu ID (STAT360=1 AND ALLSK=2 AND STAT41=35)]: %NAME% %ORANGE%+1올스킬 %RED%타락됨
+ItemDisplay[UNI rin ID (STAT360=1 AND STAT105=10)]: %NAME% %ORANGE%10%패캐 %RED%타락됨
+ItemDisplay[UNI rin ID (STAT360=1 AND STAT96=10)]: %NAME% %ORANGE%10%달려 %RED%타락됨
+ItemDisplay[UNI rin ID (STAT360=1 AND STAT96>10)]: %NAME% %ORANGE%달려 %RED%타락됨
+ItemDisplay[UNI rin ID (STAT360=1 AND STAT36=5)]: %NAME% %ORANGE%5%뎀감 %RED%타락됨
+ItemDisplay[UNI rin ID (STAT360=1 AND STAT36=6)]: %NAME% %ORANGE%6%뎀감 %RED%타락됨
 ItemDisplay[UNI (amu OR rin) ID STAT360=1]: %NAME% %RED%타락됨
 ItemDisplay[UNI (WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
+ItemDisplay[UNI zvb ID (STAT360=1 AND STAT156=41)]: %NAME%%ORANGE%8%관통 %RED%타락됨
+ItemDisplay[UNI umc ID (STAT360=1 AND STAT156=8)]: %NAME%%ORANGE%8%관통 %RED%타락됨
+ItemDisplay[UNI EQ4 ID (STAT360=1 AND IAS=20)]: %NAME%%ORANGE%10%공속 %RED%타락됨
+ItemDisplay[UNI EQ4 ID (STAT360=1 AND RES>4)]: %NAME%%ORANGE%올레지 %RED%타락됨
+ItemDisplay[UNI EQ5 ID (STAT360=1 AND STAT380=10)]: %NAME%%ORANGE%10%쿨탐 %RED%타락됨
+ItemDisplay[UNI EQ5 ID (STAT360=1 AND RES>4)]: %NAME%%ORANGE%올레지 %RED%타락됨
 ItemDisplay[UNI (WEAPON OR ARMOR OR aq2 OR cq2) ID (STAT360=1 AND SOCK>0)]: %NAME%%PURPLE%[%SOCKETS%] %RED%타락됨
 ItemDisplay[UNI (WEAPON OR ARMOR OR aq2 OR cq2) ID STAT360=1]: %NAME%%PURPLE% %RED%타락됨
 ItemDisplay[RARE (amu OR rin) ID]: %NAME% %CONTINUE%
+ItemDisplay[RARE rin ID (STAT360=1 AND STAT105=20)]: %NAME% %ORANGE%10%패캐 %RED%타락됨
+ItemDisplay[RARE rin ID (STAT360=1 AND STAT96=10)]: %NAME% %ORANGE%10%달려 %RED%타락됨
 ItemDisplay[RARE (amu OR rin) ID STAT360=1]: %NAME% %RED%타락됨
 ItemDisplay[RARE (aq2 OR cq2) ID]: %NAME% %CONTINUE%
 ItemDisplay[RARE (WEAPON OR ARMOR) ID]: %NAME% %CONTINUE%
+ItemDisplay[RARE EQ5 ID (STAT360=1 AND STAT380=10)]: %NAME%%ORANGE%10%쿨탐 %RED%타락됨
 ItemDisplay[RARE (WEAPON OR ARMOR OR aq2 OR cq2) ID (STAT360=1 AND SOCK>0)]: %NAME%%PURPLE%[%SOCKETS%] %RED%타락됨
 ItemDisplay[RARE (WEAPON OR ARMOR OR aq2 OR cq2) ID STAT360=1]: %NAME%%PURPLE% %RED%타락됨
 ItemDisplay[(!INF AND !NMAG AND !MAG AND !RARE AND !UNI AND !SET) rin ID]: %NAME% %CONTINUE%
