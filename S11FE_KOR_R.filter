@@ -762,7 +762,7 @@ ItemDisplay[WP11 !RW NMAG !SUP (wst OR 8ws OR 6ws) SOCK=0 SK58>1]: {%NL%%GOLD%�
 //ETH ARCON STAVES
 ItemDisplay[6ws !RW NMAG ETH ED=15 (SOCK=6 OR SOCK=0)]: %NOTIFY-WHITE%%RED%»%YELLOW%»%GREEN%»%PURPLE%»%BLUE%»%PURPLE%ETH %DARK_GREEN%%NAME%%BLUE% +15%증뎀 %WHITE%[죽음의 숨결 재료] %PURPLE%[%SOCKETS%]%RED%»%YELLOW%»%GREEN%»%PURPLE%»%BLUE%» 
 ItemDisplay[6ws !RW NMAG ETH ED>0 ED<15 (SOCK=6 OR SOCK=0)]: %NOTIFY-WHITE%%RED%»%YELLOW%»%GREEN%»%PURPLE%»%BLUE%»%PURPLE%ETH %DARK_GREEN%%NAME%%BLUE% 증뎀 %WHITE%[죽음의 숨결 재료] %PURPLE%[%SOCKETS%]%RED%»%YELLOW%»%GREEN%»%PURPLE%»%BLUE%»
-ItemDisplay[6ws !RW NMAG ETH (SOCK=0 OR SOCK=6)]: %PURPLE%ETH %GRAY%NAME% %WHITE%죽음의 숨결 재료 %PURPLE%[%SOCKETS%]
+ItemDisplay[6ws !RW NMAG ETH (SOCK=0 OR SOCK=6)]: %PURPLE%ETH %GRAY%%NAME% %WHITE%죽음의 숨결 재료 %PURPLE%[%SOCKETS%]
 
 ItemDisplay[6ws !RW NMAG ETH ED=15 (SOCK=6 OR SOCK=0)]: {%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%}
 ItemDisplay[6ws !RW NMAG ETH ED>0 ED<15 (SOCK=6 OR SOCK=0)]: {%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%}
