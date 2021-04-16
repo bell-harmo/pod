@@ -118,7 +118,7 @@
 
 ![image](https://user-images.githubusercontent.com/76995697/112743299-12b94280-8fd1-11eb-9c43-59cafea8e3ff.png)
 
-##Corrupted Option marking
+## Corrupted Option marking
 
 ![image](https://user-images.githubusercontent.com/76995697/115024610-48c85300-9efb-11eb-90d1-6bd00c0843f8.png)
 
