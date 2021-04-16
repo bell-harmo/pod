@@ -87,7 +87,7 @@
  
   #### Reju Potion and the others
 ![image](https://user-images.githubusercontent.com/76995697/112419946-a7bd0100-8d6f-11eb-82e0-ab0aa0064de3.png)
-![image](https://user-images.githubusercontent.com/76995697/112419955-abe91e80-8d6f-11eb-8094-dcb70b8dccfa.png)
+![image](https://user-images.githubusercontent.com/76995697/115026047-fc7e1280-9efc-11eb-9501-b97b5c7f1f54.png)
 
   #### Formular Caster
 ![image](https://user-images.githubusercontent.com/76995697/112482401-5d617180-8dbb-11eb-8362-bdf7c79b4806.png)
