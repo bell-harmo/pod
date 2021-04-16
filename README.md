@@ -95,8 +95,7 @@
 
 ## Popular Uniq
   #### GG Item : Same Like High Rune -> Colorful Marking
-![image](https://user-images.githubusercontent.com/76995697/115025014-cb511280-9efb-11eb-91b3-3b82e5bee75e.png)
-![image](https://user-images.githubusercontent.com/76995697/115025024-cee49980-9efb-11eb-8ce4-32a82f897ebd.png)
+
 
   #### Special Purpose : Red Marking
   #### Non Popular : Tan Color with "Non Popular" Marking
@@ -105,8 +104,8 @@
 
 ## Set Item
   #### GG Item : Separated Dropped Marking
-![image](https://user-images.githubusercontent.com/76995697/112482384-576b9080-8dbb-11eb-8176-b113ad35e08a.png)
-
+![image](https://user-images.githubusercontent.com/76995697/115025014-cb511280-9efb-11eb-91b3-3b82e5bee75e.png)
+![image](https://user-images.githubusercontent.com/76995697/115025024-cee49980-9efb-11eb-8ce4-32a82f897ebd.png)
   #### Non Popular : "Normal Sets" Marking
 ![image](https://user-images.githubusercontent.com/76995697/112484074-f644bc80-8dbc-11eb-8a04-f37a46c63003.png)
 
