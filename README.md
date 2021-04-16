@@ -119,9 +119,13 @@
 ![image](https://user-images.githubusercontent.com/76995697/112743299-12b94280-8fd1-11eb-9c43-59cafea8e3ff.png)
 
 ##Corrupted Option marking
+
 ![image](https://user-images.githubusercontent.com/76995697/115024610-48c85300-9efb-11eb-90d1-6bd00c0843f8.png)
+
 ![image](https://user-images.githubusercontent.com/76995697/115025063-db68f200-9efb-11eb-8c6d-6dc84378e36c.png)
+
 ![image](https://user-images.githubusercontent.com/76995697/115025074-ddcb4c00-9efb-11eb-88f1-8343b9ef9db1.png)
+
 ![image](https://user-images.githubusercontent.com/76995697/115025085-e1f76980-9efb-11eb-9778-7d01d436a625.png)
 
 
