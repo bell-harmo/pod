@@ -72,12 +72,19 @@
 ![image](https://user-images.githubusercontent.com/76995697/112419805-6593bf80-8d6f-11eb-9fa9-5062ea62f63b.png)
 ![image](https://user-images.githubusercontent.com/76995697/112419819-6a587380-8d6f-11eb-99e8-f28f0680ab04.png) 
   
+  #### GG base drop message
+![image](https://user-images.githubusercontent.com/76995697/115024813-904edf00-9efb-11eb-9287-8a95f2618b43.png)
   
 ## The Others
   #### Formular Jewels
 ![image](https://user-images.githubusercontent.com/76995697/112419931-9ffd5c80-8d6f-11eb-821b-b365de9d6918.png)
 ![image](https://user-images.githubusercontent.com/76995697/112419939-a4297a00-8d6f-11eb-9cd9-78990099f9ab.png)
-
+  #### GG jewel
+ ![image](https://user-images.githubusercontent.com/76995697/115024745-78775b00-9efb-11eb-90f8-2dd33e365ba4.png)
+  
+  #### Formular of Cube
+ ![image](https://user-images.githubusercontent.com/76995697/115024972-be342380-9efb-11eb-9d35-11da14b9598a.png)
+ 
   #### Reju Potion and the others
 ![image](https://user-images.githubusercontent.com/76995697/112419946-a7bd0100-8d6f-11eb-82e0-ab0aa0064de3.png)
 ![image](https://user-images.githubusercontent.com/76995697/112419955-abe91e80-8d6f-11eb-8094-dcb70b8dccfa.png)
@@ -88,7 +95,8 @@
 
 ## Popular Uniq
   #### GG Item : Same Like High Rune -> Colorful Marking
-![image](https://user-images.githubusercontent.com/76995697/112482446-69e5ca00-8dbb-11eb-830f-e62cf2e656a9.png)
+![image](https://user-images.githubusercontent.com/76995697/115025014-cb511280-9efb-11eb-91b3-3b82e5bee75e.png)
+![image](https://user-images.githubusercontent.com/76995697/115025024-cee49980-9efb-11eb-8ce4-32a82f897ebd.png)
 
   #### Special Purpose : Red Marking
   #### Non Popular : Tan Color with "Non Popular" Marking
@@ -105,13 +113,17 @@
 
 ## Misc
 ![image](https://user-images.githubusercontent.com/76995697/112482350-50448280-8dbb-11eb-909d-3a9fb5567b2c.png)
+![image](https://user-images.githubusercontent.com/76995697/115025120-ec196800-9efb-11eb-9b1e-a2d0b34692bf.png)
 
 ![image](https://user-images.githubusercontent.com/76995697/112482394-5aff1780-8dbb-11eb-8cc0-837a8901b879.png)
 
 ![image](https://user-images.githubusercontent.com/76995697/112743299-12b94280-8fd1-11eb-9c43-59cafea8e3ff.png)
 
-
-
+##Corrupted Option marking
+![image](https://user-images.githubusercontent.com/76995697/115024610-48c85300-9efb-11eb-90d1-6bd00c0843f8.png)
+![image](https://user-images.githubusercontent.com/76995697/115025063-db68f200-9efb-11eb-8c6d-6dc84378e36c.png)
+![image](https://user-images.githubusercontent.com/76995697/115025074-ddcb4c00-9efb-11eb-88f1-8343b9ef9db1.png)
+![image](https://user-images.githubusercontent.com/76995697/115025085-e1f76980-9efb-11eb-9778-7d01d436a625.png)
 
 
 
