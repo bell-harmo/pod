@@ -128,6 +128,8 @@
 
 ![image](https://user-images.githubusercontent.com/76995697/115025085-e1f76980-9efb-11eb-9778-7d01d436a625.png)
 
+## Craft Amulet Option Marking
+![image](https://user-images.githubusercontent.com/76995697/115025721-aa3cf180-9efc-11eb-8c86-087722b41853.png)
 
 
 
