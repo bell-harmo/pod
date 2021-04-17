@@ -429,22 +429,29 @@ ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT96>0 AND STAT80>0)]: %RED%�
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT68>0 AND STAT80>0)]: %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»%PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %GREEN%매찬 %YELLOW%애로우%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT62>0 AND STAT80>0)]: %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»%PURPLE%맥뎀 %RED%추뎀 %ORANGE%마흡 %GREEN%매찬 %YELLOW%애로우%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND TABSK0>0 AND STAT80>0)]: %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»%PURPLE%맥뎀 %RED%추뎀 %ORANGE%보우스킬 %GREEN%매찬 %YELLOW%애로우%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
+ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT96>0 AND STAT240>0)]: %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»%PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %GREEN%매찬 %YELLOW%애로우%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
+ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT68>0 AND STAT240>0)]: %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»%PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %GREEN%매찬 %YELLOW%애로우%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
+ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT62>0 AND STAT240>0)]: %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»%PURPLE%맥뎀 %RED%추뎀 %ORANGE%마흡 %GREEN%매찬 %YELLOW%애로우%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
+ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND TABSK0>0 AND STAT240>0)]: %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»%PURPLE%맥뎀 %RED%추뎀 %ORANGE%보우스킬 %GREEN%매찬 %YELLOW%애로우%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT96>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %GREEN%올저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT62>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%마흡 %GREEN%올저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT68>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %GREEN%올저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND TABSK0>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%보우스킬 %GREEN%올저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT80>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%매찬 %GREEN%올저항 %YELLOW%애로우
+ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT240>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%매찬 %GREEN%올저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT96>0 AND (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %DARK_GREEN%저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT68>0 AND (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %DARK_GREEN%저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT62>0 AND (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%마흡 %DARK_GREEN%저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND TABSK0>0 AND (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %TAN%보우스킬 %DARK_GREEN%저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT80>0 AND (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %GREEN%매찬 %DARK_GREEN%저항 %YELLOW%애로우
+ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT240>0 AND (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %GREEN%매찬 %DARK_GREEN%저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT96>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%달려 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT62>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%마흡 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT68>0)]: %PURPLE%맥뎀 %RED%추뎀 %ORANGE%공속 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND TABSK0>0)]: %PURPLE%맥뎀 %RED%추뎀 %TAN%보우스킬 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND RES>0)]: %PURPLE%맥뎀 %RED%추뎀 %GREEN%올저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT80>0)]: %PURPLE%맥뎀 %RED%추뎀 %GREEN%매찬 %YELLOW%애로우
+ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND STAT240>0)]: %PURPLE%맥뎀 %RED%추뎀 %GREEN%매찬 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0 AND (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0))]: %PURPLE%맥뎀 %RED%추뎀 %GREEN%저항 %YELLOW%애로우
 ItemDisplay[aq2 RARE (STAT218>0 AND STAT22>0)]: %PURPLE%맥뎀 %RED%추뎀 %YELLOW%애로우
 //Belt&Boots&Claw
