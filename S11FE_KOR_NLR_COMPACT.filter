@@ -121,7 +121,7 @@ ItemDisplay[(hp5 OR mp4 OR mp5 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 
 //Essences (Respec Token)
 ItemDisplay[(tes OR ceh OR bet OR fed OR toa)]: %RED%»%YELLOW%»%GREEN%»%BLUE%» %GOLD%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»%NOTIFY-GOLD%
 //PoD Items
-ItemDisplay[cx5]: %RED%»%YELLOW%»%PURPLE%타락의 오브%RED%»%YELLOW%»%NOTIFY-PURPLE% 
+ItemDisplay[cx5]: %RED%»%YELLOW%»%GREEN%»%BLUE%»%PURPLE%타락의 오브%RED%»%YELLOW%»%GREEN%»%BLUE%»%NOTIFY-PURPLE% 
 ItemDisplay[cx7]: %RED%»%YELLOW%»%GREEN%»%BLUE%»%PURPLE%혼돈의 열쇠%RED%»%YELLOW%»%GREEN%»%BLUE%»%NOTIFY-PURPLE%
 ItemDisplay[(cx6 OR std OR cx8 OR cx9 OR maz OR leg OR ear)]: %RED%»%YELLOW%»%GREEN%»%BLUE%» %PURPLE%%NAME%  %RED%»%YELLOW%»%GREEN%»%BLUE%»%NOTIFY-PURPLE%
 ItemDisplay[UNI !ID cm4]: %RED%%NAME%%NOTIFY-PURPLE%
