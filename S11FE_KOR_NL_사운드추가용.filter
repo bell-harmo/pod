@@ -795,7 +795,7 @@ ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1 AND IAS>0)]: %
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2>5]: %NAME% %ORANGE%+6 자벨 %PURPLE%[%SOCKETS%]
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2=5]: %NAME% %ORANGE%+5 자벨 %PURPLE%[%SOCKETS%]
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1)]: %NAME% %ORANGE%+3 자벨 +2 아마 %PURPLE%[%SOCKETS%]
-ItemDisplay[(am5 OR ama OR amf) ID ]: %NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[(am5 OR ama OR amf) ID (MAG OR RARE)]: %NAME% %PURPLE%[%SOCKETS%]
 //Amazon Spears//
 ItemDisplay[CL7 ELT NMAG ETH ED=15 TABSK2>2 SOCK=5]: %PURPLE%ETH %DARK_GREEN% %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 ItemDisplay[(amd OR ame) NMAG !RW ETH ED=15 TABSK2>2 (SOCK=0 OR SOCK=6)]: %PURPLE%ETH %DARK_GREEN% %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
