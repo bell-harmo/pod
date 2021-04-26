@@ -1026,8 +1026,8 @@ ItemDisplay[(WEAPON OR ARMOR) ID (MAG OR RARE)]:%NAME%
 ItemDisplay[WEAPON ID UNI NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%랄+솔+%ORANGE%P%WHITE%에메랄드%GREEN%@%YELLOW%)}
 ItemDisplay[WEAPON ID UNI EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%룸+풀+%ORANGE%P%WHITE%에메랄드%GREEN%@%YELLOW%)}
 ItemDisplay[WEAPON ID UNI ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[ARMOR ID UNI NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%탈+샤에+%ORANGE%P%WHITE%토파즈%ORANGE%@%YELLOW%)}
-ItemDisplay[ARMOR ID UNI EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%코+렘+%ORANGE%P%WHITE%토파즈%ORANGE%@%YELLOW%)}
+ItemDisplay[ARMOR ID UNI NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%탈+샤에+%ORANGE%P%WHITE%다이아몬드%WHITE%@%YELLOW%)}
+ItemDisplay[ARMOR ID UNI EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%코+렘+%ORANGE%P%WHITE%다이아몬드%WHITE%@%YELLOW%)}
 ItemDisplay[ARMOR ID UNI ELT]: {%ORANGE%(엘리트)}
 ItemDisplay[WEAPON ID SET NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%엘+에드+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)}
 ItemDisplay[WEAPON ID SET EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%돌+말+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)}
