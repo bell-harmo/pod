@@ -154,14 +154,14 @@ ItemDisplay[INF ARMOR NMAG]:
 ItemDisplay[(ma1 OR ma5) !ID]:%NL%              %WHITE%@@ %YELLOW%%NAME% %WHITE%@@              %NL% %NOTIFY-YELLOW%
 ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%NL%              %WHITE%@@ %DARK_GREEN%%NAME% %WHITE%@@              %NL% %NOTIFY-DARK_GREEN%
 ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%NL%              %WHITE%@@ %RED%%NAME% %WHITE%@@              %NL% %NOTIFY-RED%
-ItemDisplay[(ma1 OR ma5) MAG]:%NAME% %WHITE%TEAR1 %BLUE%[L%ILVL%]%CONTINUE%
-ItemDisplay[(ma1 OR ma5) RARE]:%NAME% %WHITE%TEAR1 %YELLOW%[L%ILVL%]%CONTINUE%
-ItemDisplay[(ma4 OR ma8 OR ma9) MAG]:%NAME% %DARK_GREEN%TEAR2 %BLUE%[L%ILVL%]%CONTINUE%
-ItemDisplay[(ma4 OR ma8 OR ma9) RARE]:%NAME% %DARK_GREEN%TEAR2 %YELLOW%[L%ILVL%]%CONTINUE%
-ItemDisplay[(ma2 OR ma6 OR ma7) MAG]:%NAME% %RED%TEAR3 %BLUE%[L%ILVL%]%CONTINUE%
-ItemDisplay[(ma2 OR ma6 OR ma7) RARE]:%NAME% %RED%TEAR3 %YELLOW%[L%ILVL%]%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT80>0]:%NAME% %GREEN%MF%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT360=1]:%NAME% %RED%C%CONTINUE%
+ItemDisplay[(ma1 OR ma5) MAG]:%YELLOW%%NAME% %WHITE%TEAR1 %BLUE%[L%ILVL%]%CONTINUE%
+ItemDisplay[(ma1 OR ma5) RARE]:%YELLOW%%NAME% %WHITE%TEAR1 %YELLOW%[L%ILVL%]%CONTINUE%
+ItemDisplay[(ma4 OR ma8 OR ma9) MAG]:%DARK_GREEN%%NAME% %GREEN%TEAR2 %BLUE%[L%ILVL%]%CONTINUE%
+ItemDisplay[(ma4 OR ma8 OR ma9) RARE]:%DARK_GREEN%%NAME% %GREEN%TEAR2 %YELLOW%[L%ILVL%]%CONTINUE%
+ItemDisplay[(ma2 OR ma6 OR ma7) MAG]:%RED%%NAME% %ORANGE%TEAR3 %BLUE%[L%ILVL%]%CONTINUE%
+ItemDisplay[(ma2 OR ma6 OR ma7) RARE]:%RED%%NAME% %ORANGE%TEAR3 %YELLOW%[L%ILVL%]%CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT80>0]:%NAME% %GREEN%MF
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT360=1]:%NAME% %RED%C
 //Good Charms
 ItemDisplay[cm3 (STAT22>6 AND LIFE>0)]: %BLUE%GC %ORANGE%[L%ILVL%]%NL%%TAN%MAX %RED%LIFE 
 ItemDisplay[cm3 (STAT22>6 AND STAT96>0)]: %BLUE%GC %ORANGE%[L%ILVL%]%NL%%TAN%MAX %ORANGE%FRW 
