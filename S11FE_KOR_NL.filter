@@ -895,6 +895,7 @@ ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 ED=15]: {%NL%%GOLD%�
 ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 (SK274>0 AND SK277>2)]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=2 (SK278>2 AND SK277>2)]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=2 SK277>2]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
+ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=2 SK262>2]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
 ItemDisplay[(7ar OR 7qr)!RW NMAG ELT ETH !SOCK=1 !SOCK=2 ED=15]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
 //Dream helm+Shield
 ItemDisplay[(uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3 OR SOCK=0) ED=15]: %DARK_GREEN%%NAME%[드림재료] %ORANGE%15%방상 %PURPLE%[%SOCKETS%]
@@ -922,12 +923,16 @@ ItemDisplay[CL1 !ETH NMAG (SK250>2 AND SK245>2) !SOCK=1]: %DARK_GREEN%%NAME% %OR
 ItemDisplay[CL1 !ETH NMAG (SK249>2 AND SK245>2) !SOCK=1]: %DARK_GREEN%%NAME% %ORANGE%+3 아마겟돈 %YELLOW%+3 토네 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK237>2) !SOCK=1]: %DARK_GREEN%%NAME% %ORANGE%+3 그리즐리 %YELLOW%+3 다이어울프 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK227>2) !SOCK=1]: %DARK_GREEN%%NAME% %ORANGE%+3 그리즐리 %YELLOW%+3 스피릿울프 %PURPLE%[%SOCKETS%]
-//imbue
-ItemDisplay[ci3 !ETH NMAG !SOCK=1]: %NAME% %ORANGE%임뷰용 %PURPLE%[%SOCKETS%]
 
 ItemDisplay[CL1 !ETH NMAG (SK250>2 AND SK249>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
 ItemDisplay[CL1 !ETH NMAG (SK250>2 AND SK245>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
 ItemDisplay[CL1 !ETH NMAG (SK249>2 AND SK245>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK237>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK227>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
+
+//imbue
+ItemDisplay[ci3 !ETH NMAG !SOCK=1]: %NAME% %ORANGE%임뷰용 %PURPLE%[%SOCKETS%]
+
 //Scepters
 ItemDisplay[WP13 !RW !ETH NMAG SK121>2 SOCK=3]: %DARK_GREEN%%NAME% %ORANGE%+3 피슷 %PURPLE%[%SOCKETS%]
 ItemDisplay[WP13 !RW !ETH NMAG SK118>2 SOCK=3]: %DARK_GREEN%%NAME% %ORANGE%+3 홀리쇼크 %PURPLE%[%SOCKETS%]
