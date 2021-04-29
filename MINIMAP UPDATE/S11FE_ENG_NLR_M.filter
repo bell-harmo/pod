@@ -354,7 +354,7 @@ ItemDisplay[RARE EQ7 !ETH ID CLSK0>1! CLSK1>1! CLSK2>1! CLSK3>1! CLSK4>1! CLSK5>
 ItemDisplay[RARE EQ7 !ETH ID (STAT360=1 AND SOCK>0)]: %NAME% %PURPLE%[%SOCKETS%] %RED%C
 ItemDisplay[RARE EQ7 !ETH ID STAT360=1]: %NAME% %RED%C
 ItemDisplay[RARE (ci1 OR ci0)]: {%ORANGE%(%QT%)%NL%%RED%(Circlet, Coronet upgrade before Corruption)%NL%%YELLOW%(Upgrading:%WHITE%RAL+THUL+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)}
-ItemDisplay[RARE (amu OR rin OR jew) !ID]: %NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%» %YELLOW%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»%NOTIFY-YELLOW%
+ItemDisplay[RARE (amu OR rin OR jew) !ID]: %RED%»%YELLOW%»%GREEN%»%BLUE%» %YELLOW%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»%NOTIFY-YELLOW%
 ItemDisplay[SET !ID amu]: %DOT-84%%RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»
 ItemDisplay[SET !ID rin]: %DOT-84%%GREEN%%NAME%
 ItemDisplay[MAG amu !ID]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
@@ -373,8 +373,8 @@ ItemDisplay[MAG amu ID STAT360=1]: %NAME% %RED%C
 ItemDisplay[MAG amu ID]: %BLUE%%NAME%
 ItemDisplay[MAG rin ID]: %BLUE%%NAME%
 //Charms/JEWELS
-ItemDisplay[MAG cm1 !ID]: %DOT-97%%RED%» %BLUE%SC %ORANGE%[L%ILVL%] %RED%»
-ItemDisplay[MAG cm3 !ID]: %DOT-97%%RED%» %BLUE%GC %ORANGE%[L%ILVL%] %RED%»
+ItemDisplay[MAG cm1 !ID]: %DOT-97%%RED%»%YELLOW%»%GREEN%» %BLUE%SC %ORANGE%[L%ILVL%] %RED%»%YELLOW%»%GREEN%»
+ItemDisplay[MAG cm3 !ID]: %DOT-97%%RED%»%YELLOW%»%GREEN%» %BLUE%GC %ORANGE%[L%ILVL%] %RED%»%YELLOW%»%GREEN%»
 //If you delete //, it will be appear
 //ItemDisplay[MAG cm2 !ID]: %DOT-97%LC %ORANGE%[L%ILVL%]
 ItemDisplay[MAG jew !ID]: %DOT-6F%%RED%»%BLUE% %NAME% %ORANGE%[L%ILVL%] %RED%»
