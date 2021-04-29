@@ -151,9 +151,9 @@ ItemDisplay[isc CLVL>30]:
 ItemDisplay[INF WEAPON NMAG]:
 ItemDisplay[INF ARMOR NMAG]:
 //Relic
-ItemDisplay[(ma1 OR ma5) !ID]:%NL%              %WHITE%@@ %YELLOW%%NAME% %WHITE%@@              %NL% %NOTIFY-YELLOW%
-ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%NL%              %WHITE%@@ %DARK_GREEN%%NAME% %WHITE%@@              %NL% %NOTIFY-DARK_GREEN%
-ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%NL%              %WHITE%@@ %RED%%NAME% %WHITE%@@              %NL% %NOTIFY-RED%
+ItemDisplay[(ma1 OR ma5) !ID]:%NL%    %WHITE%@@ %YELLOW%%NAME% %WHITE%@@    %NL% %NOTIFY-YELLOW%
+ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%NL%    %WHITE%@@ %DARK_GREEN%%NAME% %WHITE%@@    %NL% %NOTIFY-DARK_GREEN%
+ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%NL%    %WHITE%@@ %RED%%NAME% %WHITE%@@    %NL% %NOTIFY-RED%
 ItemDisplay[(ma1 OR ma5) MAG]:%YELLOW%%NAME% %WHITE%TEAR1 %BLUE%[L%ILVL%]%CONTINUE%
 ItemDisplay[(ma1 OR ma5) RARE]:%YELLOW%%NAME% %WHITE%TEAR1 %YELLOW%[L%ILVL%]%CONTINUE%
 ItemDisplay[(ma4 OR ma8 OR ma9) MAG]:%DARK_GREEN%%NAME% %GREEN%TEAR2 %BLUE%[L%ILVL%]%CONTINUE%
@@ -279,15 +279,15 @@ ItemDisplay[rvs]: %PURPLE%RP %WHITE%35%
 ItemDisplay[(hp5 OR mp4 OR mp5 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR tsc OR isc OR wms OR yps OR gpm OR opm OR opl OR ops OR gps OR gpl OR vps) CLVL<31]:%NAME%
 ItemDisplay[(hp5 OR mp4 OR mp5 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR tsc OR isc OR wms OR yps OR gpm OR opm OR opl OR ops OR gps OR gpl OR vps) CLVL>30]:
 //Essences (Respec Token)
-ItemDisplay[(tes OR ceh OR bet OR fed OR toa)]: %NL%       %RED%»%YELLOW%»%GREEN%»%BLUE%» %GOLD%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»       %NL%%NOTIFY-GOLD%
+ItemDisplay[(tes OR ceh OR bet OR fed OR toa)]: %NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%» %GOLD%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»   %NL%%NOTIFY-GOLD%
 //PoD Items
-ItemDisplay[cx5]: %NL%       %RED%»%YELLOW%»%GREEN%»%BLUE%»%PURPLE%OOC%RED%»%YELLOW%»%GREEN%»%BLUE%»        %NL%%NOTIFY-PURPLE%
+ItemDisplay[cx5]: %NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%»%PURPLE%OOC%RED%»%YELLOW%»%GREEN%»%BLUE%»   %NL%%NOTIFY-PURPLE%
 ItemDisplay[cx5]:{%NL%HELM/ARM/SD/WP:SOC[1toMAX]%NL%BOOTS:AR[5to10%]%NL%BOOTS:DEX[5to15]%NL%BOOTS:CR[10%]%NL%GLOVE:IAS[10%]%NL%GLOVE:AR[5to10%]%NL%AMU:ALLSK[1]%NL%RING:FCR[10%]%NL%RING:FRW[10%]%NL%RING:PDR[5to6%]%NL%BELT:PIERCING[8%]%NL%ARROW:IAS[10%]%NL%%NL%%ORANGE%Best Option for Each Item}
-ItemDisplay[cx7]: %NL%       %RED%»%YELLOW%»%GREEN%»%BLUE%»%PURPLE%%NAME%%RED%»%YELLOW%»%GREEN%»%BLUE%»        %NL%%NOTIFY-PURPLE%
-ItemDisplay[(cx6 OR std OR cx8 OR cx9 OR maz OR leg OR ear)]: %NL%       %RED%»%YELLOW%»%GREEN%»%BLUE%» %PURPLE%%NAME%  %RED%»%YELLOW%»%GREEN%»%BLUE%»       %NL%%NOTIFY-PURPLE%
-ItemDisplay[UNI !ID cm4]: %NL%       %RED%%NAME%       %NL% %NOTIFY-PURPLE%
+ItemDisplay[cx7]: %NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%»%PURPLE%%NAME%%RED%»%YELLOW%»%GREEN%»%BLUE%»   %NL%%NOTIFY-PURPLE%
+ItemDisplay[(cx6 OR std OR cx8 OR cx9 OR maz OR leg OR ear)]: %NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%» %PURPLE%%NAME%  %RED%»%YELLOW%»%GREEN%»%BLUE%»   %NL%%NOTIFY-PURPLE%
+ItemDisplay[UNI !ID cm4]: %NL%   %RED%%NAME%   %NL% %NOTIFY-PURPLE%
 //Uber Keys
-ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %NL%       %RED%»%YELLOW%»%GREEN%»%BLUE%» %DARK_GREEN%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»       %NL%%NOTIFY-DARK_GREEN%
+ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%» %DARK_GREEN%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»   %NL%%NOTIFY-DARK_GREEN%
 //Tomes
 ItemDisplay[(tbk OR ibk)]: %WHITE%%NAME%
 //Hide MAGIC Quivers & Bolts above level 30
@@ -355,7 +355,7 @@ ItemDisplay[RARE EQ7 !ETH ID (STAT360=1 AND SOCK>0)]: %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[RARE EQ7 !ETH ID STAT360=1]: %NAME% %RED%C
 ItemDisplay[RARE (ci1 OR ci0)]: {%ORANGE%(%QT%)%NL%%RED%(Circlet, Coronet upgrade before Corruption)%NL%%YELLOW%(Upgrading:%WHITE%RAL+THUL+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)}
 ItemDisplay[RARE (amu OR rin OR jew) !ID]: %NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%» %YELLOW%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»   %NL% %NOTIFY-YELLOW%
-ItemDisplay[SET !ID amu]: %NL%        %RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»       %NL%
+ItemDisplay[SET !ID amu]: %NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»   %NL%
 ItemDisplay[SET !ID rin]: %NL%  %GREEN%%NAME%  %NL%
 ItemDisplay[MAG amu !ID]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG rin !ID]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
