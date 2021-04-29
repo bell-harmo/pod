@@ -1,4 +1,4 @@
-//Updated 21/04/26
+//Updated 21/04/27
 //UPDATE CONTENTS : 
 //
 
@@ -137,7 +137,7 @@
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════╝
 //potion activation 밑에 두줄의 //을 삭제하면 포션이 드랍됩니다.
 ItemDisplay[box]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[box]:{%NL%%ORANGE%히트파워장갑:%WHITE%P사파이어+쥬얼+부츠+오르트%NL%%RED%블러드투구:%WHITE%P루비+쥬얼+헬멧+투구+랄%NL%%RED%블러드장갑:%WHITE%P루비+쥬얼+장갑+네프%NL%%RED%블러드링:%WHITE%P루비+쥬얼+링+솔%NL%%BLUE%캐스터벨트:%WHITE%P자수정+쥬얼+벨트+아이드%NL%}
+ItemDisplay[box]:{%NL%%ORANGE%히트파워장갑:%WHITE%P사파이어+쥬얼+부츠+오르트%NL%%RED%블러드투구:%WHITE%P루비+쥬얼+헬멧+투구+랄%NL%%RED%블러드장갑:%WHITE%P루비+쥬얼+장갑+네프%NL%%RED%블러드링:%WHITE%P루비+쥬얼+링+솔%NL%%BLUE%캐스터벨트:%WHITE%P자수정+쥬얼+벨트+아이드%NL%%PURPLE%소켓(갑옷):%WHITE%P토파즈+탈+주울%NL%%PURPLE%소켓(무기):%WHITE%P자수정+랄+앰%NL%}
 ItemDisplay[hp5]: %RED%!%WHITE%HP
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL<31]: %RED%!%WHITE%Minor HP
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL>30]:
@@ -353,7 +353,7 @@ ItemDisplay[RARE EQ7 !ETH ID (CLSK0>1 AND STAT96>0)]: %YELLOW% %NAME% %NL% %RED%
 ItemDisplay[RARE EQ7 !ETH ID CLSK0>1! CLSK1>1! CLSK2>1! CLSK3>1! CLSK4>1! CLSK5>1! CLSK6>1!]: %GRAY% %NAME% %CONTINUE%
 ItemDisplay[RARE EQ7 !ETH ID (STAT360=1 AND SOCK>0)]: %NAME% %PURPLE%[%SOCKETS%] %RED%타락됨
 ItemDisplay[RARE EQ7 !ETH ID STAT360=1]: %NAME% %RED%타락됨
-ItemDisplay[RARE (ci1 OR ci0)]: {%ORANGE%(노말)%NL%%RED%(써클릿, 코로니트는 커럽 전 업그레이드 필수)}
+ItemDisplay[RARE (ci1 OR ci0)]: {%ORANGE%(노말)%NL%%RED%(써클릿, 코로니트는 커럽 전 업그레이드 필수)%NL%%YELLOW%(업그레이드:%WHITE%랄+주울+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)}
 ItemDisplay[RARE (amu OR rin OR jew) !ID]: %DOT-6F%%NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%» %YELLOW%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»   %NL% %NOTIFY-YELLOW%
 ItemDisplay[SET !ID amu]: %DOT-84%%NL%        %RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»       %NL%
 ItemDisplay[SET !ID rin]: %DOT-84%%NL%  %GREEN%%NAME%  %NL%
@@ -752,6 +752,7 @@ ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 ED=15]: %GRAY% %NAME
 ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 (SK274>0 AND SK277>2)]: %DOT-75%%NOTIFY-DARK_GREEN%%DARK_GREEN% %NAME% %YELLOW%+3 블쉴 %ORANGE%블아 %PURPLE%[%SOCKETS%]
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=2 (SK278>2 AND SK277>2)]: %DOT-75%%NOTIFY-DARK_GREEN%%RED%»%YELLOW%»%GREEN%»%PURPLE%»%BLUE%»%DARK_GREEN% %NAME% %ORANGE%+3 베놈 %YELLOW%+3 블쉴 %PURPLE%[%SOCKETS%]%RED%»%YELLOW%»%GREEN%»%PURPLE%»%BLUE%»
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=2 SK277>2]: %DOT-75%%NOTIFY-DARK_GREEN%%DARK_GREEN% %NAME% %ORANGE%+3 블쉴 %PURPLE%[%SOCKETS%]
+ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=2 SK262>2]: %NOTIFY-DARK_GREEN%%DARK_GREEN% %NAME% %ORANGE%+3 웨오파 %PURPLE%[%SOCKETS%]
 ItemDisplay[(7ar OR 7qr)!RW NMAG ELT ETH !SOCK=1 !SOCK=2 ED=15]: %PURPLE%ETH %GRAY%%NAME%%BLUE% +15%증뎀 클로 %PURPLE%[%SOCKETS%]
 //Dream helm+Shield
 ItemDisplay[(uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3 OR SOCK=0) ED=15]: %DARK_GREEN%%NAME%[드림재료] %ORANGE%15%방상 %PURPLE%[%SOCKETS%]
@@ -768,6 +769,10 @@ ItemDisplay[CL2 !ETH NMAG (SK149>2 AND SK150>2) !SOCK=1]: %DARK_GREEN%%NAME% %OR
 ItemDisplay[CL1 !ETH NMAG (SK250>2 AND SK249>2) !SOCK=1]: %DARK_GREEN%%NAME% %ORANGE%+3 허리케인 %YELLOW%+3 아마겟돈 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL1 !ETH NMAG (SK250>2 AND SK245>2) !SOCK=1]: %DARK_GREEN%%NAME% %ORANGE%+3 허리케인 %YELLOW%+3 토네 %PURPLE%[%SOCKETS%]
 ItemDisplay[CL1 !ETH NMAG (SK249>2 AND SK245>2) !SOCK=1]: %DARK_GREEN%%NAME% %ORANGE%+3 아마겟돈 %YELLOW%+3 토네 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK237>2) !SOCK=1]: %DARK_GREEN%%NAME% %ORANGE%+3 그리즐리 %YELLOW%+3 다이어울프 %PURPLE%[%SOCKETS%]
+ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK227>2) !SOCK=1]: %DARK_GREEN%%NAME% %ORANGE%+3 그리즐리 %YELLOW%+3 스피릿울프 %PURPLE%[%SOCKETS%]
+//imbue
+ItemDisplay[ci3 !ETH NMAG !SOCK=1]: %NAME% %ORANGE%임뷰용 %PURPLE%[%SOCKETS%]
 //Scepters
 ItemDisplay[WP13 !RW !ETH NMAG SK121>2 SOCK=3]: %DARK_GREEN%%NAME% %ORANGE%+3 피슷 %PURPLE%[%SOCKETS%]
 ItemDisplay[WP13 !RW !ETH NMAG SK118>2 SOCK=3]: %DARK_GREEN%%NAME% %ORANGE%+3 홀리쇼크 %PURPLE%[%SOCKETS%]
