@@ -113,7 +113,9 @@
   
   #### GG base drop message
 ![image](https://user-images.githubusercontent.com/76995697/115024813-904edf00-9efb-11eb-9287-8a95f2618b43.png)
-  
+![image](https://user-images.githubusercontent.com/76995697/116762156-85945e00-aa54-11eb-9b2b-43be347a7621.png)  
+
+
 ## :cactus:The Others:cactus:
   #### Formular Jewels
 ![image](https://user-images.githubusercontent.com/76995697/112419931-9ffd5c80-8d6f-11eb-821b-b365de9d6918.png)
