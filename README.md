@@ -93,7 +93,7 @@
   ##### Tear, MF and Corrupted
   ##### Dropped Relic
 ![image](https://user-images.githubusercontent.com/76995697/116762034-2d5d5c00-aa54-11eb-88ca-0045f7d93ff2.png)
-
+![image](https://user-images.githubusercontent.com/76995697/116764158-14a47480-aa5b-11eb-8033-6ae4dc6b0168.png)
 
 
 
