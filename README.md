@@ -117,7 +117,6 @@
 
 ## Misc
 ![image](https://user-images.githubusercontent.com/76995697/112482350-50448280-8dbb-11eb-909d-3a9fb5567b2c.png)
-![image](https://user-images.githubusercontent.com/76995697/115025120-ec196800-9efb-11eb-9b1e-a2d0b34692bf.png)
 
 ![image](https://user-images.githubusercontent.com/76995697/112482394-5aff1780-8dbb-11eb-8cc0-837a8901b879.png)
 
