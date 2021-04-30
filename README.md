@@ -104,7 +104,7 @@
 
   #### Special Purpose : Red Marking
   #### Non Popular : Tan Color with "Non Popular" Marking
-![image](https://user-images.githubusercontent.com/76995697/112482330-4ae73800-8dbb-11eb-8ddd-28e207ae4188.png)
+![image](https://user-images.githubusercontent.com/76995697/116714383-b05cc300-aa10-11eb-8ee9-f51cf9a8f2cb.png)
 
 
 ## :smiling_imp:Set Item:smiling_imp:
@@ -112,7 +112,7 @@
 ![image](https://user-images.githubusercontent.com/76995697/115025014-cb511280-9efb-11eb-91b3-3b82e5bee75e.png)
 ![image](https://user-images.githubusercontent.com/76995697/115025024-cee49980-9efb-11eb-8ce4-32a82f897ebd.png)
   #### Non Popular : "Normal Sets" Marking
-![image](https://user-images.githubusercontent.com/76995697/112484074-f644bc80-8dbc-11eb-8a04-f37a46c63003.png)
+![image](https://user-images.githubusercontent.com/76995697/116714463-c4a0c000-aa10-11eb-8ffb-4834f0c10b08.png)
 
 
 ## Misc
