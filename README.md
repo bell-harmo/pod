@@ -170,8 +170,7 @@
 ![image](https://user-images.githubusercontent.com/76995697/115025721-aa3cf180-9efc-11eb-8c86-087722b41853.png)
 
 ## :green_heart:Item Grade & Upgrading recipe:green_heart:
-![image](https://user-images.githubusercontent.com/76995697/116657017-ad3de480-a9c8-11eb-93f5-754d6f5567fd.png)
-
+![image](https://user-images.githubusercontent.com/76995697/116758971-2c283100-aa4c-11eb-92a7-ac53a014ceb9.png)
 
 
 
