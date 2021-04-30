@@ -612,8 +612,8 @@ ItemDisplay[UNI !ID dra ETH]: %RED%ETH Jalals Mane%NOTIFY-TAN%
 ItemDisplay[UNI !ID pa9 !ETH]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED% Herald of Zakarum %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%NOTIFY-RED%
 ItemDisplay[UNI !ID pa9 ETH]: %RED%ETH Herald of Zakarum%NOTIFY-TAN%
 //Unique Normal Non Poppular
-ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]:%TAN%   %NAME%   %ORANGE%%NL%[NON POPULAR UNI]
-ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]:%TAN%   %NAME%   %ORANGE%%NL%[NON POPULAR UNI ETH]
+ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]:%TAN%   %NAME%%WHITE%(%QT%)   %ORANGE%%NL%[NON POPULAR UNI]
+ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]:%TAN%   %NAME%%WHITE%(%QT%)   %ORANGE%%NL%[NON POPULAR UNI ETH]
 ////Unique Rings Amulets Jewels Charms
 ItemDisplay[UNI !ID (rin OR amu OR jew)]: %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED% %NAME% %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%NOTIFY-ORANGE%
 //SET ITEMS (no rings or amys edited)
@@ -624,7 +624,7 @@ ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %RED%»%YELLOW%»%GREEN%»%BLUE
 ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%» %NL%%DARK_GREEN%TAL RASHA%NOTIFY-GREEN%
 ItemDisplay[SET !ID uth]: %RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%» %NL%%DARK_GREEN%TAL RASHA%NOTIFY-GREEN%
 ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%» %NL%%DARK_GREEN%TRANG OUL%NOTIFY-GREEN%
-ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%NL%%DARK_GREEN%[NORMAL SETS]
+ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%WHITE%(%QT%)%NL%%DARK_GREEN%[NORMAL SETS]
 ////Body Armor////
 //ETH Armor +ED
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %NOTIFY-DARK_GREEN%%PURPLE%ETH %DARK_GREEN%%NAME%%BLUE% +15%ED %PURPLE%[%SOCKETS%]
