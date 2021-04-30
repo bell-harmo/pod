@@ -1,3 +1,6 @@
+
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username={username}&show_icons=true&theme={theme})](https://github.com/{username}/github-readme-stats)
+
 # Preview
 
  ### This is DC POD gallary Filter for Everyone and Korean. It has special character for several things.
