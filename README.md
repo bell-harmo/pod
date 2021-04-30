@@ -184,6 +184,8 @@
 
 
 ## Misc
+![image](https://user-images.githubusercontent.com/76995697/116764037-9ba51d00-aa5a-11eb-8127-1a4978a9c205.png)
+
 ![image](https://user-images.githubusercontent.com/76995697/112482350-50448280-8dbb-11eb-909d-3a9fb5567b2c.png)
 
 ![image](https://user-images.githubusercontent.com/76995697/112482394-5aff1780-8dbb-11eb-8cc0-837a8901b879.png)
