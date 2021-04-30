@@ -22,7 +22,7 @@
 ![image](https://user-images.githubusercontent.com/76995697/112417754-9245d800-8d6b-11eb-97d0-33d2d0ff624e.png)
 
 
-## Corrupted Items
+## :blue_heart:Corrupted Items:blue_heart:
 
  #### Corrupted Marking on item
 ![image](https://user-images.githubusercontent.com/76995697/112417925-dfc24500-8d6b-11eb-80b0-8550786efcdd.png)
