@@ -131,5 +131,6 @@
 ## Craft Amulet Option Marking
 ![image](https://user-images.githubusercontent.com/76995697/115025721-aa3cf180-9efc-11eb-8c86-087722b41853.png)
 
-
+## Item Grade & Upgrading recipe
+![image](https://user-images.githubusercontent.com/76995697/116656870-66e88580-a9c8-11eb-92ec-9e29363213e5.png)
 
