@@ -1,7 +1,7 @@
 
 ![header](https://capsule-render.vercel.app/api?type=Waving&color=gradient&text=%20PiLLLaDCPODfilter%20%20&height=400&fontSize=80)
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=PiLLLaa&show_icons=true&theme={radical})](https://github.com/PiLLLaa/github-readme-stats)
-https://github.com/PiLLLaa/hit-counter
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPiLLLaa%2Fhit-counter)](https://hits.seeyoufarm.com)
 # Preview
 
  ### This is DC POD gallary Filter for Everyone and Korean. It has special character for several things.
