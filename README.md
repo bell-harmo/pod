@@ -122,7 +122,8 @@
  ![image](https://user-images.githubusercontent.com/76995697/115024745-78775b00-9efb-11eb-90f8-2dd33e365ba4.png)
   
   #### Formular of Cube
- ![image](https://user-images.githubusercontent.com/76995697/115024972-be342380-9efb-11eb-9d35-11da14b9598a.png)
+![image](https://user-images.githubusercontent.com/76995697/116759073-6396dd80-aa4c-11eb-82c7-e1394ed65518.png)
+
  
   #### Reju Potion and the others
 ![image](https://user-images.githubusercontent.com/76995697/112419946-a7bd0100-8d6f-11eb-82e0-ab0aa0064de3.png)
