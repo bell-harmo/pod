@@ -1,5 +1,5 @@
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username={PiLLLaa}&show_icons=true&theme={theme})](https://github.com/{PiLLLaa}/github-readme-stats)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username={PiLLLaa}&show_icons=true&theme={radical})](https://github.com/{PiLLLaa}/github-readme-stats)
 
 # Preview
 
