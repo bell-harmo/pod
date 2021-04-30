@@ -100,7 +100,7 @@
 
 ## :cyclone:Popular Uniq:cyclone:
   #### GG Item : Same Like High Rune -> Colorful Marking
-
+![image](https://user-images.githubusercontent.com/76995697/116714945-3711a000-aa11-11eb-9207-12195a5e13c4.png)
 
   #### Special Purpose : Red Marking
   #### Non Popular : Tan Color with "Non Popular" Marking
