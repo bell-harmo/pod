@@ -89,7 +89,7 @@
 
 ## :gem:Relic:gem:
   #### Marked Relic 
-![image](https://user-images.githubusercontent.com/76995697/112419680-29605f00-8d6f-11eb-8c76-66fa42bf5cb9.png)  
+![image](https://user-images.githubusercontent.com/76995697/116761934-e66f6680-aa53-11eb-9232-a2878998b112.png)
   ##### Tear, MF and Corrupted
   ##### Dropped Relic
 ![image](https://user-images.githubusercontent.com/76995697/112482456-6eaa7e00-8dbb-11eb-8b71-25548448db5c.png)
