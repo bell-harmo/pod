@@ -22,6 +22,14 @@
 ![image](https://user-images.githubusercontent.com/76995697/112417754-9245d800-8d6b-11eb-97d0-33d2d0ff624e.png)
 
 
+
+
+
+
+
+
+
+
 ## :blue_heart:Corrupted Items:blue_heart:
 
  #### Corrupted Marking on item
@@ -39,6 +47,14 @@
  ##### GG jewels : IAS, Mana Each kill, ED, FHR, ALL Resi, Req
 
 
+
+
+
+
+
+
+
+
 ## :peach:Rare:peach:
   #### Marked GG Rare for Boots/Arrows/Belt/Clew
 ![image](https://user-images.githubusercontent.com/76995697/112418581-1c427080-8d6d-11eb-880f-a1154e338120.png)
@@ -54,6 +70,14 @@
 ![image](https://user-images.githubusercontent.com/76995697/112482431-64887f80-8dbb-11eb-834a-7addd9d04dd7.png)
 
 
+
+
+
+
+
+
+
+
 ## :dart:Charms:dart:
   #### Marked GG Charms
 ![image](https://user-images.githubusercontent.com/76995697/112419506-e0a8a600-8d6e-11eb-9431-5849fe631e89.png)
@@ -67,8 +91,16 @@
   ##### Tear, MF and Corrupted
   ##### Dropped Relic
 ![image](https://user-images.githubusercontent.com/76995697/112482456-6eaa7e00-8dbb-11eb-8b71-25548448db5c.png)
-  
-  
+
+
+
+
+
+
+
+
+
+
 ## :baseball:Base Items:baseball:
   #### Marked Item Grade and Rune Word
 ![image](https://user-images.githubusercontent.com/76995697/112419788-5ca2ee00-8d6f-11eb-87ba-cc5c7ebedb3d.png)
@@ -98,6 +130,14 @@
 ![image](https://user-images.githubusercontent.com/76995697/112482401-5d617180-8dbb-11eb-8362-bdf7c79b4806.png)
 
 
+
+
+
+
+
+
+
+
 ## :cyclone:Popular Uniq:cyclone:
   #### GG Item : Same Like High Rune -> Colorful Marking
 ![image](https://user-images.githubusercontent.com/76995697/116714945-3711a000-aa11-11eb-9207-12195a5e13c4.png)
@@ -113,6 +153,30 @@
 ![image](https://user-images.githubusercontent.com/76995697/115025024-cee49980-9efb-11eb-8ce4-32a82f897ebd.png)
   #### Non Popular : "Normal Sets" Marking
 ![image](https://user-images.githubusercontent.com/76995697/116714463-c4a0c000-aa10-11eb-8ffb-4834f0c10b08.png)
+
+
+
+
+
+
+
+
+
+
+
+## :heart:Craft Amulet Option Marking:heart:
+![image](https://user-images.githubusercontent.com/76995697/115025721-aa3cf180-9efc-11eb-8c86-087722b41853.png)
+
+## :green_heart:Item Grade & Upgrading recipe:green_heart:
+![image](https://user-images.githubusercontent.com/76995697/116657017-ad3de480-a9c8-11eb-93f5-754d6f5567fd.png)
+
+
+
+
+
+
+
+
 
 
 ## Misc
@@ -133,10 +197,3 @@
 ![image](https://user-images.githubusercontent.com/76995697/115025074-ddcb4c00-9efb-11eb-88f1-8343b9ef9db1.png)
 
 ![image](https://user-images.githubusercontent.com/76995697/115025085-e1f76980-9efb-11eb-9778-7d01d436a625.png)
-
-## :heart:Craft Amulet Option Marking:heart:
-![image](https://user-images.githubusercontent.com/76995697/115025721-aa3cf180-9efc-11eb-8c86-087722b41853.png)
-
-## :green_heart:Item Grade & Upgrading recipe:green_heart:
-![image](https://user-images.githubusercontent.com/76995697/116657017-ad3de480-a9c8-11eb-93f5-754d6f5567fd.png)
-
