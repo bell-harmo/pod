@@ -611,8 +611,8 @@ ItemDisplay[UNI !ID dra ETH]: %DOT-0C%%PURPLE%ETH %RED%잘알의 갈기%NOTIFY-T
 ItemDisplay[UNI !ID pa9 !ETH]: %BORDER-62%%SOUND-2664%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%자카룸의 전령 %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%NOTIFY-RED%
 ItemDisplay[UNI !ID pa9 ETH]: %DOT-0C%%PURPLE%ETH %RED%자카룸의 전령%NOTIFY-TAN%
 //Unique Normal Non Poppular
-ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]: %TAN%%NAME%%ORANGE%[비인기유니크]
-ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]: %TAN%%NAME%%ORANGE%[비인기유니크ETH]
+ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]: %TAN%%NAME%%WHITE%(%QT%)%ORANGE%[비인기유니크]
+ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]: %TAN%%NAME%%WHITE%(%QT%)%ORANGE%[비인기유니크ETH]
 //Unique Rings Amulets Jewels Charms
 ItemDisplay[UNI !ID (rin OR amu OR jew)]: %BORDER-62%%SOUND-2664%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@ %RED%%NAME% %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%GRAY%@@%PURPLE%@@%NOTIFY-ORANGE%
 //SET ITEMS (no rings or amys edited)
@@ -623,7 +623,7 @@ ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]:  %DOT-84%%RED%»%YELLOW%»%GREE
 ItemDisplay[SET !ID (oba OR xsk OR zmb)]:  %DOT-84%%RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %DARK_GREEN%탈 라샤 %RED%»%YELLOW%»%GREEN%»%BLUE%»%NOTIFY-GREEN%
 ItemDisplay[SET !ID uth]: %DOT-84%%RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %DARK_GREEN%탈 라샤 %RED%»%YELLOW%»%GREEN%»%BLUE%»%NOTIFY-GREEN%
 ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]:  %DOT-84%%RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %DARK_GREEN%트랑 울 %RED%»%YELLOW%»%GREEN%»%BLUE%»%NOTIFY-GREEN%
-ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%DARK_GREEN%[비인기세트]
+ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%WHITE%(%QT%)%DARK_GREEN%[비인기세트]
 ////Body Armor////
 //ETH Armor +ED
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %DOT-75%%NOTIFY-DARK_GREEN%%PURPLE%ETH %DARK_GREEN%%NAME%%BLUE% +15%방상 %PURPLE%[%SOCKETS%]
