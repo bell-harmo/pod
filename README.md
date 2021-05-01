@@ -100,7 +100,8 @@
   ##### Dropped Relic
 ![image](https://user-images.githubusercontent.com/76995697/116762034-2d5d5c00-aa54-11eb-88ca-0045f7d93ff2.png)
 ![image](https://user-images.githubusercontent.com/76995697/116764158-14a47480-aa5b-11eb-8033-6ae4dc6b0168.png)
-
+![image](https://user-images.githubusercontent.com/76995697/116784199-ef048300-aacd-11eb-80d9-637aaf2325a6.png)
+![image](https://user-images.githubusercontent.com/76995697/116784206-f6c42780-aacd-11eb-833f-a56592134974.png)
 
 
 
@@ -152,6 +153,7 @@
 ## :cyclone:Popular Uniq:cyclone:
   #### GG Item : Same Like High Rune -> Colorful Marking
 ![image](https://user-images.githubusercontent.com/76995697/116714945-3711a000-aa11-11eb-9207-12195a5e13c4.png)
+![image](https://user-images.githubusercontent.com/76995697/116784171-cbd9d380-aacd-11eb-9b6f-6b50640bcafb.png)
 
   #### Special Purpose : Red Marking
   #### Non Popular : Tan Color with "Non Popular" Marking
