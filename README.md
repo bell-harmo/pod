@@ -8,6 +8,12 @@
  ### This is DC POD gallary Filter for Everyone and Korean. It has special character for several things.
 ----------------------------------------------------------------------------------------------------------------------
 
+
+# DM 
+  ## Reddit : DamageFunny3572
+  ## Discord : mhpark2359#2972
+
+
 # Explanation
 
 ### All items is shown until LV30, Afterward, it would be turned off.
