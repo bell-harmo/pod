@@ -616,7 +616,7 @@ ItemDisplay[UNI !ID pa9 ETH]: %NL%    %PURPLE%ETH %RED%자카룸의 전령     %
 ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]: %TAN%%NAME%%WHITE%(%QT%)%ORANGE%[비인기유니크]
 ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]: %TAN%%NAME%%WHITE%(%QT%)%ORANGE%[비인기유니크ETH]
 //Unique Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID (rin OR amu OR jew)]: %NL%   %RED%@%ORANGE%@%YELLOW%@%GREEN%@%BLUE%@%GRAY%@%PURPLE%@ %RED%%NAME%%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NOTIFY-ORANGE%
+ItemDisplay[UNI !ID (rin OR amu OR jew)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%%NAME%%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NOTIFY-ORANGE%
 //SET ITEMS (no rings or amys edited)
 ItemDisplay[SET !ID ulg]:  %NL%     %RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %DARK_GREEN%사도 장갑 %RED%»%YELLOW%»%GREEN%»%BLUE%»      %NL%%NOTIFY-GREEN%
 ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:  %NL%     %RED%»%YELLOW%»%GREEN%»%BLUE%» %GREEN%%NAME% %DARK_GREEN%알더 %RED%»%YELLOW%»%GREEN%»%BLUE%»      %NL%%NOTIFY-GREEN%
