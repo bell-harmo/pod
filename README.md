@@ -76,6 +76,9 @@
   ##### NG Items : Marked gray color for classification.
 ![image](https://user-images.githubusercontent.com/76995697/112482411-605c6200-8dbb-11eb-9bb9-71f2f73aa390.png)
 ![image](https://user-images.githubusercontent.com/76995697/112482431-64887f80-8dbb-11eb-834a-7addd9d04dd7.png)
+ 
+  ##### GG CIRCLET
+![image](https://user-images.githubusercontent.com/76995697/116830997-e43e1100-abe7-11eb-87fd-4848525baa66.png)
 
 
 
