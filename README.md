@@ -18,6 +18,13 @@
 
 ### All items is shown until LV30, Afterward, it would be turned off.
 
+
+
+## Update :purple_heart:3.May:purple_heart:
+![image](https://user-images.githubusercontent.com/76995697/116964612-f3f04f00-ace6-11eb-9a4c-68ebcfa3105c.png)
+
+
+
 ## :purple_heart:Rune Display:purple_heart:
 
  #### Colorful Rune Display for high runes.
