@@ -261,7 +261,7 @@ ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %MAP-0B%%RED%*****%YELLOW
 //Tomes
 ItemDisplay[(tbk OR ibk)]: %WHITE%%NAME%
 //Hide MAGIC Quivers & Bolts above level 30
-ItemDisplay[aq2 RARE !ID]: %DOT-6F%%YELLOW%***************%NL%%NL%%GREEN%°%YELLOW% %NAME%%GREEN%° %NL%%NL%%YELLOW%***************
+ItemDisplay[aq2 RARE !ID]: %DOT-6F%%YELLOW%***************%NL%%NL%%GREEN%°%YELLOW%%NAME%%GREEN%° %NL%%NL%%YELLOW%***************
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL<31]: %NAME%
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL>30]:
 ItemDisplay[(aq2 OR cq2) MAG !ID CLVL<31]: %NAME%
@@ -366,7 +366,7 @@ ItemDisplay[MAG cm1 !ID]: %DOT-97%%BLUE%***************%NL%%NL% %GREEN%°%BLUE%S
 ItemDisplay[MAG cm3 !ID]: %DOT-97%%BLUE%***************%NL%%NL% %GREEN%°%BLUE%GC %ORANGE%[L%ILVL%]%GREEN%° %NL%%NL%%BLUE%***************
 //If you delete //, it will be appear
 //ItemDisplay[MAG cm2 !ID]: %DOT-97%LC %ORANGE%[L%ILVL%]
-ItemDisplay[MAG jew !ID]: %DOT-6F%%BLUE%***************%NL%%NL%%GREEN%°%BLUE% %NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%NL%%BLUE%***************
+ItemDisplay[MAG jew !ID]: %DOT-6F%%BLUE%***************%NL%%NL%%GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%NL%%BLUE%***************
 //IAS, STAT17=ed, STAT22=max, STAT86=each kill life, FHR, STAT91=req
 ItemDisplay[RARE jew (IAS>0 AND STAT17>0)]: %YELLOW%%NAME%%ORANGE%[L%ILVL%] %NL% %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»%WHITE%ED %RED%IAS%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
 ItemDisplay[RARE jew (IAS>0 AND STAT22>0)]: %YELLOW%%NAME%%ORANGE%[L%ILVL%] %NL% %PURPLE%MAX %RED%IAS
