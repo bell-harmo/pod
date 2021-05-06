@@ -367,7 +367,7 @@ ItemDisplay[MAG rin ID]: %BLUE%%NAME%
 ItemDisplay[MAG (cm1 OR cm3) !ID]: %DOT-97%%BLUE%***************%NL%%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%NL%%BLUE%***************
 //라지참 삭제 //지우면 라지참 나옴
 //ItemDisplay[MAG cm2 !ID]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG jew !ID]: %DOT-6F%%BLUE%***************%NL%%NL%%GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%NL%%BLUE%***************
+ItemDisplay[MAG jew !ID]: %DOT-6F%%BLUE%***************%NL%%NL%%GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%°%NL%%NL%%BLUE%***************
 //IAS=공속, STAT17=증뎀, STAT22=max, STAT86=each kill life, FHR=히트리커버리, STAT91=리콰이어먼트
 ItemDisplay[RARE jew (IAS>0 AND STAT17>0)]: %YELLOW%%NAME%%ORANGE%[L%ILVL%] %NL% %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»%WHITE%증뎀 %RED%공속%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
 ItemDisplay[RARE jew (IAS>0 AND STAT22>0)]: %YELLOW%%NAME%%ORANGE%[L%ILVL%] %NL% %PURPLE%맥뎀 %RED%공속
