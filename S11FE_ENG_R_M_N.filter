@@ -261,7 +261,7 @@ ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %MAP-0B%%RED%*****%YELLOW
 //Tomes
 ItemDisplay[(tbk OR ibk)]: %WHITE%%NAME%
 //Hide MAGIC Quivers & Bolts above level 30
-ItemDisplay[aq2 RARE !ID]: %DOT-6F%%YELLOW%***************%NL%%NL%%GREEN%°%YELLOW%%NAME%%GREEN%° %NL%%NL%%YELLOW%***************
+ItemDisplay[aq2 RARE !ID]: %DOT-6F%%YELLOW%***************%NL%%NL% %GREEN%°%YELLOW%%NAME%%GREEN%° %NL%%NL%%YELLOW%***************
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL<31]: %NAME%
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL>30]:
 ItemDisplay[(aq2 OR cq2) MAG !ID CLVL<31]: %NAME%
