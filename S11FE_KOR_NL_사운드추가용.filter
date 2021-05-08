@@ -957,6 +957,10 @@ ItemDisplay[UNI rin ID (STAT360=1 AND STAT36=5)]: %NAME% %ORANGE%5%뎀감 %RED%�
 ItemDisplay[UNI rin ID (STAT360=1 AND STAT36=6)]: %NAME% %ORANGE%6%뎀감 %RED%타락됨
 ItemDisplay[UNI (amu OR rin) ID STAT360=1]: %NAME% %RED%타락됨
 ItemDisplay[UNI (WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
+ItemDisplay[UNI 7bk ID (STAT360=1 AND STAT218>0)]: %NAME%%ORANGE%맥뎀 %RED%타락됨
+ItemDisplay[UNI zhb ID (STAT360=1 AND STAT156=8)]: %NAME%%ORANGE%8%관통 %RED%타락됨
+ItemDisplay[UNI ama ID (STAT360=1 AND IAS>0)]: %NAME%%ORANGE%공속 %RED%타락됨
+ItemDisplay[UNI amf ID (STAT360=1 AND IAS>15)]: %NAME%%ORANGE%공속 %RED%타락됨
 ItemDisplay[UNI zvb ID (STAT360=1 AND STAT156=41)]: %NAME%%ORANGE%8%관통 %RED%타락됨
 ItemDisplay[UNI umc ID (STAT360=1 AND STAT156=8)]: %NAME%%ORANGE%8%관통 %RED%타락됨
 ItemDisplay[UNI EQ4 ID (STAT360=1 AND IAS=20)]: %NAME%%ORANGE%10%공속 %RED%타락됨
