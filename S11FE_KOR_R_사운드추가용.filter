@@ -261,7 +261,7 @@ ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %NL%       %RED%»%YELLOW
 //Tomes
 ItemDisplay[(tbk OR ibk)]: %WHITE%%NAME%
 //Hide MAGIC Quivers & Bolts above level 30
-ItemDisplay[aq2 RARE !ID]: %RED%»%YELLOW%» %YELLOW% %NAME% %RED%»%YELLOW%»
+ItemDisplay[aq2 RARE !ID]: %NL%   %RED%»%YELLOW%» %YELLOW% %NAME% %RED%»%YELLOW%»   %NL%
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL<31]: %NAME%
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL>30]:
 ItemDisplay[(aq2 OR cq2) MAG !ID CLVL<31]: %NAME%
@@ -331,8 +331,8 @@ ItemDisplay[skz]:{%NL%%YELLOW%레어 옵션 변환 %NL%%ORANGE%퍼펙트 스컬*
 
 //RARES
 //Best Rares/magic (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
-ItemDisplay[RARE EQ7 !ETH !ID]: %RED%»%YELLOW%»%GREEN%»%BLUE%» %YELLOW%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»
-ItemDisplay[RARE EQ7 ETH !ID]: %RED%»%YELLOW%»%GREEN%»%BLUE%» %PURPLE%ETH %YELLOW%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»
+ItemDisplay[RARE EQ7 !ETH !ID]: %NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%» %YELLOW%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»   %NL%
+ItemDisplay[RARE EQ7 ETH !ID]: %NL%   %RED%»%YELLOW%»%GREEN%»%BLUE%» %PURPLE%ETH %YELLOW%%NAME% %RED%»%YELLOW%»%GREEN%»%BLUE%»   %NL%
 //CLSK1 SORCERESS, CLSK2 NECROMANCER, CLSK3 PALADIN, CLSK6 ASSASIN, CLSK0 AMAZON
 ItemDisplay[RARE EQ7 !ETH ID (CLSK1>1 AND STAT105>0)]: %YELLOW% %NAME% %NL% %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»%GREEN%+2 소서리스 %ORANGE%패캐 %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%» %CONTINUE%
 ItemDisplay[RARE EQ7 !ETH ID (CLSK2>1 AND STAT105>0)]: %YELLOW% %NAME% %NL% %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»%GREEN%+2 네크로맨서 %ORANGE%패캐 %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%» %CONTINUE%
