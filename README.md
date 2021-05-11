@@ -10,7 +10,7 @@
  
  1. Large Charm is disabled. you can turn on that by after deletion "//"
  2. All items(Misc, Armor and weapon) are shown until LV60(Or Portion LV30)
- 3. Craft items are diaable. you can turn on that when you delete // on the list
+ 3. Craft items are disable. you can turn on that when you delete // on the list
  4. Item's color level : Rainbow Marking >> RED >> Special Color >> Dark_Green >> Gray
  5. Bolt and Arrow unique are disabled
  6. Bolt Magic & Rare is disabled
@@ -32,8 +32,8 @@
 
 
 # DM 
-  ## Reddit : DamageFunny3572
-  ## Discord : mhpark2359#2972
+  Reddit : DamageFunny3572
+  Discord : mhpark2359#2972
 
 
 # Explanation
