@@ -18,7 +18,7 @@
  9. Other normal and exception items(Non Magic) are diabled (Excepted for Mage plate)
  10. All filters are equipped with Minimap function (Not implemented)
  11. Some Rare items which are Arrow/Circlet/Boots/Belt will be gray color if not used and not GG option.
- 12. Rare Items are able 
+ 12. Rare Items are able below like
  CL1(pelt),CL2(barba helmet),CL3(Pala shield),CL4(Nec Shield),CL5(Assa Weapon),CL6(Soc Weapon),CL7(Ama weapon),WP12(Wand),EQ4(Gloves),EQ5(Boots),EQ6(Belts),EQ7(Circlets)
  13. GG unique item has special rainbow marking (Not GG unique is shown by normally)
  14. GG Set(+Bramble Mits glove) item has special rainbow marking (Not GG Set is shown by normally)
