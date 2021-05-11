@@ -14,8 +14,9 @@
  4. Item's color level : Rainbow Marking >> RED >> Special Color >> Dark_Green >> Gray
  5. Bolt and Arrow unique are disabled
  6. Bolt Magic & Rare is disabled
- 7. The gold is shown  [GOLD<1000 CLVL<40]: diabled 1000gold under 40Level [GOLD<2000 (CLVL>39 AND CLVL<=69)]: [GOLD<5000 CLVL>69]:
- 8. The normal item which has 6 soc is able
+ 7. The gold is shown  
+    diabled under1000gold(40lvl under),diabled under2000gold(38~69lvl),diabled under5000gold(over 70lvl)
+ 8. The normal item which has 6 soc is able (cristal sword, halberd, and so on)
  9. Other normal and exception items(Non Magic base item) are diabled (Excepted for Mage plate)
  10. All filters are equipped with Minimap function (Not implemented)
  11. Some Rare items which are Arrow/Circlet/Boots/Belt will be gray color if not used and not GG option.
