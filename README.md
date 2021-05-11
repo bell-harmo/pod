@@ -5,7 +5,8 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPiLLLaa%2Fhit-counter)](https://hits.seeyoufarm.com)
 # Preview
 
- ### This is DC POD gallary Filter for Everyone and Korean. It has special character for several things.
+ ### This is DC POD gallary Filter for Everyone and Korean. It has special character for several things. 
+ ### This filter is proven by Korean Gamer and Relic user!! All valuable items are able!!!
  
  1. Large Charm is disabled. you can turn on that by after deletion "//"
  2. All items(Misc, Armor and weapon) are shown until LV60(Or Portion LV30)
