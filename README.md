@@ -13,7 +13,7 @@
  3. Craft items are diaable. you can turn on that when you delete // on the list
  4. Item's color level : Rainbow Marking >> RED >> Special Color >> Dark_Green >> Gray
  5. Bolt and Arrow unique are disabled
- 6. Bolt Magic & Rare is diabled
+ 6. Bolt Magic & Rare is disabled
  7. The gold is shown  [GOLD<1000 CLVL<40]: diabled 1000gold under 40Level [GOLD<2000 (CLVL>39 AND CLVL<=69)]: [GOLD<5000 CLVL>69]:
  8. The normal item which has 6 soc is able
  9. Other normal and exception items(Non Magic) are diabled (Excepted for Mage plate)
