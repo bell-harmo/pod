@@ -7,9 +7,9 @@
 
  ### This is DC POD gallary Filter for Everyone and Korean. It has special character for several things.
  
- 1. Large Charm is disabled, you can turn on that by after deletion "//"
+ 1. Large Charm is disabled. you can turn on that by after deletion "//"
  2. All items(Misc, Armor and weapon) are shown until LV60(Or Portion LV30)
- 3. Craft items are able when you delete // on the list
+ 3. Craft items are diaable. you can turn on that when you delete // on the list
  4. Item's color level : Rainbow Marking >> RED >> Special Color >> Dark_Green >> Gray
  5. Bolt and Arrow unique are disabled
  6. Bolt Magic & Rare is diabled
