@@ -32,8 +32,8 @@
 
 
 # DM 
-  Reddit : DamageFunny3572
-  Discord : mhpark2359#2972
+  1. Reddit : DamageFunny3572
+  2. Discord : mhpark2359#2972
 
 
 # Explanation
