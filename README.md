@@ -6,6 +6,27 @@
 # Preview
 
  ### This is DC POD gallary Filter for Everyone and Korean. It has special character for several things.
+ 
+ 1. Large Charm is disabled, you can turn on that by after deletion "//"
+ 2. All items(Misc, Armor and weapon) are shown until LV60(Or Portion LV30)
+ 3. Craft items are able when you delete // on the list
+ 4. Item's color level : Rainbow Marking >> RED >> Special Color >> Dark_Green >> Gray
+ 5. Bolt and Arrow unique are disabled
+ 6. Bolt Magic & Rare is diabled
+ 7. The gold is shown  [GOLD<1000 CLVL<40]: diabled 1000gold under 40Level [GOLD<2000 (CLVL>39 AND CLVL<=69)]: [GOLD<5000 CLVL>69]:
+ 8. The normal 6 soc is able
+ 9. Other normal and exception items are diabled (Excepted for Mage plate)
+ 10. All filters are equipped with Minimap function (Not implemented)
+ 11. Some Rare items which are Arrow/Circlet/Boots/Belt will be gray color if not used and not GG option.
+ 12. Rare Items are able 
+ CL1(pelt),CL2(barba helmet),CL3(Pala shield),CL4(Nec Shield),CL5(Assa Weapon),CL6(Soc Weapon),CL7(Ama weapon),WP12(Wand),EQ4(Gloves),EQ5(Boots),EQ6(Belts),EQ7(Circlets)
+ 13. GG unique item has special rainbow marking (Not GG unique is shown by normally)
+ 14. GG Set(+Bramble Mits glove) item has special rainbow marking (Not GG Set is shown by normally)
+ 15. GG Base item has special rainbow marking
+ 16. Almost Elite base is able
+ 17. Druid pelt (+3 Hurricane/+3armageddon), (+3Hurricane/+3 Tornado), (+3Grizzly/+3Dire wolf), (+3Grizzly/+3Sprit Wolf) is activated
+ 18. Barba Helmet(+3 war cry/+3battlecry),(+3war cry/+3battle orders),(+3war cry/+3grim ward), (+3battle orders/+3grim ward) is activated
+ 
 ----------------------------------------------------------------------------------------------------------------------
 
 
