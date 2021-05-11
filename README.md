@@ -15,7 +15,7 @@
  6. Bolt Magic & Rare is diabled
  7. The gold is shown  [GOLD<1000 CLVL<40]: diabled 1000gold under 40Level [GOLD<2000 (CLVL>39 AND CLVL<=69)]: [GOLD<5000 CLVL>69]:
  8. The normal 6 soc is able
- 9. Other normal and exception items are diabled (Excepted for Mage plate)
+ 9. Other normal and exception items(Non Magic) are diabled (Excepted for Mage plate)
  10. All filters are equipped with Minimap function (Not implemented)
  11. Some Rare items which are Arrow/Circlet/Boots/Belt will be gray color if not used and not GG option.
  12. Rare Items are able 
