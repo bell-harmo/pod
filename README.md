@@ -26,8 +26,8 @@
  14. GG Set(+Bramble Mits glove) item has special rainbow marking (Not GG Set is shown by normally)
  15. GG Base item has special rainbow marking
  16. Almost Elite base items are able to drop
- 17. Druid pelt (+3 Hurricane/+3armageddon), (+3Hurricane/+3 Tornado), (+3Grizzly/+3Dire wolf), (+3Grizzly/+3Sprit Wolf) is activated
- 18. Barba Helmet(+3 war cry/+3battlecry),(+3war cry/+3battle orders),(+3war cry/+3grim ward), (+3battle orders/+3grim ward) is activated
+ 17. Druid pelt (+3 Hurricane/+3armageddon), (+3Hurricane/+3 Tornado), (+3Grizzly/+3Dire wolf), (+3Grizzly/+3Sprit Wolf) is ONLY activated
+ 18. Barba Helmet(+3 war cry/+3battlecry),(+3war cry/+3battle orders),(+3war cry/+3grim ward), (+3battle orders/+3grim ward) is ONLY activated
  
 ----------------------------------------------------------------------------------------------------------------------
 
