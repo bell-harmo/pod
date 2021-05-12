@@ -81,9 +81,8 @@ ItemDisplay[(ma4 OR ma8 OR ma9) MAG]:%DARK_GREEN%%NAME% %GREEN%티어2 %BLUE%[L%
 ItemDisplay[(ma4 OR ma8 OR ma9) RARE]:%DARK_GREEN%%NAME% %GREEN%티어2 %YELLOW%[L%ILVL%]%CONTINUE%
 ItemDisplay[(ma2 OR ma6 OR ma7) MAG]:%RED%%NAME% %ORANGE%티어3 %BLUE%[L%ILVL%]%CONTINUE%
 ItemDisplay[(ma2 OR ma6 OR ma7) RARE]:%RED%%NAME% %ORANGE%티어3 %YELLOW%[L%ILVL%]%CONTINUE%
-ItemDisplay[ma10 RARE]:%RED%»%YELLOW%»%GREEN%»%BLUE%»%RED%%NAME% %ORANGE%카우 %YELLOW%[L%ILVL%]%RED%»%YELLOW%»%GREEN%»%BLUE%»%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) STAT80>0]:%NAME% %GREEN%매찬
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) STAT360=1]:%NAME% %RED%타락됨
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT80>0]:%NAME% %GREEN%매찬
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT360=1]:%NAME% %RED%타락됨
 //Good Charms
 ItemDisplay[cm3 (STAT22>6 AND LIFE>0)]: %TAN%맥뎀 %RED%피 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (STAT22>6 AND STAT96>0)]: %TAN%맥뎀 %ORANGE%달려 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
@@ -201,7 +200,11 @@ ItemDisplay[rvs]: %PURPLE%RP %WHITE%35%
 ItemDisplay[(hp5 OR mp4 OR mp5 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR tsc OR isc OR wms OR yps OR gpm OR opm OR opl OR ops OR gps OR gpl OR vps) CLVL<31]:%NAME%
 ItemDisplay[(hp5 OR mp4 OR mp5 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR tsc OR isc OR wms OR yps OR gpm OR opm OR opl OR ops OR gps OR gpl OR vps) CLVL>30]:
 //Essences (Respec Token)
-ItemDisplay[(tes OR ceh OR bet OR fed OR toa)]: %MAP-0B%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%%NAME% %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NOTIFY-GOLD%
+ItemDisplay[tes]: %MAP-0B%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%%NAME% %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NOTIFY-GOLD%
+ItemDisplay[ceh]: %MAP-0B%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%%NAME% %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NOTIFY-GOLD%
+ItemDisplay[bet]: %MAP-0B%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%%NAME% %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NOTIFY-GOLD%
+ItemDisplay[fed]: %MAP-0B%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%%NAME% %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NOTIFY-GOLD%
+ItemDisplay[toa]: %MAP-0B%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%면죄의 징표 %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NOTIFY-GOLD%
 //PoD Items
 ItemDisplay[cx5]: %SOUND-2678%%MAP-62%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL%%PURPLE%타락의 오브%NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NOTIFY-PURPLE%
 ItemDisplay[cx5]:{%NL%헬름/갑옷/방패/무기:소켓[1toMAX]%NL%부츠:올레[5to10%]%NL%부츠:민첩[5to15]%NL%부츠:쿨탐감소[10%]%NL%장갑:공속[10%]%NL%장갑:올레[5to10%]%NL%아뮬렛:모든 스킬[1]%NL%링:패캐[10%]%NL%링:달려[10%]%NL%링:뎀감[5to6%]%NL%벨트:피어싱[8%]%NL%화살통:공속[10%]%NL%%NL%%ORANGE%Best Option for Each Item}
@@ -223,21 +226,21 @@ ItemDisplay[cq2 RARE !ID CLVL>30]:
 //misc
 ItemDisplay[(bbb OR ass OR bkd OR bks OR box OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz)]: %TAN%%NAME%
 //Orb +PLAGUE SK62 HYDRA, SK59 BLI, SK 58 ES
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>2 AND SK59>2 AND SK58>2) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%+3하이드라 %BLUE%+3블리 %GREEN%+3에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%하이드라 %BLUE%블리 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%하이드라 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%블리 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK64>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%프오브 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK50>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%쉬버 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK60>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%칠링 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>2 AND SK59>2 AND SK58>2) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%+3하이드라 %BLUE%+3블리 %GREEN%+3에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%하이드라 %BLUE%블리 %GREEN%에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%하이드라 %GREEN%에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%블리 %GREEN%에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK64>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%프오브 %GREEN%에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK50>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%쉬버 %GREEN%에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK60>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%칠링 %GREEN%에쉴 %ORANGE%[역병 베이스]
 
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>2 AND SK59>2 AND SK58>2) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM%NL%%ORANGE%(%QT%)}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM%NL%%ORANGE%(%QT%)}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM%NL%%ORANGE%(%QT%)}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM%NL%%ORANGE%(%QT%)}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK64>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM%NL%%ORANGE%(%QT%)}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK50>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM%NL%%ORANGE%(%QT%)}
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK60>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM%NL%%ORANGE%(%QT%)}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>2 AND SK59>2 AND SK58>2) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK64>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK50>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK60>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
 //Wand +WHITE
 ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK84>2 (SOCK=0 OR SOCK=2)]: %DARK_GREEN%%NAME% %ORANGE%+3 본스피어 %PURPLE%[%SOCKETS%]
 ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK84>2 (SOCK=0 OR SOCK=2)]: {%NL%%GOLD% 화이트: %ORANGE%돌%WHITE%+%TAN%아이오%NL%%ORANGE%(%QT%)}
