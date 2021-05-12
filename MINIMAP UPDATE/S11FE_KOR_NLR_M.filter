@@ -81,9 +81,8 @@ ItemDisplay[(ma4 OR ma8 OR ma9) MAG]:%DARK_GREEN%%NAME% %GREEN%티어2 %BLUE%[L%
 ItemDisplay[(ma4 OR ma8 OR ma9) RARE]:%DARK_GREEN%%NAME% %GREEN%티어2 %YELLOW%[L%ILVL%]%CONTINUE%
 ItemDisplay[(ma2 OR ma6 OR ma7) MAG]:%RED%%NAME% %ORANGE%티어3 %BLUE%[L%ILVL%]%CONTINUE%
 ItemDisplay[(ma2 OR ma6 OR ma7) RARE]:%RED%%NAME% %ORANGE%티어3 %YELLOW%[L%ILVL%]%CONTINUE%
-ItemDisplay[ma10 RARE]:%RED%»%YELLOW%»%GREEN%»%BLUE%»%RED%%NAME% %ORANGE%카우 %YELLOW%[L%ILVL%]%RED%»%YELLOW%»%GREEN%»%BLUE%»%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) STAT80>0]:%NAME% %GREEN%매찬
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10) STAT360=1]:%NAME% %RED%타락됨
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT80>0]:%NAME% %GREEN%매찬
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT360=1]:%NAME% %RED%타락됨
 //Good Charms
 ItemDisplay[cm3 (STAT22>6 AND LIFE>0)]: %TAN%맥뎀 %RED%피 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (STAT22>6 AND STAT96>0)]: %TAN%맥뎀 %ORANGE%달려 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
@@ -223,13 +222,13 @@ ItemDisplay[cq2 RARE !ID CLVL>30]:
 //misc
 ItemDisplay[(bbb OR ass OR bkd OR bks OR box OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz)]: %TAN%%NAME%
 //Orb +PLAGUE SK62 HYDRA, SK59 BLI, SK 58 ES
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>2 AND SK59>2 AND SK58>2) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%+3하이드라 %BLUE%+3블리 %GREEN%+3에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%하이드라 %BLUE%블리 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%하이드라 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%블리 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK64>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%프오브 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK50>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%쉬버 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
-ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK60>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%칠링 %GREEN%에쉴 %ORANGE%[PLAGUE BASE]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>2 AND SK59>2 AND SK58>2) (SOCK=0 OR SOCK=3)]: %GARY%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%+3하이드라 %BLUE%+3블리 %GREEN%+3에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GARY%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%하이드라 %BLUE%블리 %GREEN%에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK62>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GARY%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%하이드라 %GREEN%에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK59>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GARY%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%블리 %GREEN%에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK64>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GARY%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%프오브 %GREEN%에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK50>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GARY%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%쉬버 %GREEN%에쉴 %ORANGE%[역병 베이스]
+ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK60>0 AND SK58>0) (SOCK=0 OR SOCK=3)]: %GARY%%NAME%%PURPLE%[%SOCKETS%]%NL%%BLUE%칠링 %GREEN%에쉴 %ORANGE%[역병 베이스]
 //Wand +WHITE
 ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK84>2 (SOCK=0 OR SOCK=2)]: %DARK_GREEN%%NAME% %ORANGE%+3 본스피어 %PURPLE%[%SOCKETS%]
 //Vendor items
