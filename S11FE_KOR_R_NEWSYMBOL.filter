@@ -265,7 +265,7 @@ ItemDisplay[glg]: %NL%   %YELLOW%!%ORANGE%에메랄드[%GREEN%@%ORANGE%]   %NL%
 ItemDisplay[glr]: %NL%   %YELLOW%!%ORANGE%루비[%RED%@%ORANGE%]   %NL%
 ItemDisplay[glb]: %YELLOW%!%GRAY%사파이어%ORANGE%[%BLUE%@%ORANGE%]
 ItemDisplay[gly]: %YELLOW%!%GRAY%토파즈%ORANGE%[%YELLOW%@%ORANGE%]
-ItemDisplay[skl]: %SOUND-2664%%DOT-50%%NL%   %YELLOW%!%ORANGE%해골[%GOLD%@%ORANGE%]   %NL%
+ItemDisplay[skl]: %DOT-50%%NL%   %YELLOW%!%ORANGE%해골[%GOLD%@%ORANGE%]   %NL%
 
 ItemDisplay[gzv]:{%NL%%GOLD%무기 소켓 추가%NL%%ORANGE%랄%WHITE%+%RED%엠%WHITE%+%RED%퍼펙트 자수정%NL%}
 ItemDisplay[glw]:{%NL%%GOLD%유니크 방어구 업%NL%%ORANGE%탈%WHITE%+%RED%샤에%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<익셉셔널업>%NL%%ORANGE%코%WHITE%+%RED%렘%WHITE%+%TAN%퍼펙트 다이아몬드%RED%<엘리트업>%NL%}
