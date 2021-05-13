@@ -5,14 +5,15 @@ ItemDisplay[box]:{%NL%%ORANGE%히트파워장갑:%WHITE%P사파이어+쥬얼+부
 ItemDisplay[hp5]: %RED%!%WHITE%HP
 ItemDisplay[mp5]: %BLUE%!%WHITE%MP
 //노말이상부터 중급 포션드랍되나 렐릭에서는 미드랍, 나이트메어부터는 소량 드랍 삭제 
-ItemDisplay[(hp3 OR hp4) DIFFICULTY>0]: %RED%!%WHITE%중급HP
+ItemDisplay[(hp3 OR hp4)]: %RED%!%WHITE%중급HP
 ItemDisplay[(hp3 OR hp4) AREALVL>85]:
-ItemDisplay[(hp1 OR hp2) DIFFICULTY>0]: %RED%!%WHITE%소량HP
+ItemDisplay[(hp1 OR hp2)]: %RED%!%WHITE%소량HP
 ItemDisplay[(hp1 OR hp2) DIFFICULTY>1]:
-ItemDisplay[(mp3 OR mp4) DIFFICULTY>0]: %BLUE%!%WHITE%중급MP
+ItemDisplay[(mp3 OR mp4)]: %BLUE%!%WHITE%중급MP
 ItemDisplay[(mp3 OR mp4) AREALVL>85]:
-ItemDisplay[(mp1 OR mp2) DIFFICULTY>0]: %BLUE%!%WHITE%소량MP
+ItemDisplay[(mp1 OR mp2)]: %BLUE%!%WHITE%소량MP
 ItemDisplay[(mp1 OR mp2) DIFFICULTY>1]:
+
 ItemDisplay[tsc AREALVL<86]:%BLUE%!%WHITE%TP
 ItemDisplay[tsc AREALVL>85]:
 ItemDisplay[isc AREALVL<86]:%RED%!%WHITE%ID
@@ -957,9 +958,9 @@ ItemDisplay[(!INF AND !NMAG AND !MAG AND !RARE AND !UNI AND !SET) amu ID STAT360
 
 //RARES/NORM/MAG (Norm nonclass items hidden)
 ItemDisplay[(WEAPON OR ARMOR) NORM NMAG !ETH DIFFICULTY>0]:%NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[(WEAPON OR ARMOR) NORM NMAG !ETH DIFFICULTY<2]:
+ItemDisplay[(WEAPON OR ARMOR) NORM NMAG !ETH DIFFICULTY<3]:
 ItemDisplay[(WEAPON OR ARMOR) NORM NMAG ETH DIFFICULTY>0]:%PURPLE%ETH %GRAY%%NAME% %PURPLE%[%SOCKETS%]
-ItemDisplay[(WEAPON OR ARMOR) NORM NMAG ETH DIFFICULTY<2]:
+ItemDisplay[(WEAPON OR ARMOR) NORM NMAG ETH DIFFICULTY<3]:
 ItemDisplay[(WEAPON OR ARMOR) EXC !ETH NMAG DIFFICULTY>0]:%NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[(WEAPON OR ARMOR) EXC !ETH NMAG AREALVL>85]:
 ItemDisplay[(WEAPON OR ARMOR) EXC ETH NMAG DIFFICULTY>0]:%PURPLE%ETH %GRAY%%NAME% %PURPLE%[%SOCKETS%]
