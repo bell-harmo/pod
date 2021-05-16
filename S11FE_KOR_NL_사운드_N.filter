@@ -260,7 +260,7 @@ ItemDisplay[RARE EQ7 !ETH ID (STAT360=1 AND SOCK>0)]: %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[RARE EQ7 !ETH ID STAT360=1]: %NAME% %RED%타락됨
 ItemDisplay[RARE (ci1 OR ci0)]: {%ORANGE%(노말)%NL%%RED%(써클릿, 코로니트는 커럽 전 업그레이드 필수)%NL%%YELLOW%(업그레이드:%WHITE%랄+주울+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)}
 ItemDisplay[RARE (amu OR rin OR jew) !ID]: %DOT-6F%%RED%*%YELLOW%*%GREEN%*%BLUE%* %YELLOW%%NAME% %RED%*%YELLOW%*%GREEN%*%BLUE%*%NOTIFY-YELLOW%
-ItemDisplay[SET !ID amu]: %DOT-84%%RED%*%YELLOW%*%GREEN%*%BLUE%* %GREEN%%NAME% %RED%*%YELLOW%*%GREEN%*%BLUE%*
+ItemDisplay[SET !ID amu]: %DOT-84%%PURPLE%** %GREEN%%NAME% %WHITE%탈라샤좀떠라 %PURPLE%**
 ItemDisplay[SET !ID rin]: %GREEN%%NAME%
 //ItemDisplay[MAG amu !ID]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
 //ItemDisplay[MAG rin !ID]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
