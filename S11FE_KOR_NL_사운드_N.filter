@@ -190,9 +190,9 @@ ItemDisplay[(ob5 OR oba OR obf) !RW NMAG !ETH (SK60>0 AND SK58>0) (SOCK=0 OR SOC
 ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK84>2 (SOCK=0 OR SOCK=2)]: %DARK_GREEN%%NAME% %ORANGE%+3 본스피어 %PURPLE%[%SOCKETS%]
 ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK84>2 (SOCK=0 OR SOCK=2)]: {%NL%%GOLD% 화이트: %ORANGE%돌%WHITE%+%TAN%아이오%NL%%ORANGE%(%QT%)}
 //Vendor items
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY=3]: %ORANGE%[$%PRICE%]
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=2]: %ORANGE%[$%PRICE%]
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=1]: %ORANGE%[$%PRICE%]
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY=3]: %ORANGE%[$%PRICE%]%WHITE%수리비있나?
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=2]: %ORANGE%[$%PRICE%]%WHITE%수리비있나?
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=1]: %ORANGE%[$%PRICE%]%WHITE%수리비있나?
 ////RUNES
 ItemDisplay[RUNE>0 RUNE<8]: %TAN%%RUNENAME% %PURPLE%[%RUNENUM%] 
 ItemDisplay[RUNE>7 RUNE<20]: %DOT-50%%TAN%%RUNENAME% %PURPLE%[%RUNENUM%]%WHITE%은 어디서 나오죠?%NOTIFY-TAN%
