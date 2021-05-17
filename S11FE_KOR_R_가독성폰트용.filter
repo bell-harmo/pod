@@ -212,7 +212,7 @@ ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %MAP-0B%%NL%       %RED%*
 //Tomes
 ItemDisplay[(tbk OR ibk)]: %WHITE%%NAME%
 //Hide MAGIC Quivers & Bolts above level 30
-ItemDisplay[aq2 RARE !ID]: %DOT-6F%%NL%   %RED%*%YELLOW%* %YELLOW% %NAME% %RED%*%YELLOW%*   %NL%
+ItemDisplay[aq2 RARE !ID]: %DOT-6F%%NL%   %RED%** %YELLOW%%NAME% %RED%**   %NL%
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL<31]: %NAME%
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL>30]:
 ItemDisplay[(aq2 OR cq2) MAG !ID CLVL<31]: %NAME%
@@ -385,10 +385,10 @@ ItemDisplay[MAG rin ID ]: %BLUE%%NAME%
 ItemDisplay[MAG amu]:{%NL%%WHITE%주얼+아뮬렛+랄+최상급 자수정%NL%%ORANGE%캐스터 크래프트}
 ItemDisplay[MAG rin]:{%NL%%WHITE%주얼+링+엠+최상급 자수정%NL%%ORANGE%캐스터 크래프트}
 //Charms/JEWELS
-ItemDisplay[MAG (cm1 OR cm3) !ID]: %DOT-97%%NL%   %RED%*%BLUE% %NAME% %ORANGE%[L%ILVL%] %RED%*   %NL%
+ItemDisplay[MAG (cm1 OR cm3) !ID]: %DOT-97%%NL%   %GREEN%** %BLUE%%NAME% %ORANGE%[L%ILVL%] %GREEN%**   %NL%
 //라지참 삭제 //지우면 라지참 나옴
 //ItemDisplay[MAG cm2 !ID]: %DOT-97%%NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG jew !ID]: %DOT-6F%%NL%   %RED%*%BLUE% %NAME% %ORANGE%[L%ILVL%] %RED%*   %NL%
+ItemDisplay[MAG jew !ID]: %DOT-6F%%NL%   %GREEN%** %BLUE%%NAME% %ORANGE%[L%ILVL%] %GREEN%**   %NL%
 //IAS=공속, STAT17=증뎀, STAT22=max, STAT86=each kill life, FHR=히트리커버리, STAT91=리콰이어먼트
 ItemDisplay[RARE jew (IAS>0 AND STAT17>0)]: %YELLOW%%NAME%%ORANGE%[L%ILVL%] %NL% %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%WHITE%증뎀 %RED%공속%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[RARE jew (IAS>0 AND STAT22>0)]: %YELLOW%%NAME%%ORANGE%[L%ILVL%] %NL% %PURPLE%맥뎀 %RED%공속
