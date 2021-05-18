@@ -582,55 +582,55 @@ ItemDisplay[SET !ID uth]: %DOT-84%%GREEN%*********************%NL%%GREEN%%NAME%%
 ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %DOT-84%%GREEN%*********************%NL%%GREEN%%NAME%%NL%%DARK_GREEN%트랑 울%NL%%GREEN%*********************%NOTIFY-GREEN%
 ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*
 //CRAFTING
-ItemDisplay[(xvg OR uvg) MAG !ID]: %BLUE% Blood CRAFT Glove %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xvg OR uvg) MAG !ID]: %ORANGE% Blood %NL%%BLUE%CRAFT Glove %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xvg OR uvg) MAG !ID]: {%NL%%WHITE%NEF+P_RUBY+JEWEL}
-ItemDisplay[(xlm OR ulm) MAG !ID]: %BLUE% Blood CRAFT Helm %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xlm OR ulm) MAG !ID]: %ORANGE% Blood %NL%%BLUE%CRAFT Helm %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xlm OR ulm) MAG !ID]: {%NL%%WHITE%RAL+P_RUBY+JEWEL}
-ItemDisplay[(xtb OR utb) MAG !ID]: %BLUE% Blood CRAFT Boots %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xtb OR utb) MAG !ID]: %ORANGE% Blood %NL%%BLUE%CRAFT Boots %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xtb OR utb) MAG !ID]: {%NL%%WHITE%ETH+P_RUBY+JEWEL}
-ItemDisplay[(zmb OR umc) MAG !ID]: %BLUE% Blood CRAFT Belts %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(zmb OR umc) MAG !ID]: %ORANGE% Blood %NL%%BLUE%CRAFT Belts %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(zmb OR umc) MAG !ID]: {%NL%%WHITE%TAL+P_RUBY+JEWEL}
-ItemDisplay[(xpk OR upk) MAG !ID]: %BLUE% Blood CRAFT Shield %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xpk OR upk) MAG !ID]: %ORANGE% Blood %NL%%BLUE%CRAFT Shield %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xpk OR upk) MAG !ID]: {%NL%%WHITE%ITH+P_RUBY+JEWEL}
-ItemDisplay[(xlt OR ult) MAG !ID]: %BLUE% Blood CRAFT Armor %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xlt OR ult) MAG !ID]: %ORANGE% Blood %NL%%BLUE%CRAFT Armor %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xlt OR ult) MAG !ID]: {%NL%%WHITE%THUL+P_RUBY+JEWEL}
-ItemDisplay[(xmg OR umg) MAG !ID]: %BLUE% Hit Power CRAFT Glove %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xmg OR umg) MAG !ID]: %ORANGE% Hit Power %NL%%BLUE%CRAFT Glove %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xmg OR umg) MAG !ID]: {%NL%%WHITE%ORT+P_SAPPHIRE+JEWEL}
-ItemDisplay[(xhl OR uhl) MAG !ID]: %BLUE% Hit Power CRAFT Helm %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xhl OR uhl) MAG !ID]: %ORANGE% Hit Power %NL%%BLUE%CRAFT Helm %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xhl OR uhl) MAG !ID]: {%NL%%WHITE%ITH+P_SAPPHIRE+JEWEL}
-ItemDisplay[(xmb OR umb) MAG !ID]: %BLUE% Hit Power CRAFT Boots %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xmb OR umb) MAG !ID]: %ORANGE% Hit Power %NL%%BLUE%CRAFT Boots %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xmb OR umb) MAG !ID]: {%NL%%WHITE%RAL+P_SAPPHIRE+JEWEL}
-ItemDisplay[(ztb OR utc) MAG !ID]: %BLUE% Hit Power CRAFT Belts %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(ztb OR utc) MAG !ID]: %ORANGE% Hit Power %NL%%BLUE%CRAFT Belts %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(ztb OR utc) MAG !ID]: {%NL%%WHITE%TAL+P_SAPPHIRE+JEWEL}
-ItemDisplay[(xts OR uts) MAG !ID]: %BLUE% Hit Power CRAFT Shield %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xts OR uts) MAG !ID]: %ORANGE% Hit Power %NL%%BLUE%CRAFT Shield %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xts OR uts) MAG !ID]: {%NL%%WHITE%ETH+P_SAPPHIRE+JEWEL}
-ItemDisplay[(xld OR uld) MAG !ID]: %BLUE% Hit Power CRAFT Armor %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xld OR uld) MAG !ID]: %ORANGE% Hit Power %NL%%BLUE%CRAFT Armor %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xld OR uld) MAG !ID]: {%NL%%WHITE%NEF+P_SAPPHIRE+JEWEL}
-ItemDisplay[(WP11 OR WP13) MAG !ID]: %BLUE% Hit Power CRAFT Weapon %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(WP11 OR WP13) MAG !ID]: %ORANGE% Hit Power %NL%%BLUE%CRAFT Weapon %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(WP11 OR WP13) MAG !ID]: {%NL%%WHITE%TIR+P_SAPPHIRE+JEWEL}
-ItemDisplay[(xlg OR ulg) MAG !ID]: %BLUE% Caster CRAFT Glove %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xlg OR ulg) MAG !ID]: %ORANGE% Caster %NL%%BLUE%CRAFT Glove %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xlg OR ulg) MAG !ID]: {%NL%%WHITE%ORT+P_AMETHYST+JEWEL}
-ItemDisplay[(xsk OR usk) MAG !ID]: %BLUE% Caster CRAFT Helm %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xsk OR usk) MAG !ID]: %ORANGE% Caster %NL%%BLUE%CRAFT Helm %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xsk OR usk) MAG !ID]: {%NL%%WHITE%NEF+P_AMETHYST+JEWEL}
-ItemDisplay[(xlb OR ulb) MAG !ID]: %BLUE% Caster CRAFT Boots %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xlb OR ulb) MAG !ID]: %ORANGE% Caster %NL%%BLUE%CRAFT Boots %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xlb OR ulb) MAG !ID]: {%NL%%WHITE%THUL+P_AMETHYST+JEWEL}
-ItemDisplay[(zvb OR uvc) MAG !ID]: %BLUE% Caster CRAFT Belts %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(zvb OR uvc) MAG !ID]: %ORANGE% Caster %NL%%BLUE%CRAFT Belts %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(zvb OR uvc) MAG !ID]: {%NL%%WHITE%ITH+P_AMETHYST+JEWEL}
-ItemDisplay[(xml OR uml) MAG !ID]: %BLUE% Caster CRAFT Shield %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xml OR uml) MAG !ID]: %ORANGE% Caster %NL%%BLUE%CRAFT Shield %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xml OR uml) MAG !ID]: {%NL%%WHITE%ETH+P_AMETHYST+JEWEL}
-ItemDisplay[(xtp OR utp) MAG !ID]: %BLUE% Caster CRAFT Armor %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xtp OR utp) MAG !ID]: %ORANGE% Caster %NL%%BLUE%CRAFT Armor %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xtp OR utp) MAG !ID]: {%NL%%WHITE%TAL+P_AMETHYST+JEWEL}
-ItemDisplay[(xhg OR uhg) MAG !ID]: %BLUE% Safety CRAFT Glove %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xhg OR uhg) MAG !ID]: %ORANGE% Safety %NL%%BLUE%CRAFT Glove %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xhg OR uhg) MAG !ID]: {%NL%%WHITE%RAL+P_EMERALD+JEWEL}
-ItemDisplay[(xrn OR urn) MAG !ID]: %BLUE% Safety CRAFT Helm %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xrn OR urn) MAG !ID]: %ORANGE% Safety %NL%%BLUE%CRAFT Helm %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xrn OR urn) MAG !ID]: {%NL%%WHITE%ITH+P_EMERALD+JEWEL}
-ItemDisplay[(xhb OR uhb) MAG !ID]: %BLUE% Safety CRAFT Boots %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xhb OR uhb) MAG !ID]: %ORANGE% Safety %NL%%BLUE%CRAFT Boots %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xhb OR uhb) MAG !ID]: {%NL%%WHITE%ORT+P_EMERALD+JEWEL}
-ItemDisplay[(zlb OR ulc) MAG !ID]: %BLUE% Safety CRAFT Belts %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(zlb OR ulc) MAG !ID]: %ORANGE% Safety %NL%%BLUE%CRAFT Belts %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(zlb OR ulc) MAG !ID]: {%NL%%WHITE%TAL+P_EMERALD+JEWEL}
-ItemDisplay[(xit OR uit) MAG !ID]: %BLUE% Safety CRAFT Shield %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xit OR uit) MAG !ID]: %ORANGE% Safety %NL%%BLUE%CRAFT Shield %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xit OR uit) MAG !ID]: {%NL%%WHITE%NEF+P_EMERALD+JEWEL}
-ItemDisplay[(xrs OR urs) MAG !ID]: %BLUE% Safety CRAFT Armor %ORANGE%[L%ILVL%][%CRAFTALVL%]
+ItemDisplay[(xrs OR urs) MAG !ID]: %ORANGE% Safety %NL%%BLUE%CRAFT Armor %YELLOW%[L%ILVL%]%ORANGE%%WHITE%[CRL%CRAFTALVL%]
 ItemDisplay[(xrs OR urs) MAG !ID]: {%NL%%WHITE%ETH+P_EMERALD+JEWEL}
 ////Body Armor////
 //ETH Armor +ED
