@@ -151,9 +151,9 @@ ItemDisplay[(hp5 OR mp4 OR mp5 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 
 //Essences (Respec Token)
 ItemDisplay[(tes OR ceh OR bet OR fed OR toa)]: %MAP-0B%%RED%*%YELLOW%*%GREEN%*%BLUE%* %GOLD%%NAME% %RED%*%YELLOW%*%GREEN%*%BLUE%*%NOTIFY-GOLD%
 //PoD Items
-ItemDisplay[cx5]: %MAP-62%%SOUND-2678%%PURPLE%***** *****%WHITE%여러분 %RED%O%YELLOW%O%GREEN%C%WHITE%가 뭐죠?%PURPLE%***** *****%NOTIFY-PURPLE% 
+ItemDisplay[cx5]: %MAP-62%%SOUND-2678%%PURPLE%***** *****%WHITE%여러분 %PURPLE%OOC%WHITE%가 뭐죠?%PURPLE%***** *****%NOTIFY-PURPLE% 
 ItemDisplay[cx5]:{%NL%헬름/갑옷/방패/무기:소켓[1toMAX]%NL%부츠:올레[5to10%]%NL%부츠:민첩[5to15]%NL%부츠:쿨탐감소[10%]%NL%장갑:공속[10%]%NL%장갑:올레[5to10%]%NL%아뮬렛:모든 스킬[1]%NL%링:패캐[10%]%NL%링:달려[10%]%NL%링:뎀감[5to6%]%NL%벨트:피어싱[8%]%NL%화살통:공속[10%]%NL%%NL%%ORANGE%Best Option for Each Item}
-ItemDisplay[cx7]: %MAP-0B%%PURPLE%***** *****%RED%혼%PURPLE%돈%ORANGE%의 %GREEN%열쇠%WHITE% 준비됨 디클론해줄 형님%PURPLE%***** *****%NOTIFY-PURPLE%
+ItemDisplay[cx7]: %MAP-0B%%PURPLE%***** *****%PURPLE%혼돈의 열쇠%WHITE% 준비됨 디클론해줄 형님%PURPLE%***** *****%NOTIFY-PURPLE%
 ItemDisplay[(cx6 OR std OR cx8 OR cx9 OR maz OR leg OR ear)]: %MAP-0B%%SOUND-2664%%RED%*%YELLOW%*%GREEN%*%BLUE%* %PURPLE%%NAME%  %RED%*%YELLOW%*%GREEN%*%BLUE%*%NOTIFY-PURPLE%
 ItemDisplay[UNI !ID cm4]: %MAP-0B%%SOUND-2664%%RED%%NAME%%NOTIFY-PURPLE%
 //Uber Keys
@@ -933,6 +933,7 @@ ItemDisplay[UNI rin ID (STAT360=1 AND STAT36=6)]: %NAME% %ORANGE%6%뎀감 %RED%�
 ItemDisplay[UNI (amu OR rin) ID STAT360=1]: %NAME% %RED%타락됨
 ItemDisplay[UNI (WEAPON OR ARMOR OR aq2 OR cq2) ID]: %NAME% %CONTINUE%
 ItemDisplay[UNI 7bk ID (STAT360=1 AND STAT218>0)]: %NAME%%ORANGE%맥뎀 %RED%타락됨
+ItemDisplay[UNI 7bk ID (STAT360=1 AND IAS>30)]: %NAME%%ORANGE%공속 %RED%타락됨
 ItemDisplay[UNI zhb ID (STAT360=1 AND STAT156=8)]: %NAME%%ORANGE%8%관통 %RED%타락됨
 ItemDisplay[UNI ama ID (STAT360=1 AND IAS>0)]: %NAME%%ORANGE%공속 %RED%타락됨
 ItemDisplay[UNI amf ID (STAT360=1 AND IAS>15)]: %NAME%%ORANGE%공속 %RED%타락됨
