@@ -17,7 +17,7 @@ ItemDisplay[(mp1 OR mp2) CLVL>31]:
 
 ItemDisplay[tsc CLVL<80]:%BLUE%!%WHITE%포탈
 ItemDisplay[tsc CLVL>79]:
-ItemDisplay[isc CLVL<80]:%RED%!%WHITE%식별	
+ItemDisplay[isc CLVL<80]:%RED%!%WHITE%식별
 ItemDisplay[isc CLVL>79]:
 //INF ITEM 삭제
 ItemDisplay[INF WEAPON NMAG]:
