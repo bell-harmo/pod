@@ -600,53 +600,53 @@ ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %DOT-84%%GREEN%*********
 ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*
 //CRAFTING
 ItemDisplay[(xvg OR uvg) MAG !ID]: %RED%[블러드]%WHITE%크래프트%ORANGE%장갑%YELLOW%[L%ILVL%]
-ItemDisplay[(xvg OR uvg) MAG !ID]: {%NL%%WHITE%NEF+P_RUBY+JEWEL}
+ItemDisplay[(xvg OR uvg) MAG]: {%NL%%YELLOW%조합법:%WHITE%NEF+%RED%P_루비%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xlm OR ulm) MAG !ID]: %RED%[블러드]%WHITE%크래프트%ORANGE%모자%YELLOW%[L%ILVL%]
-ItemDisplay[(xlm OR ulm) MAG !ID]: {%NL%%WHITE%RAL+P_RUBY+JEWEL}
+ItemDisplay[(xlm OR ulm) MAG]: {%NL%%YELLOW%조합법:%WHITE%RAL+%RED%P_루비%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xtb OR utb) MAG !ID]: %RED%[블러드]%WHITE%크래프트%ORANGE%신발%YELLOW%[L%ILVL%]
-ItemDisplay[(xtb OR utb) MAG !ID]: {%NL%%WHITE%ETH+P_RUBY+JEWEL}
+ItemDisplay[(xtb OR utb) MAG]: {%NL%%YELLOW%조합법:%WHITE%ETH+%RED%P_루비%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(zmb OR umc) MAG !ID]: %RED%[블러드]%WHITE%크래프트%ORANGE%벨트%YELLOW%[L%ILVL%]
-ItemDisplay[(zmb OR umc) MAG !ID]: {%NL%%WHITE%TAL+P_RUBY+JEWEL}
+ItemDisplay[(zmb OR umc) MAG]: {%NL%%YELLOW%조합법:%WHITE%TAL+%RED%P_루비%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xpk OR upk) MAG !ID]: %RED%[블러드]%WHITE%크래프트%ORANGE%방패%YELLOW%[L%ILVL%]
-ItemDisplay[(xpk OR upk) MAG !ID]: {%NL%%WHITE%ITH+P_RUBY+JEWEL}
+ItemDisplay[(xpk OR upk) MAG]: {%NL%%YELLOW%조합법:%WHITE%ITH+%RED%P_루비%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xlt OR ult) MAG !ID]: %RED%[블러드]%WHITE%크래프트%ORANGE%갑옷%YELLOW%[L%ILVL%]
-ItemDisplay[(xlt OR ult) MAG !ID]: {%NL%%WHITE%THUL+P_RUBY+JEWEL}
+ItemDisplay[(xlt OR ult) MAG]: {%NL%%YELLOW%조합법:%WHITE%THUL+%RED%P_루비%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xmg OR umg) MAG !ID]: %ORANGE%[힛파워]%WHITE%크래프트%ORANGE%장갑%YELLOW%[L%ILVL%]
-ItemDisplay[(xmg OR umg) MAG !ID]: {%NL%%WHITE%ORT+P_SAPPHIRE+JEWEL}
+ItemDisplay[(xmg OR umg) MAG]: {%NL%%YELLOW%조합법:%WHITE%ORT+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xhl OR uhl) MAG !ID]: %ORANGE%[힛파워]%WHITE%크래프트%ORANGE%모자%YELLOW%[L%ILVL%]
-ItemDisplay[(xhl OR uhl) MAG !ID]: {%NL%%WHITE%ITH+P_SAPPHIRE+JEWEL}
+ItemDisplay[(xhl OR uhl) MAG]: {%NL%%YELLOW%조합법:%WHITE%ITH+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xmb OR umb) MAG !ID]: %ORANGE%[힛파워]%WHITE%크래프트%ORANGE%신발%YELLOW%[L%ILVL%]
-ItemDisplay[(xmb OR umb) MAG !ID]: {%NL%%WHITE%RAL+P_SAPPHIRE+JEWEL}
+ItemDisplay[(xmb OR umb) MAG]: {%NL%%YELLOW%조합법:%WHITE%RAL+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(ztb OR utc) MAG !ID]: %ORANGE%[힛파워]%WHITE%크래프트%ORANGE%벨트%YELLOW%[L%ILVL%]
-ItemDisplay[(ztb OR utc) MAG !ID]: {%NL%%WHITE%TAL+P_SAPPHIRE+JEWEL}
+ItemDisplay[(ztb OR utc) MAG]: {%NL%%YELLOW%조합법:%WHITE%TAL+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xts OR uts) MAG !ID]: %ORANGE%[힛파워]%WHITE%크래프트%ORANGE%방패%YELLOW%[L%ILVL%]
-ItemDisplay[(xts OR uts) MAG !ID]: {%NL%%WHITE%ETH+P_SAPPHIRE+JEWEL}
+ItemDisplay[(xts OR uts) MAG]: {%NL%%YELLOW%조합법:%WHITE%ETH+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xld OR uld) MAG !ID]: %ORANGE%[힛파워]%WHITE%크래프트%ORANGE%갑옷%YELLOW%[L%ILVL%]
-ItemDisplay[(xld OR uld) MAG !ID]: {%NL%%WHITE%NEF+P_SAPPHIRE+JEWEL}
+ItemDisplay[(xld OR uld) MAG]: {%NL%%YELLOW%조합법:%WHITE%NEF+%BLUE%P_사파이어%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xlg OR ulg) MAG !ID]: %PURPLE%[캐스터]%WHITE%크래프트%ORANGE%장갑%YELLOW%[L%ILVL%]
-ItemDisplay[(xlg OR ulg) MAG !ID]: {%NL%%WHITE%ORT+P_AMETHYST+JEWEL}
+ItemDisplay[(xlg OR ulg) MAG]: {%NL%%YELLOW%조합법:%WHITE%ORT+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xsk OR usk) MAG !ID]: %PURPLE%[캐스터]%WHITE%크래프트%ORANGE%모자%YELLOW%[L%ILVL%]
-ItemDisplay[(xsk OR usk) MAG !ID]: {%NL%%WHITE%NEF+P_AMETHYST+JEWEL}
+ItemDisplay[(xsk OR usk) MAG]: {%NL%%YELLOW%조합법:%WHITE%NEF+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xlb OR ulb) MAG !ID]: %PURPLE%[캐스터]%WHITE%크래프트%ORANGE%신발%YELLOW%[L%ILVL%]
-ItemDisplay[(xlb OR ulb) MAG !ID]: {%NL%%WHITE%THUL+P_AMETHYST+JEWEL}
+ItemDisplay[(xlb OR ulb) MAG]: {%NL%%YELLOW%조합법:%WHITE%THUL+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(zvb OR uvc) MAG !ID]: %PURPLE%[캐스터]%WHITE%크래프트%ORANGE%벨트%YELLOW%[L%ILVL%]
-ItemDisplay[(zvb OR uvc) MAG !ID]: {%NL%%WHITE%ITH+P_AMETHYST+JEWEL}
+ItemDisplay[(zvb OR uvc) MAG]: {%NL%%YELLOW%조합법:%WHITE%ITH+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xml OR uml) MAG !ID]: %PURPLE%[캐스터]%WHITE%크래프트%ORANGE%방패%YELLOW%[L%ILVL%]
-ItemDisplay[(xml OR uml) MAG !ID]: {%NL%%WHITE%ETH+P_AMETHYST+JEWEL}
+ItemDisplay[(xml OR uml) MAG]: {%NL%%YELLOW%조합법:%WHITE%ETH+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xtp OR utp) MAG !ID]: %PURPLE%[캐스터]%WHITE%크래프트%ORANGE%갑옷%YELLOW%[L%ILVL%]
-ItemDisplay[(xtp OR utp) MAG !ID]: {%NL%%WHITE%TAL+P_AMETHYST+JEWEL}
+ItemDisplay[(xtp OR utp) MAG]: {%NL%%YELLOW%조합법:%WHITE%TAL+%PURPLE%P_자수정%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xhg OR uhg) MAG !ID]: %BLUE%[세이프티]%WHITE%크래프트%ORANGE%장갑%YELLOW%[L%ILVL%]
-ItemDisplay[(xhg OR uhg) MAG !ID]: {%NL%%WHITE%RAL+P_EMERALD+JEWEL}
+ItemDisplay[(xhg OR uhg) MAG]: {%NL%%YELLOW%조합법:%WHITE%RAL+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xrn OR urn) MAG !ID]: %BLUE%[세이프티]%WHITE%크래프트%ORANGE%모자%YELLOW%[L%ILVL%]
-ItemDisplay[(xrn OR urn) MAG !ID]: {%NL%%WHITE%ITH+P_EMERALD+JEWEL}
+ItemDisplay[(xrn OR urn) MAG]: {%NL%%YELLOW%조합법:%WHITE%ITH+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xhb OR uhb) MAG !ID]: %BLUE%[세이프티]%WHITE%크래프트%ORANGE%신발%YELLOW%[L%ILVL%]
-ItemDisplay[(xhb OR uhb) MAG !ID]: {%NL%%WHITE%ORT+P_EMERALD+JEWEL}
+ItemDisplay[(xhb OR uhb) MAG]: {%NL%%YELLOW%조합법:%WHITE%ORT+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(zlb OR ulc) MAG !ID]: %BLUE%[세이프티]%WHITE%크래프트%ORANGE%벨트%YELLOW%[L%ILVL%]
-ItemDisplay[(zlb OR ulc) MAG !ID]: {%NL%%WHITE%TAL+P_EMERALD+JEWEL}
+ItemDisplay[(zlb OR ulc) MAG]: {%NL%%YELLOW%조합법:%WHITE%TAL+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xit OR uit) MAG !ID]: %BLUE%[세이프티]%WHITE%크래프트%ORANGE%방패%YELLOW%[L%ILVL%]
-ItemDisplay[(xit OR uit) MAG !ID]: {%NL%%WHITE%NEF+P_EMERALD+JEWEL}
+ItemDisplay[(xit OR uit) MAG]: {%NL%%YELLOW%조합법:%WHITE%NEF+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ItemDisplay[(xrs OR urs) MAG !ID]: %BLUE%[세이프티]%WHITE%크래프트%ORANGE%갑옷%YELLOW%[L%ILVL%]
-ItemDisplay[(xrs OR urs) MAG !ID]: {%NL%%WHITE%ETH+P_EMERALD+JEWEL}
+ItemDisplay[(xrs OR urs) MAG]: {%NL%%YELLOW%조합법:%WHITE%ETH+%GREEN%P_에메랄드%WHITE%+쥬얼%NL%%ORANGE%(%QT%)}
 ////Body Armor////
 //ETH Armor +ED
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %DOT-75%%NOTIFY-DARK_GREEN%%PURPLE%ETH %DARK_GREEN%%NAME%%BLUE% +15%방상 %PURPLE%[%SOCKETS%]
