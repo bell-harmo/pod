@@ -1309,4 +1309,10 @@ ItemDisplay[(WEAPON OR ARMOR) ID ELT]: {%ORANGE%(엘리트)}
 ItemDisplay[(WEAPON OR ARMOR) ID MAG NORM]: {%ORANGE%(노말)}
 ItemDisplay[(WEAPON OR ARMOR) ID MAG EXC]: {%ORANGE%(익셉셔널)}
 ItemDisplay[(WEAPON OR ARMOR) ID MAG ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[cm2 !ID]:
+
+//RARES/NORM/MAG (Norm nonclass items hidden)
+ItemDisplay[(WEAPON OR ARMOR) NMAG CLVL<31]:%NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[(WEAPON OR ARMOR) NMAG CLVL>30]:
+ItemDisplay[(WEAPON OR ARMOR) !ID (MAG OR RARE) CLVL<31]:%NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[(WEAPON OR ARMOR) !ID (MAG OR RARE) CLVL>30]:
+ItemDisplay[(WEAPON OR ARMOR) ID (MAG OR RARE)]:%NAME%
