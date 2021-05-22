@@ -187,8 +187,8 @@ ItemDisplay[(tbk OR ibk)]: %WHITE%%NAME%
 ItemDisplay[aq2 RARE !ID]: %DOT-6F%%YELLOW%***************%NL%%NL% %GREEN%°%YELLOW%%NAME%%GREEN%° %NL%%NL%%YELLOW%***************
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL<80]: %NAME%
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL>79]:
-ItemDisplay[(aq2 OR cq2) MAG !ID CLVL<80]: %NAME%
-ItemDisplay[(aq2 OR cq2) MAG !ID CLVL>79]:
+ItemDisplay[(aq2 OR cq2) MAG !ID DIFFICULTY<2]: %NAME%
+ItemDisplay[(aq2 OR cq2) MAG !ID DIFFICULTY=2]:
 ItemDisplay[cq2 RARE !ID CLVL<80]: %NAME%
 ItemDisplay[cq2 RARE !ID CLVL>79]:
 //misc
