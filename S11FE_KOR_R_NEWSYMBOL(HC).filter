@@ -10,15 +10,15 @@ ItemDisplay[(hp3 OR hp4) CLVL<80]: %RED%!%WHITE%중급HP
 ItemDisplay[(hp3 OR hp4) CLVL>79]:
 ItemDisplay[(hp1 OR hp2) CLVL<30]: %RED%!%WHITE%소량HP
 ItemDisplay[(hp1 OR hp2) CLVL>31]:
-ItemDisplay[(mp3 OR mp4) CLVL<80]: %BLUE%!%WHITE%중급MP
-ItemDisplay[(mp3 OR mp4) CLVL>79]:
+ItemDisplay[(mp3 OR mp4) DIFFICULTY<2]: %BLUE%!%WHITE%중급MP
+ItemDisplay[(mp3 OR mp4) DIFFICULTY=2]:
 ItemDisplay[(mp1 OR mp2) CLVL<30]: %BLUE%!%WHITE%소량MP
 ItemDisplay[(mp1 OR mp2) CLVL>31]:
 
-ItemDisplay[tsc CLVL<80]:%BLUE%!%WHITE%포탈
-ItemDisplay[tsc CLVL>79]:
-ItemDisplay[isc CLVL<80]:%RED%!%WHITE%식별
-ItemDisplay[isc CLVL>79]:
+ItemDisplay[tsc DIFFICULTY<2]:%BLUE%!%WHITE%포탈
+ItemDisplay[tsc DIFFICULTY=2]:
+ItemDisplay[isc DIFFICULTY<2]:%RED%!%WHITE%식별
+ItemDisplay[isc DIFFICULTY=2]:
 //INF ITEM 삭제
 ItemDisplay[INF WEAPON NMAG]:
 ItemDisplay[INF ARMOR NMAG]:
