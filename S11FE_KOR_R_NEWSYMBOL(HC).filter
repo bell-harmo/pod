@@ -1022,9 +1022,9 @@ ItemDisplay[WP13 !RW !ETH NMAG SK102>2 !SOCK=1]: %GRAY%%NAME% %ORANGE%+3 홀리�
 ItemDisplay[WP13 !RW !ETH NMAG SK114>2 !SOCK=1]: %GRAY%%NAME% %ORANGE%+3 홀리프리즈 %PURPLE%[%SOCKETS%]
 
 ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=4]: %GRAY%%NAME% %ORANGE%홀리썬더 베이스 %PURPLE%[%SOCKETS%]
-ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=5]: %GRAY%%NAME% %ORANGE%비스트 베이스 %PURPLE%[%SOCKETS%]
+ItemDisplay[(wsp OR 7bt) !RW NMAG !ETH !RW SOCK=5]: %GRAY%%NAME% %ORANGE%비스트 베이스 %PURPLE%[%SOCKETS%]
 ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=4]: {%NL%%GOLD%홀리썬더:%ORANGE%에드%WHITE%+%RED%랄%WHITE%+%YELLOW%오르트%WHITE%+%TAN%탈%NL%%ORANGE%(%QT%)}
-ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=5]: {%NL%%GOLD%야수:%ORANGE%베르%WHITE%+%RED%티르%WHITE%+%YELLOW%움%WHITE%+%TAN%말%WHITE%+%GOLD%룸%NL%%ORANGE%(%QT%)}
+ItemDisplay[(wsp OR 7bt) !RW NMAG !ETH !RW SOCK=5]: {%NL%%GOLD%야수:%ORANGE%베르%WHITE%+%RED%티르%WHITE%+%YELLOW%움%WHITE%+%TAN%말%WHITE%+%GOLD%룸%NL%%ORANGE%(%QT%)}
 //CRAFT AMULET MARKING
 ItemDisplay[(!INF AND !NMAG AND !MAG AND !RARE AND !UNI AND !SET) amu ID (CLSK1>1 AND STAT105>0)]: %ORANGE%%NAME% %NL% %GREEN%+2 소서리스 %BLUE%패캐 %CONTINUE%
 ItemDisplay[(!INF AND !NMAG AND !MAG AND !RARE AND !UNI AND !SET) amu ID (CLSK2>1 AND STAT105>0)]: %ORANGE%%NAME% %NL% %GREEN%+2 네크로맨서 %BLUE%패캐 %CONTINUE%
