@@ -495,7 +495,7 @@ ItemDisplay[WP13 !RW !ETH NMAG SK121>2 SOCK=3]: %DARK_GREEN%%NAME% %ORANGE%+3 �
 ItemDisplay[WP13 !RW !ETH NMAG SK118>2 SOCK=3]: %DARK_GREEN%%NAME% %ORANGE%+3 홀리쇼크 %PURPLE%[%SOCKETS%]
 ItemDisplay[WP13 !RW !ETH NMAG SK101>2 !SOCK=1]: %DARK_GREEN%%NAME% %ORANGE%+3 홀리볼트 %PURPLE%[%SOCKETS%]
 ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=4]: %DARK_GREEN% %NAME% %ORANGE%홀리썬더 베이스 %PURPLE%[%SOCKETS%]
-ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=5]: %DARK_GREEN% %NAME% %ORANGE%비스트 베이스 %PURPLE%[%SOCKETS%]
+ItemDisplay[(wsp OR 7bt) !RW NMAG !ETH !RW SOCK=5]: %DARK_GREEN% %NAME% %ORANGE%비스트 베이스 %PURPLE%[%SOCKETS%]
 //Marked Corrupted
 ItemDisplay[SET (amu OR rin) ID]: %NAME% %CONTINUE%
 ItemDisplay[SET (amu OR rin) ID STAT360=1]: %NAME% %RED%타락됨
