@@ -27,6 +27,14 @@ ItemDisplay[tsc DIFFICULTY<2]:%BLUE%*%GRAY%포탈
 ItemDisplay[tsc DIFFICULTY=2]:
 ItemDisplay[isc DIFFICULTY<2]:%RED%*%GRAY%식별
 ItemDisplay[isc DIFFICULTY=2]:
+
+//돈 루팅
+ItemDisplay[GOLD<50 CLVL<21]:
+ItemDisplay[GOLD<500 CLVL<31]:
+ItemDisplay[GOLD<1000 CLVL<41]:
+ItemDisplay[GOLD<1500 CLVL<51]:
+ItemDisplay[GOLD<2000 CLVL<61]:
+
 //INF ITEM 삭제
 ItemDisplay[INF WEAPON NMAG]:
 ItemDisplay[INF ARMOR NMAG]:
@@ -149,10 +157,7 @@ ItemDisplay[cm3 TABSK40>0]: %PURPLE%드루 소환 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 TABSK41>0]: %PURPLE%변신 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 TABSK42>0]: %PURPLE%드루 엘리멘탈 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 TABSK48>0]: %PURPLE%트랩 스킬 참 %ORANGE%[L%ILVL%]
-//Hide Gold Piles Smaller Than (<) X
-ItemDisplay[GOLD<1000 CLVL<40]:
-ItemDisplay[GOLD<2000 DIFFICULTY>0]:
-ItemDisplay[GOLD<5000 CLVL>79]:
+
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%RP %ORANGE%70%
 ItemDisplay[rvs]: %PURPLE%RP %WHITE%35%
