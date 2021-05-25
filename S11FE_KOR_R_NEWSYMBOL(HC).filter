@@ -29,11 +29,12 @@ ItemDisplay[isc DIFFICULTY<2]:%RED%*%GRAY%식별
 ItemDisplay[isc DIFFICULTY=2]:
 
 //돈 루팅
-ItemDisplay[GOLD<50 CLVL<21]:
-ItemDisplay[GOLD<500 CLVL<31]:
-ItemDisplay[GOLD<1000 CLVL<41]:
-ItemDisplay[GOLD<1500 CLVL<51]:
-ItemDisplay[GOLD<2000 CLVL<61]:
+ItemDisplay[GOLD<51 CLVL>0 CLVL<20]:
+ItemDisplay[GOLD<500 CLVL>19 CLVL<30]:
+ItemDisplay[GOLD<1000 CLVL>29 CLVL<40]:
+ItemDisplay[GOLD<1500 CLVL>39 CLVL<50]:
+ItemDisplay[GOLD<2000 CLVL>49 CLVL<60]:
+ItemDisplay[GOLD<2000 CLVL>60]:
 
 //INF ITEM 삭제
 ItemDisplay[INF WEAPON NMAG]:
