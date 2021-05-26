@@ -608,6 +608,8 @@ ItemDisplay[UNI !ID pa9 !ETH]:%SOUND-2664%%BORDER-62%%RED%*****%ORANGE%*****%YEL
 ItemDisplay[UNI !ID pa9 ETH]: %DOT-0C%%GOLD%*********************%NL%%NL%%PURPLE%ETH %RED%자카룸의 전령%NL%%NL%%GOLD%*********************%NOTIFY-TAN%
 ItemDisplay[UNI !ID pac !ETH]: %DOT-0C%%GOLD%*********************%NL%%NL%%RED%알마 네그라     %NL%%NOTIFY-TAN%
 ItemDisplay[UNI !ID pac ETH]: %DOT-0C%%GOLD%*********************%NL%%NL%%PURPLE%ETH %RED%알마 네그라%NL%%NL%%GOLD%*********************%NOTIFY-TAN%
+//Unique Rings Amulets Jewels Charms
+ItemDisplay[UNI !ID (rin OR amu OR jew)]:%SOUND-2664%%BORDER-62%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%%NAME%%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NOTIFY-ORANGE%
 //UNIQUE NORMAL NAMING
 ItemDisplay[UNI !ID cap !ETH]: %GRAY%*********************%NL%%NL%%TAN%비긴의 끈모자%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID cap ETH]: %GRAY%*********************%NL%%NL%%PURPLE%ETH %TAN%비긴의 끈모자%NL%%NL%%GRAY%*********************
@@ -950,8 +952,8 @@ ItemDisplay[UNI !ID wsc !ETH]: %GRAY%*********************%NL%%NL%%TAN%사신의
 ItemDisplay[UNI !ID wsc ETH]: %GRAY%*********************%NL%%NL%%PURPLE%ETH %TAN%사신의 낫%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID 9b7 !ETH]: %GRAY%*********************%NL%%NL%%TAN%고기 긁개%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID 9b7 ETH]: %GRAY%*********************%NL%%NL%%PURPLE%ETH %TAN%고기 긁개%NL%%NL%%GRAY%*********************
-ItemDisplay[UNI !ID 9v!ETH]: %GRAY%*********************%NL%%NL%%TAN%검게 물든 칼날%NL%%NL%%GRAY%*********************
-ItemDisplay[UNI !ID 9vETH]: %GRAY%*********************%NL%%NL%%PURPLE%ETH %TAN%검게 물든 칼날%NL%%NL%%GRAY%*********************
+ItemDisplay[UNI !ID 9vo !ETH]: %GRAY%*********************%NL%%NL%%TAN%검게 물든 칼날%NL%%NL%%GRAY%*********************
+ItemDisplay[UNI !ID 9vo ETH]: %GRAY%*********************%NL%%NL%%PURPLE%ETH %TAN%검게 물든 칼날%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID 9s8 !ETH]: %GRAY%*********************%NL%%NL%%TAN%아테나의 분노%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID 9s8 ETH]: %GRAY%*********************%NL%%NL%%PURPLE%ETH %TAN%아테나의 분노%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID 9pa !ETH]: %GRAY%*********************%NL%%NL%%TAN%피에르 톰 콘%NL%%NL%%GRAY%*********************
@@ -1156,8 +1158,6 @@ ItemDisplay[UNI !ID pae ETH]: %GRAY%*********************%NL%%NL%%PURPLE%ETH %TA
 ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]:%TAN%%NAME%%RED%*
 ItemDisplay[UNI !ID (aq2 OR cq2)]:%TAN%%NAME%%RED%*
 ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]:%PURPLE%ETH %TAN%%NAME%%RED%*
-//Unique Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID (rin OR amu OR jew)]:%SOUND-2664%%BORDER-62%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%%NAME%%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NOTIFY-ORANGE%
 //SET ITEMS (no rings or amys edited)
 ItemDisplay[SET !ID (ulg OR uui OR xlb OR umc)]:%DOT-84%%GREEN%*********************%NL%%GREEN%%NAME%%NL%%DARK_GREEN%사도%NL%%GREEN%*********************%NOTIFY-GREEN%
 ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:  %DOT-84%%GREEN%*********************%NL%%GREEN%%NAME%%NL%%DARK_GREEN%알더%NL%%GREEN%*********************%NOTIFY-GREEN%
