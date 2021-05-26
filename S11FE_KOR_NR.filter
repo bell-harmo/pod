@@ -1,4 +1,4 @@
-//Updated 21/05/11
+//Updated 21/05/24
 //UPDATE CONTENTS :  TOPAZ,DIAMOND,SAPPIRE ->GRAY, PLAGUE BASE OF ORB, ADDED CRAFT RING/AMULET
 //potion activation 밑에 두줄의 //을 삭제하면 포션이 드랍됩니다.
 ItemDisplay[box]: %NAME% %ORANGE%[L%ILVL%]
