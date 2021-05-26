@@ -1,4 +1,4 @@
-//Updated 21/05/11
+//Updated 21/05/24
 //UPDATE CONTENTS :  TOPAZ,DIAMOND,SAPPIRE ->GRAY, PLAGUE BASE OF ORB, ADDED CRAFT RING/AMULET 
 //if you want to turn off drop of potion, add "//" on line start.
 ItemDisplay[box]: %NAME% %ORANGE%[L%ILVL%]
