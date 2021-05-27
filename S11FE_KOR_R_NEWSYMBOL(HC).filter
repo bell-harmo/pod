@@ -1160,7 +1160,7 @@ ItemDisplay[UNI !ID (aq2 OR cq2)]:%TAN%%NAME%%RED%*
 ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]:%PURPLE%ETH %TAN%%NAME%%RED%*
 //SET ITEMS (no rings or amys edited)
 ItemDisplay[SET !ID (ulg OR uui OR xlb OR umc)]:%DOT-84%%GREEN%*********************%NL%%GREEN%%NAME%%NL%%DARK_GREEN%사도%NL%%GREEN%*********************%NOTIFY-GREEN%
-ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:  %DOT-84%%GREEN%*********************%NL%%GREEN%%NAME%%NL%%DARK_GREEN%알더%NL%%GREEN%*********************%NOTIFY-GREEN%
+ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:%DOT-84%%GREEN%*********************%NL%%GREEN%%NAME%%NL%%DARK_GREEN%알더%NL%%GREEN%*********************%NOTIFY-GREEN%
 ItemDisplay[SET !ID (ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb)]: %DOT-84%%GREEN%*********************%NL%%GREEN%%NAME%%NL%%DARK_GREEN%불멸왕%NL%%GREEN%*********************%NOTIFY-GREEN%
 ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %DOT-84%%GREEN%*********************%NL%%GREEN%%NAME%%NL%%DARK_GREEN%나탈랴%NL%%GREEN%*********************%NOTIFY-GREEN%
 ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %DOT-84%%GREEN%*********************%NL%%GREEN%%NAME%%NL%%DARK_GREEN%탈 라샤%NL%%GREEN%*********************%NOTIFY-GREEN%
