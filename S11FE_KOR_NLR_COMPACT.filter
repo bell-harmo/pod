@@ -14,20 +14,44 @@ ItemDisplay[(ma2 OR ma6 OR ma7) RARE]:%RED%%NAME% %ORANGE%티어3 %YELLOW%[L%ILV
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT80>0]:%NAME% %GREEN%매찬
 ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT360=1]:%NAME% %RED%타락됨
 //Good Charms
+ItemDisplay[cm3 (STAT22>9 AND LIFE>39)]: %GREEN%**%TAN%맥뎀 %RED%피 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (STAT22>9 AND STAT96>0)]: %GREEN%**%TAN%맥뎀 %ORANGE%달려 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (STAT22>9 AND STAT99>0)]: %GREEN%**%TAN%맥뎀 %ORANGE%패힛 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm3 (STAT22>6 AND LIFE>0)]: %TAN%맥뎀 %RED%피 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (STAT22>6 AND STAT96>0)]: %TAN%맥뎀 %ORANGE%달려 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (STAT22>6 AND STAT99>0)]: %TAN%맥뎀 %ORANGE%패힛 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 STAT22>8]: %TAN%맥뎀 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm3 (RES>14 AND LIFE>39)]: %GREEN%**%PURPLE%모든 %WHITE%저항 %RED%피 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (RES>14 AND STAT96>0)]: %GREEN%**%PURPLE%모든 %WHITE%저항 %ORANGE%달려 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (RES>14 AND STAT99>0)]: %GREEN%**%PURPLE%모든 %WHITE%저항 %ORANGE%패힛 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm3 (RES>7 AND LIFE>0)]: %PURPLE%모든 %WHITE%저항 %RED%피 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (RES>7 AND STAT96>0)]: %PURPLE%모든 %WHITE%저항 %ORANGE%달려 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (RES>7 AND STAT99>0)]: %PURPLE%모든 %WHITE%저항 %ORANGE%패힛 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 RES>9]: %PURPLE%모든 %WHITE%저항 %BLUE%그랜드 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 (STAT22>3 AND LIFE>0)]: %TAN%맥뎀 %RED%피 %BLUE%라지 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 (STAT22>3 AND STAT2>0)]: %TAN%맥뎀 %GREEN%민 %BLUE%라지 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 (STAT22>3 AND STAT0>0)]: %TAN%맥뎀 %DARK_GREEN%힘 %BLUE%라지 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 (STAT22>3 AND STAT96>0)]: %TAN%맥뎀 %ORANGE%달려 %BLUE%라지 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 (STAT22>3 AND STAT99>0)]: %TAN%맥뎀 %ORANGE%패힛 %BLUE%라지 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 STAT22>4]: %TAN%맥뎀 %BLUE%라지 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 !UNI (RES>4 AND STAT96>0)]: %PURPLE%모든 %WHITE%저항 %ORANGE%달려 %BLUE%라지 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 !UNI (RES>4 AND STAT99>0)]: %PURPLE%모든 %WHITE%저항 %ORANGE%패힛 %BLUE%라지 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 !UNI ((RES>4 AND LIFE>0) OR (RES>0 AND LIFE>29))]: %PURPLE%모든 %WHITE%저항 %RED%피 %BLUE%라지 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 !UNI RES>6]: %PURPLE%모든 %WHITE%저항 %BLUE%라지 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 LIFE>33]: %RED%피 %BLUE%라지 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm1 (STAT22>2 AND LIFE>19)]: %GREEN%**%TAN%맥뎀 %RED%피 %BLUE%스몰 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm1 (STAT22>2 AND STAT96>0)]: %GREEN%**%TAN%맥뎀 %ORANGE%달려 %BLUE%스몰 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm1 (STAT22>2 AND STAT99>0)]: %GREEN%**%TAN%맥뎀 %ORANGE%패힛 %BLUE%스몰 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm1 ((STAT22>1 AND LIFE>0) OR (STAT22>0 AND LIFE>9))]: %TAN%맥뎀 %RED%피 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 (STAT22>1 AND STAT2>0)]: %TAN%맥뎀 %GREEN%민 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 (STAT22>1 AND STAT0>0)]: %TAN%맥뎀 %DARK_GREEN%힘 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 (STAT22>1 AND STAT96>0)]: %TAN%맥뎀 %ORANGE%달려 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 (STAT22>1 AND STAT99>0)]: %TAN%맥뎀 %ORANGE%패힛 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 STAT22>1]: %TAN%맥뎀 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm1 !UNI (RES>4 AND LIFE>19)]: %GREEN%**%PURPLE%모든 %WHITE%저항 %RED%피 %BLUE%스몰 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm1 !UNI (RES>4 AND STAT96>0)]: %GREEN%**%PURPLE%모든 %WHITE%저항 %ORANGE%달려 %BLUE%스몰 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm1 !UNI (RES>4 AND STAT99>0)]: %GREEN%**%PURPLE%모든 %WHITE%저항 %ORANGE%패힛 %BLUE%스몰 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm1 !UNI (RES>4 AND STAT80>6)]: %GREEN%**%PURPLE%모든 %WHITE%저항 %GREEN%매찬 %BLUE%스몰 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm1 !UNI (RES>0 AND LIFE>0)]: %PURPLE%모든 %WHITE%저항 %RED%피 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 !UNI (RES>0 AND STAT96>0)]: %PURPLE%모든 %WHITE%저항 %ORANGE%달려 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 !UNI (RES>0 AND STAT99>0)]: %PURPLE%모든 %WHITE%저항 %ORANGE%패힛 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
@@ -54,22 +78,23 @@ ItemDisplay[cm1 !UNI STAT41>9]: %YELLOW%라이트닝 %WHITE%저항 %BLUE%스몰 
 ItemDisplay[cm1 !UNI STAT43>9]: %BLUE%콜드 %WHITE%저항 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 !UNI STAT45>9]: %GREEN%포이즌 %WHITE%저항 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 STAT80>5]: %GREEN%매찬 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm1 LIFE>19 STAT9>16]: %GREEN%**%RED%피 %BLUE%스몰 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm1 LIFE>16]: %RED%피 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 //Skillers
-ItemDisplay[cm3 (TABSK2>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%자벨린 스킬 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm3 (TABSK2>0 AND STAT99>0)]: %GREEN%**%ORANGE%패힛 %PURPLE%자벨린 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm3 (TABSK8>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%파이어 스킬 참 %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK9>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%라이트닝 스킬 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm3 (TABSK9>0 AND STAT99>0)]: %GREEN%**%ORANGE%패힛 %PURPLE%라이트닝 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm3 (TABSK10>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%콜드 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (TABSK16>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%저주 스킬 참 %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK17>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%포이즌&본 스킬 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm3 (TABSK17>0 AND STAT99>0)]: %GREEN%**%ORANGE%패힛 %PURPLE%포이즌&본 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm3 (TABSK18>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%네크 소환 스킬 참 %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK24>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%팔라 전투 스킬 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm3 (TABSK24>0 AND STAT99>0)]: %GREEN%**%ORANGE%패힛 %PURPLE%팔라 전투 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm3 (TABSK25>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%공격 오라 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (TABSK34>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%바바 함성 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (TABSK40>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%드루 소환 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (TABSK41>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%변신 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (TABSK42>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%드루 엘리멘탈 스킬 참 %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK48>0 AND STAT99>0)]: %ORANGE%패힛 %PURPLE%트랩 스킬 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm3 (TABSK48>0 AND STAT99>0)]: %GREEN%**%ORANGE%패힛 %PURPLE%트랩 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm3 (TABSK2>0 AND STAT96>0)]: %ORANGE%달려 %PURPLE%자벨린 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (TABSK16>0 AND STAT96>0)]: %ORANGE%달려 %PURPLE%저주 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (TABSK17>0 AND STAT96>0)]: %ORANGE%달려 %PURPLE%포이즌&본 스킬 참 %ORANGE%[L%ILVL%]
@@ -81,6 +106,20 @@ ItemDisplay[cm3 (TABSK40>0 AND STAT96>0)]: %ORANGE%달려 %PURPLE%드루 소환 
 ItemDisplay[cm3 (TABSK41>0 AND STAT96>0)]: %ORANGE%달려 %PURPLE%변신 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (TABSK42>0 AND STAT96>0)]: %ORANGE%달려 %PURPLE%드루 엘리멘탈 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (TABSK48>0 AND STAT96>0)]: %ORANGE%달려 %PURPLE%트랩 스킬 참 %ORANGE%[L%ILVL%]
+ItemDisplay[cm3 (TABSK2>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%자벨린 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK8>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%파이어 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK9>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%라이트닝 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK10>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%콜드 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK16>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%저주 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK17>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%포이즌&본 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK18>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%네크 소환 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK24>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%팔라 전투 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK25>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%공격 오라 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK34>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%바바 함성 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK40>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%드루 소환 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK41>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%변신 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK42>0 AND LIFE>39)]: %GREEN%**%RED%피 %PURPLE%드루 엘리멘탈 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm3 (TABSK48>0 AND LIFE>39)]:%GREEN%**%RED%피 %PURPLE%트랩 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm3 (TABSK2>0 AND LIFE>0)]: %RED%피 %PURPLE%자벨린 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (TABSK8>0 AND LIFE>0)]: %RED%피 %PURPLE%파이어 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 (TABSK9>0 AND LIFE>0)]: %RED%피 %PURPLE%라이트닝 스킬 참 %ORANGE%[L%ILVL%]
@@ -109,6 +148,7 @@ ItemDisplay[cm3 TABSK40>0]: %PURPLE%드루 소환 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 TABSK41>0]: %PURPLE%변신 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 TABSK42>0]: %PURPLE%드루 엘리멘탈 스킬 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 TABSK48>0]: %PURPLE%트랩 스킬 참 %ORANGE%[L%ILVL%]
+
 //Hide Gold Piles Smaller Than (<) X
 ItemDisplay[GOLD<1000 CLVL<40]:
 ItemDisplay[GOLD<2000 (CLVL>39 AND CLVL<=69)]:
@@ -230,6 +270,7 @@ ItemDisplay[CL5 RARE ID STAT17>300]: %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%�
 ItemDisplay[CL5 RARE ID STAT360=1]:%YELLOW% %NAME% %RED%타락됨
 ItemDisplay[aq2 RARE ID]: %GRAY%%NAME%
 ItemDisplay[(EQ6 OR EQ5 OR CL5 OR EQ7) RARE ID]: %GRAY%%NAME%
+ItemDisplay[aq2 RARE ID !(STAT218>0 OR STAT22>0)]: {%RED%(레벨당 최대 데미지,데미지 추가 옵션 모두 없음)}
 //RARES (All elite rares exept dagger and xbow)
 ItemDisplay[RARE (CL5 OR EQ4 OR EQ5 OR EQ7) !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE (CL5 OR EQ4 OR EQ5 OR EQ7) ETH !ID]: %PURPLE%ETH %YELLOW%%NAME%
