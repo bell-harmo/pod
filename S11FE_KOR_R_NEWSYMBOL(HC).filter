@@ -162,7 +162,8 @@ ItemDisplay[cm3 TABSK48>0]: %PURPLE%트랩 스킬 참 %ORANGE%[L%ILVL%]
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%RP %ORANGE%70%
 ItemDisplay[rvs]: %PURPLE%RP %WHITE%35%
-ItemDisplay[key]:열쇠%PURPLE%*
+ItemDisplay[key CLVL<30]:열쇠%PURPLE%*
+ItemDisplay[key CLVL>29]:
 ItemDisplay[wms CLVL<60]:해빙%PURPLE%*
 ItemDisplay[wms CLVL>59]:
 ItemDisplay[yps]:해독%PURPLE%*
