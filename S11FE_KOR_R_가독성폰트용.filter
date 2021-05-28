@@ -92,7 +92,7 @@ ItemDisplay[cm1 !UNI STAT41>9]: %YELLOW%라이트닝 %WHITE%저항 %BLUE%스몰 
 ItemDisplay[cm1 !UNI STAT43>9]: %BLUE%콜드 %WHITE%저항 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 !UNI STAT45>9]: %GREEN%포이즌 %WHITE%저항 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 STAT80>5]: %GREEN%매찬 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 LIFE>19 STAT9>16]: %GREEN%**%RED%피 %BLUE%스몰 참 %ORANGE%[L%ILVL%]%GREEN%**
+ItemDisplay[cm1 LIFE>19 MANA>16]: %GREEN%**%RED%피 %PURPLE%마나 %BLUE%스몰 참 %ORANGE%[L%ILVL%]%GREEN%**
 ItemDisplay[cm1 LIFE>16]: %RED%피 %BLUE%스몰 참 %ORANGE%[L%ILVL%]
 //Skillers
 ItemDisplay[cm3 (TABSK2>0 AND STAT99>0)]: %GREEN%**%ORANGE%패힛 %PURPLE%자벨린 스킬 참 %ORANGE%[L%ILVL%]%GREEN%**
