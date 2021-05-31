@@ -188,26 +188,26 @@ ItemDisplay[cm3 TABSK42>0]: %PURPLE%드루 엘리멘탈 스킬 참 %ORANGE%[L%IL
 ItemDisplay[cm3 TABSK48>0]: %PURPLE%트랩 스킬 참 %ORANGE%[L%ILVL%]
 
 //Health & Mana Potions
-ItemDisplay[rvl]: %PURPLE%RP %ORANGE%70%
-ItemDisplay[rvs]: %PURPLE%RP %WHITE%35%
+ItemDisplay[rvl]: %PURPLE%활력%ORANGE%70%
+ItemDisplay[rvs]: %PURPLE%활력%WHITE%35%
 ItemDisplay[key CLVL<30]:열쇠%PURPLE%*
 ItemDisplay[key CLVL>29]:
-ItemDisplay[wms CLVL<60]:해빙%PURPLE%*
+ItemDisplay[wms CLVL<60]:해빙%BLUE%*
 ItemDisplay[wms CLVL>59]:
 ItemDisplay[yps]:해독%PURPLE%*
-ItemDisplay[gpm CLVL<30]:가스(중)%PURPLE%*
+ItemDisplay[gpm CLVL<30]:가스(중)%GREEN%*
 ItemDisplay[gpm CLVL>29]:
-ItemDisplay[opm CLVL<30]:폭발%PURPLE%*
+ItemDisplay[opm CLVL<30]:폭발%ORANGE%*
 ItemDisplay[opm CLVL>29]:
-ItemDisplay[opl CLVL<30]:폭음%PURPLE%*
+ItemDisplay[opl CLVL<30]:폭음%ORANGE%*
 ItemDisplay[opl CLVL>29]:
-ItemDisplay[ops CLVL<30]:화염%PURPLE%*
+ItemDisplay[ops CLVL<30]:화염%ORANGE%*
 ItemDisplay[ops CLVL>29]:
-ItemDisplay[gps CLVL<30]:가스(소)%PURPLE%*
+ItemDisplay[gps CLVL<30]:가스(소)%GREEN%*
 ItemDisplay[gps CLVL>29]:
-ItemDisplay[gpl CLVL<30]:가스(대)%PURPLE%*
+ItemDisplay[gpl CLVL<30]:가스(대)%GREEN%*
 ItemDisplay[gpl CLVL>29]:
-ItemDisplay[vps CLVL<30]:스태미나%PURPLE%*
+ItemDisplay[vps CLVL<30]:스태미나%GRAY%*
 ItemDisplay[vps CLVL>29]:
 
 //Essences (Respec Token)
@@ -278,8 +278,53 @@ ItemDisplay[RUNE>23]:%SOUND-418%%BORDER-62%%RED%*****%ORANGE%*****%YELLOW%*****%
 ItemDisplay[RUNE=8]:{%YELLOW%방어구 수리 큐빙 : %RED%랄%WHITE%+수리 방어구%NL%}
 ItemDisplay[RUNE=9]:{%YELLOW%무기 수리 큐빙 : %ORANGE%오르트%WHITE%+수리 무기%NL%}
 //Gems Chipped/Flawed/Normal
-ItemDisplay[GEMLEVEL<4 CLVL<80]: %NAME%
-ItemDisplay[GEMLEVEL<4 DIFFICULTY>1]:
+//ItemDisplay[GEMLEVEL<4 CLVL<80]: %NAME%
+//ItemDisplay[GEMLEVEL<4 DIFFICULTY>1]:
+//Gems Chipped
+ItemDisplay[gcv CLVL<40]: %GRAY%최하급 자수정%ORANGE%[%PURPLE%@%ORANGE%]
+ItemDisplay[gcw CLVL<40]: %GRAY%최하급 다이아몬드%ORANGE%[%WHITE%@%ORANGE%]
+ItemDisplay[gcg CLVL<40]: %GRAY%최하급 에메랄드%ORANGE%[%GREEN%@%ORANGE%]
+ItemDisplay[gcr CLVL<40]: %GRAY%최하급 루비%ORANGE%[%RED%@%ORANGE%]
+ItemDisplay[gcb CLVL<40]: %GRAY%최하급 사파이어%ORANGE%[%BLUE%@%ORANGE%]
+ItemDisplay[gcy CLVL<40]: %GRAY%최하급 토파즈%ORANGE%[%YELLOW%@%ORANGE%]
+ItemDisplay[skc CLVL<40]: %GRAY%최하급 해골%ORANGE%[%GOLD%@%ORANGE%]
+ItemDisplay[gcv CLVL>39]:
+ItemDisplay[gcw CLVL>39]:
+ItemDisplay[gcg CLVL>39]:
+ItemDisplay[gcr CLVL>39]:
+ItemDisplay[gcb CLVL>39]:
+ItemDisplay[gcy CLVL>39]:
+ItemDisplay[skc CLVL>39]:
+//Gems Flawed
+ItemDisplay[gfv CLVL<60]: %GRAY%하급 자수정%ORANGE%[%PURPLE%@%ORANGE%]
+ItemDisplay[gfw CLVL<60]: %GRAY%하급 다이아몬드%ORANGE%[%WHITE%@%ORANGE%]
+ItemDisplay[gfg CLVL<60]: %GRAY%하급 에메랄드%ORANGE%[%GREEN%@%ORANGE%]
+ItemDisplay[gfr CLVL<60]: %GRAY%하급 루비%ORANGE%[%RED%@%ORANGE%]
+ItemDisplay[gfb CLVL<60]: %GRAY%하급 사파이어%ORANGE%[%BLUE%@%ORANGE%]
+ItemDisplay[gfy CLVL<60]: %GRAY%하급 토파즈%ORANGE%[%YELLOW%@%ORANGE%]
+ItemDisplay[skf CLVL<60]: %GRAY%하급 해골%ORANGE%[%GOLD%@%ORANGE%]
+ItemDisplay[gfv CLVL>59]:
+ItemDisplay[gfw CLVL>59]:
+ItemDisplay[gfg CLVL>59]:
+ItemDisplay[gfr CLVL>59]:
+ItemDisplay[gfb CLVL>59]:
+ItemDisplay[gfy CLVL>59]:
+ItemDisplay[skf CLVL>59]:
+//Gems Normal
+ItemDisplay[gsv CLVL<70]: %GRAY%자수정%ORANGE%[%PURPLE%@%ORANGE%]
+ItemDisplay[gsw CLVL<70]: %GRAY%다이아몬드%ORANGE%[%WHITE%@%ORANGE%]
+ItemDisplay[gsg CLVL<70]: %GRAY%에메랄드%ORANGE%[%GREEN%@%ORANGE%]
+ItemDisplay[gsr CLVL<70]: %GRAY%루비%ORANGE%[%RED%@%ORANGE%]
+ItemDisplay[gsb CLVL<70]: %GRAY%사파이어%ORANGE%[%BLUE%@%ORANGE%]
+ItemDisplay[gsy CLVL<70]: %GRAY%토파즈%ORANGE%[%YELLOW%@%ORANGE%]
+ItemDisplay[sku CLVL<70]: %GRAY%해골%ORANGE%[%GOLD%@%ORANGE%]
+ItemDisplay[gsv CLVL>69]:
+ItemDisplay[gsw CLVL>69]:
+ItemDisplay[gsg CLVL>69]:
+ItemDisplay[gsr CLVL>69]:
+ItemDisplay[gsb CLVL>69]:
+ItemDisplay[gsy CLVL>69]:
+ItemDisplay[sku CLVL>69]:
 //Gems flawless
 ItemDisplay[gzv]: %NL%   %YELLOW%!%ORANGE%자수정[%PURPLE%@%ORANGE%]   %NL%
 ItemDisplay[glw]: %YELLOW%!%GRAY%다이아몬드%ORANGE%[%WHITE%@%ORANGE%]
