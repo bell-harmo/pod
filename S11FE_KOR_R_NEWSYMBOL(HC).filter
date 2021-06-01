@@ -2,8 +2,8 @@
 //UPDATE CONTENTS :  NEW RELEASED 
 ItemDisplay[box]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[box]:{%NL%%ORANGE%히트파워장갑:%WHITE%P사파이어+쥬얼+부츠+오르트%NL%%RED%블러드투구:%WHITE%P루비+쥬얼+헬멧+투구+랄%NL%%RED%블러드장갑:%WHITE%P루비+쥬얼+장갑+네프%NL%%RED%블러드링:%WHITE%P루비+쥬얼+링+솔%NL%%BLUE%캐스터벨트:%WHITE%P자수정+쥬얼+벨트+아이드%NL%%PURPLE%소켓(갑옷):%WHITE%P토파즈+탈+주울%NL%%PURPLE%소켓(무기):%WHITE%P자수정+랄+앰%NL%}
-ItemDisplay[hp5]: %RED%!%WHITE%대량HP
-ItemDisplay[mp5]: %BLUE%!%WHITE%대량MP
+ItemDisplay[hp5]: %RED%!%WHITE%HP
+ItemDisplay[mp5]: %BLUE%!%WHITE%MP
 
 //미량/소량은 30렙까지, 중급은 60렙까지 상급 및 포탈 스크롤등은 나이트메어까지 드랍
 ItemDisplay[hp4 DIFFICULTY<2]: %RED%!%WHITE%상급HP
