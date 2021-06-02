@@ -223,7 +223,8 @@ ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>299
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=1]: %ORANGE%[$%PRICE%]
 ////RUNES
 ItemDisplay[RUNE>0 RUNE<8]: %TAN%%RUNENAME% %PURPLE%[%RUNENUM%]
-ItemDisplay[RUNE>7 RUNE<20]: %DOT-50%%GOLD%************%NL%%TAN%%RUNENAME% %PURPLE%[%RUNENUM%]%NL%%GOLD%************%NOTIFY-TAN%
+ItemDisplay[(r08 OR r11 OR r12 OR r15 OR r18 OR r19)]:%DOT-50%%GOLD%************%NL%%TAN%%RUNENAME% %PURPLE%[%RUNENUM%]%NL%%GOLD%************%NOTIFY-TAN%
+ItemDisplay[RUNE>7 RUNE<20]: %GOLD%************%NL%%TAN%%RUNENAME% %PURPLE%[%RUNENUM%]%NL%%GOLD%************
 ItemDisplay[RUNE>19 RUNE<24]:%SOUND-2664%%MAP-9B%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL%%RED%%RUNENAME%%PURPLE%[%RUNENUM%]%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NOTIFY-ORANGE%
 ItemDisplay[RUNE>23]:%SOUND-418%%BORDER-62%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%%RUNENAME%%PURPLE%[%RUNENUM%]%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NOTIFY-RED%
 ItemDisplay[RUNE=8]:{%YELLOW%Reparing Armor : %RED%RAL%WHITE%+ARMOR%NL%}
