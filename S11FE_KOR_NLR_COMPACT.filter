@@ -178,9 +178,9 @@ ItemDisplay[cq2 RARE !ID]:
 //misc
 ItemDisplay[(bbb OR ass OR bkd OR bks OR box OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz)]: %TAN%%NAME%
 //Vendor items
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY=3]: %ORANGE%[$%PRICE%]
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=2]: %ORANGE%[$%PRICE%]
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=1]: %ORANGE%[$%PRICE%]
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY>1]: %ORANGE%[$%PRICE%]
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=1]: %ORANGE%[$%PRICE%]
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=0]: %ORANGE%[$%PRICE%]
 ////RUNES
 ItemDisplay[(r08 OR r11 OR r12 OR r15 OR r18 OR r19)]:%DOT-50%%TAN%%RUNENAME% %PURPLE%[%RUNENUM%]%NOTIFY-TAN%
 ItemDisplay[RUNE>0 RUNE<20]: %TAN%%RUNENAME% %PURPLE%[%RUNENUM%]
@@ -419,7 +419,7 @@ ItemDisplay[NMAG !ETH !RW !SOCK=1 ED=15 (xtp OR uui OR ula OR utu OR ung OR ucl 
 ItemDisplay[NMAG !ETH !RW !SOCK=1 STAT91=-10 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %DARK_GREEN%%NAME%%BLUE% -10%리콰 %PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG !ETH !RW !SOCK=1 ED>0 ED<15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %DARK_GREEN%%NAME%%BLUE% 방상 %PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW !SOCK=1 ED>0 ED<15 (xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar)]: %PURPLE%ETH %DARK_GREEN% %NAME%%BLUE% 방상 %PURPLE%[%SOCKETS%]
-//High Def ETH armors (max 5% from highest non ED ETH DEF)
+//High Def ETH armors
 ItemDisplay[NMAG ETH !RW !SOCK=1 uui DEF>664]: %PURPLE%ETH %GRAY%%NAME% highest Def%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW !SOCK=1 uea DEF>668]: %PURPLE%ETH %GRAY%%NAME% highest Def%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW !SOCK=1 ula DEF>674]: %PURPLE%ETH %GRAY%%NAME% highest Def%PURPLE%[%SOCKETS%]
@@ -487,9 +487,9 @@ ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW]: %NAME% %ORANGE%자벨린 스킬 �
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>5 AND IAS>0)]: %NAME%%PURPLE%[%SOCKETS%]%NL%%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%» %ORANGE%+6 자벨 %RED%공속 %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2=5 AND IAS>0)]: %NAME%%PURPLE%[%SOCKETS%]%NL%%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%» %ORANGE%+5 자벨 %RED%공속 %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1 AND IAS>0)]: %NAME%%PURPLE%[%SOCKETS%]%NL%%RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%» %ORANGE%+3 자벨 +2 아마 %RED%공속 %RED%»%ORANGE%»%YELLOW%»%GREEN%»%BLUE%»%GRAY%»%PURPLE%»
-ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2>5]: %NAME% %ORANGE%+6 자벨 %PURPLE%[%SOCKETS%]
-ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2=5]: %NAME% %ORANGE%+5 자벨 %PURPLE%[%SOCKETS%]
-ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1)]: %NAME% %ORANGE%+3 자벨 +2 아마 %PURPLE%[%SOCKETS%]
+ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2>5]: %NAME% %ORANGE%+6 자벨
+ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2=5]: %NAME% %ORANGE%+5 자벨
+ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1)]: %NAME% %ORANGE%+3 자벨 +2 아마
 //Amazon Spears//
 ItemDisplay[CL7 ELT NMAG ETH ED=15 TABSK2>2 SOCK=5]: %PURPLE%ETH %DARK_GREEN% %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 ItemDisplay[(amd OR ame) NMAG !RW ETH ED=15 TABSK2>2 (SOCK=0 OR SOCK=6)]: %PURPLE%ETH %DARK_GREEN% %NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
