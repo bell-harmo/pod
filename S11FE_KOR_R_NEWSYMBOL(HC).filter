@@ -1311,8 +1311,6 @@ ItemDisplay[UNI !ID 9tk !ETH]: %GRAY%*********************%NL%%NL%%TAN%죽음칼
 ItemDisplay[UNI !ID 9tk ETH]: %GRAY%*********************%NL%%NL%%PURPLE%ETH %TAN%죽음칼날 %NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID 9ta !ETH]: %GRAY%*********************%NL%%NL%%TAN%끌칼%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID 9ta ETH]: %GRAY%*********************%NL%%NL%%PURPLE%ETH %TAN%끌칼 %NL%%NL%%GRAY%*********************
-ItemDisplay[UNI !ID 7bk !ETH]: %GRAY%*********************%NL%%NL%%TAN%전장의 새 %NL%%NL%%GRAY%*********************
-ItemDisplay[UNI !ID 7bk ETH]: %GRAY%*********************%NL%%NL%%PURPLE%ETH %TAN%전장의 새 %NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID 7ta !ETH]: %GRAY%*********************%NL%%NL%%TAN%새끼양 저밈도끼%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID 7ta ETH]: %GRAY%*********************%NL%%NL%%PURPLE%ETH %TAN%새끼양 저밈도끼%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID 7b8 !ETH]: %GRAY%*********************%NL%%NL%%TAN%절개 도끼 %NL%%NL%%GRAY%*********************
