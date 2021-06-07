@@ -1238,23 +1238,23 @@ ItemDisplay[(WEAPON OR ARMOR) !ID (MAG OR RARE) CLVL<31]:%NAME% %PURPLE%[%SOCKET
 ItemDisplay[(WEAPON OR ARMOR) !ID (MAG OR RARE) CLVL>30]:
 ItemDisplay[(WEAPON OR ARMOR) ID (MAG OR RARE)]:%NAME%
 //ItemDisplay[(WEAPON OR ARMOR) ID ]: {%ORANGE%(%QT%)}
-ItemDisplay[WEAPON ID UNI NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%랄+솔+%ORANGE%P%WHITE%에메랄드%GREEN%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
-ItemDisplay[WEAPON ID UNI EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%룸+풀+%ORANGE%P%WHITE%에메랄드%GREEN%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[WEAPON ID UNI NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%랄+솔+%ORANGE%P%WHITE%에메랄드%GREEN%@%YELLOW%)}
+ItemDisplay[WEAPON ID UNI EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%룸+풀+%ORANGE%P%WHITE%에메랄드%GREEN%@%YELLOW%)}
 ItemDisplay[WEAPON ID UNI ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[ARMOR ID UNI NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%탈+샤에+%ORANGE%P%WHITE%다이아몬드%WHITE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
-ItemDisplay[ARMOR ID UNI EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%코+렘+%ORANGE%P%WHITE%다이아몬드%WHITE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[ARMOR ID UNI NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%탈+샤에+%ORANGE%P%WHITE%다이아몬드%WHITE%@%YELLOW%)}
+ItemDisplay[ARMOR ID UNI EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%코+렘+%ORANGE%P%WHITE%다이아몬드%WHITE%@%YELLOW%)}
 ItemDisplay[ARMOR ID UNI ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[WEAPON ID SET NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%엘+에드+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
-ItemDisplay[WEAPON ID SET EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%돌+말+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[WEAPON ID SET NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%엘+에드+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)}
+ItemDisplay[WEAPON ID SET EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%돌+말+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)}
 ItemDisplay[WEAPON ID SET ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[ARMOR ID SET NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%엘드+아이드+%ORANGE%P%WHITE%토파즈%ORANGE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
-ItemDisplay[ARMOR ID SET EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%헬+아이오+%ORANGE%P%WHITE%토파즈%ORANGE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[ARMOR ID SET NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%엘드+아이드+%ORANGE%P%WHITE%토파즈%ORANGE%@%YELLOW%)}
+ItemDisplay[ARMOR ID SET EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%헬+아이오+%ORANGE%P%WHITE%토파즈%ORANGE%@%YELLOW%)}
 ItemDisplay[ARMOR ID SET ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[WEAPON ID RARE NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%오르트+엠+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
-ItemDisplay[WEAPON ID RARE EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%팔+움+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[WEAPON ID RARE NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%오르트+엠+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)}
+ItemDisplay[WEAPON ID RARE EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%팔+움+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)}
 ItemDisplay[WEAPON ID RARE ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[ARMOR ID RARE NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%랄+주울+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
-ItemDisplay[ARMOR ID RARE EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%코+풀+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[ARMOR ID RARE NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%랄+주울+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)}
+ItemDisplay[ARMOR ID RARE EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%코+풀+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)}
 ItemDisplay[ARMOR ID RARE ELT]: {%ORANGE%(엘리트)}
 ItemDisplay[EQ1 !RW !SUP NMAG NORM]: {%ORANGE%(노말)%NL%%YELLOW%(헬멧소켓:%WHITE%랄+주울+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
 ItemDisplay[EQ1 !RW !SUP NMAG EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(헬멧소켓:%WHITE%랄+주울+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
