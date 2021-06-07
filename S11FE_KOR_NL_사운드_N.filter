@@ -797,6 +797,24 @@ ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uth DEF>768]: %PURPLE%ETH %GRAY%%NAME% high
 ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uul DEF>792]: %PURPLE%ETH %GRAY%%NAME% highest Def%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uar DEF>849]: %PURPLE%ETH %GRAY%%NAME% highest Def%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uar DEF>720]: %PURPLE%ETH %GRAY%%NAME% highest Def%PURPLE%[%SOCKETS%]
+
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uui DEF>664]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uea DEF>668]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ula DEF>674]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP utu DEF>684]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ung DEF>695]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ucl DEF>705]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP urs DEF>710]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uhn DEF>718]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP upl DEF>730]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP utp DEF>735]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP utp DEF>620]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uld DEF>744]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP ult DEF>754]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uth DEF>768]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uul DEF>792]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uar DEF>849]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG ETH !RW SOCK=0 !SUP uar DEF>720]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
 ItemDisplay[NMAG ETH !RW !SOCK=1 uui DEF>664]: %PURPLE%ETH %GRAY%%NAME% highest Def%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW !SOCK=1 uea DEF>668]: %PURPLE%ETH %GRAY%%NAME% highest Def%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG ETH !RW !SOCK=1 ula DEF>674]: %PURPLE%ETH %GRAY%%NAME% highest Def%PURPLE%[%SOCKETS%]
@@ -833,6 +851,11 @@ ItemDisplay[NMAG ETH !RW !SOCK=1 uul DEF>792]:{%NL%%GOLD%수수께끼:%ORANGE%�
 ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>849]:{%NL%%GOLD%수수께끼:%ORANGE%자%WHITE%+%RED%아이드%WHITE%+%YELLOW%베르%NL%%GOLD%인내:%ORANGE%엘%WHITE%+%RED%솔%WHITE%+%YELLOW%돌%WHITE%+%BLUE%로%NL%%GOLD%배반:%ORANGE%샤에%WHITE%+%RED%주울%WHITE%+%YELLOW%렘%NL%%GOLD%검은딸기:%ORANGE%랄%WHITE%+%RED%옴%WHITE%+%YELLOW%수르%WHITE%+%BLUE%에드%NL%%ORANGE%(%QT%)}
 ItemDisplay[NMAG ETH !RW !SOCK=1 uar DEF>720]:{%NL%%GOLD%수수께끼:%ORANGE%자%WHITE%+%RED%아이드%WHITE%+%YELLOW%베르%NL%%GOLD%인내:%ORANGE%엘%WHITE%+%RED%솔%WHITE%+%YELLOW%돌%WHITE%+%BLUE%로%NL%%GOLD%배반:%ORANGE%샤에%WHITE%+%RED%주울%WHITE%+%YELLOW%렘%NL%%GOLD%검은딸기:%ORANGE%랄%WHITE%+%RED%옴%WHITE%+%YELLOW%수르%WHITE%+%BLUE%에드%NL%%ORANGE%(%QT%)}
 
+ItemDisplay[NMAG ETH !RW !SUP SOCK=0 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: %PURPLE%ETH %GRAY%%NAME%%PURPLE%[%SOCKETS%]
+ItemDisplay[NMAG !ETH !RW !SUP SOCK=0 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]
+
+ItemDisplay[NMAG ETH !RW !SUP SOCK=0 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[NMAG !ETH !RW !SUP SOCK=0 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%ORANGE%(%QT%)}
 ItemDisplay[NMAG ETH !RW !INF !SOCK=1 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: %PURPLE%ETH %GRAY%%NAME%%PURPLE%[%SOCKETS%]
 ItemDisplay[NMAG !ETH !RW !INF !SOCK=1 (xtp OR uui OR utu OR urs OR utp OR uld OR uar)]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]
 
@@ -864,6 +887,7 @@ ItemDisplay[uit ETH !RW NMAG STAT91=-10 (SOCK=0 OR SOCK=4)]: %DOT-75%%NOTIFY-DAR
 ItemDisplay[uit !ETH !RW NMAG ED=15 (SOCK=4 OR SOCK=0)]:{%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%불사조:%ORANGE%벡스%WHITE%+%RED%벡스%WHITE%+%YELLOW%로%WHITE%+%BLUE%자%NL%%ORANGE%(%QT%)}
 ItemDisplay[uit !ETH !RW NMAG STAT91=-10 (SOCK=0 OR SOCK=4)]:{%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%불사조:%ORANGE%벡스%WHITE%+%RED%벡스%WHITE%+%YELLOW%로%WHITE%+%BLUE%자%NL%%ORANGE%(%QT%)}
 ItemDisplay[uit !ETH !RW NMAG STAT91>-10 (SOCK=0 OR SOCK=4)]:{%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%불사조:%ORANGE%벡스%WHITE%+%RED%벡스%WHITE%+%YELLOW%로%WHITE%+%BLUE%자%NL%%ORANGE%(%QT%)}
+ItemDisplay[uit !ETH !RW !SUP SOCK=0 NMAG]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%ORANGE%(%QT%)}
 ItemDisplay[uit !ETH !RW (SOCK=4 OR SOCK=0) NMAG]:{%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%불사조:%ORANGE%벡스%WHITE%+%RED%벡스%WHITE%+%YELLOW%로%WHITE%+%BLUE%자%NL%%ORANGE%(%QT%)}
 ItemDisplay[uit ETH !RW NMAG STAT91=-10 (SOCK=0 OR SOCK=4)]: {%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%불사조:%ORANGE%벡스%WHITE%+%RED%벡스%WHITE%+%YELLOW%로%WHITE%+%BLUE%자%NL%%ORANGE%(%QT%)}
 //Paladin Shields pab SACRED TARGE
@@ -893,6 +917,14 @@ ItemDisplay[pab !ETH NMAG !RW RES=45 (SOCK=4 OR SOCK=0)]: {%NL%%GOLD%스피리�
 ItemDisplay[(pab OR paf) !RW !ETH ELT NMAG  AR>119 (SOCK=0 OR SOCK=4)]: {%NL%%GOLD%불사조:%ORANGE%벡스%WHITE%+%RED%벡스%WHITE%+%YELLOW%로%WHITE%+%BLUE%자%NL%%ORANGE%(%QT%)}
 ItemDisplay[(pab OR paf) !RW ELT ETH NMAG  RES=45 (SOCK=0 OR SOCK=3 OR SOCK=4)]: {%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%ORANGE%(%QT%)}
 ItemDisplay[(pab OR paf) !RW ELT ETH NMAG AR>119 (SOCK=0 OR SOCK=4)]: {%NL%%GOLD%망명:%ORANGE%벡스%WHITE%+%RED%옴%WHITE%+%YELLOW%아이스트%WHITE%+%BLUE%돌%NL%%ORANGE%(%QT%)}
+
+ItemDisplay[CL3 !SUP !ETH NMAG !RW RES=45 SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%ORANGE%(%QT%)}
+ItemDisplay[CL3 !SUP !ETH NMAG !RW RES<45 RES>39 SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%ORANGE%(%QT%)}
+ItemDisplay[CL3 !SUP !ETH NMAG !RW SOCK=0 CLVL<60]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%ORANGE%(%QT%)}
+ItemDisplay[CL3 !SUP ELT ETH NMAG !RW RES=45 SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%ORANGE%(%QT%)}
+ItemDisplay[CL3 !SUP ELT ETH NMAG !RW RES<45 RES>39 SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%ORANGE%(%QT%)}
+ItemDisplay[CL3 !SUP ELT ETH NMAG !RW AR>119 SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%ORANGE%(%QT%)}
+ItemDisplay[CL3 !SUP ELT ETH NMAG !RW SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%ORANGE%(%QT%)}
 ItemDisplay[CL3 !ETH NMAG !RW RES=45 !SOCK=1]: {%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%ORANGE%(%QT%)}
 ItemDisplay[CL3 !ETH NMAG !RW RES<45 RES>39 !SOCK=1]:{%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%ORANGE%(%QT%)}
 ItemDisplay[CL3 !ETH NMAG !RW !SOCK=1 CLVL<60]:{%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%ORANGE%(%QT%)}
@@ -906,6 +938,10 @@ ItemDisplay[crs ETH !RW NMAG ED=15  !SOCK=1 !SOCK=3]: %PURPLE%ETH %DARK_GREEN%%N
 ItemDisplay[(fla OR 7fl) !ETH !RW NMAG ED=15 !SOCK=1 !SOCK=3]: %DARK_GREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 ItemDisplay[(fla OR 7fl) ETH !RW NMAG ED=15  !SOCK=1 !SOCK=3]: %PURPLE%ETH %DARK_GREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
 ItemDisplay[(bsd OR lsd) !ETH !RW NMAG ED=15 !SOCK=1 ILVL<55]: %DARK_GREEN%%NAME%%BLUE% +15%증뎀 %PURPLE%[%SOCKETS%]
+ItemDisplay[crs !SUP !ETH !RW NMAG SOCK=0]: %GRAY% %NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[crs !SUP ETH !RW NMAG SOCK=0]: %PURPLE%ETH %GRAY%%NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[fla !SUP !ETH !RW NMAG SOCK=0]: %GRAY% %NAME% %PURPLE%[%SOCKETS%]
+ItemDisplay[fla !SUP ETH !RW NMAG SOCK=0]: %PURPLE%ETH %GRAY%%NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[crs !ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %GRAY% %NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[crs ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %PURPLE%ETH %GRAY%%NAME% %PURPLE%[%SOCKETS%]
 ItemDisplay[fla !ETH !RW NMAG (SOCK=4 OR SOCK=5)]: %GRAY% %NAME% %PURPLE%[%SOCKETS%]
@@ -918,6 +954,10 @@ ItemDisplay[crs ETH !RW NMAG ED=15  !SOCK=1 !SOCK=3]: {%NL%%GOLD%스피리트:%O
 ItemDisplay[(fla OR 7fl) !ETH !RW NMAG ED=15 !SOCK=1 !SOCK=3]: {%NL%%GOLD%콜투암스:%ORANGE%엠%WHITE%+%RED%랄%WHITE%+%YELLOW%말%WHITE%+%BLUE%아이스트%WHITE%+%BLUE%옴%NL%%GOLD%오크의심장:%ORANGE%코%WHITE%+%RED%벡스%WHITE%+%YELLOW%풀%WHITE%+%BLUE%주울%NL%%ORANGE%(%QT%)}
 ItemDisplay[(fla OR 7fl) ETH !RW NMAG ED=15  !SOCK=1 !SOCK=3]: {%NL%%GOLD%콜투암스:%ORANGE%엠%WHITE%+%RED%랄%WHITE%+%YELLOW%말%WHITE%+%BLUE%아이스트%WHITE%+%BLUE%옴%NL%%GOLD%오크의심장:%ORANGE%코%WHITE%+%RED%벡스%WHITE%+%YELLOW%풀%WHITE%+%BLUE%주울%NL%%ORANGE%(%QT%)}
 ItemDisplay[(bsd OR lsd) !ETH !RW NMAG ED=15 !SOCK=1 ILVL<55]: {%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%콜투암스:%ORANGE%엠%WHITE%+%RED%랄%WHITE%+%YELLOW%말%WHITE%+%BLUE%아이스트%WHITE%+%BLUE%옴%NL%%GOLD%오크의심장:%ORANGE%코%WHITE%+%RED%벡스%WHITE%+%YELLOW%풀%WHITE%+%BLUE%주울%NL%%ORANGE%(%QT%)}
+ItemDisplay[crs !SUP !ETH !RW NMAG SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[crs !SUP ETH !RW NMAG SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[fla !SUP !ETH !RW NMAG SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[fla !SUP ETH !RW NMAG SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%ORANGE%(%QT%)}
 ItemDisplay[crs !ETH !RW NMAG (SOCK=4 OR SOCK=5)]: {%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%콜투암스:%ORANGE%엠%WHITE%+%RED%랄%WHITE%+%YELLOW%말%WHITE%+%BLUE%아이스트%WHITE%+%BLUE%옴%NL%%ORANGE%(%QT%)}
 ItemDisplay[crs ETH !RW NMAG (SOCK=4 OR SOCK=5)]: {%NL%%GOLD%스피리트:%ORANGE%탈%WHITE%+%RED%주울%WHITE%+%YELLOW%오르트%WHITE%+%BLUE%엠%NL%%GOLD%콜투암스:%ORANGE%엠%WHITE%+%RED%랄%WHITE%+%YELLOW%말%WHITE%+%BLUE%아이스트%WHITE%+%BLUE%옴%NL%%ORANGE%(%QT%)}
 ItemDisplay[fla !ETH !RW NMAG (SOCK=4 OR SOCK=5)]: {%NL%%GOLD%콜투암스:%ORANGE%엠%WHITE%+%RED%랄%WHITE%+%YELLOW%말%WHITE%+%BLUE%아이스트%WHITE%+%BLUE%옴%NL%%GOLD%오크의심장:%ORANGE%코%WHITE%+%RED%벡스%WHITE%+%YELLOW%풀%WHITE%+%BLUE%주울%NL%%ORANGE%(%QT%)}
@@ -945,6 +985,8 @@ ItemDisplay[(7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs)
 ItemDisplay[(7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs) !ETH !RW NMAG ED>0 ED<15 !SOCK=1]: {%NL%%GOLD%불사조:%ORANGE%벡스%WHITE%+%RED%벡스%WHITE%+%YELLOW%로%WHITE%+%BLUE%자%NL%%GOLD%마지막소원:%ORANGE%자%WHITE%+%RED%말%WHITE%+%YELLOW%자%WHITE%+%DARK_GREEN%수르%WHITE%+%GOLD%자%WHITE%+%GREEN%베르%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
 ItemDisplay[(7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs) ETH !RW NMAG ED=15 !SOCK=1]: {%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%%GOLD%불사조:%ORANGE%벡스%WHITE%+%RED%벡스%WHITE%+%YELLOW%로%WHITE%+%BLUE%자%NL%%GOLD%마지막소원:%ORANGE%자%WHITE%+%RED%말%WHITE%+%YELLOW%자%WHITE%+%DARK_GREEN%수르%WHITE%+%GOLD%자%WHITE%+%GREEN%베르%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
 ItemDisplay[(7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs) ETH !RW NMAG ED>0 ED<15 !SOCK=1]: {%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%%GOLD%불사조:%ORANGE%벡스%WHITE%+%RED%벡스%WHITE%+%YELLOW%로%WHITE%+%BLUE%자%NL%%GOLD%마지막소원:%ORANGE%자%WHITE%+%RED%말%WHITE%+%YELLOW%자%WHITE%+%DARK_GREEN%수르%WHITE%+%GOLD%자%WHITE%+%GREEN%베르%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
+ItemDisplay[(7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs) !SUP ETH !RW NMAG SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%ORANGE%(%QT%)}
+ItemDisplay[(7cr OR 7ws) !SUP !ETH !RW NMAG SOCK=0]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%ORANGE%(%QT%)}
 ItemDisplay[(7cr OR 72h OR 7ws OR 7fb OR 7gd OR 7wa OR 7gi OR 7gm OR 7m7 OR 7gs) ETH !RW NMAG !SOCK=1]: {%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%%GOLD%불사조:%ORANGE%벡스%WHITE%+%RED%벡스%WHITE%+%YELLOW%로%WHITE%+%BLUE%자%NL%%GOLD%마지막소원:%ORANGE%자%WHITE%+%RED%말%WHITE%+%YELLOW%자%WHITE%+%DARK_GREEN%수르%WHITE%+%GOLD%자%WHITE%+%GREEN%베르%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
 ItemDisplay[(7cr OR 7ws) !ETH !RW NMAG !SOCK=1]:{%NL%%GOLD%불사조:%ORANGE%벡스%WHITE%+%RED%벡스%WHITE%+%YELLOW%로%WHITE%+%BLUE%자%NL%%GOLD%마지막소원:%ORANGE%자%WHITE%+%RED%말%WHITE%+%YELLOW%자%WHITE%+%DARK_GREEN%수르%WHITE%+%GOLD%자%WHITE%+%GREEN%베르%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
 //Polearm+SPEAR ALL//giant thresher 7wc/ colossus voulge 7vo/thresher 7s8/great poleaxe 7h7/mancatcher 7br/war pike 7p7
@@ -969,6 +1011,7 @@ ItemDisplay[(7br OR 7p7) ETH !RW NMAG SOCK=5 ED>0 ED<15]: {%NL%%GOLD%파멸:%ORA
 ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]: {%NL%%GOLD%통찰:%ORANGE%랄%WHITE%+%RED%티르%WHITE%+%YELLOW%탈%WHITE%+%TAN%솔%NL%%GOLD%무한의공간:%ORANGE%베르%WHITE%+%RED%말%WHITE%+%YELLOW%베르%WHITE%+%TAN%아이스트%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%%GOLD%파멸:%ORANGE%헬%WHITE%+%RED%옴%WHITE%+%YELLOW%움%WHITE%+%TAN%로%WHITE%+%BLUE%참%NL%%ORANGE%(%QT%)}
 ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) !ETH !RW NMAG (SOCK=0 OR SOCK>3) ED>0 ED<15]: {%NL%%GOLD%통찰:%ORANGE%랄%WHITE%+%RED%티르%WHITE%+%YELLOW%탈%WHITE%+%TAN%솔%NL%%GOLD%무한의공간:%ORANGE%베르%WHITE%+%RED%말%WHITE%+%YELLOW%베르%WHITE%+%TAN%아이스트%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%%GOLD%파멸:%ORANGE%헬%WHITE%+%RED%옴%WHITE%+%YELLOW%움%WHITE%+%TAN%로%WHITE%+%BLUE%참%NL%%ORANGE%(%QT%)}
 ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) ETH !RW NMAG (SOCK=0 OR SOCK>3) ED=15]:{%NL%%GOLD%통찰:%ORANGE%랄%WHITE%+%RED%티르%WHITE%+%YELLOW%탈%WHITE%+%TAN%솔%NL%%GOLD%무한의공간:%ORANGE%베르%WHITE%+%RED%말%WHITE%+%YELLOW%베르%WHITE%+%TAN%아이스트%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%%GOLD%파멸:%ORANGE%헬%WHITE%+%RED%옴%WHITE%+%YELLOW%움%WHITE%+%TAN%로%WHITE%+%BLUE%참%NL%%ORANGE%(%QT%)}
+ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) !SUP ETH !RW NMAG SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%ORANGE%(%QT%)}
 ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) ETH !RW NMAG (SOCK=0 OR SOCK>3)]:{%NL%%GOLD%통찰:%ORANGE%랄%WHITE%+%RED%티르%WHITE%+%YELLOW%탈%WHITE%+%TAN%솔%NL%%GOLD%무한의공간:%ORANGE%베르%WHITE%+%RED%말%WHITE%+%YELLOW%베르%WHITE%+%TAN%아이스트%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%%GOLD%파멸:%ORANGE%헬%WHITE%+%RED%옴%WHITE%+%YELLOW%움%WHITE%+%TAN%로%WHITE%+%BLUE%참%NL%%ORANGE%(%QT%)}
 //Amazon Javelins//
 ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW]: %NAME% %ORANGE%자벨린확인!%WHITE%6스킬공속존재하냐?
@@ -1017,6 +1060,7 @@ ItemDisplay[6ws !RW NMAG ETH (SOCK=0 OR SOCK=6)]: %PURPLE%ETH %GRAY%%NAME% %ORAN
 
 ItemDisplay[6ws !RW NMAG ETH ED=15 (SOCK=6 OR SOCK=0)]: {%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%%ORANGE%(%QT%)}
 ItemDisplay[6ws !RW NMAG ETH ED>0 ED<15 (SOCK=6 OR SOCK=0)]: {%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%%ORANGE%(%QT%)}
+ItemDisplay[6ws !RW NMAG ETH !SUP SOCK=0]: {%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%ORANGE%(%QT%)}
 ItemDisplay[6ws !RW NMAG ETH (SOCK=0 OR SOCK=6)]: {%NL%%GOLD%죽음의숨결:%ORANGE%벡스%WHITE%+%RED%헬%WHITE%+%YELLOW%엘%WHITE%+%DARK_GREEN%엘드%WHITE%+%GOLD%조드%WHITE%+%GREEN%에드%NL%%ORANGE%(%QT%)}
 //Amazon Bows//
 ItemDisplay[amc !RW NMAG ED=15 (TABSK0>2 OR TABSK0=0) SOCK=4]: %DOT-75%%NOTIFY-DARK_GREEN%%DARK_GREEN%%NAME%%PURPLE%[%SOCKETS%]%NL% %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%*%RED% +15%증뎀 %ORANGE%[신뢰베이스] %RED%*%YELLOW%*%GREEN%*%PURPLE%*%BLUE%* 
@@ -1036,6 +1080,7 @@ ItemDisplay[amc !RW NMAG ED>0 ED<15 (TABSK0>2 OR TABSK0=0) SOCK=4]: {%NL%%GOLD%�
 ItemDisplay[(amb OR amc OR 6hb OR 6cb OR 6lw) !RW NMAG ED>0 ED<15 (TABSK0>2 OR TABSK0=0) SOCK=4]:{%NL%%GOLD%신뢰:%ORANGE%옴%WHITE%+%RED%자%WHITE%+%YELLOW%렘%WHITE%+%TAN%엘드%NL%%GOLD%조화:%ORANGE%티르%WHITE%+%RED%아이드%WHITE%+%YELLOW%솔%WHITE%+%TAN%코%NL%%ORANGE%(%QT%)}
 ItemDisplay[(amb OR amc OR 6hb OR 6cb OR 6lw) !RW NMAG ED>0 ED<15 (TABSK0>2 OR TABSK0=0) SOCK=0]:{%NL%%GOLD%신뢰:%ORANGE%옴%WHITE%+%RED%자%WHITE%+%YELLOW%렘%WHITE%+%TAN%엘드%NL%%GOLD%조화:%ORANGE%티르%WHITE%+%RED%아이드%WHITE%+%YELLOW%솔%WHITE%+%TAN%코%NL%%ORANGE%(%QT%)}
 ItemDisplay[(amb OR amc OR 6hb OR 6cb OR 6lw) !RW NMAG (TABSK0>2 OR TABSK0=0) SOCK=4]:{%NL%%GOLD%신뢰:%ORANGE%옴%WHITE%+%RED%자%WHITE%+%YELLOW%렘%WHITE%+%TAN%엘드%NL%%GOLD%조화:%ORANGE%티르%WHITE%+%RED%아이드%WHITE%+%YELLOW%솔%WHITE%+%TAN%코%NL%%ORANGE%(%QT%)}
+ItemDisplay[(amb OR amc) !RW !SUP NMAG TABSK0>2 SOCK=0]:{%RED%(라죽이용시 최대 소켓 나옴)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%ORANGE%(%QT%)}
 ItemDisplay[(amb OR amc) !RW NMAG TABSK0>2 SOCK=4]: {%NL%%GOLD%신뢰:%ORANGE%옴%WHITE%+%RED%자%WHITE%+%YELLOW%렘%WHITE%+%TAN%엘드%NL%%GOLD%조화:%ORANGE%티르%WHITE%+%RED%아이드%WHITE%+%YELLOW%솔%WHITE%+%TAN%코%NL%%ORANGE%(%QT%)}
 //Non magic claws
 ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 ED=15 SK274>0]: %GRAY% %NAME% %ORANGE% +15%증뎀 +블아 %PURPLE%[%SOCKETS%]
@@ -1047,14 +1092,14 @@ ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOC
 ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK262>2]: %DOT-75%%NOTIFY-DARK_GREEN%%DARK_GREEN% %NAME% %ORANGE%+3 웨오파 %PURPLE%[%SOCKETS%]
 ItemDisplay[(7ar OR 7qr)!RW NMAG ELT ETH !SOCK=1 !SOCK=2 ED=15]: %PURPLE%ETH %GRAY%%NAME%%BLUE% +15%증뎀 클로 %PURPLE%[%SOCKETS%]
 
-ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 ED=15 SK274>0]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
-ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 ED=15]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
-ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 (SK274>0 AND SK277>2)]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
-ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 (SK278>2 AND SK277>2)]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
-ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK277>2]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
-ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK269>2]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
-ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK262>2]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
-ItemDisplay[(7ar OR 7qr)!RW NMAG ELT ETH !SOCK=1 !SOCK=2 ED=15]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 ED=15 SK274>0]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 ED=15]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL5 !RW NMAG ELT !ETH !7xf !7cs !SOCK=1 !SOCK=2 (SK274>0 AND SK277>2)]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 (SK278>2 AND SK277>2)]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK277>2]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK269>2]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[(9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr) !RW NMAG !SOCK=1 !SOCK=2 SK262>2]:{%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[(7ar OR 7qr)!RW NMAG ELT ETH !SOCK=1 !SOCK=2 ED=15]: {%NL%%GOLD%역병:%ORANGE%참%WHITE%+%RED%팔%WHITE%+%YELLOW%움%NL%%GOLD%혼돈:%ORANGE%팔%WHITE%+%RED%옴%WHITE%+%YELLOW%움%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
 //Dream helm+Shield
 ItemDisplay[(uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3 OR SOCK=0) ED=15]: %DARK_GREEN%%NAME% %ORANGE%[드림재료] %ORANGE%15%방상 %PURPLE%[%SOCKETS%]
 ItemDisplay[(uh9 OR ush OR urg) NMAG !RW !ETH (SOCK=3 OR SOCK=0) STAT91=-10]: %DARK_GREEN%%NAME% %ORANGE%[드림재료] %ORANGE%10%리콰 %PURPLE%[%SOCKETS%]
@@ -1076,10 +1121,10 @@ ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK149>2) !SOCK=1]: %GRAY%%NAME%%PURPLE%[%
 ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK150>2) !SOCK=1]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%ORANGE%+3 워크라이 %YELLOW%+3 그림와드 %ORANGE%[정신착란+꿈베이스]
 ItemDisplay[CL2 !ETH NMAG (SK149>2 AND SK150>2) !SOCK=1]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%ORANGE%+3 오더 %YELLOW%+3 그림와드 %ORANGE%[정신착란+꿈베이스]
 
-ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK146>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
-ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK149>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
-ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK150>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
-ItemDisplay[CL2 !ETH NMAG (SK149>2 AND SK150>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK146>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK149>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL2 !ETH NMAG (SK154>2 AND SK150>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL2 !ETH NMAG (SK149>2 AND SK150>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
 //Druid pelts magic
 ItemDisplay[CL1 !ETH NMAG (SK250>2 AND SK249>2) !SOCK=1]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%ORANGE%+3 허리케인 %YELLOW%+3 아마겟돈 %ORANGE%[정신착란+꿈베이스]
 ItemDisplay[CL1 !ETH NMAG (SK250>2 AND SK245>2) !SOCK=1]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%ORANGE%+3 허리케인 %YELLOW%+3 토네 %ORANGE%[정신착란+꿈베이스]
@@ -1087,11 +1132,11 @@ ItemDisplay[CL1 !ETH NMAG (SK249>2 AND SK245>2) !SOCK=1]: %GRAY%%NAME%%PURPLE%[%
 ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK237>2) !SOCK=1]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%ORANGE%+3 그리즐리 %YELLOW%+3 다이어울프 %ORANGE%[정신착란+꿈베이스]
 ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK227>2) !SOCK=1]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%ORANGE%+3 그리즐리 %YELLOW%+3 스피릿울프 %ORANGE%[정신착란+꿈베이스]
 
-ItemDisplay[CL1 !ETH NMAG (SK250>2 AND SK249>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
-ItemDisplay[CL1 !ETH NMAG (SK250>2 AND SK245>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
-ItemDisplay[CL1 !ETH NMAG (SK249>2 AND SK245>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
-ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK237>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
-ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK227>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL1 !ETH NMAG (SK250>2 AND SK249>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL1 !ETH NMAG (SK250>2 AND SK245>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL1 !ETH NMAG (SK249>2 AND SK245>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK237>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
+ItemDisplay[CL1 !ETH NMAG (SK247>2 AND SK227>2) !SOCK=1]: {%NL%%GOLD%꿈:%ORANGE%아이오%WHITE%+%RED%자%WHITE%+%YELLOW%풀%NL%%GOLD%정신착란:%ORANGE%렘%WHITE%+%RED%아이스트%WHITE%+%YELLOW%아이오%NL%%RED%(라죽이용시 최대 소켓 나옴)%NL%%ORANGE%(%QT%)}
 //imbue
 ItemDisplay[ci3 !ETH NMAG SOCK=0]: %NAME% %ORANGE%임뷰용 %PURPLE%[%SOCKETS%]
 //Scepters
@@ -1204,36 +1249,36 @@ ItemDisplay[(WEAPON OR ARMOR) !ID (MAG OR RARE) CLVL<31]:%NAME% %PURPLE%[%SOCKET
 ItemDisplay[(WEAPON OR ARMOR) !ID (MAG OR RARE) CLVL>30]:
 ItemDisplay[(WEAPON OR ARMOR) ID (MAG OR RARE)]:%NAME%
 //ItemDisplay[(WEAPON OR ARMOR) ID ]: {%ORANGE%(%QT%)}
-ItemDisplay[WEAPON ID UNI NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%랄+솔+%ORANGE%P%WHITE%에메랄드%GREEN%@%YELLOW%)}
-ItemDisplay[WEAPON ID UNI EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%룸+풀+%ORANGE%P%WHITE%에메랄드%GREEN%@%YELLOW%)}
+ItemDisplay[WEAPON ID UNI NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%랄+솔+%ORANGE%P%WHITE%에메랄드%GREEN%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[WEAPON ID UNI EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%룸+풀+%ORANGE%P%WHITE%에메랄드%GREEN%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
 ItemDisplay[WEAPON ID UNI ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[ARMOR ID UNI NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%탈+샤에+%ORANGE%P%WHITE%다이아몬드%WHITE%@%YELLOW%)}
-ItemDisplay[ARMOR ID UNI EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%코+렘+%ORANGE%P%WHITE%다이아몬드%WHITE%@%YELLOW%)}
+ItemDisplay[ARMOR ID UNI NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%탈+샤에+%ORANGE%P%WHITE%다이아몬드%WHITE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[ARMOR ID UNI EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%코+렘+%ORANGE%P%WHITE%다이아몬드%WHITE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
 ItemDisplay[ARMOR ID UNI ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[WEAPON ID SET NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%엘+에드+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)}
-ItemDisplay[WEAPON ID SET EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%돌+말+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)}
+ItemDisplay[WEAPON ID SET NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%엘+에드+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[WEAPON ID SET EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%돌+말+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
 ItemDisplay[WEAPON ID SET ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[ARMOR ID SET NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%엘드+아이드+%ORANGE%P%WHITE%토파즈%ORANGE%@%YELLOW%)}
-ItemDisplay[ARMOR ID SET EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%헬+아이오+%ORANGE%P%WHITE%토파즈%ORANGE%@%YELLOW%)}
+ItemDisplay[ARMOR ID SET NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%엘드+아이드+%ORANGE%P%WHITE%토파즈%ORANGE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[ARMOR ID SET EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%헬+아이오+%ORANGE%P%WHITE%토파즈%ORANGE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
 ItemDisplay[ARMOR ID SET ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[WEAPON ID RARE NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%오르트+엠+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)}
-ItemDisplay[WEAPON ID RARE EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%팔+움+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)}
+ItemDisplay[WEAPON ID RARE NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%오르트+엠+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[WEAPON ID RARE EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%팔+움+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
 ItemDisplay[WEAPON ID RARE ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[ARMOR ID RARE NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%랄+주울+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)}
-ItemDisplay[ARMOR ID RARE EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%코+풀+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)}
+ItemDisplay[ARMOR ID RARE NORM]: {%ORANGE%(노말)%NL%%YELLOW%(업그레이드:%WHITE%랄+주울+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[ARMOR ID RARE EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(업그레이드:%WHITE%코+풀+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
 ItemDisplay[ARMOR ID RARE ELT]: {%ORANGE%(엘리트)}
-ItemDisplay[EQ1 !RW !SUP NMAG NORM]: {%ORANGE%(노말)%NL%%YELLOW%(헬멧소켓:%WHITE%랄+주울+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)}
-ItemDisplay[EQ1 !RW !SUP NMAG EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(헬멧소켓:%WHITE%랄+주울+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)}
-ItemDisplay[EQ1 !RW !SUP NMAG ELT]: {%ORANGE%(엘리트)%NL%%YELLOW%(헬멧소켓:%WHITE%랄+주울+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)}}
-ItemDisplay[EQ2 !RW !SUP NMAG NORM]: {%ORANGE%(노말)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)}
-ItemDisplay[EQ2 !RW !SUP NMAG EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)}
-ItemDisplay[EQ2 !RW !SUP NMAG ELT]: {%ORANGE%(엘리트)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)}
-ItemDisplay[(EQ3 OR CL3 OR CL4) !RW !SUP NMAG NORM]: {%ORANGE%(노말)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)}
-ItemDisplay[(EQ3 OR CL3 OR CL4) !RW !SUP NMAG EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)}
-ItemDisplay[(EQ3 OR CL3 OR CL4) !RW !SUP NMAG ELT]: {%ORANGE%(엘리트)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)}
-ItemDisplay[WEAPON !RW !SUP NMAG NORM]: {%ORANGE%(노말)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)}
-ItemDisplay[WEAPON !RW !SUP NMAG EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)}
-ItemDisplay[WEAPON !RW !SUP NMAG ELT]: {%ORANGE%(엘리트)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)}
+ItemDisplay[EQ1 !RW !SUP NMAG NORM]: {%ORANGE%(노말)%NL%%YELLOW%(헬멧소켓:%WHITE%랄+주울+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[EQ1 !RW !SUP NMAG EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(헬멧소켓:%WHITE%랄+주울+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[EQ1 !RW !SUP NMAG ELT]: {%ORANGE%(엘리트)%NL%%YELLOW%(헬멧소켓:%WHITE%랄+주울+%ORANGE%P%WHITE%사파이어%BLUE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[EQ2 !RW !SUP NMAG NORM]: {%ORANGE%(노말)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[EQ2 !RW !SUP NMAG EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[EQ2 !RW !SUP NMAG ELT]: {%ORANGE%(엘리트)%NL%%YELLOW%(갑옷소켓:%WHITE%탈+주울+%ORANGE%P%WHITE%토파즈%YELLOW%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[(EQ3 OR CL3 OR CL4) !RW !SUP NMAG NORM]: {%ORANGE%(노말)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[(EQ3 OR CL3 OR CL4) !RW !SUP NMAG EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[(EQ3 OR CL3 OR CL4) !RW !SUP NMAG ELT]: {%ORANGE%(엘리트)%NL%%YELLOW%(방패소켓:%WHITE%탈+엠+%ORANGE%P%WHITE%루비%RED%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[WEAPON !RW !SUP NMAG NORM]: {%ORANGE%(노말)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[WEAPON !RW !SUP NMAG EXC]: {%ORANGE%(익셉셔널)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
+ItemDisplay[WEAPON !RW !SUP NMAG ELT]: {%ORANGE%(엘리트)%NL%%YELLOW%(무기소켓:%WHITE%랄+엠+%ORANGE%P%WHITE%자수정%PURPLE%@%YELLOW%)%NL%%RED%(라죽이용시 최대 소켓 나옴)}
 ItemDisplay[(WEAPON OR ARMOR) ID NORM]: {%ORANGE%(노말)}
 ItemDisplay[(WEAPON OR ARMOR) ID EXC]: {%ORANGE%(익셉셔널)}
 ItemDisplay[(WEAPON OR ARMOR) ID ELT]: {%ORANGE%(엘리트)}
