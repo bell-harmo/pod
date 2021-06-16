@@ -1178,6 +1178,7 @@ ItemDisplay[UNI ama ID (STAT360=1 AND IAS>0)]: %NAME%%ORANGE%공속 %RED%타락�
 ItemDisplay[UNI amf ID (STAT360=1 AND IAS>15)]: %NAME%%ORANGE%공속 %RED%타락됨
 ItemDisplay[UNI zvb ID (STAT360=1 AND STAT156=41)]: %NAME%%ORANGE%8%관통 %RED%타락됨
 ItemDisplay[UNI umc ID (STAT360=1 AND STAT156=8)]: %NAME%%ORANGE%8%관통 %RED%타락됨
+ItemDisplay[UNI xtg ID (STAT360=1 AND IAS=30)]: %NAME%%ORANGE%10%공속 %RED%타락됨
 ItemDisplay[UNI EQ4 ID (STAT360=1 AND IAS=20)]: %NAME%%ORANGE%10%공속 %RED%타락됨
 ItemDisplay[UNI EQ4 ID (STAT360=1 AND RES>4)]: %NAME%%ORANGE%올레지 %RED%타락됨
 ItemDisplay[UNI EQ4 ID (STAT360=1 AND STAT378>0)]: %NAME%%ORANGE%라이프게인 %RED%타락됨
