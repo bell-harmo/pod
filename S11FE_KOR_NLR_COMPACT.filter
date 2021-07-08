@@ -1,4 +1,4 @@
-//Updated 21/05/29
+//Updated 21/07/08
 //Inf 삭제
 ItemDisplay[INF (WEAPON OR ARMOR) NMAG]:
 //Relic
@@ -349,7 +349,6 @@ ItemDisplay[UNI !ID 7gm ETH]:%PURPLE%ETH %RED%지축 망치 or %PURPLE%ETH %RED%
 //Unique Polearms
 ItemDisplay[UNI !ID 7s8 !ETH]:%RED%사신의 수확%NOTIFY-TAN%
 ItemDisplay[UNI !ID 7s8 ETH]:%PURPLE%ETH %RED%사신의 수확%NOTIFY-TAN%
-ItemDisplay[UNI !ID 7pa !ETH]:%RED%무덤 약탈자%NOTIFY-TAN%
 ItemDisplay[UNI !ID 7pa ETH]:%PURPLE%ETH %RED%무덤 약탈자%NOTIFY-TAN%
 //Unique Staves
 ItemDisplay[UNI !ID 6cs !ETH]:%RED%온달의지혜%NOTIFY-TAN%
