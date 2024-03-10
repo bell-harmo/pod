@@ -159,8 +159,8 @@ ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %DGREEN%T%GREE
 ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %RED%%PURPLE%T%GOLD%i%WHITE%e%ORANGE%r%PURPLE%3 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT80>0]:%NAME% %GREEN%매찬
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9) STAT360=1]:%NAME% %RED%타락됨
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) STAT80>0]:%NAME% %GREEN%매찬
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) STAT360=1]:%NAME% %RED%타락됨
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                            Charms                                           //
 /////////////////////////////////////////////////////////////////////////////////////////////////
