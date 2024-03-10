@@ -154,7 +154,7 @@ ItemDisplay[(ma2) RARE]:%YELLOW%Forgotten Desert %RED%Relic %CONTINUE%
 ItemDisplay[(ma6) RARE]:%YELLOW%Ruined Citadel %RED%Relic %CONTINUE%
 ItemDisplay[(ma7) RARE]:%YELLOW%Burnt Forest %RED%Relic %CONTINUE%
 
-ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %DARK_GREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
+ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %RED%%PURPLE%T%GOLD%i%WHITE%e%ORANGE%r%PURPLE%3 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 
@@ -323,13 +323,13 @@ ItemDisplay[UNI !ID cm4]: %NL%       %RED%%NAME%       %NL%  <<SPECIAL>>
 /////////////////////////////////////////////////////////////////////////////////////////////////
 ItemDisplay[(leg OR ear)]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%***
 //Uber Keys
-ItemDisplay[pk1]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DARK_GREEN%Ke%GREEN%y o%WHITE%f T%GREEN%er%DARK_GREEN%ro%GREEN%r  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[pk2]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DARK_GREEN%Ke%GREEN%y o%WHITE%f H%GREEN%at%DARK_GREEN%re%GREEN%d  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[pk3]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DARK_GREEN%Ke%GREEN%y o%WHITE%f D%GREEN%es%DARK_GREEN%tr%GREEN%uc%WHITE%ti%GREEN%on  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[dhn]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DARK_GREEN%Di%GREEN%ab%WHITE%lo%GREEN%'s %DARK_GREEN%Ho%GREEN%rn  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[bey]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DARK_GREEN%Ba%GREEN%al%WHITE%'s %GREEN%Ey%DARK_GREEN%e  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[mbr]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DARK_GREEN%Me%GREEN%ph%WHITE%is%GREEN%to%DARK_GREEN%'s %GREEN%Br%WHITE%ai%GREEN%n  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
-ItemDisplay[std]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DARK_GREEN%St%GREEN%an%WHITE%da%GREEN%rd %DARK_GREEN%of %GREEN%He%WHITE%ro%GREEN%es  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
+ItemDisplay[pk1]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ke%GREEN%y o%WHITE%f T%GREEN%er%DGREEN%ro%GREEN%r  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
+ItemDisplay[pk2]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ke%GREEN%y o%WHITE%f H%GREEN%at%DGREEN%re%GREEN%d  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
+ItemDisplay[pk3]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ke%GREEN%y o%WHITE%f D%GREEN%es%DGREEN%tr%GREEN%uc%WHITE%ti%GREEN%on  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
+ItemDisplay[dhn]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Di%GREEN%ab%WHITE%lo%GREEN%'s %DGREEN%Ho%GREEN%rn  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
+ItemDisplay[bey]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Ba%GREEN%al%WHITE%'s %GREEN%Ey%DGREEN%e  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
+ItemDisplay[mbr]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%Me%GREEN%ph%WHITE%is%GREEN%to%DGREEN%'s %GREEN%Br%WHITE%ai%GREEN%n  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
+ItemDisplay[std]:%RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %DGREEN%St%GREEN%an%WHITE%da%GREEN%rd %DGREEN%of %GREEN%He%WHITE%ro%GREEN%es  %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 
 ItemDisplay[bks]:%PURPLE%[%RED%Scroll%PURPLE%] %GOLD%of Inifuss <<QUEST>>
 ItemDisplay[bkd]:%PURPLE%[%RED%Key%PURPLE%] %GOLD%to the Cairn Stonee <<QUEST>>
