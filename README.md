@@ -34,7 +34,7 @@
 
 # DM 
   1. Reddit : DamageFunny3572
-  2. Discord : mhpark2359#2972
+  2. Discord : pillla
 
 
 # Explanation
