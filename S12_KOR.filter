@@ -1015,9 +1015,9 @@ ItemDisplay[UNI !ID pa9 ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE
 ItemDisplay[UNI !ID pac !ETH]: %GOLD%*********************%NL%%NL%%RED%알마 네그라     %NL%<<MONEY>>
 ItemDisplay[UNI !ID pac ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%알마 네그라%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID (rin)]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %CORAL%링 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
-ItemDisplay[UNI !ID (amu)]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %WHITE%아%PURPLE%뮬%ORANGE%렛 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
-ItemDisplay[UNI !ID (jew)]%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%NL% %RED%레%ORANGE%인%YELLOW%보%GREEN%우 %BLUE%쥬%PURPLE%얼 %NL%%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%** <<UNIQUE>>
+ItemDisplay[UNI !ID (rin)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %CORAL%링 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
+ItemDisplay[UNI !ID (amu)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %WHITE%아%PURPLE%뮬%ORANGE%렛 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
+ItemDisplay[UNI !ID (jew)]:%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%NL% %RED%레%ORANGE%인%YELLOW%보%GREEN%우 %BLUE%쥬%PURPLE%얼 %NL%%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%** <<UNIQUE>>
 
 //UNIQUE NORMAL NAMING
 ItemDisplay[UNI !ID cap !ETH]: %GRAY%*********************%NL%%NL%%TAN%비긴의 끈모자%NL%%NL%%GRAY%*********************
