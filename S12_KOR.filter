@@ -647,9 +647,9 @@ ItemDisplay[MAG amu ID]:%NAME%{%NL%%WHITE%주얼+아뮬렛+랄+최상급 자수�
 ItemDisplay[MAG rin ID]:%NAME%{%NL%%WHITE%주얼+링+엠+최상급 자수정%NL%%ORANGE%캐스터 크래프트}
 
 //Charms/JEWELS
-ItemDisplay[MAG (cm1 OR cm3) !ID]: %BLUE%***************%NL%%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%NL%%BLUE%*************** <<MAGIC>>
+ItemDisplay[MAG (cm1 OR cm3) !ID]: %BLUE%***************%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%BLUE%*************** <<MAGIC>>
 ItemDisplay[MAG cm2 !ID]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG jew !ID]: %BLUE%***************%NL%%NL%%GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%°%NL%%NL%%BLUE%*************** <<MAGIC>>
+ItemDisplay[MAG jew !ID]: %BLUE%***************%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%BLUE%*************** <<MAGIC>>
 
 //IAS=공속, STAT17=증뎀, STAT22=max, STAT86=each kill life, FHR=히트리커버리, STAT91=리콰이어먼트
 ItemDisplay[RARE jew (IAS>0 AND STAT17>0)]: %YELLOW%%NAME%%ORANGE%[L%ILVL%] %NL% %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%WHITE%증뎀 %RED%공속%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
