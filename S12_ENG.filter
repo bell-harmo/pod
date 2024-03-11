@@ -646,9 +646,9 @@ ItemDisplay[MAG amu ID]:%NAME%{%NL%%WHITE%JEWEL+AMULET+RAL+P_AMETHYST%NL%%ORANGE
 ItemDisplay[MAG rin ID]:%NAME%{%NL%%WHITE%JEWEL+RING+AMN+P_AMETHYST%NL%%ORANGE%CASTER CRAFT}
 
 //Charms/JEWELS
-ItemDisplay[MAG (cm1 OR cm3) !ID]: %BLUE%***************%NL%%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%NL%%BLUE%*************** <<MAGIC>>
+ItemDisplay[MAG (cm1 OR cm3) !ID]: %BLUE%***************%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%BLUE%*************** <<MAGIC>>
 ItemDisplay[MAG cm2 !ID]: %NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG jew !ID]: %BLUE%***************%NL%%NL%%GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%°%NL%%NL%%BLUE%*************** <<MAGIC>>
+ItemDisplay[MAG jew !ID]: %BLUE%***************%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%BLUE%*************** <<MAGIC>>
 
 //IAS=Ias, STAT17=Ed, STAT22=max, STAT86=each kill life, FHR=히트리커버리, STAT91=Req이어먼트
 ItemDisplay[RARE jew (IAS>0 AND STAT17>0)]: %YELLOW%%NAME%%ORANGE%[L%ILVL%] %NL% %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%WHITE%Ed %RED%Ias%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
