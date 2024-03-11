@@ -1387,7 +1387,7 @@ ItemDisplay[UNI !ID 9qs ETH]: %GRAY%*********************%NL%%NL%%WHITE%[%PURPLE
 ItemDisplay[UNI !ID 9ws !ETH]: %GRAY%*********************%NL%%NL%%TAN%Hand of Blessed Light%NL%%NL%%TAN%%GRAY%*********************
 ItemDisplay[UNI !ID 9ws ETH]: %GRAY%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%Hand of Blessed Light%NL%%NL%%TAN%%GRAY%*********************
 ItemDisplay[UNI !ID 7sc !ETH]: %GRAY%*********************%NL%%NL%%TAN%Heaven's Light or the Redeemer%NL%%NL%%TAN%%GRAY%*********************
-ItemDisplay[UNI !ID 7sc ETH]: %GRAY%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%Heaven's Light or ETH the Redeemer%NL%%NL%%TAN%%GRAY%*********************
+ItemDisplay[UNI !ID 7sc ETH]: %GRAY%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%Heaven's Light or the Redeemer%NL%%NL%%TAN%%GRAY%*********************
 ItemDisplay[UNI !ID 7ws !ETH]: %GRAY%*********************%NL%%NL%%TAN%Astreon's Iron Ward%NL%%NL%%TAN%%GRAY%*********************
 ItemDisplay[UNI !ID 7ws ETH]: %GRAY%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%Astreon's Iron Ward%NL%%NL%%TAN%%GRAY%*********************
 ItemDisplay[UNI !ID spr !ETH]: %GRAY%*********************%NL%%NL%%TAN%The Dragon Chang%NL%%NL%%TAN%%GRAY%*********************
