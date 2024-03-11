@@ -65,8 +65,8 @@ ItemDisplay[tsc DIFFICULTY<1]:%BLUE%[%WHITE%포탈 %TEAL%스크롤%BLUE%]
 ItemDisplay[tsc DIFFICULTY>0]:
 ItemDisplay[isc DIFFICULTY<1]:%RED%[%WHITE%식별 %CORAL%스크롤%RED%]
 ItemDisplay[isc DIFFICULTY>0]:
-ItemDisplay[rvl]:%PURPLE%[활력]%WHITE%-%ORANGE%70%{%TAN%-- -- -- -- -- -- -- -- -- --  %NL% HELLO %NL%%TAN%-- --  -- -- -- -- -- -- -- --}
-ItemDisplay[rvs]:%PURPLE%[활력]%WHITE%-%WHITE%35%
+ItemDisplay[rvl]:%PURPLE%[활력%ORANGE%70%%PURPLE%]{%TAN%-- -- -- -- -- -- -- -- -- --  %NL% HELLO %NL%%TAN%-- --  -- -- -- -- -- -- -- --}
+ItemDisplay[rvs]:%PURPLE%[활력%WHITE%35%%PURPLE%]
 ItemDisplay[key CLVL<30]:%WHITE%[%GRAY%열쇠%WHITE%]
 ItemDisplay[key CLVL>29]:
 ItemDisplay[wms CLVL<20]:%WHITE%[해빙]
