@@ -971,24 +971,24 @@ ItemDisplay[UNI !ID 7s8 ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE
 ItemDisplay[UNI !ID 7pa !ETH]: %GOLD%*********************%NL%%NL%%RED%무덤 약탈자%NL%%NL%%GOLD%*********************
 ItemDisplay[UNI !ID 7pa ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%무덤 약탈자%NL%%NL%%GOLD%*********************
 //Unique Staves
-ItemDisplay[UNI !ID 6cs !ETH]: %GOLD%*********************%NL%%NL%%RED%온달의지혜%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 6cs ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%온달의 지혜%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 6ws !ETH]: %GOLD%*********************%NL%%NL%%RED%망송의교훈%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 6ws ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%망 송의 교훈%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID 6cs !ETH]: %GOLD%*********************%NL%%NL%%RED%온달의지혜%NL%%NL%%GOLD%*********************<<MONEY>>
+ItemDisplay[UNI !ID 6cs ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%온달의 지혜%NL%%NL%%GOLD%*********************<<MONEY>>
+ItemDisplay[UNI !ID 6ws !ETH]: %GOLD%*********************%NL%%NL%%RED%망송의교훈%NL%%NL%%GOLD%*********************<<MONEY>>
+ItemDisplay[UNI !ID 6ws ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%망 송의 교훈%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Swords
 ItemDisplay[UNI !ID 7cr]: %GOLD%*********************%NL%%NL%%RED%광검 or 푸른 서슬%NL%%NL%%GOLD%*********************
 ItemDisplay[UNI !ID 7gd !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%대선조%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID 7gd ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%대선조%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID 7gd ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%대선조%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Wands
 ItemDisplay[UNI !ID 7gw !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%죽음의 거미줄%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****  <<UNIQUE>>
-ItemDisplay[UNI !ID 7gw ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%죽음의 거미줄%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID 7gw ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%죽음의 거미줄%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Throwing Weapons
-ItemDisplay[UNI !ID 7bk !ETH]: %GOLD%*********************%NL%%NL%%RED%전장의 새%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 7bk ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%전장의 새%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID 7bk !ETH]: %GOLD%*********************%NL%%NL%%RED%전장의 새%NL%%NL%%GOLD%********************* <<MONEY>>
+ItemDisplay[UNI !ID 7bk ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%전장의 새%NL%%NL%%GOLD%********************* <<MONEY>>
 //Unique Amazon only items
-ItemDisplay[UNI !ID ama !ETH]: %GOLD%*********************%NL%%NL%%RED%타이탄의 복수%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID ama !ETH]: %GOLD%*********************%NL%%NL%%RED%타이탄의 복수%NL%%NL%%GOLD%*********************<<MONEY>>
 ItemDisplay[UNI !ID ama ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%타이탄의 복수%NL%%NL%%GOLD%*********************<<MONEY>>
-ItemDisplay[UNI !ID amf !ETH]: %GOLD%*********************%NL%%NL%%RED%낙뢰%NL%%NL%%GOLD%*********************
+ItemDisplay[UNI !ID amf !ETH]: %GOLD%*********************%NL%%NL%%RED%낙뢰%NL%%NL%%GOLD%*********************<<MONEY>>
 ItemDisplay[UNI !ID amf ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%낙뢰%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Assassin only items
 ItemDisplay[UNI !ID 9tw !ETH]: %GOLD%*********************%NL%%NL%%RED%바르툭의 목따개%NL%%NL%%GOLD%*********************
