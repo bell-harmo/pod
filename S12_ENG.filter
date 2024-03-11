@@ -65,8 +65,8 @@ ItemDisplay[tsc DIFFICULTY<1]:%BLUE%[%WHITE%Tp %TEAL%Scroll%BLUE%]
 ItemDisplay[tsc DIFFICULTY>0]:
 ItemDisplay[isc DIFFICULTY<1]:%RED%[%WHITE%Id %CORAL%Scroll%RED%]
 ItemDisplay[isc DIFFICULTY>0]:
-ItemDisplay[rvl]:%PURPLE%[Rp]%WHITE%-%ORANGE%70%{%TAN%-- -- -- -- -- -- -- -- -- --  %NL% HELLO %NL%%TAN%-- --  -- -- -- -- -- -- -- --}
-ItemDisplay[rvs]:%PURPLE%[Rp]%WHITE%-%WHITE%35%
+ItemDisplay[rvl]:%PURPLE%[Rp%ORANGE%70%%PURPLE%]{%TAN%-- -- -- -- -- -- -- -- -- --  %NL% HELLO %NL%%TAN%-- --  -- -- -- -- -- -- -- --}
+ItemDisplay[rvs]:%PURPLE%[Rp%WHITE%35%%PURPLE%]
 ItemDisplay[key CLVL<30]:%WHITE%[%GRAY%Key%WHITE%]
 ItemDisplay[key CLVL>29]:
 ItemDisplay[wms CLVL<20]:%WHITE%[Tha]
