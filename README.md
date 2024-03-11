@@ -43,6 +43,23 @@
 
 
 
+## Please use this setting on your diablo
+
+![image](https://github.com/PiLLLaa/pod/assets/76995697/3ecc14f4-2468-423d-8d1b-9d5505f1a43d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Update :purple_heart:3.May:purple_heart:
 ![image](https://user-images.githubusercontent.com/76995697/116964612-f3f04f00-ace6-11eb-9a4c-68ebcfa3105c.png)
 
