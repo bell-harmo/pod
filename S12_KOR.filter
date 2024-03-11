@@ -431,23 +431,23 @@ ItemDisplay[(r16)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %BLUE%포%WHITE%룬 %
 ItemDisplay[(r17)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %GREEN%룸%WHITE%룬 %GOLD%[17] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
 ItemDisplay[(r20)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %PURPLE%렘%WHITE%룬 %GOLD%[20] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
 //pul
-ItemDisplay[(r21)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %WHITE%풀%BLUE%룬%GOLD%[21]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ 
+ItemDisplay[(r21)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %WHITE%풀%BLUE%룬%GOLD%[21]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++  <<HIGH>>
 //um
-ItemDisplay[(r22)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %GREEN%우%BLUE%움%WHITE%룬%GOLD%[22]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ 
+ItemDisplay[(r22)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %GREEN%우%BLUE%움%WHITE%룬%GOLD%[22]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++  <<HIGH>>
 //mal
-ItemDisplay[(r23)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %ORANGE%말%BLUE%룬%GOLD%[23]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++
+ItemDisplay[(r23)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %ORANGE%말%BLUE%룬%GOLD%[23]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ <<HIGH>>
 //ist
-ItemDisplay[(r24)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %YELLOW%이%BLUE%스%ORANGE%트%WHITE%룬%GOLD%[24]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++
+ItemDisplay[(r24)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %YELLOW%이%BLUE%스%ORANGE%트%WHITE%룬%GOLD%[24]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ <<HIGH>>
 //high rune
-ItemDisplay[(r25)]:%GREEN%**%ORANGE%**%WHITE%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %RED%굴%WHITE%룬%GOLD%[25] %NL%%NL%%PURPLE%**%BLUE%**%GREEN%**%WHITE%**%ORANGE%**%GREEN%**
-ItemDisplay[(r26)]:%GREEN%**%ORANGE%**%WHITE%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %PURPLE%벡%ORANGE%스%RED%룬%GOLD%[26] %NL%%NL%%PURPLE%**%BLUE%**%GREEN%**%WHITE%**%ORANGE%**%GREEN%**
-ItemDisplay[(r27)]:%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%**%NL%%NL% %RED%옴%ORANGE%룬%GOLD%[27] %NL%%NL%%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%**
-ItemDisplay[(r28)]:%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%**%NL%%NL% %ORANGE%로%RED%룬%GOLD%[28] %NL%%NL%%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%**
-ItemDisplay[(r29)]:%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %WHITE%수%GOLD%르%PURPLE%룬%GOLD%[29] %NL%%NL%%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**
-ItemDisplay[(r30)]:%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %GOLD%베%RED%르%PURPLE%룬%GOLD%[30] %NL%%NL%%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**
-ItemDisplay[(r31)]:%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%**%NL%%NL% %RED%자%GOLD%룬%GOLD%[31] %NL%%NL%%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%**
-ItemDisplay[(r32)]:%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%**%NL%%NL% %GOLD%참%RED%룬%GOLD%[32] %NL%%NL%%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%**
-ItemDisplay[(r33)]:%RED%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %GREEN%조%RED%드%WHITE%룬%GOLD%[33] %NL%%NL%%RED%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**
+ItemDisplay[(r25)]:%GREEN%**%ORANGE%**%WHITE%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %RED%굴%WHITE%룬%GOLD%[25] %NL%%NL%%PURPLE%**%BLUE%**%GREEN%**%WHITE%**%ORANGE%**%GREEN%** <<HIGH>>
+ItemDisplay[(r26)]:%GREEN%**%ORANGE%**%WHITE%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %PURPLE%벡%ORANGE%스%RED%룬%GOLD%[26] %NL%%NL%%PURPLE%**%BLUE%**%GREEN%**%WHITE%**%ORANGE%**%GREEN%** <<HIGH>>
+ItemDisplay[(r27)]:%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%**%NL%%NL% %RED%옴%ORANGE%룬%GOLD%[27] %NL%%NL%%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%** <<HIGH>>
+ItemDisplay[(r28)]:%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%**%NL%%NL% %ORANGE%로%RED%룬%GOLD%[28] %NL%%NL%%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%** <<HIGH>>
+ItemDisplay[(r29)]:%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %WHITE%수%GOLD%르%PURPLE%룬%GOLD%[29] %NL%%NL%%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%** <<HIGH>>
+ItemDisplay[(r30)]:%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %GOLD%베%RED%르%PURPLE%룬%GOLD%[30] %NL%%NL%%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%** <<HIGH>>
+ItemDisplay[(r31)]:%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%**%NL%%NL% %RED%자%GOLD%룬%GOLD%[31] %NL%%NL%%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%** <<HIGH>>
+ItemDisplay[(r32)]:%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%**%NL%%NL% %GOLD%참%RED%룬%GOLD%[32] %NL%%NL%%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%** <<HIGH>>
+ItemDisplay[(r33)]:%RED%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %GREEN%조%RED%드%WHITE%룬%GOLD%[33] %NL%%NL%%RED%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%** <<HIGH>>
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
