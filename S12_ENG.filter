@@ -40,7 +40,7 @@ ItemStyle[MAGIC]: MapIcon = 2, MapIconColor = 0, BorderColor = 0, BorderSize = 1
 //                                       POTION                                                //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-ItemDisplay[box]:%PURPLE%[%RED%호%WHITE%라%ORANGE%드%GOLD%릭 %PURPLE%큐브 %ORANGE%[L%ILVL%]%PURPLE%] %CONTINUE%
+ItemDisplay[box]:%PURPLE%[%RED%Ho%WHITE%ra%ORANGE%dr%GOLD%ic %PURPLE%Cube %ORANGE%[L%ILVL%]%PURPLE%] %CONTINUE%
 ItemDisplay[box]:%NAME%{%NL%%ORANGE%HITPOWER:%WHITE%P_SAPIRE+JEWEL+BOOTS+ORT%NL%%RED%BLOOD:%WHITE%P_RUBY+JEWEL+HELMET+RAL%NL%%RED%BLOOD%WHITE%P_RUBY+JEWEL+GLOVE+NEF%NL%%RED%BLOOD:%WHITE%P_RUBY+JEWEL+RING+SOL%NL%%BLUE%CASTER:%WHITE%P_AMETHYST+JEWEL+BELT+ITH%NL%%PURPLE%SOC(ARMOR):%WHITE%P_TOPAZ+TAL+THUL%NL%%PURPLE%SOC(WP):%WHITE%P_AMETHYST+RAL+AMN%NL%}
 ItemDisplay[hp5]:%RED%[%WHITE%Hp%RED%]
 ItemDisplay[mp5]:%BLUE%[%WHITE%Mp%BLUE%]
