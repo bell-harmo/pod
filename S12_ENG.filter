@@ -82,7 +82,7 @@ ItemDisplay[NMAG (hbl) !ID]:%GREEN%Immortal King's Detail%NL%%NL%%RED%Thundergod
 ItemDisplay[NMAG (dr1) !ID]:%RED%	Cerebus' Bite %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG (dr3) !ID]: %GREEN%Aldur's Stony Gaze%NL%%NL%%GOLD%	Spirit Keeper%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
 ItemDisplay[NMAG (dr4) !ID]: %GOLD%	Ravenlore%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
-ItemDisplay[NMAG (dr5) !ID]:%ORANGE%Ursa's Nightmare%NL%%RED%	Jalal's Mane %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
+//ItemDisplay[NMAG (dr5) !ID]:%ORANGE%Ursa's Nightmare%NL%%RED%	Jalal's Mane %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG (ba1) !ID]: %GOLD%Cyclopean Roar%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
 ItemDisplay[NMAG (ba2) !ID]: %RED%Wolfhowl%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
 ItemDisplay[NMAG (ba3) !ID]: %GOLD%Demonhorn's Edge%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
