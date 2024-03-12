@@ -588,15 +588,15 @@ ItemDisplay[(r23)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%N
 //ist
 ItemDisplay[(r24)]:%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++%NL%%NL%  %YELLOW%Ist%GOLD%[24]  %NL%%NL%%WHITE%++++%ORANGE%++++%RED%++++%GREEN%++++%PURPLE%++++ <<HIGH>>
 //high rune
-ItemDisplay[(r25)]:%GREEN%**%ORANGE%**%WHITE%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %RED%G%WHITE%U%PURPLE%L%GOLD%[25] %NL%%NL%%PURPLE%**%BLUE%**%GREEN%**%WHITE%**%ORANGE%**%GREEN%** <<HIGH>>
-ItemDisplay[(r26)]:%GREEN%**%ORANGE%**%WHITE%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %PURPLE%V%ORANGE%E%RED%X%GOLD%[26] %NL%%NL%%PURPLE%**%BLUE%**%GREEN%**%WHITE%**%ORANGE%**%GREEN%** <<HIGH>>
-ItemDisplay[(r27)]:%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%**%NL%%NL% %RED%O%ORANGE%H%RED%M%GOLD%[27] %NL%%NL%%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%** <<HIGH>>
-ItemDisplay[(r28)]:%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%**%NL%%NL% %ORANGE%L%RED%O%GOLD%[28] %NL%%NL%%PURPLE%**%ORANGE%**%WHITE%**%GREEN%**%RED%**%PURPLE%** <<HIGH>>
-ItemDisplay[(r29)]:%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %WHITE%S%GOLD%U%PURPLE%R%GOLD%[29] %NL%%NL%%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%** <<HIGH>>
-ItemDisplay[(r30)]:%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %GOLD%B%RED%E%PURPLE%R%GOLD%[30] %NL%%NL%%WHITE%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%** <<HIGH>>
-ItemDisplay[(r31)]:%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%**%NL%%NL% %RED%J%GOLD%A%PURPLE%H%GOLD%[31] %NL%%NL%%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%** <<HIGH>>
-ItemDisplay[(r32)]:%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%**%NL%%NL% %GOLD%C%RED%H%GOLD%A%PURPLE%M%GOLD%[32] %NL%%NL%%GOLD%**%ORANGE%**%RED%**%GREEN%**%TAN%**%PURPLE%** <<HIGH>>
-ItemDisplay[(r33)]:%RED%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %GREEN%Z%RED%O%WHITE%D%GOLD%[33] %NL%%NL%%RED%**%ORANGE%**%RED%**%GREEN%**%BLUE%**%PURPLE%** <<HIGH>>
+ItemDisplay[(r25)]:%GREEN%****%ORANGE%****%WHITE%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %RED%G%WHITE%U%PURPLE%L%GOLD%[25] %NL%%NL%%PURPLE%****%BLUE%****%GREEN%****%WHITE%****%ORANGE%****%GREEN%**** <<HIGH>>
+ItemDisplay[(r26)]:%GREEN%****%ORANGE%****%WHITE%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %PURPLE%V%ORANGE%E%RED%X%GOLD%[26] %NL%%NL%%PURPLE%****%BLUE%****%GREEN%****%WHITE%****%ORANGE%****%GREEN%**** <<HIGH>>
+ItemDisplay[(r27)]:%PURPLE%****%ORANGE%****%WHITE%****%GREEN%****%RED%****%PURPLE%****%NL%%NL% %RED%O%ORANGE%H%RED%M%GOLD%[27] %NL%%NL%%PURPLE%****%ORANGE%****%WHITE%****%GREEN%****%RED%****%PURPLE%**** <<HIGH>>
+ItemDisplay[(r28)]:%PURPLE%****%ORANGE%****%WHITE%****%GREEN%****%RED%****%PURPLE%****%NL%%NL% %ORANGE%L%RED%O%GOLD%[28] %NL%%NL%%PURPLE%****%ORANGE%****%WHITE%****%GREEN%****%RED%****%PURPLE%**** <<HIGH>>
+ItemDisplay[(r29)]:%WHITE%****%ORANGE%****%RED%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %WHITE%S%GOLD%U%PURPLE%R%GOLD%[29] %NL%%NL%%WHITE%****%ORANGE%****%RED%****%GREEN%****%BLUE%****%PURPLE%**** <<HIGH>>
+ItemDisplay[(r30)]:%WHITE%****%ORANGE%****%RED%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %GOLD%B%RED%E%PURPLE%R%GOLD%[30] %NL%%NL%%WHITE%****%ORANGE%****%RED%****%GREEN%****%BLUE%****%PURPLE%**** <<HIGH>>
+ItemDisplay[(r31)]:%GOLD%****%ORANGE%****%RED%****%GREEN%****%TAN%****%PURPLE%****%NL%%NL% %RED%J%GOLD%A%PURPLE%H%GOLD%[31] %NL%%NL%%GOLD%****%ORANGE%****%RED%****%GREEN%****%TAN%****%PURPLE%**** <<HIGH>>
+ItemDisplay[(r32)]:%GOLD%****%ORANGE%****%RED%****%GREEN%****%TAN%****%PURPLE%****%NL%%NL% %GOLD%C%RED%H%GOLD%A%PURPLE%M%GOLD%[32] %NL%%NL%%GOLD%****%ORANGE%****%RED%****%GREEN%****%TAN%****%PURPLE%**** <<HIGH>>
+ItemDisplay[(r33)]:%RED%****%ORANGE%****%RED%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %GREEN%Z%RED%O%WHITE%D%GOLD%[33] %NL%%NL%%RED%****%ORANGE%****%RED%****%GREEN%****%BLUE%****%PURPLE%**** <<HIGH>>
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
