@@ -905,22 +905,22 @@ ItemDisplay[RW (EQ1 OR EQ3 OR CL3) SOCK=3 ED=30 STAT99<25 STAT99>20 RES>4 RES<18
 //                                      UNIQUE                                                 //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //UNIQUE ITEMS//
-ItemDisplay[UNI !ID xh9 !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Vampire Gaze%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
+ItemDisplay[UNI !ID xh9 !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Vampire Gaze%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID xh9 ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Vampire Gaze%NL%%NL%%GOLD%********************* <<MONEY>>
-ItemDisplay[UNI !ID uap !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Shako%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID uap !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Shako%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID uap ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Shako%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID ulm !ETH]:%GOLD%*********************%NL%%NL%%RED%Steel Shade Armet%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID ulm ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Steel Shade Armet%NL%%NL%%GOLD%********************* <<MONEY>>
-ItemDisplay[UNI !ID usk !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Andariel's Visage%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID usk !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Andariel's Visage%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID usk ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Andariel's Visage%NL%%NL%%GOLD%********************* <<MONEY>>
-ItemDisplay[UNI !ID ci3 !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Griffon's Eye%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID ci3 !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Griffon's Eye%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID ci3 ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Griffon's Eye%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID ci2 !ETH]:%GOLD%*********************%NL%%NL%%RED%Kira's Guardian%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID ci2 ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Kira's Guardian%NL%%NL%%GOLD%********************* <<MONEY>>
 //Unique Armor
 ItemDisplay[UNI !ID xea !ETH]:%GOLD%*********************%NL%%NL%%RED%SKIN OF THE VIPERMAGI%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID xea ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] SKIN OF THE VIPERMAGI%NL%%NL%%GOLD%********************* <<MONEY>>
-ItemDisplay[UNI !ID xhn !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Shaftstop%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID xhn !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Shaftstop%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID xhn ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] SHAFTSTOP%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID xtp !ETH]:%GOLD%*********************%NL%%NL%%RED%QueHegans Wisdom%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID xtp ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] QueHegans Wisdom%NL%%NL%%GOLD%********************* <<MONEY>>
@@ -934,10 +934,10 @@ ItemDisplay[UNI !ID upl !ETH]:%GOLD%*********************%NL%%NL%%RED%ARKAINES V
 ItemDisplay[UNI !ID upl ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] ARKAINES VALOR%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID uld !ETH]:%GOLD%*********************%NL%%NL%%RED%LEVIATHAN%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID uld ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] LEVIATHAN%NL%%NL%%GOLD%********************* <<MONEY>>
-ItemDisplay[UNI !ID uar !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%TYRAELSorTEMPLARS%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID uar !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%TYRAELSorTEMPLARS%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID uar ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] TYRAELS MIGHT or TEMPLARS MIGHT%NL%%NL%%GOLD%********************* <<MONEY>>
 //Unique Shields
-ItemDisplay[UNI !ID uit !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Stormshield%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID uit !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Stormshield%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID uit ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Stormshield%NL%%NL%%GOLD%********************* <<MONEY>>
 //Unique Gloves
 ItemDisplay[UNI !ID mgl !ETH]:%GOLD%*********************%NL%%NL%%RED%Chance Guards%NL%%NL%%GOLD%********************* <<MONEY>>
@@ -946,16 +946,16 @@ ItemDisplay[UNI !ID tgl !ETH]:%GOLD%*********************%NL%%NL%%RED%Magefist%N
 ItemDisplay[UNI !ID tgl ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Magefist%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID hgl !ETH]:%GOLD%*********************%NL%%NL%%RED%Frostburn%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID hgl ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Frostburn%NL%%NL%%GOLD%********************* <<MONEY>>
-ItemDisplay[UNI !ID uvg !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Draculs Grasp%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID uvg !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Draculs Grasp%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID uvg ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Dracul's Grasp%NL%%NL%%GOLD%********************* <<MONEY>>
-ItemDisplay[UNI !ID umg !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Soul Drainer%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID umg !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Soul Drainer%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID umg ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Soul Drainer%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID uhg !ETH]:%GOLD%*********************%NL%%NL%%RED%Steelrend%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID uhg ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Steelrend%NL%%NL%%GOLD%********************* <<MONEY>>
 //Unique Boots
 ItemDisplay[UNI !ID xmb !ETH]:%GOLD%*********************%NL%%NL%%RED%Silkweave%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID xmb ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Silkweave%NL%%NL%%GOLD%********************* <<MONEY>>
-ItemDisplay[UNI !ID xtb !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%War Traveler%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID xtb !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%War Traveler%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID xtb ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] War Traveler%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID xhb !ETH]:%GOLD%*********************%NL%%NL%%RED%Gore Rider%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID xhb ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Gore Rider%NL%%NL%%GOLD%********************* <<MONEY>>
@@ -966,11 +966,11 @@ ItemDisplay[UNI !ID zvb !ETH]:%GOLD%*********************%NL%%NL%%RED%Razortail%
 ItemDisplay[UNI !ID zvb ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Razortail%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID zhb !ETH]:%GOLD%*********************%NL%%NL%%RED%Thundergods Vigor%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID zhb ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Thundergods Vigor%NL%%NL%%GOLD%********************* <<MONEY>>
-ItemDisplay[UNI !ID ulc !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Arachnid Mesh%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID ulc !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Arachnid Mesh%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID ulc ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Arachnid Mesh%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID uvc !ETH]:%GOLD%*********************%NL%%NL%%RED%Nosferatus Coil%NL%%NL%%GOLD%********************* <<MONEY>>
 ItemDisplay[UNI !ID uvc ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Nosferatus Coil%NL%%NL%%GOLD%********************* <<MONEY>>
-ItemDisplay[UNI !ID umc !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Verdungos%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID umc !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Verdungos%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID umc ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Verdungos Hearty Cord%NL%%NL%%GOLD%********************* <<MONEY>>
 //Unique Bows
 ItemDisplay[UNI !ID 6lw]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Wind Force%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
@@ -992,10 +992,10 @@ ItemDisplay[UNI !ID 6ws !ETH]:%GOLD%*********************%NL%%NL%%RED%Mang Songs
 ItemDisplay[UNI !ID 6ws ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Mang Songs Lesson%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Swords
 ItemDisplay[UNI !ID 7cr]:%GOLD%*********************%NL%%NL%%RED%Lightsabre or Azurewrath%NL%%NL%%GOLD%*********************
-ItemDisplay[UNI !ID 7gd !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%The Grandfather%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID 7gd !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%The Grandfather%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID 7gd ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] The Grandfather%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Wands
-ItemDisplay[UNI !ID 7gw !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Deaths Web%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID 7gw !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Deaths Web%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID 7gw ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Deaths Web%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Throwing Weapons
 ItemDisplay[UNI !ID 7bk !ETH]:%GOLD%*********************%NL%%NL%%RED%Warshrike%NL%%NL%%GOLD%*********************<<MONEY>>
@@ -1009,23 +1009,23 @@ ItemDisplay[UNI !ID amf ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%
 ItemDisplay[UNI !ID 9tw !ETH]:%GOLD%*********************%NL%%NL%%TAN%Bartucs Cut Throat%NL%%NL%%GOLD%*********************<<MONEY>>
 ItemDisplay[UNI !ID 9tw ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Bartucs Cut Throat%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Necromancer only items
-ItemDisplay[UNI !ID nea !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Homunculus%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID nea !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Homunculus%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID nea ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Homunculus%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Barbarian only items
-ItemDisplay[UNI !ID baa !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Arreats Face%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID baa !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Arreats Face%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID baa ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Arreats Face%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Sorceress only items
 ItemDisplay[UNI !ID oba !ETH]:%GOLD%*********************%NL%%NL%%RED%The Oculus%NL%%NL%%GOLD%*********************<<MONEY>>
 ItemDisplay[UNI !ID oba ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] The Oculus%NL%%NL%%GOLD%*********************<<MONEY>>
-ItemDisplay[UNI !ID obc !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Eschutas Temper%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID obc !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Eschutas Temper%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID obc ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Eschutas Temper%NL%%NL%%GOLD%*********************<<MONEY>>
-ItemDisplay[UNI !ID obf !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Deaths Fathom%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID obf !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Deaths Fathom%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID obf ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Deaths Fathom%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Druid only items
-ItemDisplay[UNI !ID dra !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Jalals Mane%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID dra !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Jalals Mane%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID dra ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Jalals Mane%NL%%NL%%GOLD%*********************<<MONEY>>
 //Unique Paladin only items
-ItemDisplay[UNI !ID pa9 !ETH]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Herald of Zakarum%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
+ItemDisplay[UNI !ID pa9 !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Herald of Zakarum%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****<<UNIQUE>>
 ItemDisplay[UNI !ID pa9 ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Herald of Zakarum%NL%%NL%%GOLD%*********************<<MONEY>>
 ItemDisplay[UNI !ID pac !ETH]:%GOLD%*********************%NL%%NL%%RED%ALMA NEGRA%NL%%NL%%GOLD%*********************<<MONEY>>
 ItemDisplay[UNI !ID pac ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] ALMA NEGRA%NL%%NL%%GOLD%*********************<<MONEY>>		
