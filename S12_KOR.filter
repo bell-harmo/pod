@@ -584,13 +584,13 @@ ItemDisplay[(r16)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %BLUE%아이오%WHITE
 ItemDisplay[(r17)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %GREEN%룸%WHITE%룬 %GOLD%[17] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
 ItemDisplay[(r20)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %PURPLE%렘%WHITE%룬 %GOLD%[20] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* <<MONEY>>
 //pul
-ItemDisplay[(r21)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %WHITE%풀%BLUE%룬%GOLD%[21]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++  <<HIGH>>
+ItemDisplay[(r21)]:%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %WHITE%풀%BLUE%룬%GOLD%[21]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++  <<HIGH>>
 //um
-ItemDisplay[(r22)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %GREEN%우%BLUE%움%WHITE%룬%GOLD%[22]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++  <<HIGH>>
+ItemDisplay[(r22)]:%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %GREEN%우%BLUE%움%WHITE%룬%GOLD%[22]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++  <<HIGH>>
 //mal
-ItemDisplay[(r23)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %ORANGE%말%BLUE%룬%GOLD%[23]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ <<HIGH>>
+ItemDisplay[(r23)]:%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %ORANGE%말%BLUE%룬%GOLD%[23]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ <<HIGH>>
 //ist
-ItemDisplay[(r24)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %YELLOW%이%BLUE%스%ORANGE%트%WHITE%룬%GOLD%[24]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ <<HIGH>>
+ItemDisplay[(r24)]:%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %YELLOW%이%BLUE%스%ORANGE%트%WHITE%룬%GOLD%[24]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ <<HIGH>>
 //high rune
 ItemDisplay[(r25)]:%GREEN%**%ORANGE%**%WHITE%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %RED%굴%WHITE%룬%GOLD%[25] %NL%%NL%%PURPLE%**%BLUE%**%GREEN%**%WHITE%**%ORANGE%**%GREEN%** <<HIGH>>
 ItemDisplay[(r26)]:%GREEN%**%ORANGE%**%WHITE%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %PURPLE%벡%ORANGE%스%RED%룬%GOLD%[26] %NL%%NL%%PURPLE%**%BLUE%**%GREEN%**%WHITE%**%ORANGE%**%GREEN%** <<HIGH>>
