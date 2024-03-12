@@ -27,9 +27,9 @@ ItemDisplay[MAG !ID FILTERLVL>4]:
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                     Map Icon Text                                           //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-ItemStyle[UNIQUE]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = MEDIUM
-ItemStyle[HIGH]: MapIcon = 24, MapIconColor = 0, BorderColor = 111, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\combatboost", NotificationSoundPriority = MEDIUM
-ItemStyle[SET]: MapIcon = 22, MapIconColor = 0, BorderColor = 132, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
+ItemStyle[UNIQUE]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\armorboost", NotificationSoundPriority = MEDIUM
+ItemStyle[HIGH]: MapIcon = 24, MapIconColor = 0, BorderColor = 111, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\object\shrine\combatboost", NotificationSoundPriority = MEDIUM
+ItemStyle[SET]: MapIcon = 22, MapIconColor = 0, BorderColor = 132, BorderSize = 1, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[SPECIAL]: MapIcon = 84, MapIconColor = 0, BorderColor = 158, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[RARE]: MapIcon = 85, MapIconColor = 0, BorderColor = 0, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[QUEST]: MapIcon = 4, MapIconColor = 0, BorderColor = 0, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
@@ -37,6 +37,9 @@ ItemStyle[MONEY]: MapIcon = 5, MapIconColor = 0, BorderColor = 0, BorderSize = 1
 ItemStyle[MAGIC]: MapIcon = 2, MapIconColor = 0, BorderColor = 0, BorderSize = 10, BackgroundColor = 0, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = 2678, NotificationSoundPriority = MEDIUM
 ItemStyle[SHOP]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0, BorderSize = 10, BackgroundColor = 0
 ItemStyle[GAMBLING]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 98, BorderSize = 10, BackgroundColor = 0
+ItemStyle[HP]: BorderColor = 98, BorderSize = 1, BackgroundColor = 0
+ItemStyle[MP]: BorderColor = 151, BorderSize = 1, BackgroundColor = 0
+ItemStyle[RP]: BorderColor = 155, BorderSize = 1, BackgroundColor = 0
 
 //Gambling
 ItemDisplay[NMAG rin !ID]:%NL% %ORANGE%Bul-Kathos' Wedding Band%NL%%CORAL%Stone of Jordan%NL%%RED%Wisp Projector %NL%%NL% %CORAL%[%CORAL%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링%NL%
@@ -170,8 +173,8 @@ ItemDisplay[NMAG (WEAPON OR ARMOR) !ID]: %NL%%LIGHT_GRAY%***** %WHITE%  추천 �
 
 ItemDisplay[box]:%PURPLE%[%RED%호%WHITE%라%ORANGE%드%GOLD%릭 %PURPLE%큐브 %ORANGE%[L%ILVL%]%PURPLE%] %CONTINUE%
 ItemDisplay[box]:%NAME%{%NL%%ORANGE%히트파워장갑:%WHITE%P사파이어+쥬얼+부츠+오르트%NL%%RED%블러드투구:%WHITE%P루비+쥬얼+헬멧+투구+랄%NL%%RED%블러드장갑:%WHITE%P루비+쥬얼+장갑+네프%NL%%RED%블러드링:%WHITE%P루비+쥬얼+링+솔%NL%%BLUE%캐스터벨트:%WHITE%P자수정+쥬얼+벨트+아이드%NL%%PURPLE%소켓(갑옷):%WHITE%P토파즈+탈+주울%NL%%PURPLE%소켓(무기):%WHITE%P자수정+랄+앰%NL%}
-ItemDisplay[hp5]:%RED%[%WHITE%Hp%RED%]
-ItemDisplay[mp5]:%BLUE%[%WHITE%Mp%BLUE%]
+ItemDisplay[hp5]:%RED%[%WHITE%Hp%RED%]<<HP>>
+ItemDisplay[mp5]:%BLUE%[%WHITE%Mp%BLUE%]<<MP>>
 
 ItemDisplay[hp4 DIFFICULTY<1]:%RED%[%WHITE%상급Hp%RED%]
 ItemDisplay[hp4 DIFFICULTY>0]:
@@ -193,7 +196,7 @@ ItemDisplay[tsc DIFFICULTY<1]:%BLUE%[%WHITE%포탈 %TEAL%스크롤%BLUE%]
 ItemDisplay[tsc DIFFICULTY>0]:
 ItemDisplay[isc DIFFICULTY<1]:%RED%[%WHITE%식별 %CORAL%스크롤%RED%]
 ItemDisplay[isc DIFFICULTY>0]:
-ItemDisplay[rvl]:%PURPLE%[활력%ORANGE%70%%PURPLE%]{%TAN%-- -- -- -- -- -- -- -- -- --  %NL% HELLO %NL%%TAN%-- --  -- -- -- -- -- -- -- --}
+ItemDisplay[rvl]:%PURPLE%[활력%ORANGE%70%%PURPLE%]{%TAN%-- -- -- -- -- -- -- -- -- --  %NL% HELLO %NL%%TAN%-- --  -- -- -- -- -- -- -- --}<<RP>>
 ItemDisplay[rvs]:%PURPLE%[활력%WHITE%35%%PURPLE%]
 ItemDisplay[key CLVL<30]:%WHITE%[%GRAY%열쇠%WHITE%]
 ItemDisplay[key CLVL>29]:
