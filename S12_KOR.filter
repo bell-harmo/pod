@@ -39,20 +39,20 @@ ItemStyle[SHOP]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderCo
 ItemStyle[GAMBLING]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 98, BorderSize = 10, BackgroundColor = 0
 
 //Gambling
-ItemDisplay[NMAG rin !ID]:%NL%%GREEN%	Bul-Kathos' Death Band%NL%%NL%%YELLOW%Kadala's Heirloom%NL%%ORANGE%Bul-Kathos' Wedding Band%NL%%CORAL%Stone of Jordan%NL%%RED%Wisp Projector %NL%%NL% %CORAL%[%CORAL%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling <<GAMBLING>>
-ItemDisplay[NMAG amu !ID]:%NL%%GREEN%	Tal Rasha's Adjudication%NL%%SAGE%The Rising Sun%NL%%YELLOW%Metalgrid%NL%%ORANGE%Atma's Scarab%NL%%CORAL%Highlord's Wrath%NL%%RED%Mara's Kaleidoscope%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling <<GAMBLING>>
-ItemDisplay[NMAG cap !ID]:	%RED%Harlequin Crest%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling  <<GAMBLING>>
+ItemDisplay[NMAG rin !ID]:%NL%%GREEN%	Bul-Kathos' Death Band%NL%%NL%%YELLOW%Kadala's Heirloom%NL%%ORANGE%Bul-Kathos' Wedding Band%NL%%CORAL%Stone of Jordan%NL%%RED%Wisp Projector %NL%%NL% %CORAL%[%CORAL%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling
+ItemDisplay[NMAG amu !ID]:%NL%%GREEN%	Tal Rasha's Adjudication%NL%%SAGE%The Rising Sun%NL%%YELLOW%Metalgrid%NL%%ORANGE%Atma's Scarab%NL%%CORAL%Highlord's Wrath%NL%%RED%Mara's Kaleidoscope%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling
+ItemDisplay[NMAG cap !ID]:	%RED%Harlequin Crest%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling  
 ItemDisplay[NMAG hlm !ID]:	%GREEN%Sazabi's Mental Sheath%NL%%NL%%RED%Steel Shade%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG msk !ID]:	%GREEN%Tal Rasha's Horadric Crest%NL%%NL%%RED%Andariel's Visage%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG bhm !ID]:	%GREEN%Natalya's Totem%NL%%GREEN%Trang-Oul's Guise%NL%%NL%%YELLOW%Vampire Gaze%NL%%RED%Giant Skull%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG ghm !ID]:	%GREEN%Guillaume's Face%NL%%GREEN%Ondal's Almighty%NL%%NL%%YELLOW%Valkyrie Wing%ORANGE%Nightwing's Veil%NL%%RED%Veil of Steel%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG crn !ID]:	%GREEN%Griswold's Valor%NL%%NL%%RED%Crown of Ages%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
-ItemDisplay[NMAG (cio OR ci1) !ID]:	%GREEN%M'avina's True Sight%NL%%NL%%ORANGE%Kira's Guardian%NL%%RED%Griffon's Eye%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling  <<GAMBLING>>
+ItemDisplay[NMAG (cio OR ci1) !ID]:	%GREEN%M'avina's True Sight%NL%%NL%%ORANGE%Kira's Guardian%NL%%RED%Griffon's Eye%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG (qui) !ID]: %GREEN%Dark Adherent%NL%%NL%%GOLD%Ormus' Robes%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
 ItemDisplay[NMAG (lea) !ID]: %GOLD%Skin of the Vipermagi%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
 ItemDisplay[NMAG (stu) !ID]: %GOLD%The Gladiator's Bane%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
 ItemDisplay[NMAG (scl) !ID]: %GREEN%Natalya's Shadow%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
-ItemDisplay[NMAG (chn) !ID]: %GOLD%Shaftstop%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%**** <<GAMBLING>>
+ItemDisplay[NMAG (chn) !ID]: %GOLD%Shaftstop%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%**** 
 ItemDisplay[NMAG (brs) !ID]: %GOLD%Venom Ward%NL%%GOLD%Duriel's Shell%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
 ItemDisplay[NMAG (spl) !ID]:	%GREEN%Sazabi's Ghost Liberator%NL%%NL%%ORANGE%Skullder's Ire%NL%%RED%Arkaine's Valor%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG (plt) !ID]: %GOLD%Guardian Angel%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
@@ -61,7 +61,7 @@ ItemDisplay[NMAG (gth) !ID]: %GREEN%Tal Rasha's Guardianship%NL%%NL%%GOLD%Atma's
 ItemDisplay[NMAG (ltp) !ID]:%WHITE%Heavenly Garb%NL%%ORANGE%Que-Hegan's Wisdom%NL%%RED%Purgatory%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG (ful) !ID]:%GREEN%Trang-Oul's Scales%NL%%GREEN%Aldur's Deception%NL%%NL%%WHITE%Goldskin%NL%%ORANGE%Black Hades%NL%%RED%Steel Carapace%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG (aar) !ID]:%GREEN%Griswold's Heart%NL%%GREEN%Immortal King's Soul Cage%NL%%NL%%WHITE%Corpsemourn%NL%%ORANGE%Templar's Might%NL%%RED%Tyrael's Might%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
-ItemDisplay[NMAG (kit) !ID]:%RED%Stormshield%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling  <<GAMBLING>>
+ItemDisplay[NMAG (kit) !ID]:%RED%Stormshield%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling  
 ItemDisplay[NMAG (bsh) !ID]:%ORANGE%	Lidless Wall%NL%%RED%	Head Hunter's Glory%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG (tow) !ID]:%ORANGE%Gerke's Sanctuary%NL%%RED%Medusa's Gaze%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG (gts) !ID]:%GREEN%Taebaek's Glory%NL%%NL%%ORANGE%Radament's Sphere%NL%%RED%Spirit Ward%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
