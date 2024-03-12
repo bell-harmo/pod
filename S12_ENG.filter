@@ -234,13 +234,14 @@ ItemDisplay[GOLD<4999 CLVL>60]:
 //INF ITEM `
 ItemDisplay[INF WEAPON NMAG]:
 ItemDisplay[INF ARMOR NMAG]:
+ItemDisplay[RW]:%GOLD%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG]:%GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[MAG]:%BLUE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RARE]:%YELLOW%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT]:%ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SET]:%GREEN%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[UNI]:%GOLD%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[RW]:%GOLD%%NAME%{%NAME%}%CONTINUE%
+
 
 //ItemDisplay[ETH]:%WHITE%(Eth) %NAME% {%NAME%}%CONTINUE%
 ItemDisplay[SOCK=1 !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
@@ -2315,7 +2316,7 @@ ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%Insight:%ORA
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%Insight:%ORANGE%Ral%WHITE%+%RED%Tir%WHITE%+%YELLOW%Tal%WHITE%+%TAN%Sol%NL%%NAME%}
 
 //Actication
-ItemDisplay[NMAG AREALVL=0]:%GRAY%%NAME%{%NL%%CORAL%When Item in town%NL%%WHITE%+%RED%Only Activated%WHITE%+%NL%%NAME%}
+ItemDisplay[NMAG AREALVL=0 !RW]:%GRAY%%NAME%{%NL%%CORAL%When Item in town%NL%%WHITE%+%RED%Only Activated%WHITE%+%NL%%NAME%}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                   CRAFT AMULET                                              //
