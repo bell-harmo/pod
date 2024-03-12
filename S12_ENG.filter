@@ -69,7 +69,7 @@ ItemDisplay[NMAG (vgl) !ID]:%GREEN%Magnus' Skin%NL%%NL%%ORANGE%Gravepalm%NL%%RED
 ItemDisplay[NMAG (mgl) !ID]:%GREEN%Trang-Oul's Claws%NL%%NL%%ORANGE%Ghoulhide%NL%%RED%Soul Drainer%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG (tgl) !ID]:%GREEN%M'avina's Icy Clutch%NL%%NL%%WHITE%Magefist%NL%%ORANGE%Lava Gout%NL%%RED%Occultist %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG (hgl) !ID]:%GREEN%Immortal King's Forge%NL%%NL%%WHITE%Frostburn%NL%%ORANGE%Hellmouth%NL%%RED%Steelrend %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
-ItemDisplay[NMAG (lbt) !ID]: %GREEN%Rite of Passage%NL%%NL%%GOLD%Infernostride%NL%%GOLD%Merman's Sprocket%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
+ItemDisplay[NMAG (lbt) !ID]: %GREEN%Rite of Passage%NL%%NL%%GOLD%Infernostride%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
 ItemDisplay[NMAG (vbt) !ID]: %GOLD%Waterwalk%NL%%GOLD%Sandstorm Trek%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****
 ItemDisplay[NMAG (mbt) !ID]:%GREEN%Natalya's Soul%NL%%NL%%ORANGE%Silkweave%NL%%RED%Marrowwalk %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
 ItemDisplay[NMAG (tbt) !ID]:%GREEN%Aldur's Advance%NL%%NL%%ORANGE%	Goblin Toe%NL%%RED%War Traveler %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
