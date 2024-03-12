@@ -2295,6 +2295,9 @@ ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]: %WHITE%[%PURPLE%E%WHITE%t%BL
 ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%통찰:%ORANGE%랄%WHITE%+%RED%티르%WHITE%+%YELLOW%탈%WHITE%+%TAN%솔%NL%%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%통찰:%ORANGE%랄%WHITE%+%RED%티르%WHITE%+%YELLOW%탈%WHITE%+%TAN%솔%NL%%NAME%}
 
+//Actication
+ItemDisplay[NMAG AREALVL=0]:%GRAY%%NAME%{%NL%%CORAL%이 아이템은 오직 마을에서만 활성화 됩니다. %NL%%WHITE%+%RED%간이 활성화%WHITE%+%NL%%NAME%}
+
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                   CRAFT AMULET                                              //
 /////////////////////////////////////////////////////////////////////////////////////////////////
