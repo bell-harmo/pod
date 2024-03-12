@@ -235,13 +235,14 @@ ItemDisplay[GOLD<4999 CLVL>60]:
 //INF ITEM `
 ItemDisplay[INF WEAPON NMAG]:
 ItemDisplay[INF ARMOR NMAG]:
+ItemDisplay[RW]:%GOLD%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[NMAG]:%GRAY%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[MAG]:%BLUE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[RARE]:%YELLOW%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[CRAFT]:%ORANGE%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[SET]:%GREEN%%NAME%{%NAME%}%CONTINUE%
 ItemDisplay[UNI]:%GOLD%%NAME%{%NAME%}%CONTINUE%
-ItemDisplay[RW]:%GOLD%%NAME%{%NAME%}%CONTINUE%
+
 
 //ItemDisplay[ETH]:%WHITE%(Eth) %NAME% {%NAME%}%CONTINUE%
 ItemDisplay[SOCK=1 !RW]:%NAME% %WHITE%(1){%NAME%}%CONTINUE%
@@ -2317,7 +2318,7 @@ ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%통찰:%ORAN
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%통찰:%ORANGE%랄%WHITE%+%RED%티르%WHITE%+%YELLOW%탈%WHITE%+%TAN%솔%NL%%NAME%}
 
 //Actication
-ItemDisplay[NMAG AREALVL=0]:%GRAY%%NAME%{%NL%%CORAL%이 아이템은 오직 마을에서만 활성화 됩니다. %NL%%WHITE%+%RED%간이 활성화%WHITE%+%NL%%NAME%}
+ItemDisplay[NMAG AREALVL=0 !RW]:%GRAY%%NAME%{%NL%%CORAL%이 아이템은 오직 마을에서만 활성화 됩니다. %NL%%WHITE%+%RED%간이 활성화%WHITE%+%NL%%NAME%}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                   CRAFT AMULET                                              //
