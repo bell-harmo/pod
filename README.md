@@ -48,7 +48,16 @@
 ![image](https://github.com/PiLLLaa/pod/assets/76995697/3ecc14f4-2468-423d-8d1b-9d5505f1a43d)
 
 
-
+##Update list
+ ----------------------------------------------------------------------------------------------------------------------
+     1. 13.Mar,2024
+      1) Gambling Comments Added
+      2) Normal Base socket info. added
+      3) Shop Item notification added
+      4) HP/MP and MISC boarder line added when drop
+      5) Normal item will appear when in town
+      6) Bug fixed (notification for several unid items)
+----------------------------------------------------------------------------------------------------------------------
 
 
 
