@@ -2292,6 +2292,9 @@ ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]: %WHITE%[%PURPLE%E%WHITE%t%BL
 ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%Insight:%ORANGE%Ral%WHITE%+%RED%Tir%WHITE%+%YELLOW%Tal%WHITE%+%TAN%Sol%NL%%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%Insight:%ORANGE%Ral%WHITE%+%RED%Tir%WHITE%+%YELLOW%Tal%WHITE%+%TAN%Sol%NL%%NAME%}
 
+//Actication
+ItemDisplay[NMAG AREALVL=0]:%GRAY%%NAME%{%NL%%CORAL%When Item in town%NL%%WHITE%+%RED%Only Activated%WHITE%+%NL%%NAME%}
+
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                   CRAFT AMULET                                              //
 /////////////////////////////////////////////////////////////////////////////////////////////////
