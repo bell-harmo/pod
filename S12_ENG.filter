@@ -580,13 +580,13 @@ ItemDisplay[(r16)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %BLUE%Io %GOLD%[16] %
 ItemDisplay[(r17)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %GREEN%Lum %GOLD%[17] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
 ItemDisplay[(r20)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %PURPLE%Lem %GOLD%[20] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* <<MONEY>>
 //pul
-ItemDisplay[(r21)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %WHITE%Pul%GOLD%[21]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++  <<HIGH>>
+ItemDisplay[(r21)]:%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %WHITE%Pul%GOLD%[21]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++  <<HIGH>>
 //um
-ItemDisplay[(r22)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %GREEN%Um%GOLD%[22]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++  <<HIGH>>
+ItemDisplay[(r22)]:%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %GREEN%Um%GOLD%[22]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++  <<HIGH>>
 //mal
-ItemDisplay[(r23)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %ORANGE%Mal%GOLD%[23]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ <<HIGH>>
+ItemDisplay[(r23)]:%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %ORANGE%Mal%GOLD%[23]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ <<HIGH>>
 //ist
-ItemDisplay[(r24)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %YELLOW%Ist%GOLD%[24]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ <<HIGH>>
+ItemDisplay[(r24)]:%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %YELLOW%Ist%GOLD%[24]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++ <<HIGH>>
 //high rune
 ItemDisplay[(r25)]:%GREEN%**%ORANGE%**%WHITE%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %RED%G%WHITE%U%PURPLE%L%GOLD%[25] %NL%%NL%%PURPLE%**%BLUE%**%GREEN%**%WHITE%**%ORANGE%**%GREEN%** <<HIGH>>
 ItemDisplay[(r26)]:%GREEN%**%ORANGE%**%WHITE%**%GREEN%**%BLUE%**%PURPLE%**%NL%%NL% %PURPLE%V%ORANGE%E%RED%X%GOLD%[26] %NL%%NL%%PURPLE%**%BLUE%**%GREEN%**%WHITE%**%ORANGE%**%GREEN%** <<HIGH>>
