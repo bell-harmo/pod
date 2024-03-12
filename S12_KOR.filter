@@ -38,8 +38,6 @@ ItemStyle[MAGIC]: MapIcon = 2, MapIconColor = 0, BorderColor = 0, BorderSize = 1
 ItemStyle[SHOP]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0, BorderSize = 10, BackgroundColor = 0
 ItemStyle[SHOP]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 0, BorderSize = 10, BackgroundColor = 0
 
-
-
 //Gambling
 ItemDisplay[NMAG rin !ID]:%NL%%GREEN%	Bul-Kathos' Death Band%NL%%NL%%YELLOW%Kadala's Heirloom%NL%%ORANGE%Bul-Kathos' Wedding Band%NL%%CORAL%Stone of Jordan%NL%%RED%Wisp Projector %NL%%NL% %CORAL%[%CORAL%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling <<SHOP>>
 ItemDisplay[NMAG amu !ID]:%NL%%GREEN%	Tal Rasha's Adjudication%NL%%SAGE%The Rising Sun%NL%%YELLOW%Metalgrid%NL%%ORANGE%Atma's Scarab%NL%%CORAL%Highlord's Wrath%NL%%RED%Mara's Kaleidoscope%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling 
