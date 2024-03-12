@@ -308,6 +308,7 @@ ItemDisplay[ma7 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%BLUE%2,%RED%1,%YELLOW%5,%ORAN
 ItemDisplay[ma10 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:- %RED%Fire %CORAL%50 %BLUE%Cold %TEAL%50 %YELLOW%Lightning %ORANGE%50 %ORANGE%Magic %YELLOW%33 %WHITE%Phys %LIGHT_GRAY%50 %GREEN%Poison %SAGE%33%PURPLE%]%NL%%NAME%}%CONTINUE%
 ItemDisplay[ma11 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:- %RED%Fire %CORAL%50 %BLUE%Cold %TEAL%50 %YELLOW%Lightning %ORANGE%50 %ORANGE%Magic %YELLOW%33 %WHITE%Phys %LIGHT_GRAY%50 %GREEN%Poison %SAGE%33%PURPLE%]%NL%%NAME%}%CONTINUE%
 //ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) ID]:%NAME%{%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%NL%%NAME%}
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) ID]:%NAME%{%NAME%}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                            Charms                                           //
