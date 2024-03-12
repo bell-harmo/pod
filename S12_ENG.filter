@@ -445,7 +445,7 @@ ItemDisplay[(r13)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %ORANGE%Shael %GOLD%[
 ItemDisplay[(r14)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %WHITE%Dol %GOLD%[14] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
 ItemDisplay[(r16)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %BLUE%Io %GOLD%[16] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
 ItemDisplay[(r17)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %GREEN%Lum %GOLD%[17] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
-ItemDisplay[(r20)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %PURPLE%Lem %GOLD%[20] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%*
+ItemDisplay[(r20)]:%GOLD%*%WHITE%*%DGREEN%*%BLUE%*%NL%%NL% %PURPLE%Lem %GOLD%[20] %NL%%NL%%GOLD%*%WHITE%*%DGREEN%*%BLUE%* <<MONEY>>
 //pul
 ItemDisplay[(r21)]:%MAP-9B%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++%NL%%NL%  %WHITE%Pul%GOLD%[21]  %NL%%NL%%WHITE%++%ORANGE%++%RED%++%GREEN%++%PURPLE%++  <<HIGH>>
 //um
