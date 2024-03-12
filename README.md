@@ -47,7 +47,7 @@
 
 ![image](https://github.com/PiLLLaa/pod/assets/76995697/3ecc14f4-2468-423d-8d1b-9d5505f1a43d)
 
-
+## :purple_heart:         You may have to turn on Advanced item description : Always Show            :purple_heart:
 ##Update list
  ----------------------------------------------------------------------------------------------------------------------
      1. 13.Mar,2024
