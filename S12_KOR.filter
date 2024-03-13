@@ -3591,7 +3591,7 @@ ItemDisplay[(WEAPON OR ARMOR) !ID MAG DIFF=0]:%NAME%
 ItemDisplay[(WEAPON OR ARMOR) !ID MAG DIFF>0]:
 
 //Catchall
-ItemDisplay[SYNTH]:%NAME%{%NAME%} <<SPECIAL>>
+ItemDisplay[SYNTH]:%RED%합성 %NAME%{%NAME%} <<SPECIAL>>
 ItemDisplay[(UNI OR SET)]:%NAME%{%NAME%}
 ItemDisplay[RW]:%NAME%{%NAME%}
 
