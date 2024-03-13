@@ -671,6 +671,31 @@ ItemDisplay[skz]: %CORAL%P %GOLD%Perfect %TAN%skull{%NL%%YELLOW%RARE OPTION CHAN
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                       RARE&MAGIC                                            //
 /////////////////////////////////////////////////////////////////////////////////////////////////
+ItemDisplay[am5 MAG TABSK>1]:Maiden Javelin{%NAME%}%CONTINUE%
+ItemDisplay[ama MAG TABSK>1]:Ceremonial Javelin{%NAME%}%CONTINUE%
+ItemDisplay[amf MAG TABSK>1]:Matriarchal Javelin{%NAME%}%CONTINUE%
+
+ItemDisplay[ci0 MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1)]:Circlet{%NAME%}%CONTINUE%
+ItemDisplay[ci1 MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1)]:Coronet{%NAME%}%CONTINUE%
+ItemDisplay[ci2 MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1)]:Tiara{%NAME%}%CONTINUE%
+ItemDisplay[ci3 MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1)]:Diadem{%NAME%}%CONTINUE%
+
+ItemDisplay[lgl MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Leather Gloves{%NAME%}%CONTINUE%
+ItemDisplay[xlg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Demonhide Gloves{%NAME%}%CONTINUE%
+ItemDisplay[ulg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Bramble Mitts{%NAME%}%CONTINUE%
+ItemDisplay[vgl MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Heavy Gloves{%NAME%}%CONTINUE%
+ItemDisplay[xvg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Sharkskin Gloves{%NAME%}%CONTINUE%
+ItemDisplay[uvg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Vampirebone Gloves{%NAME%}%CONTINUE%
+ItemDisplay[mgl MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Chain Gloves{%NAME%}%CONTINUE%
+ItemDisplay[xmg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Heavy Bracers{%NAME%}%CONTINUE%
+ItemDisplay[umg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Vambraces{%NAME%}%CONTINUE%
+ItemDisplay[tgl MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Light Gauntlets{%NAME%}%CONTINUE%
+ItemDisplay[xtg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Battle Gauntlets{%NAME%}%CONTINUE%
+ItemDisplay[utg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Crusader Gauntlets{%NAME%}%CONTINUE%
+ItemDisplay[hgl MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Gauntlets{%NAME%}%CONTINUE%
+ItemDisplay[xhg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:War Gauntlets{%NAME%}%CONTINUE%
+ItemDisplay[uhg MAG (TABSK0>1 OR TABSK2>1 OR TABSK50>1)]:Ogre Gauntlets{%NAME%}%CONTINUE%
+
 //RARES
 //Best Rares/magic (Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
 ItemDisplay[RARE EQ7 !ETH !ID]: %YELLOW%***************%NL%%NL% %GREEN%°%YELLOW%%NAME%%GREEN%° %NL%%NL%%YELLOW%*************** <<RARE>>
@@ -727,7 +752,7 @@ ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1 AND IAS>0)]: %
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2>5 !IAS>0]: %NAME% %ORANGE%+6 Javel{%NAME%} %CONTINUE% <<SHOP>>
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2=5 !IAS>0]: %NAME% %ORANGE%+5 Javel {%NAME%}%CONTINUE% <<SHOP>>
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1) !IAS>0]: %NAME% %ORANGE%+3 Javel +2 Ama{%NAME%} %CONTINUE% <<SHOP>>
-ItemDisplay[(am5 OR ama OR amf) ID (MAG OR RARE) !TABSK>0]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(am5 OR ama OR amf) ID (MAG OR RARE) !TABSK2>0]: %NAME%{%NAME%}%CONTINUE%
 
 ItemDisplay[WP12 MAG ID TABSK16>2 SK477>2]: %NAME% %ORANGE%+6 Hemo {%NAME%}%CONTINUE% <<SHOP>>
 ItemDisplay[WP12 MAG ID TABSK16>2 SK477=2]: %NAME% %ORANGE%+5 Hemo {%NAME%}%CONTINUE% <<SHOP>>
@@ -2316,7 +2341,7 @@ ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%Insight:%ORA
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%Insight:%ORANGE%Ral%WHITE%+%RED%Tir%WHITE%+%YELLOW%Tal%WHITE%+%TAN%Sol%NL%%NAME%}
 
 //Actication
-ItemDisplay[NMAG AREALVL=0 !RW]:%GRAY%%NAME%{%NL%%CORAL%When Item in town%NL%%WHITE%+%RED%Only Activated%WHITE%+%NL%%NAME%}
+//ItemDisplay[NMAG AREALVL=0 !RW]:%GRAY%%NAME%{%NL%%CORAL%When Item in town%NL%%WHITE%+%RED%Only Activated%WHITE%+%NL%%NAME%}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                   CRAFT AMULET                                              //
