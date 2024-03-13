@@ -32,6 +32,12 @@
       1) Runeword comments modified
       2) Bug fixed (Crashed by long name of magic glove)
 ----------------------------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------------------------
+     3. 14.Mar,2024
+      1) Bug Fixed - Heavy Magic Item drop by missed Syntax order
+      2) Bug fixed - Filter level of Magic Item deletion (It is availble only for Weapon and Armor)
+      3) Bug fixed - Cio -> Ci0 missed character for circlet on the gambling
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
