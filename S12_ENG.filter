@@ -51,7 +51,7 @@ ItemDisplay[NMAG msk !ID]:%NL%	%GREEN%Tal Rasha's Horadric Crest%NL%%NL%%RED%And
 ItemDisplay[NMAG bhm !ID]:%NL%	%GREEN%Natalya's Totem%NL%%GREEN%Trang-Oul's Guise%NL%%NL%%YELLOW%Vampire Gaze%NL%%RED%Giant Skull%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
 ItemDisplay[NMAG ghm !ID]:%NL%	%GREEN%Guillaume's Face%NL%%GREEN%Ondal's Almighty%NL%%NL%%YELLOW%Valkyrie Wing%ORANGE%Nightwing's Veil%NL%%RED%Veil of Steel%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
 ItemDisplay[NMAG crn !ID]:%NL%	%GREEN%Griswold's Valor%NL%%NL%%RED%Crown of Ages%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
-ItemDisplay[NMAG (cio OR ci1) !ID]:%NL%	%GREEN%M'avina's True Sight%NL%%NL%%ORANGE%Kira's Guardian%NL%%RED%Griffon's Eye%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
+ItemDisplay[NMAG (ci0 OR ci1) !ID]:%NL%	%GREEN%M'avina's True Sight%NL%%NL%%ORANGE%Kira's Guardian%NL%%RED%Griffon's Eye%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
 ItemDisplay[NMAG (qui) !ID]:%NL% %GREEN%Dark Adherent%NL%%NL%%GOLD%Ormus' Robes%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
 ItemDisplay[NMAG (lea) !ID]:%NL% %GOLD%Skin of the Vipermagi%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
 ItemDisplay[NMAG (stu) !ID]:%NL% %GOLD%The Gladiator's Bane%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
@@ -671,9 +671,9 @@ ItemDisplay[skz]: %CORAL%P %GOLD%Perfect %TAN%skull{%NL%%YELLOW%RARE OPTION CHAN
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                       RARE&MAGIC                                            //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[am5 MAG TABSK>1]:Maiden Javelin{%NAME%}%CONTINUE%
-ItemDisplay[ama MAG TABSK>1]:Ceremonial Javelin{%NAME%}%CONTINUE%
-ItemDisplay[amf MAG TABSK>1]:Matriarchal Javelin{%NAME%}%CONTINUE%
+ItemDisplay[am5 MAG TABSK2>1]:Maiden Javelin{%NAME%}%CONTINUE%
+ItemDisplay[ama MAG TABSK2>1]:Ceremonial Javelin{%NAME%}%CONTINUE%
+ItemDisplay[amf MAG TABSK2>1]:Matriarchal Javelin{%NAME%}%CONTINUE%
 
 ItemDisplay[ci0 MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1)]:Circlet{%NAME%}%CONTINUE%
 ItemDisplay[ci1 MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1)]:Coronet{%NAME%}%CONTINUE%
@@ -3617,8 +3617,8 @@ ItemDisplay[(UNI OR SET OR RARE OR (!INF AND !NMAG AND !MAG AND !RARE AND !UNI A
 //DELETION
 ItemDisplay[(WEAPON OR ARMOR) !RW NMAG CLVL<15]:%GRAY%%NAME%
 ItemDisplay[(WEAPON OR ARMOR) !RW NMAG CLVL>14]:
-ItemDisplay[(WEAPON OR ARMOR) !ID MAG DIFF=0]:%NAME%
-ItemDisplay[(WEAPON OR ARMOR) !ID MAG DIFF>0]:
+ItemDisplay[(WEAPON OR ARMOR) !ID MAG DIFFICULTY=0]:%NAME%
+ItemDisplay[(WEAPON OR ARMOR) !ID MAG DIFFICULTY>0]:
 
 //Catchall
 ItemDisplay[SYNTH]:%RED%St %NAME%{%NAME%} <<SPECIAL>>
