@@ -116,7 +116,7 @@ ItemDisplay[NMAG (lsd) !ID]:%NL% %GREEN%Sazabi's Cobalt Redeemer %NL%%GOLD%Frost
 //ItemDisplay[NMAG (clm) !ID]:%NL% %GOLD%	Leoric's Mithril Bane %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링 %GOLD%****%NL%
 ItemDisplay[NMAG (gis) !ID]:%NL% %GOLD%	Flamebellow %NL%%GOLD%	The Vile Husk %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링 %GOLD%****%NL%
 ItemDisplay[NMAG (bsw) !ID]:%NL% %GOLD%	Doombringer %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링 %GOLD%****%NL%
-ItemDisplay[NMAG (flb) !ID]:%NL%%GREEN%Bul-Kathos' Tribal Guardian%NL%%NL%%GOLD%Todesfaelle Flamme%NL%%RED%Odium%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링%NL% 
+ItemDisplay[NMAG (flb) !ID]:%NL%%GOLD%Todesfaelle Flamme%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링%NL% 
 ItemDisplay[NMAG (gsd) !ID]:%NL%%GREEN%Bul-Kathos' Sacred Charge%NL%%NL%%RED%The Grandfather%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링%NL% 
 ItemDisplay[NMAG (dgr) !ID]:%NL% %GOLD%	Wizardspike %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링 %GOLD%****%NL%
 ItemDisplay[NMAG (kri) !ID]:%NL% %GOLD%	Fleshripper %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링 %GOLD%****%NL%
