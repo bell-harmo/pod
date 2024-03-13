@@ -1,7 +1,7 @@
 //Updated 24/03/10
 //UPDATE CONTENTS :  PTR Map function updated
 Attribute[Author]: 필라
-Attribute[Name]: 한글 필터
+Attribute[Name]: 한글 필터, 폴더내 Item.Filter로 저장됨
 Attribute[Version]: 1.0
 Attribute[Date]: 2024/03/13 
 
