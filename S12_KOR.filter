@@ -1751,43 +1751,43 @@ ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]:%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHIT
 //                                      SETS                                                  //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //SET ITEMS (no rings or amys edited)
-ItemDisplay[SET !ID (ulg OR uui OR xlb OR umc)]:%GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%사도%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:%GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%알더%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID (ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%불멸왕%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%나탈랴%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%탈 라샤%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID uth]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%탈 라샤%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%트랑 울%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID (rng OR sbr)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%천사%NL%%GREEN%*********************
-ItemDisplay[SET !ID (skp OR ltp OR wst)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%아칸나%NL%%GREEN%*********************
-ItemDisplay[SET !ID (qui OR vbl OR tgl OR swb)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%혹한%NL%%GREEN%*********************
-ItemDisplay[SET !ID (hlm OR spl OR 2ax)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%광전사%NL%%GREEN%*********************
-ItemDisplay[SET !ID (msk OR chn OR bst)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%캐산%NL%%GREEN%*********************
-ItemDisplay[SET !ID (gsc OR lrg)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%시버브%NL%%GREEN%*********************
-ItemDisplay[SET !ID (lsd OR mgl OR sml)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%클레글로%NL%%GREEN%*********************
-ItemDisplay[SET !ID (wsd OR lgl OR lbl)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%죽음%NL%%GREEN%*********************
-ItemDisplay[SET !ID (buc OR mbt)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%사루스%NL%%GREEN%*********************
-ItemDisplay[SET !ID mbl]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%사루스or환인%NL%%GREEN%*********************
-ItemDisplay[SET !ID cap]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%지옥or샌더%NL%%GREEN%*********************
-ItemDisplay[SET !ID tbl]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%지옥or이라사%NL%%GREEN%*********************
-ItemDisplay[SET !ID gwn]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%지옥%NL%%GREEN%*********************
-ItemDisplay[SET !ID (bsd OR fhl OR brs OR gts)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%아이젠하트%NL%%GREEN%*********************
-ItemDisplay[SET !ID crn]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%밀라브레가or이라사%NL%%GREEN%*********************
-ItemDisplay[SET !ID (aar OR kit OR wsp)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%밀라브레가%NL%%GREEN%*********************
-ItemDisplay[SET !ID (ghm OR gth OR hbt OR tow OR hbl OR hgl)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%사이곤%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID (bhm OR ful OR lbt OR mpi)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%탄크레드%NL%%GREEN%*********************
-ItemDisplay[SET !ID (lbb OR lea OR tbt)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%비달라%NL%%GREEN%*********************
-ItemDisplay[SET !ID (7gd OR 7wd)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%불카토스%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID (xap OR stu)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%카우왕%NL%%GREEN%*********************
-ItemDisplay[SET !ID vbt]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%카우왕or샌더%NL%%GREEN%*********************
-ItemDisplay[SET !ID (xar OR urn OR 7ws OR paf)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%그리스월드%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID (xrs OR 7ma OR uts OR uhm)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%천인%NL%%GREEN%*********************
-ItemDisplay[SET !ID (xrn OR 9vo OR xcl)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%환인%NL%%GREEN%*********************
-ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%마비나%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID (ci0 OR ult OR 6cs)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%나즈%NL%%GREEN%*********************
-ItemDisplay[SET !ID (xhm OR xml OR xvg OR ztb)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%오펀%NL%%GREEN%*********************<<SET>>
-ItemDisplay[SET !ID (bwn OR vgl)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%샌더%NL%%GREEN%*********************
-ItemDisplay[SET !ID (xhl OR 7ls OR upl)]: %GREEN%*********************%NL%%GREEN%%NAME%%NL%%DGREEN%사자비%NL%%GREEN%*********************<<SET>>
+ItemDisplay[SET !ID (ulg OR uui OR xlb OR umc)]:%GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%사도%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:%GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%알더%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID (ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%불멸왕%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%나탈랴%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%탈 라샤%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID uth]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%탈 라샤%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%트랑 울%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID (rng OR sbr)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%천사%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (skp OR ltp OR wst)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%아칸나%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (qui OR vbl OR tgl OR swb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%혹한%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (hlm OR spl OR 2ax)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%광전사%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (msk OR chn OR bst)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%캐산%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (gsc OR lrg)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%시버브%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (lsd OR mgl OR sml)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%클레글로%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (wsd OR lgl OR lbl)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%죽음%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (buc OR mbt)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%사루스%NL%%GREEN%--------------------
+ItemDisplay[SET !ID mbl]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%사루스or환인%NL%%GREEN%--------------------
+ItemDisplay[SET !ID cap]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%지옥or샌더%NL%%GREEN%--------------------
+ItemDisplay[SET !ID tbl]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%지옥or이라사%NL%%GREEN%--------------------
+ItemDisplay[SET !ID gwn]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%지옥%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (bsd OR fhl OR brs OR gts)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%아이젠하트%NL%%GREEN%--------------------
+ItemDisplay[SET !ID crn]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%밀라브레가or이라사%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (aar OR kit OR wsp)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%밀라브레가%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (ghm OR gth OR hbt OR tow OR hbl OR hgl)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%사이곤%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID (bhm OR ful OR lbt OR mpi)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%탄크레드%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (lbb OR lea OR tbt)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%비달라%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (7gd OR 7wd)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%불카토스%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID (xap OR stu)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%카우왕%NL%%GREEN%--------------------
+ItemDisplay[SET !ID vbt]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%카우왕or샌더%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (xar OR urn OR 7ws OR paf)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%그리스월드%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID (xrs OR 7ma OR uts OR uhm)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%천인%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (xrn OR 9vo OR xcl)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%환인%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%마비나%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID (ci0 OR ult OR 6cs)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%나즈%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (xhm OR xml OR xvg OR ztb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%오펀%NL%%GREEN%--------------------<<SET>>
+ItemDisplay[SET !ID (bwn OR vgl)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%샌더%NL%%GREEN%--------------------
+ItemDisplay[SET !ID (xhl OR 7ls OR upl)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%사자비%NL%%GREEN%--------------------<<SET>>
 ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
