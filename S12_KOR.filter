@@ -260,33 +260,33 @@ ItemDisplay[(WEAPON OR ARMOR) ELT]:%NAME%{%WHITE%[%CORAL%엘리트%WHITE%]}%CONT
 //                                            Relic                                            //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //Relic
-ItemDisplay[(ma1) NMAG]:%GRAY%아이시 케이번 %WHITE%렐릭 %CONTINUE%
-ItemDisplay[(ma5) NMAG]:%GRAY%프리지드 플레토우 %WHITE%렐릭 %CONTINUE%
-ItemDisplay[(ma4) NMAG]:%GRAY%데서크레이티드 템플 %GREEN%렐릭 %CONTINUE%
-ItemDisplay[(ma8) NMAG]:%GRAY%머스트 크립트 %GREEN%렐릭 %CONTINUE%
-ItemDisplay[(ma9) NMAG]:%GRAY%딤 셀러 %GREEN%렐릭 %CONTINUE%
-ItemDisplay[(ma2) NMAG]:%GRAY%포가튼 데저트 %RED%렐릭 %CONTINUE%
-ItemDisplay[(ma6) NMAG]:%GRAY%루인드 시타델 %RED%렐릭 %CONTINUE%
-ItemDisplay[(ma7) NMAG]:%GRAY%번트 포레스트 %RED%렐릭 %CONTINUE%
+ItemDisplay[(ma1) NMAG]:%GRAY%아이시 %WHITE%케이번 %LIGHT_GRAY%렐릭 %CONTINUE%
+ItemDisplay[(ma5) NMAG]:%GRAY%프리지드 %WHITE%플레토우 %LIGHT_GRAY%렐릭 %CONTINUE%
+ItemDisplay[(ma4) NMAG]:%GRAY%데서크레이티드 %WHITE%템플 %GREEN%렐릭 %CONTINUE%
+ItemDisplay[(ma8) NMAG]:%GRAY%머스트 %WHITE%크립트 %GREEN%렐릭 %CONTINUE%
+ItemDisplay[(ma9) NMAG]:%GRAY%딤 %WHITE%셀러 %GREEN%렐릭 %CONTINUE%
+ItemDisplay[(ma2) NMAG]:%GRAY%포가튼 %WHITE%데저트 %RED%렐릭 %CONTINUE%
+ItemDisplay[(ma6) NMAG]:%GRAY%루인드 %WHITE%시타델 %RED%렐릭 %CONTINUE%
+ItemDisplay[(ma7) NMAG]:%GRAY%번트 %WHITE%포레스트 %RED%렐릭 %CONTINUE%
 ItemDisplay[(maz) NMAG]:Infernal %RED%Trial %CONTINUE%
 
-ItemDisplay[(ma1) MAG]:%BLUE%아이시 케이번 %WHITE%렐릭 %CONTINUE%
-ItemDisplay[(ma5) MAG]:%BLUE%프리지드 플레토우 %WHITE%렐릭 %CONTINUE%
-ItemDisplay[(ma4) MAG]:%BLUE%데서크레이티드 템플 %GREEN%렐릭 %CONTINUE%
-ItemDisplay[(ma8) MAG]:%BLUE%머스트 크립트 %GREEN%렐릭 %CONTINUE%
-ItemDisplay[(ma9) MAG]:%BLUE%딤 셀러 %GREEN%렐릭 %CONTINUE%
-ItemDisplay[(ma2) MAG]:%BLUE%포가튼 데저트 %RED%렐릭 %CONTINUE%
-ItemDisplay[(ma6) MAG]:%BLUE%루인드 시타델 %RED%렐릭 %CONTINUE%
-ItemDisplay[(ma7) MAG]:%BLUE%번트 포레스트 %RED%렐릭 %CONTINUE%
+ItemDisplay[(ma1) MAG]:%BLUE%아이시 %TEAL%케이번 %WHITE%렐릭 %CONTINUE%
+ItemDisplay[(ma5) MAG]:%BLUE%프리지드 %TEAL%플레토우 %WHITE%렐릭 %CONTINUE%
+ItemDisplay[(ma4) MAG]:%BLUE%데서크레이티드 %TEAL%템플 %GREEN%렐릭 %CONTINUE%
+ItemDisplay[(ma8) MAG]:%BLUE%머스트 %TEAL%크립트 %GREEN%렐릭 %CONTINUE%
+ItemDisplay[(ma9) MAG]:%BLUE%딤 %TEAL%셀러 %GREEN%렐릭 %CONTINUE%
+ItemDisplay[(ma2) MAG]:%BLUE%포가튼 %TEAL%데저트 %RED%렐릭 %CONTINUE%
+ItemDisplay[(ma6) MAG]:%BLUE%루인드 %TEAL%시타델 %RED%렐릭 %CONTINUE%
+ItemDisplay[(ma7) MAG]:%BLUE%번트 %TEAL%포레스트 %RED%렐릭 %CONTINUE%
 
-ItemDisplay[(ma1) RARE]:%YELLOW%아이시 케이번 %WHITE%렐릭 %CONTINUE%
-ItemDisplay[(ma5) RARE]:%YELLOW%프리지드 플레토우 %WHITE%렐릭 %CONTINUE%
-ItemDisplay[(ma4) RARE]:%YELLOW%데서크레이티드 템플 %GREEN%렐릭 %CONTINUE%
-ItemDisplay[(ma8) RARE]:%YELLOW%머스트 크립트 %GREEN%렐릭 %CONTINUE%
-ItemDisplay[(ma9) RARE]:%YELLOW%딤 셀러 %GREEN%렐릭 %CONTINUE%
-ItemDisplay[(ma2) RARE]:%YELLOW%포가튼 데저트 %RED%렐릭 %CONTINUE%
-ItemDisplay[(ma6) RARE]:%YELLOW%루인드 시타델 %RED%렐릭 %CONTINUE%
-ItemDisplay[(ma7) RARE]:%YELLOW%번트 포레스트 %RED%렐릭 %CONTINUE%
+ItemDisplay[(ma1) RARE]:%YELLOW%아이시 %CORAL%케이번 %WHITE%렐릭 %CONTINUE%
+ItemDisplay[(ma5) RARE]:%YELLOW%프리지드 %CORAL%플레토우 %WHITE%렐릭 %CONTINUE%
+ItemDisplay[(ma4) RARE]:%YELLOW%데서크레이티드 %CORAL%템플 %GREEN%렐릭 %CONTINUE%
+ItemDisplay[(ma8) RARE]:%YELLOW%머스트 %CORAL%크립트 %GREEN%렐릭 %CONTINUE%
+ItemDisplay[(ma9) RARE]:%YELLOW%딤 %CORAL%셀러 %GREEN%렐릭 %CONTINUE%
+ItemDisplay[(ma2) RARE]:%YELLOW%포가튼 %CORAL%데저트 %RED%렐릭 %CONTINUE%
+ItemDisplay[(ma6) RARE]:%YELLOW%루인드 %CORAL%시타델 %RED%렐릭 %CONTINUE%
+ItemDisplay[(ma7) RARE]:%YELLOW%번트 %CORAL%포레스트 %RED%렐릭 %CONTINUE%
 
 ItemDisplay[(ma10 OR ma11) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
