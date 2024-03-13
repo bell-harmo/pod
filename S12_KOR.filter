@@ -732,7 +732,7 @@ ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1 AND IAS>0)]: %
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2>5 !IAS>0]: %NAME% %ORANGE%+6 자벨 {%NAME%}%CONTINUE% <<SHOP>>
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2=5 !IAS>0]: %NAME% %ORANGE%+5 자벨 {%NAME%}%CONTINUE% <<SHOP>>
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1)  !IAS>0]: %NAME% %ORANGE%+3 자벨 +2 아마{%NAME%} %CONTINUE% <<SHOP>>
-ItemDisplay[(am5 OR ama OR amf) ID (MAG OR RARE) !TABSK>0]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(am5 OR ama OR amf) ID (MAG OR RARE) !TABSK2>0]: %NAME%{%NAME%}%CONTINUE%
 
 ItemDisplay[WP12 MAG ID TABSK16>2 SK477>2]: %NAME% %ORANGE%+6 Hemo{%NAME%}  %CONTINUE% <<SHOP>>
 ItemDisplay[WP12 MAG ID TABSK16>2 SK477=2]: %NAME% %ORANGE%+5 Hemo {%NAME%} %CONTINUE% <<SHOP>>
@@ -2319,7 +2319,7 @@ ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%통찰:%ORAN
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4]:%NAME%{%NL%%GOLD%통찰:%ORANGE%랄%WHITE%+%RED%티르%WHITE%+%YELLOW%탈%WHITE%+%TAN%솔%NL%%NAME%}
 
 //Actication
-ItemDisplay[NMAG AREALVL=0 !RW]:%GRAY%%NAME%{%NL%%CORAL%이 아이템은 오직 마을에서만 활성화 됩니다. %NL%%WHITE%+%RED%간이 활성화%WHITE%+%NL%%NAME%}
+//ItemDisplay[NMAG AREALVL=0 !RW]:%GRAY%%NAME%{%NL%%CORAL%이 아이템은 오직 마을에서만 활성화 됩니다. %NL%%WHITE%+%RED%간이 활성화%WHITE%+%NL%%NAME%}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                   CRAFT AMULET                                              //
