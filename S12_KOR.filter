@@ -218,8 +218,8 @@ ItemDisplay[gpl CLVL<20]:%WHITE%[%GREEN%가스(대)%WHITE%]
 ItemDisplay[gpl CLVL>19]:
 ItemDisplay[vps CLVL<10]:%GRAY%[%WHITE%스태미나%GRAY%]
 ItemDisplay[vps CLVL>9]:
-ItemDisplay[tbk]:%PURPLE%[%BLUE%포탈%PURPLE%] %ORANGE%책%WHITE%*%GREEN%%QTY%
-ItemDisplay[ibk]:%PURPLE%[%RED%식별%PURPLE%] %ORANGE%책%WHITE%*%GREEN%%QTY%
+ItemDisplay[tbk]:%PURPLE%[%BLUE%타운 포탈%PURPLE%] %ORANGE%책%WHITE%*%GREEN%%QTY%
+ItemDisplay[ibk]:%PURPLE%[%RED%아이템 식별%PURPLE%] %ORANGE%책%WHITE%*%GREEN%%QTY%
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                            Money                                            //
 /////////////////////////////////////////////////////////////////////////////////////////////////
