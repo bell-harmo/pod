@@ -820,8 +820,8 @@ ItemDisplay[MAG rin ID ILVL=83]: %BLUE%%NAME%%GRAY%[CL87-] %CONTINUE%
 ItemDisplay[MAG rin ID ILVL=84]: %BLUE%%NAME%%GRAY%[CL86-] %CONTINUE%
 ItemDisplay[MAG rin ID ILVL=85]: %BLUE%%NAME%%GRAY%[CL85-] %CONTINUE%
 ItemDisplay[MAG rin ID]: %BLUE%%NAME% %CONTINUE%
-ItemDisplay[MAG amu ID]:%NAME%{%NL%%WHITE%주얼+아뮬렛+랄+최상급 자수정%NL%%ORANGE%캐스터 크래프트}
-ItemDisplay[MAG rin ID]:%NAME%{%NL%%WHITE%주얼+링+엠+최상급 자수정%NL%%ORANGE%캐스터 크래프트}
+ItemDisplay[MAG amu ID]:%NAME%{%NL%%BLUE%쥬엘%WHITE%+%RED%아뮬렛%WHITE%+%GOLD%랄%WHITE%+%ORANGE%최상급 %PURPLE%자수정%NL%%PURPLE%캐스터 크래프트}
+ItemDisplay[MAG rin ID]:%NAME%{%NL%%BLUE%쥬엘%WHITE%+%CORAL%링%WHITE%+%GOLD%엠%WHITE%+%ORANGE%최상급 %PURPLE%자수정%NL%%PURPLE%캐스터 크래프트}
 
 //Charms/JEWELS
 ItemDisplay[MAG (cm1 OR cm3) !ID]:%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL% <<MAGIC>>
