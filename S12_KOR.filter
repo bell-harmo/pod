@@ -269,6 +269,7 @@ ItemDisplay[(ma2) NMAG]:%GRAY%포가튼 %WHITE%데저트 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma6) NMAG]:%GRAY%루인드 %WHITE%시타델 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma7) NMAG]:%GRAY%번트 %WHITE%포레스트 %RED%렐릭 %CONTINUE%
 ItemDisplay[(maz) NMAG]:Infernal %RED%Trial %CONTINUE%
+ItemDisplay[(ma12) NMAG]:%GRAY%밸풀 알카자르 %RED%렐릭 %CONTINUE%
 
 ItemDisplay[(ma1) MAG]:%BLUE%아이시 %TEAL%케이번 %WHITE%렐릭 %CONTINUE%
 ItemDisplay[(ma5) MAG]:%BLUE%프리지드 %TEAL%플레토우 %WHITE%렐릭 %CONTINUE%
@@ -278,6 +279,7 @@ ItemDisplay[(ma9) MAG]:%BLUE%딤 %TEAL%셀러 %GREEN%렐릭 %CONTINUE%
 ItemDisplay[(ma2) MAG]:%BLUE%포가튼 %TEAL%데저트 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma6) MAG]:%BLUE%루인드 %TEAL%시타델 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma7) MAG]:%BLUE%번트 %TEAL%포레스트 %RED%렐릭 %CONTINUE%
+ItemDisplay[(ma12) MAG]:%BLUE%밸풀 알카자르 %RED%렐릭 %CONTINUE%
 
 ItemDisplay[(ma1) RARE]:%YELLOW%아이시 %CORAL%케이번 %WHITE%렐릭 %CONTINUE%
 ItemDisplay[(ma5) RARE]:%YELLOW%프리지드 %CORAL%플레토우 %WHITE%렐릭 %CONTINUE%
@@ -287,8 +289,9 @@ ItemDisplay[(ma9) RARE]:%YELLOW%딤 %CORAL%셀러 %GREEN%렐릭 %CONTINUE%
 ItemDisplay[(ma2) RARE]:%YELLOW%포가튼 %CORAL%데저트 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma6) RARE]:%YELLOW%루인드 %CORAL%시타델 %RED%렐릭 %CONTINUE%
 ItemDisplay[(ma7) RARE]:%YELLOW%번트 %CORAL%포레스트 %RED%렐릭 %CONTINUE%
+ItemDisplay[(ma12) RARE]:%YELLOW%밸풀 알카자르 %RED%렐릭 %CONTINUE%
 
-ItemDisplay[(ma10 OR ma11) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
+ItemDisplay[(ma10 OR ma11 OR ma12) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
 ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %RED%%PURPLE%T%GOLD%i%WHITE%e%ORANGE%r%PURPLE%3 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
@@ -296,8 +299,8 @@ ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %RED%%P
 //ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) ID]:%NAME%{%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--}%CONTINUE%
 //ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) ID STAT372<300 STAT372>169 !STAT375>0]:%NAME%{%GREEN%O    %RED%높%ORANGE%은 %YELLOW%몹%PURPLE%밀%GREEN%집도 %GOLD%렐릭    %GREEN%O%NL%%NAME%}%CONTINUE%
 //ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) ID STAT372<300 STAT372>189 !STAT375>0]:%NAME%{%GREEN%O    %RED%높%ORANGE%은 %YELLOW%몹%PURPLE%밀%GREEN%집도 %GOLD%렐릭    %GREEN%O%NL%%NAME%}%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) ID STAT372<800 STAT372>599 !STAT375>0]:%NAME%{%GREEN%O    %RED%높%ORANGE%은 %YELLOW%몹%PURPLE%밀%GREEN%집도 %GOLD%렐릭    %GREEN%O%NL%%NAME%}%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) ID STAT372>799 !STAT375>0]:%NAME%{%GREEN%O    %WHITE%매우 %RED%높%ORANGE%은 %YELLOW%몹%PURPLE%밀%GREEN%집도 %GOLD%렐릭    %GREEN%O%NL%%NAME%}%CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) ID STAT372<800 STAT372>599 !STAT375>0]:%NAME%{%GREEN%O    %RED%높%ORANGE%은 %YELLOW%몹%PURPLE%밀%GREEN%집도 %GOLD%렐릭    %GREEN%O%NL%%NAME%}%CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) ID STAT372>799 !STAT375>0]:%NAME%{%GREEN%O    %WHITE%매우 %RED%높%ORANGE%은 %YELLOW%몹%PURPLE%밀%GREEN%집도 %GOLD%렐릭    %GREEN%O%NL%%NAME%}%CONTINUE%
 ItemDisplay[ma1 ID]:%NAME%{%PURPLE%[%GOLD%내성몹수:%RED%1,%YELLOW%2,%WHITE%1,%GREEN%1 %RED%파이어 %CORAL%120 %YELLOW%라이트닝 %ORANGE%100~120 %WHITE%물리 %LIGHT_GRAY%100 %GREEN%독 %SAGE%120%PURPLE%]%NL%%NAME%}%CONTINUE%
 ItemDisplay[ma4 ID]:%NAME%{%PURPLE%[%GOLD%내성몹수:%BLUE%1,%RED%1,%YELLOW%5,%GREEN%2 %RED%파이어 %CORAL%120~140 %BLUE%콜드 %TEAL%145~190 %YELLOW%라이트닝 %ORANGE%100 %GREEN%독 %SAGE%120%PURPLE%]%NL%%NAME%}%CONTINUE%
 ItemDisplay[ma5 ID]:%NAME%{%PURPLE%[%GOLD%내성몹수:%BLUE%3,%RED%3,%YELLOW%2,%GREEN%1 %RED%파이어 %CORAL%140 %BLUE%콜드 %TEAL%150 %YELLOW%라이트닝 %ORANGE%100 %WHITE%물리 %LIGHT_GRAY%100 %GREEN%독 %SAGE%120~140%PURPLE%]%NL%%NAME%}%CONTINUE%
@@ -311,10 +314,10 @@ ItemDisplay[ma10 ID]:%NAME%{%PURPLE%[%GOLD%내성몹수:%RED%파이어 %CORAL%50
 ItemDisplay[ma11 ID]:%NAME%{%PURPLE%[%GOLD%내성몹수:%RED%파이어 %CORAL%50 %BLUE%콜드 %TEAL%50 %YELLOW%라이트닝 %ORANGE%50 %ORANGE%매직 %YELLOW%33 %WHITE%물리 %LIGHT_GRAY%50 %GREEN%독 %SAGE%33%PURPLE%]%NL%%NAME%}%CONTINUE%
 //ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) ID]:%NAME%{%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%NL%%NAME%}
 
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) STAT80>0]:%NAME% %SAGE%매찬{%NAME%} %CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) STAT360>0]:%NAME% %WHITE%[%RED%타락됨%WHITE%] {%NAME%}%CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) STAT80>0]:%NAME% %SAGE%매찬{%NAME%} %CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) STAT360>0]:%NAME% %WHITE%[%RED%타락됨%WHITE%] {%NAME%}%CONTINUE%
 
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) ID]:%NAME%{%NAME%}
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) ID]:%NAME%{%NAME%}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                            Charms                                           //
