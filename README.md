@@ -38,6 +38,14 @@
       2) Bug fixed - Filter level of Magic Item deletion (It is availble only for Weapon and Armor)
       3) Bug fixed - Cio -> Ci0 missed character for circlet on the gambling
 ----------------------------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------------------------
+     3. 14.Mar,2024
+      1) Filter optimized
+      2) Filter Level added
+         - Set item deletion
+         - Only Selected Uniq by Filter maker
+         - Normal base item deletion.
+----------------------------------------------------------------------------------------------------------------------
 :
 :
 :
