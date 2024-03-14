@@ -1219,7 +1219,7 @@ ItemDisplay[UNI !ID fla ETH]: %GRAY%*********************%NL%%NL%%WHITE%[%PURPLE
 ItemDisplay[UNI !ID whm !ETH]: %GRAY%*********************%NL%%NL%%TAN%무쇠바위%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID whm ETH]: %GRAY%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%무쇠바위%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID mau !ETH]: %GRAY%*********************%NL%%NL%%TAN%뼈똑딱이%NL%%NL%%GRAY%*********************
-ItemDisplay[UNI !ID mau ETH]: %GRAY%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈똑딱이%NL%%NL%%GRAY%*********************
+ItemDisplay[UNI !ID mau ETH]: %GRAY%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈절단기%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID gma !ETH]: %GRAY%*********************%NL%%NL%%TAN%강철망치%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID gma ETH]: %GRAY%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철망치%NL%%NL%%GRAY%*********************
 ItemDisplay[UNI !ID 9cl !ETH]: %GRAY%*********************%NL%%NL%%TAN%어둠혈족 분쇄기%NL%%NL%%GRAY%*********************
