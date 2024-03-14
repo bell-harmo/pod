@@ -1698,6 +1698,7 @@ ItemDisplay[gth NMAG !RW !ETH ED=15 SOCK=3]:%GRAY%%NAME% %BLUE%15%Def    {%NAME%
 ItemDisplay[gth NMAG !RW !ETH ED<14 ED>0 SOCK=3]:%GRAY%%NAME% %BLUE%Def   {%NAME%}
 ItemDisplay[gth NMAG !RW !ETH STAT91=-10 SOCK=3]:%GRAY%%NAME% %BLUE%10%Req   {%NAME%}
 ItemDisplay[gth NMAG !RW !ETH STAT91<0 STAT91>-10 SOCK=3]:%GRAY%%NAME% %BLUE%Req   {%NAME%}
+ItemDisplay[gth NMAG !RW !ETH SOCK=3]:%GRAY%%NAME%{%NAME%}
 ItemDisplay[aar NMAG !RW !ETH ED=15 SOCK=3]:%GRAY%%NAME%%BLUE% 15%Def    {%NAME%}
 ItemDisplay[aar NMAG !RW !ETH ED<14 ED>0 SOCK=3]:%GRAY%%NAME%%BLUE% Def   {%NAME%}
 ItemDisplay[aar NMAG !RW !ETH STAT91=-10 SOCK=3]:%GRAY%%NAME%%BLUE% 10%Req   {%NAME%}
