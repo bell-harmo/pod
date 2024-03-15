@@ -923,7 +923,7 @@ ItemDisplay[UNI !ID pac ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE
 //Unique Rings Amulets Jewels Charms
 ItemDisplay[UNI !ID (rin)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %CORAL%링 %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (amu)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %WHITE%아%PURPLE%뮬%ORANGE%렛 %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
-ItemDisplay[UNI !ID (jew)]:%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%NL% %RED%레%ORANGE%인%YELLOW%보%GREEN%우 %BLUE%쥬%PURPLE%얼 %NL%%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%** <<UNIQUE>>
+ItemDisplay[UNI !ID (jew)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%NL% %RED%레%ORANGE%인%YELLOW%보%GREEN%우 %BLUE%쥬%PURPLE%얼 %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI (WEAPON OR ARMOR) !ID FILTERLVL>6]:
 //UNIQUE NORMAL NAMING
 ItemDisplay[UNI !ID cap !ETH]:%NL%%GRAY%*%TAN%비긴의 끈모자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
