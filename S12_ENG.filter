@@ -612,6 +612,7 @@ ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2>5 !IAS>0]: %NAME% %ORANGE%+6 
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2=5 !IAS>0]: %NAME% %ORANGE%+5 Javel {%NAME%}%CONTINUE% <<SHOP>>
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1) !IAS>0]: %NAME% %ORANGE%+3 Javel +2 Ama{%NAME%} %CONTINUE% <<SHOP>>
 ItemDisplay[(am5 OR ama OR amf) ID (MAG OR RARE) !TABSK2>0]: %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[WP12 MAG !ID]: %NAME% %GRAY%[Wand %WHITE%c%ORANGE%h%RED%e%GREEN%c%PURPLE%k%GRAY%%GRAY%]
 ItemDisplay[WP12 MAG ID TABSK16>2 SK477>2]: %NAME% %ORANGE%+6 Hemo {%NAME%}%CONTINUE% <<SHOP>>
 ItemDisplay[WP12 MAG ID TABSK16>2 SK477=2]: %NAME% %ORANGE%+5 Hemo {%NAME%}%CONTINUE% <<SHOP>>
 ItemDisplay[WP12 MAG ID TABSK16=2 SK477>2]: %NAME% %ORANGE%+5 Hemo {%NAME%}%CONTINUE% <<SHOP>>
