@@ -410,9 +410,9 @@ ItemDisplay[bet]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%�
 ItemDisplay[fed]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%파괴의 정수%BLUE%(바알) %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 ItemDisplay[toa]: %RED%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %GOLD%면죄의 징표 %NL%%NL%%RED%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<SPECIAL>>
 //                                         POD                                                 //
-ItemDisplay[cx5]: %NL%%NL%  %PURPLE%타락%WHITE%의 %ORANGE%오브%NL%%NL%  %CONTINUE% <<SPECIAL>>
+ItemDisplay[cx5]: %NL%%NL%  %PURPLE%타락%WHITE%의 %ORANGE%오브%NL%%NL%%NL%  %CONTINUE% <<SPECIAL>>
 ItemDisplay[cx5]:%NAME%{%NL%헬름/갑옷/방패/무기:소켓[1toMAX]%NL%부츠:올레[5to10%]%NL%부츠:민첩[5to15]%NL%부츠:쿨탐감소[10%]%NL%장갑:공속[10%]%NL%장갑:올레[5to10%]%NL%아뮬렛:모든 스킬[1]%NL%링:패캐[10%]%NL%링:달려[10%]%NL%링:뎀감[5to6%]%NL%벨트:피어싱[8%]%NL%화살통:공속[10%]%NL%%NL%%ORANGE%Best Option for Each Item}
-ItemDisplay[cx7]: %NL%%NL%  %PURPLE%혼돈%WHITE%의 %ORANGE%열쇠%NL%%NL%  <<SPECIAL>>
+ItemDisplay[cx7]: %NL%%NL%  %PURPLE%혼돈%WHITE%의 %ORANGE%열쇠%NL%%NL%%NL%  <<SPECIAL>>
 ItemDisplay[cx6]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
 ItemDisplay[cx8]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
 ItemDisplay[maz]: %RED%***%YELLOW%***%GREEN%***%BLUE%***%NL%%NL% %PURPLE%%NAME%  %NL%%NL%%RED%***%YELLOW%***%GREEN%***%BLUE%*** <<SPECIAL>>
@@ -464,7 +464,7 @@ ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK83>2 (SOCK=0 OR SOCK=2)]: %DGREE
 ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK74>2 (SOCK=0 OR SOCK=2)]: %DGREEN%%NAME% %ORANGE%+3 시체폭발  {%NAME%}
 ItemDisplay[WP12 !RW !wnd !ywn !9wn !7wn NMAG SK67>2 (SOCK=0 OR SOCK=2)]: %DGREEN%%NAME% %ORANGE%+3 티쓰  {%NAME%}
 //Vendor items
-ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY>1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%} <<MONEY>>
+ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>34999 DIFFICULTY>1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%} <<ANTI>>
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>29999 DIFFICULTY=1]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%}
 ItemDisplay[NMAG (WP12 OR CL6 OR 7tk OR 7ta OR 7bk) !RW !ob5 !oba !obf PRICE>4999 DIFFICULTY=0]:%NAME%%ORANGE%[$%PRICE%]{%GOLD%********** %RED%상점 %PURPLE%판매용 %GOLD%**********%NL%%NAME%}
 //                                        RUNE                                                 //
@@ -593,9 +593,9 @@ ItemDisplay[WP12 MAG ID TABSK16>2 SK477>2]: %NAME% %ORANGE%+6 Hemo{%NAME%}  %CON
 ItemDisplay[WP12 MAG ID TABSK16>2 SK477=2]: %NAME% %ORANGE%+5 Hemo {%NAME%} %CONTINUE% <<SHOP>>
 ItemDisplay[WP12 MAG ID TABSK16=2 SK477>2]: %NAME% %ORANGE%+5 Hemo {%NAME%} %CONTINUE% <<SHOP>>
 ItemDisplay[WP12 MAG ID CLSK2>1 SK477>2]: %NAME% %ORANGE%+5 Hemo{%NAME%}  %CONTINUE% <<SHOP>>
-ItemDisplay[RARE (amu OR rin OR jew) !ID]:   %NL%%NL% %GREEN%°%YELLOW%%NAME%%GREEN%° %NL%%NL%%   <<RARE>>
-ItemDisplay[SET !ID amu]:   %NL%%NL% %PURPLE%°%GREEN%%NAME%%PURPLE%° %NL%%NL%   <<SET>>
-ItemDisplay[SET !ID rin]: %NL%  %GREEN%%NAME%  %NL%
+ItemDisplay[RARE (amu OR rin OR jew) !ID]:   %NL%%NL% %GREEN%°%YELLOW%%NAME%%GREEN%° %NL%%NL%%NL%   <<RARE>>
+ItemDisplay[SET !ID amu]:   %NL%%NL% %PURPLE%°%GREEN%%NAME%%PURPLE%° %NL%%NL%%NL%   <<SET>>
+ItemDisplay[SET !ID rin]: %NL%  %GREEN%%NAME%  %NL%%NL%
 ItemDisplay[MAG amu !ID ILVL=85]: %BLUE%%NAME%%GRAY%[CL96+]
 ItemDisplay[MAG amu !ID ILVL=86]: %BLUE%%NAME%%GRAY%[CL94+]
 ItemDisplay[MAG amu !ID ILVL=87]: %BLUE%%NAME%%GRAY%[CL94+]
@@ -672,9 +672,9 @@ ItemDisplay[MAG rin ID]: %BLUE%%NAME% %CONTINUE%
 ItemDisplay[MAG amu ID]:%NAME%{%NL%%BLUE%쥬엘%WHITE%+%RED%아뮬렛%WHITE%+%GOLD%랄%WHITE%+%ORANGE%최상급 %PURPLE%자수정%NL%%PURPLE%캐스터 크래프트}
 ItemDisplay[MAG rin ID]:%NAME%{%NL%%BLUE%쥬엘%WHITE%+%CORAL%링%WHITE%+%GOLD%엠%WHITE%+%ORANGE%최상급 %PURPLE%자수정%NL%%PURPLE%캐스터 크래프트}
 //Charms/JEWELS
-ItemDisplay[MAG (cm1 OR cm3) !ID]:%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL% <<MAGIC>>
+ItemDisplay[MAG (cm1 OR cm3) !ID]:%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%NL% <<MAGIC>>
 ItemDisplay[MAG cm2 !ID]:%NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG jew !ID]:%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL% <<MAGIC>>
+ItemDisplay[MAG jew !ID]:%NL% %GREEN%°%BLUE%%NAME% %ORANGE%[L%ILVL%]%GREEN%° %NL%%NL% <<MAGIC>>
 ItemDisplay[RARE jew (IAS>0 AND STAT17>0)]: %YELLOW%%NAME%%ORANGE%[L%ILVL%] %NL% %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%WHITE%증뎀 %RED%공속%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[RARE jew (IAS>0 AND STAT22>0)]: %YELLOW%%NAME%%ORANGE%[L%ILVL%] %NL% %PURPLE%맥뎀 %RED%공속
 ItemDisplay[RARE jew (STAT22>0 AND STAT17>0)]: %YELLOW%%NAME%%ORANGE%[L%ILVL%] %NL% %PURPLE%맥뎀 %WHITE%증뎀
@@ -718,8 +718,11 @@ ItemDisplay[MAG (cm1 OR cm3 OR jew)]: %BLUE%%NAME%%ORANGE%[L%ILVL%]
 ItemDisplay[UNI !ID cm1]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %ORANGE%애니힐러스 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<HIGH>>
 ItemDisplay[UNI !ID cm2]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %ORANGE%지옥의 횃불 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%***** <<HIGH>> 
 ItemDisplay[UNI !ID cm3]: %RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%NL%%NL% %RED%기드의 행운 %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****  <<HIGH>>
+//RARES
+ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ4 OR EQ5 OR EQ6 OR EQ7) !ETH !ID]: %YELLOW%%NAME%
+ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ4 OR EQ5 OR EQ6 OR EQ7) ETH !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %YELLOW%%NAME%
 //ARROWS
-ItemDisplay[aq2 RARE !ID]:   %NL%%NL% %GREEN%°%YELLOW%%NAME%%GREEN%° %NL%%NL%   <<RARE>>
+ItemDisplay[aq2 RARE !ID]:   %NL%%NL% %GREEN%°%YELLOW%%NAME%%GREEN%° %NL%%NL%%NL%   <<RARE>>
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL<80]: %NAME%
 ItemDisplay[(aq2 OR cq2) UNI !ID CLVL>79]:
 ItemDisplay[(aq2 OR cq2) MAG !ID DIFFICULTY<2]: %NAME%
@@ -775,9 +778,6 @@ ItemDisplay[EQ6 RARE ID (STAT99>20 AND (STAT39>10 OR STAT41>10 OR STAT43>10 OR S
 ItemDisplay[EQ6 RARE ID (STAT99>0 AND (STAT0>10 OR STAT1>10 OR STAT2>10 OR STAT3>10) AND (STAT39>10 OR STAT41>10 OR STAT43>10 OR STAT45>10))]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%패힛 %RED%스텟 %GREEN%저항 %YELLOW%벨트%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}%CONTINUE%
 ItemDisplay[CL5 RARE ID (STAT17<301 STAT17>200 AND STAT218>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%증뎀 %RED%맥뎀 %YELLOW%클로%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}%CONTINUE%
 ItemDisplay[CL5 RARE ID STAT17>300]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%증뎀 %YELLOW%클로%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NAME%}%CONTINUE%
-//RARES
-ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ4 OR EQ5 OR EQ6 OR EQ7) !ETH !ID]: %YELLOW%%NAME%
-ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 OR WP12 OR EQ4 OR EQ5 OR EQ6 OR EQ7) ETH !ID]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %YELLOW%%NAME%
 //                                       RUNEWORD                                              //
 //PLAGUE
 ItemDisplay[RW WEAPON SOCK=3 STAT477=17 STAT0=10 ALLSK=2]:%NAME% %ORANGE%+2모든 스킬 %GREEN%+%STAT(477,0)%클렌징{%NAME%}
