@@ -885,7 +885,7 @@ ItemDisplay[UNI !ID uvc ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%
 ItemDisplay[UNI !ID umc !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Verdungos%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID umc ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Verdungos Hearty Cord%NL%%NL%%GOLD%********************* <<MONEY>>
 //Unique Bows
-ItemDisplay[UNI !ID 6lw]%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Wind Force%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
+ItemDisplay[UNI !ID 6lw]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%RED%Wind Force%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
 //Unique Daggers
 ItemDisplay[UNI !ID 7kr !ETH]:%GOLD%*********************%NL%%NL%%RED%Fleshripper%NL%%NL%%GOLD%*********************
 ItemDisplay[UNI !ID 7kr ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] Fleshripper%NL%%NL%%GOLD%*********************
