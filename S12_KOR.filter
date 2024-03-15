@@ -35,6 +35,7 @@ ItemStyle[HP]: BorderColor = 98, BorderSize = 1, BackgroundColor = 0
 ItemStyle[MP]: BorderColor = 151, BorderSize = 1, BackgroundColor = 0
 ItemStyle[RP]: BorderColor = 155, BorderSize = 1, BackgroundColor = 0
 ItemStyle[ANTI]: BorderColor = 223, BorderSize = 1, BackgroundColor = 0
+ItemStyle[UNID]: BorderColor = 14, BorderSize = 1, BackgroundColor = 0
 //Gambling
 ItemDisplay[NMAG rin !ID]:%NL% %ORANGE%Bul-Kathos' Wedding Band%NL%%CORAL%Stone of Jordan%NL%%RED%Wisp Projector %NL%%NL% %CORAL%[%CORAL%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링%NL%
 ItemDisplay[NMAG amu !ID]:%NL%%NL%%GREEN%	Tal Rasha's Adjudication%NL%%SAGE%The Rising Sun%NL%%YELLOW%Metalgrid%NL%%ORANGE%Cat's Eye%NL%%CORAL%Highlord's Wrath%NL%%RED%Mara's Kaleidoscope%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링%NL%
@@ -922,547 +923,547 @@ ItemDisplay[UNI !ID (amu)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE
 ItemDisplay[UNI !ID (jew)]:%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%**%NL% %RED%레%ORANGE%인%YELLOW%보%GREEN%우 %BLUE%쥬%PURPLE%얼 %NL%%RED%**%ORANGE%**%YELLOW%**%GREEN%**%BLUE%**%PURPLE%** <<UNIQUE>>
 ItemDisplay[UNI (WEAPON OR ARMOR) !ID FILTERLVL>6]:
 //UNIQUE NORMAL NAMING
-ItemDisplay[UNI !ID cap !ETH]:%NL%%GRAY%*%TAN%비긴의 끈모자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID cap ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%비긴의 끈모자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID skp !ETH]:%NL%%GRAY%*%TAN%타른 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID skp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%타른 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hlm !ETH]:%NL%%GRAY%*%TAN%영광의 두건모%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hlm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영광의 두건모%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID fhl !ETH]:%NL%%GRAY%*%TAN%어스름투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID fhl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어스름투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ghm !ETH]:%NL%%GRAY%*%TAN%울부짖는 상아투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ghm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%울부짖는 상아투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID msk !ETH]:%NL%%GRAY%*%TAN%공포의 얼굴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID msk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%공포의 얼굴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID crn !ETH]:%NL%%GRAY%*%TAN%언데드 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID crn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%언데드 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bhm !ETH]:%NL%%GRAY%*%TAN%벌레먹은 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bhm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%벌레먹은 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xap !ETH]:%NL%%GRAY%*%TAN%소작농 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xap ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%소작농 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xkp !ETH]:%NL%%GRAY%*%TAN%돌막이 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xkp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%돌막이 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xlm !ETH]:%NL%%GRAY%*%TAN%흡수의 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xlm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%흡수의 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xhl !ETH]:%NL%%GRAY%*%TAN%어둠시야 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xhl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어둠시야 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xhm !ETH]:%NL%%GRAY%*%TAN%발키리 날개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xhm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%발키리 날개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xsk !ETH]:%NL%%GRAY%*%TAN%블랙혼의 얼굴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xsk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%블랙혼의 얼굴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xrn !ETH]:%NL%%GRAY%*%TAN%도둑의 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xrn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%도둑의 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uhm !ETH]:%NL%%GRAY%*%RED%강철 OR %GREEN%나이트윙의 베일 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uhm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%강철 OR %GREEN%나이트윙의 베일%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID urn !ETH]:%NL%%GRAY%*%TAN%영겁의 왕관 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID urn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영겁의 왕관 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uh9 !ETH]:%NL%%GRAY%*%TAN%거대 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uh9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%거대 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID qui !ETH]:%NL%%GRAY%*%TAN%회색 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID qui ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%회색 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lea !ETH]:%NL%%GRAY%*%TAN%점멸박쥐의 형상%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lea ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%점멸박쥐의 형상%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hla !ETH]:%NL%%GRAY%*%TAN%백인대장%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hla ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%백인대장%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID stu !ETH]:%NL%%GRAY%*%TAN%고통의 경련%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID stu ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%고통의 경련%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID rng !ETH]:%NL%%GRAY%*%TAN%어둠빛%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID rng ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어둠빛%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID scl !ETH]:%NL%%GRAY%*%TAN%매 사슬갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID scl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%매 사슬갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID brs !ETH]:%NL%%GRAY%*%TAN%맹독 방어구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID brs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%맹독 방어구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID chn !ETH]:%NL%%GRAY%*%TAN%전류 사슬갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID chn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%전류 사슬갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID spl !ETH]:%NL%%GRAY%*%TAN%결빙갑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID spl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%결빙갑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ltp !ETH]:%NL%%GRAY%*%TAN%천상의 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ltp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%천상의 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID fld !ETH]:%NL%%GRAY%*%TAN%바위 외투%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID fld ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%바위 외투%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID plt !ETH]:%NL%%GRAY%*%TAN%뼈가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID plt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gth !ETH]:%NL%%GRAY%*%TAN%절그럭대는 갑주%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gth ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%절그럭대는 갑주%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ful !ETH]:%NL%%GRAY%*%TAN%황금 가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ful ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%황금 가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID aar !ETH]:%NL%%GRAY%*%TAN%빅터의 비단옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID aar ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%빅터의 비단옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xui !ETH]:%NL%%GRAY%*%TAN%영혼의 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xui ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼의 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xla !ETH]:%NL%%GRAY%*%TAN%박피된 자의 가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xla ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%박피된 자의 가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xtu !ETH]:%NL%%GRAY%*%TAN%강철 모피%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xtu ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철 모피%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xcl !ETH]:%NL%%GRAY%*%TAN%까마귀 울음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xcl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%까마귀 울음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xng !ETH]:%NL%%GRAY%*%TAN%영혼 대장간%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xng ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼 대장간%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xrs !ETH]:%NL%%GRAY%*%TAN%듀리엘의 껍데기 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xrs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%듀리엘의 껍데기 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xpl !ETH]:%NL%%GRAY%*%TAN%스컬더의 분노 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xpl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%스컬더의 분노 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xld !ETH]:%NL%%GRAY%*%TAN%줄이빨 갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xld ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%줄이빨 갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xth !ETH]:%NL%%GRAY%*%TAN%아트마의 흐느낌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xth ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%아트마의 흐느낌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xul !ETH]:%NL%%GRAY%*%TAN%검은 하데스%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xul ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%검은 하데스%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xar !ETH]:%NL%%GRAY%*%TAN%커프스모온%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xar ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%커프스모온%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uul !ETH]:%NL%%GRAY%*%TAN%강철 외피%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uul ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철 외피%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID buc !ETH]:%NL%%GRAY%*%TAN%펠타 루나타%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID buc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%펠타 루나타%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID sml !ETH]:%NL%%GRAY%*%TAN%어스름 원반%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID sml ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어스름 원반%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lrg !ETH]:%NL%%GRAY%*%TAN%폭풍조합%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lrg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폭풍조합%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID kit !ETH]:%NL%%GRAY%*%TAN%강철의 격돌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID kit ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철의 격돌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID spk !ETH]:%NL%%GRAY%*%TAN%칼날멈춤 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID spk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%칼날멈춤 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID tow !ETH]:%NL%%GRAY%*%TAN%브베리트 요새%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID tow ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%브베리트 요새%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bsh !ETH]:%NL%%GRAY%*%TAN%눈먼자의 벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bsh ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%눈먼자의 벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gts !ETH]:%NL%%GRAY%*%TAN%수호 방벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gts ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%수호 방벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xuc !ETH]:%NL%%GRAY%*%TAN%내장적출자 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xuc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%내장적출자 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xml !ETH]:%NL%%GRAY%*%TAN%모서의 축복받은 원형방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xml ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%모서의 축복받은 원형방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xrg !ETH]:%NL%%GRAY%*%TAN%폭풍추적자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xrg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폭풍추적자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xit !ETH]:%NL%%GRAY%*%TAN%티아마트의 힐난%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xit ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%티아마트의 힐난%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xpk !ETH]:%NL%%GRAY%*%TAN%창막이 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xpk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%창막이 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xow !ETH]:%NL%%GRAY%*%TAN%게르크의 성역%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xow ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%게르크의 성역%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xsh !ETH]:%NL%%GRAY%*%TAN%각성의 벽 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xsh ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%각성의 벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xts !ETH]:%NL%%GRAY%*%TAN%라다만트의 구체 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xts ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%라다만트의 구체%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uml !ETH]:%NL%%GRAY%*%TAN%검은 떡갈나무 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uml ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%검은 떡갈나무 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID upk !ETH]:%NL%%GRAY%*%TAN%뾰족가시 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID upk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뾰족가시 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uow !ETH]:%NL%%GRAY%*%TAN%메두사의 응시 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uow ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%메두사의 응시%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ush !ETH]:%NL%%GRAY%*%TAN%인간사냥꾼의 전리품%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ush ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%인간사냥꾼의 전리품%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uts !ETH]:%NL%%GRAY%*%TAN%영혼 방벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uts ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼 방벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lgl !ETH]:%NL%%GRAY%*%TAN%브록의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lgl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%브록의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID vgl !ETH]:%NL%%GRAY%*%TAN%피주먹%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID vgl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%피주먹%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xlg !ETH]:%NL%%GRAY%*%TAN%맹독의 손아귀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xlg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%맹독의 손아귀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xvg !ETH]:%NL%%GRAY%*%TAN%무덤 손바닥%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xvg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%무덤 손바닥%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xmg !ETH]:%NL%%GRAY%*%TAN%구울가죽 장갑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xmg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%구울가죽 장갑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xtg !ETH]:%NL%%GRAY%*%TAN%용암 덩어리%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xtg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%용암 덩어리%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xhg !ETH]:%NL%%GRAY%*%TAN%지옥의 입구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xhg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%지옥의 입구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lbt !ETH]:%NL%%GRAY%*%TAN%핫스퍼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lbt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%핫스퍼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID vbt !ETH]:%NL%%GRAY%*%TAN%핏빛발자국%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID vbt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%핏빛발자국%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mbt !ETH]:%NL%%GRAY%*%TAN%크쏜의 비단신%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mbt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%크쏜의 비단신%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID tbt !ETH]:%NL%%GRAY%*%TAN%고블린 발가락%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID tbt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%고블린 발가락%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hbt !ETH]:%NL%%GRAY%*%TAN%성큼걸음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hbt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%성큼걸음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xlb !ETH]:%NL%%GRAY%*%TAN%불꽃걸음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xlb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%불꽃걸음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xvb !ETH]:%NL%%GRAY%*%TAN%물걸음 장화 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID xvb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%물걸음 장화%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID umb !ETH]:%NL%%GRAY%*%TAN%뼈걸음 장화%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID umb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈걸음 장화%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uhb !ETH]:%NL%%GRAY%*%TAN%그림자 춤꾼 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID uhb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%그림자 춤꾼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lbl !ETH]:%NL%%GRAY%*%TAN%레니모%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lbl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%레니모%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID vbl !ETH]:%NL%%GRAY%*%TAN%뱀 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID vbl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뱀 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mbl !ETH]:%NL%%GRAY%*%TAN%밤안개 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mbl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%밤안개 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID tbl !ETH]:%NL%%GRAY%*%TAN%금박 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID tbl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%금박 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hbl !ETH]:%NL%%GRAY%*%TAN%칼날 요대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hbl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%칼날 요대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID zlb !ETH]:%NL%%GRAY%*%TAN%귀 꿰미 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID zlb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%귀 꿰미%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID zmb !ETH]:%NL%%GRAY%*%TAN%우울의 올가미%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID zmb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%우울의 올가미%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ztb !ETH]:%NL%%GRAY%*%TAN%눈꽃충돌 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ztb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%눈꽃충돌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hax !ETH]:%NL%%GRAY%*%TAN%이갈이 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%이갈이 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID axe !ETH]:%NL%%GRAY%*%TAN%죽음의 삽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID axe ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%죽음의 삽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 2ax !ETH]:%NL%%GRAY%*%TAN%뼛날 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 2ax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼛날 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mpi !ETH]:%NL%%GRAY%*%TAN%해골 가름쇠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mpi ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%해골 가름쇠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wax !ETH]:%NL%%GRAY%*%TAN%상처갈퀴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%상처갈퀴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lax !ETH]:%NL%%GRAY%*%TAN%페크마의 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%페크마의 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bax !ETH]:%NL%%GRAY%*%TAN%선혈도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%선혈도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID btx !ETH]:%NL%%GRAY%*%TAN%부족장%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID btx ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%부족장%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gax !ETH]:%NL%%GRAY%*%TAN%뇌 절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뇌 절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gix !ETH]:%NL%%GRAY%*%TAN%거대한 놈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gix ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%거대한 놈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ha !ETH]:%NL%%GRAY%*%TAN%죽음냉기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ha ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%죽음냉기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ax !ETH]:%NL%%GRAY%*%TAN%도살자의 눈동자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%도살자의 눈동자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 92a !ETH]:%NL%%GRAY%*%TAN%섬타격 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 92a ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%섬타격 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9mp !ETH]:%NL%%GRAY%*%TAN%폼페이의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9mp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폼페이의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9wa !ETH]:%NL%%GRAY%*%TAN%수호자의 나가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9wa ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%수호자의 나가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9la !ETH]:%NL%%GRAY%*%TAN%전쟁군주의 신임%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9la ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%전쟁군주의 신임%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ba !ETH]:%NL%%GRAY%*%TAN%주문강철%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ba ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%주문강철%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9bt !ETH]:%NL%%GRAY%*%TAN%천둥도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9bt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%천둥도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ga !ETH]:%NL%%GRAY%*%TAN%뼈학살자 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ga ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈학살자 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9gi !ETH]:%NL%%GRAY%*%TAN%미노타우로스%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9gi ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%미노타우로스%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ha !ETH]:%NL%%GRAY%*%TAN%면도날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ha ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%면도날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 72a !ETH]:%NL%%GRAY%*%TAN%룬의 대가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 72a ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%룬의 대가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7mp !ETH]:%NL%%GRAY%*%TAN%학의 부리%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7mp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%학의 부리%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7wa !ETH]:%NL%%GRAY%*%TAN%죽음의 식칼 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7wa ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%죽음의 식칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ba ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%천상의 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7bt !ETH]:%NL%%GRAY%*%TAN%지옥 살해자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7bt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%지옥 살해자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ga !ETH]:%NL%%GRAY%*%TAN%메서슈미트의 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ga ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%메서슈미트의 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7gi !ETH]:%NL%%GRAY%*%TAN%사형집행인의 정의%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7gi ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%사형집행인의 정의%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID sbw]:%NL%%GRAY%*%TAN%눈알 관통활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hbw]:%NL%%GRAY%*%TAN%쇠약의 활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lbw]:%NL%%GRAY%*%TAN%까마귀 발톱%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID cbw]:%NL%%GRAY%*%TAN%도적의 활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID sbb]:%NL%%GRAY%*%TAN%뇌격궁%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lbb]:%NL%%GRAY%*%TAN%말라비틀어진 활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID swb]:%NL%%GRAY%*%TAN%지옥천둥%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lwb]:%NL%%GRAY%*%TAN%폭발울음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8sb]:%NL%%GRAY%*%TAN%천격궁%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8hb]:%NL%%GRAY%*%TAN%갈고리활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8lb]:%NL%%GRAY%*%TAN%쿠코 샤카쿠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8cb]:%NL%%GRAY%*%TAN%화살비%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8s8]:%NL%%GRAY%*%TAN%마녀의 활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8l8]:%NL%%GRAY%*%TAN%절벽살인마%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8sw]:%NL%%GRAY%*%TAN%마법사의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8lw]:%NL%%GRAY%*%TAN%금격의 아치 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 6l7]:%NL%%GRAY%*%TAN%독수리뿔 장궁%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 6sw]:%NL%%GRAY%*%TAN%과부제조기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 6lw]:%NL%%GRAY%*%TAN%바람살 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lxb]:%NL%%GRAY%*%TAN%납 까마귀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mxb]:%NL%%GRAY%*%TAN%아이커 쏘개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hxb]:%NL%%GRAY%*%TAN%지옥쇠뇌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID rxb]:%NL%%GRAY%*%TAN%파멸발사기 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8lx]:%NL%%GRAY%*%TAN%랭거 브리저%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8mx]:%NL%%GRAY%*%TAN%고름 쏘개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8hx]:%NL%%GRAY%*%TAN%눈보라포%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8rx]:%NL%%GRAY%*%TAN%악마의 기계%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 6hx]:%NL%%GRAY%*%TAN%지옥포%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 6rx]:%NL%%GRAY%*%TAN%내장 적출기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID dgr !ETH]:%NL%%GRAY%*%TAN%갈매기 단도 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID dgr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%갈매기 단도%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID dir !ETH]:%NL%%GRAY%*%TAN%더 디글러%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID dir ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%더 디글러%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID kri !ETH]:%NL%%GRAY%*%TAN%비취 단도%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID kri ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%비취 단도%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bld !ETH]:%NL%%GRAY%*%TAN%유령들린 파편%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bld ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%유령들린 파편%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9dg !ETH]:%NL%%GRAY%*%TAN%척추찢개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9dg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%척추찢개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9di !ETH]:%NL%%GRAY%*%TAN%심장 도리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9di ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%심장 도리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9kr !ETH]:%NL%%GRAY%*%TAN%블랙보그의 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9kr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%블랙보그의 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9bl !ETH]:%NL%%GRAY%*%TAN%폭풍쐐기검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9bl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폭풍쐐기검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7dg !ETH]:%NL%%GRAY%*%TAN%마법사의 쐐기검 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7dg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%마법사의 쐐기검 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7bl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%유령불꽃%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID clb !ETH]:%NL%%GRAY%*%TAN%성난 떡갈나무%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID clb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%성난 떡갈나무%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID spc !ETH]:%NL%%GRAY%*%TAN%못박힌 각목%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID spc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%못박힌 각목%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mac !ETH]:%NL%%GRAY%*%TAN%뭉개버리는 곤봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mac ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뭉개버리는 곤봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mst !ETH]:%NL%%GRAY%*%TAN%피먹은 철퇴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%피먹은 철퇴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID fla !ETH]:%NL%%GRAY%*%TAN%장군의 도리깨%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID fla ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%장군의 도리깨%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID whm !ETH]:%NL%%GRAY%*%TAN%무쇠바위%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID whm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%무쇠바위%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mau !ETH]:%NL%%GRAY%*%TAN%뼈똑딱이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID mau ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gma !ETH]:%NL%%GRAY%*%TAN%강철망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gma ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9cl !ETH]:%NL%%GRAY%*%TAN%어둠혈족 분쇄기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9cl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어둠혈족 분쇄기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9sp !ETH]:%NL%%GRAY%*%TAN%살점도리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9sp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%살점도리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ma !ETH]:%NL%%GRAY%*%TAN%서리냉기 철퇴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ma ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%서리냉기 철퇴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9mt !ETH]:%NL%%GRAY%*%TAN%달내림%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9mt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%달내림%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9fl !ETH]:%NL%%GRAY%*%TAN%배질의 소용돌이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9fl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%배질의 소용돌이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9wh !ETH]:%NL%%GRAY%*%TAN%경천동지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9wh ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%경천동지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9m9 !ETH]:%NL%%GRAY%*%TAN%핏빛나무 그루터기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9m9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%핏빛나무 그루터기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9gm !ETH]:%NL%%GRAY%*%TAN%고통의 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9gm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%고통의 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7cl !ETH]:%NL%%GRAY%*%TAN%노드의 고기 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7cl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%노드의 고기 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7sp !ETH]:%NL%%GRAY%*%TAN%악마의 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7sp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%악마의 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7mt !ETH]:%NL%%GRAY%*%TAN%바라나의 별%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7mt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%바라나의 별%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7fl !ETH]:%NL%%GRAY%*%TAN%호라즌의 회오리바람 or 천둥채찍 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7fl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%호라즌의 회오리바람 or 천둥채찍%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7wh !ETH]:%NL%%GRAY%*%TAN%바위 격파기 or 쉐퍼의 망치 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7wh ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%바위 격파기 or 쉐퍼의 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7m7 !ETH]:%NL%%GRAY%*%TAN%바람망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7m7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%바람망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bar !ETH]:%NL%%GRAY%*%TAN%디모악의 절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bar ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%디모악의 절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID vou !ETH]:%NL%%GRAY%*%TAN%강철막대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID vou ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철막대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID scy !ETH]:%NL%%GRAY%*%TAN%영혼 수확%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID scy ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼 수확%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID pax !ETH]:%NL%%GRAY%*%TAN%전투 장봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID pax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%전투 장봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hal !ETH]:%NL%%GRAY%*%TAN%비통의 장대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID hal ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%비통의 장대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wsc !ETH]:%NL%%GRAY%*%TAN%사신의 낫%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wsc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%사신의 낫%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9b7 !ETH]:%NL%%GRAY%*%TAN%고기 긁개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9b7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%고기 긁개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9vo !ETH]:%NL%%GRAY%*%TAN%검게 물든 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9vo ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%검게 물든 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9s8 !ETH]:%NL%%GRAY%*%TAN%아테나의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9s8 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%아테나의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9pa !ETH]:%NL%%GRAY%*%TAN%피에르 톰 콘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9pa ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%피에르 톰 콘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9h9 !ETH]:%NL%%GRAY%*%TAN%휴솔달 에보%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9h9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%휴솔달 에보%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9wc !ETH]:%NL%%GRAY%*%TAN%그림의 불타는 시체%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9wc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%그림의 불타는 시체%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7o7 !ETH]:%NL%%GRAY%*%TAN%뼈 절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7o7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈 절단기 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7wc !ETH]:%NL%%GRAY%*%TAN%폭풍장대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7wc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폭풍장대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID scp !ETH]:%NL%%GRAY%*%TAN%타종봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID scp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%타종봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gsc !ETH]:%NL%%GRAY%*%TAN%녹슨 손잡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gsc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%녹슨 손잡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wsp !ETH]:%NL%%GRAY%*%TAN%폭풍의 눈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wsp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폭풍의 눈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9sc !ETH]:%NL%%GRAY%*%TAN%자카룸의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9sc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%자카룸의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9qs !ETH]:%NL%%GRAY%*%TAN%악취나는 성수뿌리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9qs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%악취나는 성수뿌리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ws !ETH]:%NL%%GRAY%*%TAN%축복받은 빛의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ws ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%축복받은 빛의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7sc !ETH]:%NL%%GRAY%*%TAN%천상의 빛 or 구원자 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7sc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%천상의 빛 or 구원자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ws !ETH]:%NL%%GRAY%*%TAN%아스트리온의 강철 홀 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ws ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%아스트리온의 강철 홀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID spr !ETH]:%NL%%GRAY%*%TAN%용창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID spr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%용창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID tri !ETH]:%NL%%GRAY%*%TAN%면도날 갈퀴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID tri ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%면도날 갈퀴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID brn !ETH]:%NL%%GRAY%*%TAN%피도둑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID brn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%피도둑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID spt !ETH]:%NL%%GRAY%*%TAN%야가이 기병창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID spt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%야가이 기병창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID pik !ETH]:%NL%%GRAY%*%TAN%더 탄르 고어라드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID pik ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%더 탄르 고어라드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9sr !ETH]:%NL%%GRAY%*%TAN%관통창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9sr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%관통창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9tr !ETH]:%NL%%GRAY%*%TAN%켈피 함정%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9tr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%켈피 함정 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9br !ETH]:%NL%%GRAY%*%TAN%영혼수확의 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9br ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼수확의 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9st !ETH]:%NL%%GRAY%*%TAN%혼 선단 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9st ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%혼 선단 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9p9 !ETH]:%NL%%GRAY%*%TAN%명예의 창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9p9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%명예의 창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7sr !ETH]:%NL%%GRAY%*%TAN%아리옥의 바늘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7sr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%아리옥의 바늘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7br !ETH]:%NL%%GRAY%*%TAN%뱀 갈퀴 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7br ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뱀 갈퀴 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7p7 !ETH]:%NL%%GRAY%*%TAN%강철 기둥 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7p7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철 기둥 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID sst !ETH]:%NL%%GRAY%*%TAN%죽음의 재%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID sst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%죽음의 재%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lst !ETH]:%NL%%GRAY%*%TAN%뱀족의 왕%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뱀족의 왕%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID cst !ETH]:%NL%%GRAY%*%TAN%라자루스의 지팡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID cst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%라자루스의 지팡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bst !ETH]:%NL%%GRAY%*%TAN%도롱뇽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%도롱뇽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wst !ETH]:%NL%%GRAY%*%TAN%철장봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%철장봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8ss !ETH]:%NL%%GRAY%*%TAN%뾰족나무 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8ss ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뾰족나무 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8ls !ETH]:%NL%%GRAY%*%TAN%늑골 분쇄기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8ls ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%늑골 분쇄기 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8cs !ETH]:%NL%%GRAY%*%TAN%형형색색의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8cs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%형형색색의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8bs !ETH]:%NL%%GRAY%*%TAN%공간이동 지팡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8bs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%공간이동 지팡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8ws !ETH]:%NL%%GRAY%*%TAN%두개골 수집가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 8ws ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%두개골 수집가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ssd !ETH]:%NL%%GRAY%*%TAN%릭솟의 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ssd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%릭솟의 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID scm !ETH]:%NL%%GRAY%*%TAN%핏빛 초승달%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID scm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%핏빛 초승달%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID sbr !ETH]:%NL%%GRAY%*%TAN%크린티즈의 꼬챙이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID sbr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%크린티즈의 꼬챙이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID flc !ETH]:%NL%%GRAY%*%TAN%어스름낫%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID flc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어스름낫%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bsd !ETH]:%NL%%GRAY%*%TAN%그리스월드의 검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bsd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%그리스월드의 검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lsd !ETH]:%NL%%GRAY%*%TAN%지옥역병%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID lsd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%지옥역병%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wsd !ETH]:%NL%%GRAY%*%TAN%컬웬의 칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wsd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%컬웬의 칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 2hs !ETH]:%NL%%GRAY%*%TAN%그림자 송곳니%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 2hs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%그림자 송곳니%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID clm !ETH]:%NL%%GRAY%*%TAN%영혼무두칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID clm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼무두칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gis !ETH]:%NL%%GRAY%*%TAN%키네밀의 송곳%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gis ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%키네밀의 송곳%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bsw !ETH]:%NL%%GRAY%*%TAN%검은 혀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bsw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%검은 혀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID flb !ETH]:%NL%%GRAY%*%TAN%톱날칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID flb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%톱날칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gsd !ETH]:%NL%%GRAY%*%TAN%부족 원로%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gsd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%부족 원로%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ss !ETH]:%NL%%GRAY%*%TAN%사혈칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ss ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%사혈칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9sm !ETH]:%NL%%GRAY%*%TAN%냉기강철 눈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9sm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%냉기강철 눈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9sb !ETH]:%NL%%GRAY%*%TAN%마법불꽃%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9sb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%마법불꽃%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9fc !ETH]:%NL%%GRAY%*%TAN%알리바바의 검 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9fc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%알리바바의 검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9cr !ETH]:%NL%%GRAY%*%TAN%긴터의 균열%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9cr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%긴터의 균열%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9bs !ETH]:%NL%%GRAY%*%TAN%머리 찌르개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9bs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%머리 찌르개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ls !ETH]:%NL%%GRAY%*%TAN%역병 전파자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ls ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%역병 전파자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9wd !ETH]:%NL%%GRAY%*%TAN%애틀랜티언%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9wd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%애틀랜티언%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 92h !ETH]:%NL%%GRAY%*%TAN%크래인트 보미르%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 92h ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%크래인트 보미르%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9cm !ETH]:%NL%%GRAY%*%TAN%빙 쯔 왕%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9cm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%빙 쯔 왕%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9gs !ETH]:%NL%%GRAY%*%TAN%불쾌한 껍데기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9gs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%불쾌한 껍데기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9b9 !ETH]:%NL%%GRAY%*%TAN%구름 가르개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9b9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%구름 가르개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9fb !ETH]:%NL%%GRAY%*%TAN%토즈팰러 플렘 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9fb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%토즈팰러 플렘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9gd !ETH]:%NL%%GRAY%*%TAN%칼막이 검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9gd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%칼막이 검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7sm !ETH]:%NL%%GRAY%*%TAN%진 살해검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7sm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%진 살해검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7sb !ETH]:%NL%%GRAY%*%TAN%핏빛 달%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7sb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%핏빛 달%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ls !ETH]:%NL%%GRAY%*%TAN%서리바람%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ls ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%서리바람%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7gs !ETH]:%NL%%GRAY%*%TAN%우레화염%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7gs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%우레화염%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7b7 !ETH]:%NL%%GRAY%*%TAN%괴멸자 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7b7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%괴멸자 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wnd !ETH]:%NL%%GRAY%*%TAN%이로의 횃불%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID wnd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%이로의 횃불%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ywn !ETH]:%NL%%GRAY%*%TAN%대혼란%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID ywn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%대혼란%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bwn !ETH]:%NL%%GRAY%*%TAN%척추세공 완드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bwn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%척추세공 완드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gwn !ETH]:%NL%%GRAY%*%TAN%우메의 비탄%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID gwn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%우메의 비탄%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9wn !ETH]:%NL%%GRAY%*%TAN%자살의 나뭇가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9wn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%자살의 나뭇가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9yw !ETH]:%NL%%GRAY%*%TAN%돌무더기 파편%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9yw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%돌무더기 파편%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9bw !ETH]:%NL%%GRAY%*%TAN%레오릭 왕의 팔%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9bw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%레오릭 왕의 팔%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9gw !ETH]:%NL%%GRAY%*%TAN%검은손 열쇠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9gw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%검은손 열쇠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7bw !ETH]:%NL%%GRAY%*%TAN%유령뼈 완드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7bw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%유령뼈 완드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9tk !ETH]:%NL%%GRAY%*%TAN%죽음칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9tk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%죽음칼날 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ta !ETH]:%NL%%GRAY%*%TAN%끌칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 9ta ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%끌칼 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ta !ETH]:%NL%%GRAY%*%TAN%새끼양 저밈도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ta ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%새끼양 저밈도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7b8 !ETH]:%NL%%GRAY%*%TAN%절개 도끼 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7b8 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%절개 도끼 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7s7 !ETH]:%NL%%GRAY%*%TAN%악마의 아치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7s7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%악마의 아치 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7gl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%유령 비행%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ts !ETH]:%NL%%GRAY%*%TAN%가고일의 이빨%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7ts ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%가고일의 이빨%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID amd !ETH]:%NL%%GRAY%*%TAN%돌까마귀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID amd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%돌까마귀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID am9 !ETH]:%NL%%GRAY%*%TAN%라이캔더의 창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID am9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%라이캔더의 창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID am7]:%NL%%GRAY%*%TAN%라이캔더의 조준%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID amb]:%NL%%GRAY%*%TAN%핏빛 까마귀의 임무%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7cs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%그림자 암살자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7wb !ETH]:%NL%%GRAY%*%TAN%비취 발톱%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7wb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%비취 발톱%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7lw !ETH]:%NL%%GRAY%*%TAN%불도마뱀의 발톱%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID 7lw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%불도마뱀의 발톱%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID nef !ETH]:%NL%%GRAY%*%TAN%암흑의 힘의 원천%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID nef ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%암흑의 힘의 원천%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID nee !ETH]:%NL%%GRAY%*%TAN%화염의 뼈 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID nee ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%화염의 뼈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bac !ETH]:%NL%%GRAY%*%TAN%늑대울음 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bac ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%늑대울음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bad !ETH]:%NL%%GRAY%*%TAN%악마뿔 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bad ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%악마뿔 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bae !ETH]:%NL%%GRAY%*%TAN%할라버드의 군림%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID bae ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%할라버드의 군림%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID drb !ETH]:%NL%%GRAY%*%TAN%세레버스의 이빨 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID drb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%세레버스의 이빨%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID dre !ETH]:%NL%%GRAY%*%TAN%까마귀 설화 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID dre ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%%까마귀 설화%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID drd !ETH]:%NL%%GRAY%*%TAN%영혼 수호자 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID drd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼 수호자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID pae !ETH]:%NL%%GRAY%*%TAN%용의 비늘 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
-ItemDisplay[UNI !ID pae ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%용의 비늘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL%
+ItemDisplay[UNI !ID cap !ETH]:%NL%%GRAY%*%TAN%비긴의 끈모자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID cap ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%비긴의 끈모자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID skp !ETH]:%NL%%GRAY%*%TAN%타른 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID skp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%타른 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hlm !ETH]:%NL%%GRAY%*%TAN%영광의 두건모%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hlm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영광의 두건모%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID fhl !ETH]:%NL%%GRAY%*%TAN%어스름투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID fhl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어스름투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ghm !ETH]:%NL%%GRAY%*%TAN%울부짖는 상아투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ghm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%울부짖는 상아투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID msk !ETH]:%NL%%GRAY%*%TAN%공포의 얼굴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID msk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%공포의 얼굴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID crn !ETH]:%NL%%GRAY%*%TAN%언데드 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID crn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%언데드 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bhm !ETH]:%NL%%GRAY%*%TAN%벌레먹은 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bhm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%벌레먹은 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xap !ETH]:%NL%%GRAY%*%TAN%소작농 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xap ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%소작농 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xkp !ETH]:%NL%%GRAY%*%TAN%돌막이 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xkp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%돌막이 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xlm !ETH]:%NL%%GRAY%*%TAN%흡수의 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xlm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%흡수의 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xhl !ETH]:%NL%%GRAY%*%TAN%어둠시야 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xhl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어둠시야 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xhm !ETH]:%NL%%GRAY%*%TAN%발키리 날개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xhm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%발키리 날개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xsk !ETH]:%NL%%GRAY%*%TAN%블랙혼의 얼굴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xsk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%블랙혼의 얼굴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xrn !ETH]:%NL%%GRAY%*%TAN%도둑의 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xrn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%도둑의 왕관%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uhm !ETH]:%NL%%GRAY%*%RED%강철 OR %GREEN%나이트윙의 베일 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uhm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%강철 OR %GREEN%나이트윙의 베일%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID urn !ETH]:%NL%%GRAY%*%TAN%영겁의 왕관 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID urn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영겁의 왕관 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uh9 !ETH]:%NL%%GRAY%*%TAN%거대 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uh9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%거대 해골%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID qui !ETH]:%NL%%GRAY%*%TAN%회색 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID qui ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%회색 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lea !ETH]:%NL%%GRAY%*%TAN%점멸박쥐의 형상%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lea ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%점멸박쥐의 형상%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hla !ETH]:%NL%%GRAY%*%TAN%백인대장%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hla ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%백인대장%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID stu !ETH]:%NL%%GRAY%*%TAN%고통의 경련%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID stu ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%고통의 경련%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID rng !ETH]:%NL%%GRAY%*%TAN%어둠빛%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID rng ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어둠빛%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID scl !ETH]:%NL%%GRAY%*%TAN%매 사슬갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID scl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%매 사슬갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID brs !ETH]:%NL%%GRAY%*%TAN%맹독 방어구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID brs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%맹독 방어구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID chn !ETH]:%NL%%GRAY%*%TAN%전류 사슬갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID chn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%전류 사슬갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID spl !ETH]:%NL%%GRAY%*%TAN%결빙갑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID spl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%결빙갑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ltp !ETH]:%NL%%GRAY%*%TAN%천상의 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ltp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%천상의 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID fld !ETH]:%NL%%GRAY%*%TAN%바위 외투%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID fld ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%바위 외투%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID plt !ETH]:%NL%%GRAY%*%TAN%뼈가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID plt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gth !ETH]:%NL%%GRAY%*%TAN%절그럭대는 갑주%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gth ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%절그럭대는 갑주%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ful !ETH]:%NL%%GRAY%*%TAN%황금 가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ful ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%황금 가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID aar !ETH]:%NL%%GRAY%*%TAN%빅터의 비단옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID aar ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%빅터의 비단옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xui !ETH]:%NL%%GRAY%*%TAN%영혼의 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xui ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼의 의복%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xla !ETH]:%NL%%GRAY%*%TAN%박피된 자의 가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xla ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%박피된 자의 가죽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xtu !ETH]:%NL%%GRAY%*%TAN%강철 모피%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xtu ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철 모피%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xcl !ETH]:%NL%%GRAY%*%TAN%까마귀 울음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xcl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%까마귀 울음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xng !ETH]:%NL%%GRAY%*%TAN%영혼 대장간%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xng ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼 대장간%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xrs !ETH]:%NL%%GRAY%*%TAN%듀리엘의 껍데기 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xrs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%듀리엘의 껍데기 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xpl !ETH]:%NL%%GRAY%*%TAN%스컬더의 분노 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xpl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%스컬더의 분노 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xld !ETH]:%NL%%GRAY%*%TAN%줄이빨 갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xld ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%줄이빨 갑옷%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xth !ETH]:%NL%%GRAY%*%TAN%아트마의 흐느낌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xth ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%아트마의 흐느낌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xul !ETH]:%NL%%GRAY%*%TAN%검은 하데스%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xul ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%검은 하데스%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xar !ETH]:%NL%%GRAY%*%TAN%커프스모온%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xar ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%커프스모온%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uul !ETH]:%NL%%GRAY%*%TAN%강철 외피%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uul ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철 외피%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID buc !ETH]:%NL%%GRAY%*%TAN%펠타 루나타%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID buc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%펠타 루나타%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID sml !ETH]:%NL%%GRAY%*%TAN%어스름 원반%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID sml ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어스름 원반%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lrg !ETH]:%NL%%GRAY%*%TAN%폭풍조합%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lrg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폭풍조합%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID kit !ETH]:%NL%%GRAY%*%TAN%강철의 격돌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID kit ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철의 격돌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID spk !ETH]:%NL%%GRAY%*%TAN%칼날멈춤 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID spk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%칼날멈춤 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID tow !ETH]:%NL%%GRAY%*%TAN%브베리트 요새%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID tow ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%브베리트 요새%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bsh !ETH]:%NL%%GRAY%*%TAN%눈먼자의 벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bsh ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%눈먼자의 벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gts !ETH]:%NL%%GRAY%*%TAN%수호 방벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gts ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%수호 방벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xuc !ETH]:%NL%%GRAY%*%TAN%내장적출자 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xuc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%내장적출자 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xml !ETH]:%NL%%GRAY%*%TAN%모서의 축복받은 원형방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xml ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%모서의 축복받은 원형방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xrg !ETH]:%NL%%GRAY%*%TAN%폭풍추적자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xrg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폭풍추적자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xit !ETH]:%NL%%GRAY%*%TAN%티아마트의 힐난%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xit ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%티아마트의 힐난%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xpk !ETH]:%NL%%GRAY%*%TAN%창막이 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xpk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%창막이 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xow !ETH]:%NL%%GRAY%*%TAN%게르크의 성역%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xow ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%게르크의 성역%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xsh !ETH]:%NL%%GRAY%*%TAN%각성의 벽 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xsh ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%각성의 벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xts !ETH]:%NL%%GRAY%*%TAN%라다만트의 구체 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xts ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%라다만트의 구체%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uml !ETH]:%NL%%GRAY%*%TAN%검은 떡갈나무 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uml ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%검은 떡갈나무 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID upk !ETH]:%NL%%GRAY%*%TAN%뾰족가시 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID upk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뾰족가시 방패%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uow !ETH]:%NL%%GRAY%*%TAN%메두사의 응시 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uow ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%메두사의 응시%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ush !ETH]:%NL%%GRAY%*%TAN%인간사냥꾼의 전리품%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ush ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%인간사냥꾼의 전리품%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uts !ETH]:%NL%%GRAY%*%TAN%영혼 방벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uts ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼 방벽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lgl !ETH]:%NL%%GRAY%*%TAN%브록의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lgl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%브록의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID vgl !ETH]:%NL%%GRAY%*%TAN%피주먹%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID vgl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%피주먹%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xlg !ETH]:%NL%%GRAY%*%TAN%맹독의 손아귀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xlg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%맹독의 손아귀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xvg !ETH]:%NL%%GRAY%*%TAN%무덤 손바닥%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xvg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%무덤 손바닥%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xmg !ETH]:%NL%%GRAY%*%TAN%구울가죽 장갑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xmg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%구울가죽 장갑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xtg !ETH]:%NL%%GRAY%*%TAN%용암 덩어리%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xtg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%용암 덩어리%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xhg !ETH]:%NL%%GRAY%*%TAN%지옥의 입구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xhg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%지옥의 입구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lbt !ETH]:%NL%%GRAY%*%TAN%핫스퍼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lbt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%핫스퍼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID vbt !ETH]:%NL%%GRAY%*%TAN%핏빛발자국%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID vbt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%핏빛발자국%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mbt !ETH]:%NL%%GRAY%*%TAN%크쏜의 비단신%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mbt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%크쏜의 비단신%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID tbt !ETH]:%NL%%GRAY%*%TAN%고블린 발가락%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID tbt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%고블린 발가락%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hbt !ETH]:%NL%%GRAY%*%TAN%성큼걸음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hbt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%성큼걸음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xlb !ETH]:%NL%%GRAY%*%TAN%불꽃걸음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xlb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%불꽃걸음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xvb !ETH]:%NL%%GRAY%*%TAN%물걸음 장화 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID xvb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%물걸음 장화%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID umb !ETH]:%NL%%GRAY%*%TAN%뼈걸음 장화%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID umb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈걸음 장화%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uhb !ETH]:%NL%%GRAY%*%TAN%그림자 춤꾼 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID uhb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%그림자 춤꾼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lbl !ETH]:%NL%%GRAY%*%TAN%레니모%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lbl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%레니모%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID vbl !ETH]:%NL%%GRAY%*%TAN%뱀 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID vbl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뱀 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mbl !ETH]:%NL%%GRAY%*%TAN%밤안개 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mbl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%밤안개 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID tbl !ETH]:%NL%%GRAY%*%TAN%금박 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID tbl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%금박 허리띠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hbl !ETH]:%NL%%GRAY%*%TAN%칼날 요대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hbl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%칼날 요대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID zlb !ETH]:%NL%%GRAY%*%TAN%귀 꿰미 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID zlb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%귀 꿰미%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID zmb !ETH]:%NL%%GRAY%*%TAN%우울의 올가미%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID zmb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%우울의 올가미%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ztb !ETH]:%NL%%GRAY%*%TAN%눈꽃충돌 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ztb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%눈꽃충돌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hax !ETH]:%NL%%GRAY%*%TAN%이갈이 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%이갈이 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID axe !ETH]:%NL%%GRAY%*%TAN%죽음의 삽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID axe ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%죽음의 삽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 2ax !ETH]:%NL%%GRAY%*%TAN%뼛날 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 2ax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼛날 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mpi !ETH]:%NL%%GRAY%*%TAN%해골 가름쇠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mpi ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%해골 가름쇠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wax !ETH]:%NL%%GRAY%*%TAN%상처갈퀴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%상처갈퀴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lax !ETH]:%NL%%GRAY%*%TAN%페크마의 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%페크마의 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bax !ETH]:%NL%%GRAY%*%TAN%선혈도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%선혈도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID btx !ETH]:%NL%%GRAY%*%TAN%부족장%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID btx ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%부족장%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gax !ETH]:%NL%%GRAY%*%TAN%뇌 절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뇌 절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gix !ETH]:%NL%%GRAY%*%TAN%거대한 놈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gix ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%거대한 놈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ha !ETH]:%NL%%GRAY%*%TAN%죽음냉기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ha ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%죽음냉기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ax !ETH]:%NL%%GRAY%*%TAN%도살자의 눈동자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%도살자의 눈동자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 92a !ETH]:%NL%%GRAY%*%TAN%섬타격 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 92a ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%섬타격 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9mp !ETH]:%NL%%GRAY%*%TAN%폼페이의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9mp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폼페이의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9wa !ETH]:%NL%%GRAY%*%TAN%수호자의 나가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9wa ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%수호자의 나가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9la !ETH]:%NL%%GRAY%*%TAN%전쟁군주의 신임%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9la ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%전쟁군주의 신임%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ba !ETH]:%NL%%GRAY%*%TAN%주문강철%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ba ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%주문강철%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9bt !ETH]:%NL%%GRAY%*%TAN%천둥도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9bt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%천둥도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ga !ETH]:%NL%%GRAY%*%TAN%뼈학살자 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ga ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈학살자 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9gi !ETH]:%NL%%GRAY%*%TAN%미노타우로스%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9gi ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%미노타우로스%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ha !ETH]:%NL%%GRAY%*%TAN%면도날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ha ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%면도날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 72a !ETH]:%NL%%GRAY%*%TAN%룬의 대가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 72a ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%룬의 대가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7mp !ETH]:%NL%%GRAY%*%TAN%학의 부리%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7mp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%학의 부리%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7wa !ETH]:%NL%%GRAY%*%TAN%죽음의 식칼 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7wa ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%죽음의 식칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ba ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%천상의 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7bt !ETH]:%NL%%GRAY%*%TAN%지옥 살해자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7bt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%지옥 살해자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ga !ETH]:%NL%%GRAY%*%TAN%메서슈미트의 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ga ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%메서슈미트의 도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7gi !ETH]:%NL%%GRAY%*%TAN%사형집행인의 정의%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7gi ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%사형집행인의 정의%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID sbw]:%NL%%GRAY%*%TAN%눈알 관통활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hbw]:%NL%%GRAY%*%TAN%쇠약의 활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lbw]:%NL%%GRAY%*%TAN%까마귀 발톱%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID cbw]:%NL%%GRAY%*%TAN%도적의 활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID sbb]:%NL%%GRAY%*%TAN%뇌격궁%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lbb]:%NL%%GRAY%*%TAN%말라비틀어진 활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID swb]:%NL%%GRAY%*%TAN%지옥천둥%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lwb]:%NL%%GRAY%*%TAN%폭발울음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8sb]:%NL%%GRAY%*%TAN%천격궁%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8hb]:%NL%%GRAY%*%TAN%갈고리활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8lb]:%NL%%GRAY%*%TAN%쿠코 샤카쿠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8cb]:%NL%%GRAY%*%TAN%화살비%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8s8]:%NL%%GRAY%*%TAN%마녀의 활%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8l8]:%NL%%GRAY%*%TAN%절벽살인마%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8sw]:%NL%%GRAY%*%TAN%마법사의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8lw]:%NL%%GRAY%*%TAN%금격의 아치 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 6l7]:%NL%%GRAY%*%TAN%독수리뿔 장궁%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 6sw]:%NL%%GRAY%*%TAN%과부제조기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 6lw]:%NL%%GRAY%*%TAN%바람살 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lxb]:%NL%%GRAY%*%TAN%납 까마귀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mxb]:%NL%%GRAY%*%TAN%아이커 쏘개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hxb]:%NL%%GRAY%*%TAN%지옥쇠뇌%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID rxb]:%NL%%GRAY%*%TAN%파멸발사기 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8lx]:%NL%%GRAY%*%TAN%랭거 브리저%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8mx]:%NL%%GRAY%*%TAN%고름 쏘개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8hx]:%NL%%GRAY%*%TAN%눈보라포%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8rx]:%NL%%GRAY%*%TAN%악마의 기계%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 6hx]:%NL%%GRAY%*%TAN%지옥포%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 6rx]:%NL%%GRAY%*%TAN%내장 적출기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID dgr !ETH]:%NL%%GRAY%*%TAN%갈매기 단도 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID dgr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%갈매기 단도%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID dir !ETH]:%NL%%GRAY%*%TAN%더 디글러%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID dir ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%더 디글러%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID kri !ETH]:%NL%%GRAY%*%TAN%비취 단도%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID kri ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%비취 단도%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bld !ETH]:%NL%%GRAY%*%TAN%유령들린 파편%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bld ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%유령들린 파편%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9dg !ETH]:%NL%%GRAY%*%TAN%척추찢개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9dg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%척추찢개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9di !ETH]:%NL%%GRAY%*%TAN%심장 도리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9di ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%심장 도리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9kr !ETH]:%NL%%GRAY%*%TAN%블랙보그의 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9kr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%블랙보그의 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9bl !ETH]:%NL%%GRAY%*%TAN%폭풍쐐기검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9bl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폭풍쐐기검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7dg !ETH]:%NL%%GRAY%*%TAN%마법사의 쐐기검 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7dg ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%마법사의 쐐기검 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7bl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%유령불꽃%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID clb !ETH]:%NL%%GRAY%*%TAN%성난 떡갈나무%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID clb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%성난 떡갈나무%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID spc !ETH]:%NL%%GRAY%*%TAN%못박힌 각목%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID spc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%못박힌 각목%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mac !ETH]:%NL%%GRAY%*%TAN%뭉개버리는 곤봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mac ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뭉개버리는 곤봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mst !ETH]:%NL%%GRAY%*%TAN%피먹은 철퇴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%피먹은 철퇴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID fla !ETH]:%NL%%GRAY%*%TAN%장군의 도리깨%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID fla ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%장군의 도리깨%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID whm !ETH]:%NL%%GRAY%*%TAN%무쇠바위%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID whm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%무쇠바위%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mau !ETH]:%NL%%GRAY%*%TAN%뼈똑딱이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID mau ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gma !ETH]:%NL%%GRAY%*%TAN%강철망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gma ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9cl !ETH]:%NL%%GRAY%*%TAN%어둠혈족 분쇄기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9cl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어둠혈족 분쇄기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9sp !ETH]:%NL%%GRAY%*%TAN%살점도리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9sp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%살점도리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ma !ETH]:%NL%%GRAY%*%TAN%서리냉기 철퇴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ma ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%서리냉기 철퇴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9mt !ETH]:%NL%%GRAY%*%TAN%달내림%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9mt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%달내림%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9fl !ETH]:%NL%%GRAY%*%TAN%배질의 소용돌이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9fl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%배질의 소용돌이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9wh !ETH]:%NL%%GRAY%*%TAN%경천동지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9wh ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%경천동지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9m9 !ETH]:%NL%%GRAY%*%TAN%핏빛나무 그루터기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9m9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%핏빛나무 그루터기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9gm !ETH]:%NL%%GRAY%*%TAN%고통의 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9gm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%고통의 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7cl !ETH]:%NL%%GRAY%*%TAN%노드의 고기 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7cl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%노드의 고기 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7sp !ETH]:%NL%%GRAY%*%TAN%악마의 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7sp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%악마의 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7mt !ETH]:%NL%%GRAY%*%TAN%바라나의 별%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7mt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%바라나의 별%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7fl !ETH]:%NL%%GRAY%*%TAN%호라즌의 회오리바람 or 천둥채찍 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7fl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%호라즌의 회오리바람 or 천둥채찍%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7wh !ETH]:%NL%%GRAY%*%TAN%바위 격파기 or 쉐퍼의 망치 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7wh ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%바위 격파기 or 쉐퍼의 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7m7 !ETH]:%NL%%GRAY%*%TAN%바람망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7m7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%바람망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bar !ETH]:%NL%%GRAY%*%TAN%디모악의 절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bar ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%디모악의 절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID vou !ETH]:%NL%%GRAY%*%TAN%강철막대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID vou ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철막대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID scy !ETH]:%NL%%GRAY%*%TAN%영혼 수확%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID scy ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼 수확%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID pax !ETH]:%NL%%GRAY%*%TAN%전투 장봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID pax ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%전투 장봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hal !ETH]:%NL%%GRAY%*%TAN%비통의 장대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID hal ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%비통의 장대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wsc !ETH]:%NL%%GRAY%*%TAN%사신의 낫%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wsc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%사신의 낫%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9b7 !ETH]:%NL%%GRAY%*%TAN%고기 긁개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9b7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%고기 긁개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9vo !ETH]:%NL%%GRAY%*%TAN%검게 물든 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9vo ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%검게 물든 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9s8 !ETH]:%NL%%GRAY%*%TAN%아테나의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9s8 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%아테나의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9pa !ETH]:%NL%%GRAY%*%TAN%피에르 톰 콘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9pa ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%피에르 톰 콘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9h9 !ETH]:%NL%%GRAY%*%TAN%휴솔달 에보%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9h9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%휴솔달 에보%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9wc !ETH]:%NL%%GRAY%*%TAN%그림의 불타는 시체%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9wc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%그림의 불타는 시체%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7o7 !ETH]:%NL%%GRAY%*%TAN%뼈 절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7o7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뼈 절단기 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7wc !ETH]:%NL%%GRAY%*%TAN%폭풍장대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7wc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폭풍장대%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID scp !ETH]:%NL%%GRAY%*%TAN%타종봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID scp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%타종봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gsc !ETH]:%NL%%GRAY%*%TAN%녹슨 손잡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gsc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%녹슨 손잡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wsp !ETH]:%NL%%GRAY%*%TAN%폭풍의 눈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wsp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%폭풍의 눈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9sc !ETH]:%NL%%GRAY%*%TAN%자카룸의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9sc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%자카룸의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9qs !ETH]:%NL%%GRAY%*%TAN%악취나는 성수뿌리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9qs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%악취나는 성수뿌리개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ws !ETH]:%NL%%GRAY%*%TAN%축복받은 빛의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ws ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%축복받은 빛의 손%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7sc !ETH]:%NL%%GRAY%*%TAN%천상의 빛 or 구원자 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7sc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%천상의 빛 or 구원자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ws !ETH]:%NL%%GRAY%*%TAN%아스트리온의 강철 홀 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ws ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%아스트리온의 강철 홀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID spr !ETH]:%NL%%GRAY%*%TAN%용창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID spr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%용창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID tri !ETH]:%NL%%GRAY%*%TAN%면도날 갈퀴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID tri ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%면도날 갈퀴%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID brn !ETH]:%NL%%GRAY%*%TAN%피도둑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID brn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%피도둑%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID spt !ETH]:%NL%%GRAY%*%TAN%야가이 기병창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID spt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%야가이 기병창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID pik !ETH]:%NL%%GRAY%*%TAN%더 탄르 고어라드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID pik ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%더 탄르 고어라드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9sr !ETH]:%NL%%GRAY%*%TAN%관통창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9sr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%관통창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9tr !ETH]:%NL%%GRAY%*%TAN%켈피 함정%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9tr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%켈피 함정 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9br !ETH]:%NL%%GRAY%*%TAN%영혼수확의 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9br ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼수확의 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9st !ETH]:%NL%%GRAY%*%TAN%혼 선단 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9st ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%혼 선단 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9p9 !ETH]:%NL%%GRAY%*%TAN%명예의 창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9p9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%명예의 창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7sr !ETH]:%NL%%GRAY%*%TAN%아리옥의 바늘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7sr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%아리옥의 바늘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7br !ETH]:%NL%%GRAY%*%TAN%뱀 갈퀴 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7br ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뱀 갈퀴 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7p7 !ETH]:%NL%%GRAY%*%TAN%강철 기둥 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7p7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%강철 기둥 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID sst !ETH]:%NL%%GRAY%*%TAN%죽음의 재%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID sst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%죽음의 재%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lst !ETH]:%NL%%GRAY%*%TAN%뱀족의 왕%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뱀족의 왕%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID cst !ETH]:%NL%%GRAY%*%TAN%라자루스의 지팡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID cst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%라자루스의 지팡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bst !ETH]:%NL%%GRAY%*%TAN%도롱뇽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%도롱뇽%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wst !ETH]:%NL%%GRAY%*%TAN%철장봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wst ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%철장봉%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8ss !ETH]:%NL%%GRAY%*%TAN%뾰족나무 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8ss ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%뾰족나무 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8ls !ETH]:%NL%%GRAY%*%TAN%늑골 분쇄기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8ls ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%늑골 분쇄기 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8cs !ETH]:%NL%%GRAY%*%TAN%형형색색의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8cs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%형형색색의 분노%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8bs !ETH]:%NL%%GRAY%*%TAN%공간이동 지팡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8bs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%공간이동 지팡이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8ws !ETH]:%NL%%GRAY%*%TAN%두개골 수집가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 8ws ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%두개골 수집가%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ssd !ETH]:%NL%%GRAY%*%TAN%릭솟의 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ssd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%릭솟의 칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID scm !ETH]:%NL%%GRAY%*%TAN%핏빛 초승달%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID scm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%핏빛 초승달%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID sbr !ETH]:%NL%%GRAY%*%TAN%크린티즈의 꼬챙이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID sbr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%크린티즈의 꼬챙이%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID flc !ETH]:%NL%%GRAY%*%TAN%어스름낫%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID flc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%어스름낫%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bsd !ETH]:%NL%%GRAY%*%TAN%그리스월드의 검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bsd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%그리스월드의 검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lsd !ETH]:%NL%%GRAY%*%TAN%지옥역병%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID lsd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%지옥역병%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wsd !ETH]:%NL%%GRAY%*%TAN%컬웬의 칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wsd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%컬웬의 칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 2hs !ETH]:%NL%%GRAY%*%TAN%그림자 송곳니%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 2hs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%그림자 송곳니%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID clm !ETH]:%NL%%GRAY%*%TAN%영혼무두칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID clm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼무두칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gis !ETH]:%NL%%GRAY%*%TAN%키네밀의 송곳%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gis ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%키네밀의 송곳%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bsw !ETH]:%NL%%GRAY%*%TAN%검은 혀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bsw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%검은 혀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID flb !ETH]:%NL%%GRAY%*%TAN%톱날칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID flb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%톱날칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gsd !ETH]:%NL%%GRAY%*%TAN%부족 원로%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gsd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%부족 원로%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ss !ETH]:%NL%%GRAY%*%TAN%사혈칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ss ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%사혈칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9sm !ETH]:%NL%%GRAY%*%TAN%냉기강철 눈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9sm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%냉기강철 눈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9sb !ETH]:%NL%%GRAY%*%TAN%마법불꽃%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9sb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%마법불꽃%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9fc !ETH]:%NL%%GRAY%*%TAN%알리바바의 검 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9fc ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%알리바바의 검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9cr !ETH]:%NL%%GRAY%*%TAN%긴터의 균열%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9cr ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%긴터의 균열%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9bs !ETH]:%NL%%GRAY%*%TAN%머리 찌르개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9bs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%머리 찌르개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ls !ETH]:%NL%%GRAY%*%TAN%역병 전파자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ls ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%역병 전파자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9wd !ETH]:%NL%%GRAY%*%TAN%애틀랜티언%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9wd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%애틀랜티언%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 92h !ETH]:%NL%%GRAY%*%TAN%크래인트 보미르%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 92h ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%크래인트 보미르%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9cm !ETH]:%NL%%GRAY%*%TAN%빙 쯔 왕%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9cm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%빙 쯔 왕%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9gs !ETH]:%NL%%GRAY%*%TAN%불쾌한 껍데기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9gs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%불쾌한 껍데기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9b9 !ETH]:%NL%%GRAY%*%TAN%구름 가르개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9b9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%구름 가르개%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9fb !ETH]:%NL%%GRAY%*%TAN%토즈팰러 플렘 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9fb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%토즈팰러 플렘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9gd !ETH]:%NL%%GRAY%*%TAN%칼막이 검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9gd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%칼막이 검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7sm !ETH]:%NL%%GRAY%*%TAN%진 살해검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7sm ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%진 살해검%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7sb !ETH]:%NL%%GRAY%*%TAN%핏빛 달%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7sb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%핏빛 달%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ls !ETH]:%NL%%GRAY%*%TAN%서리바람%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ls ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%서리바람%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7gs !ETH]:%NL%%GRAY%*%TAN%우레화염%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7gs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%우레화염%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7b7 !ETH]:%NL%%GRAY%*%TAN%괴멸자 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7b7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%괴멸자 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wnd !ETH]:%NL%%GRAY%*%TAN%이로의 횃불%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID wnd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%이로의 횃불%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ywn !ETH]:%NL%%GRAY%*%TAN%대혼란%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID ywn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%대혼란%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bwn !ETH]:%NL%%GRAY%*%TAN%척추세공 완드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bwn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%척추세공 완드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gwn !ETH]:%NL%%GRAY%*%TAN%우메의 비탄%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID gwn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%우메의 비탄%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9wn !ETH]:%NL%%GRAY%*%TAN%자살의 나뭇가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9wn ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%자살의 나뭇가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9yw !ETH]:%NL%%GRAY%*%TAN%돌무더기 파편%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9yw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%돌무더기 파편%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9bw !ETH]:%NL%%GRAY%*%TAN%레오릭 왕의 팔%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9bw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%레오릭 왕의 팔%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9gw !ETH]:%NL%%GRAY%*%TAN%검은손 열쇠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9gw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%검은손 열쇠%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7bw !ETH]:%NL%%GRAY%*%TAN%유령뼈 완드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7bw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%유령뼈 완드%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9tk !ETH]:%NL%%GRAY%*%TAN%죽음칼날%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9tk ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%죽음칼날 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ta !ETH]:%NL%%GRAY%*%TAN%끌칼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 9ta ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%끌칼 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ta !ETH]:%NL%%GRAY%*%TAN%새끼양 저밈도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ta ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%새끼양 저밈도끼%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7b8 !ETH]:%NL%%GRAY%*%TAN%절개 도끼 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7b8 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%절개 도끼 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7s7 !ETH]:%NL%%GRAY%*%TAN%악마의 아치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7s7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%악마의 아치 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7gl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%유령 비행%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ts !ETH]:%NL%%GRAY%*%TAN%가고일의 이빨%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7ts ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%가고일의 이빨%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID amd !ETH]:%NL%%GRAY%*%TAN%돌까마귀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID amd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%돌까마귀%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID am9 !ETH]:%NL%%GRAY%*%TAN%라이캔더의 창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID am9 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%라이캔더의 창%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID am7]:%NL%%GRAY%*%TAN%라이캔더의 조준%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID amb]:%NL%%GRAY%*%TAN%핏빛 까마귀의 임무%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7cs ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%그림자 암살자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7wb !ETH]:%NL%%GRAY%*%TAN%비취 발톱%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7wb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%비취 발톱%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7lw !ETH]:%NL%%GRAY%*%TAN%불도마뱀의 발톱%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7lw ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%불도마뱀의 발톱%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID nef !ETH]:%NL%%GRAY%*%TAN%암흑의 힘의 원천%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID nef ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%암흑의 힘의 원천%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID nee !ETH]:%NL%%GRAY%*%TAN%화염의 뼈 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID nee ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%화염의 뼈%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bac !ETH]:%NL%%GRAY%*%TAN%늑대울음 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bac ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%늑대울음%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bad !ETH]:%NL%%GRAY%*%TAN%악마뿔 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bad ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%악마뿔 투구%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bae !ETH]:%NL%%GRAY%*%TAN%할라버드의 군림%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID bae ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%할라버드의 군림%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID drb !ETH]:%NL%%GRAY%*%TAN%세레버스의 이빨 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID drb ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%세레버스의 이빨%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID dre !ETH]:%NL%%GRAY%*%TAN%까마귀 설화 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID dre ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%%까마귀 설화%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID drd !ETH]:%NL%%GRAY%*%TAN%영혼 수호자 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID drd ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%영혼 수호자%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID pae !ETH]:%NL%%GRAY%*%TAN%용의 비늘 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID pae ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%용의 비늘%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 //Unique Normal Non Poppular
 ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]:%TAN%%NAME%%RED%*
 ItemDisplay[UNI !ID (aq2 OR cq2)]:%TAN%%NAME%%RED%*
