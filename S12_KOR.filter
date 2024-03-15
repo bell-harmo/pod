@@ -794,6 +794,7 @@ ItemDisplay[RW (WP2 OR WP11) SOCK=4 ALLSK=3 STAT105=40 RES>0]:%NAME% %ORANGE%+%S
 //PHONIEX
 ItemDisplay[RW (WEAPON OR EQ3 OR CL3) SOCK=4 STAT17>200 STAT333=28]:%NAME% %ORANGE%+%STAT(17,0)%데미지 상승{%NAME%}
 //DREAM
+ItemDisplay[RW (EQ1 OR EQ3 OR CL3) SOCK=3 ED=30 STAT99>10 RES>0]:%NAME% %ORANGE%%STAT(99,0)%%패힛 %GREEN%+%STAT(45,0)%%올레지{%NAME%}
 //                                      UNIQUE                                                 //
 ItemDisplay[UNI !ID xh9 !ETH]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL%%PURPLE%뱀파%ORANGE%이어%GOLD%의 응%WHITE%시%NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID xh9 ETH]: %GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%뱀파%ORANGE%이어%GOLD%의 응%WHITE%시%NL%%NL%%GOLD%********************* <<UNIQUE2>>
