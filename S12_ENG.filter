@@ -145,6 +145,7 @@ ItemDisplay[NMAG (ob5) !ID]:%NL%%GREEN%Tal Rasha's Lidless Eye%NL%%ORANGE%	The O
 ItemDisplay[NMAG (am2) !ID]:%NL%  %GREEN%M'avina's Caster%NL%%NL%%GOLD%  Lycander's Aim %GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
 ItemDisplay[NMAG (am5) !ID]:%NL%%ORANGE%	Titan's Revenge%RED%Thunderstroke%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
 ItemDisplay[NMAG (WEAPON OR ARMOR) !ID]:%NL% %NL%%LIGHT_GRAY%***** %WHITE%  No high rolls  %LIGHT_GRAY%***** %NL%%NL%%CORAL%[%GRAY%%NAME%%CORAL%]
+ItemDisplay[SYNTH]:%RED%SYN %NAME%{%NAME%} <<SPECIAL>>
 //                                       POTION                                                //
 ItemDisplay[box]:%PURPLE%[%RED%Ho%WHITE%ra%ORANGE%dr%GOLD%ic %PURPLE%Cube %ORANGE%[L%ILVL%]%PURPLE%] {%NL%%ORANGE%HITPOWER:%WHITE%P_SAPIRE+JEWEL+BOOTS+ORT%NL%%RED%BLOOD:%WHITE%P_RUBY+JEWEL+HELMET+RAL%NL%%RED%BLOOD%WHITE%P_RUBY+JEWEL+GLOVE+NEF%NL%%RED%BLOOD:%WHITE%P_RUBY+JEWEL+RING+SOL%NL%%BLUE%CASTER:%WHITE%P_AMETHYST+JEWEL+BELT+ITH%NL%%PURPLE%SOC(ARMOR):%WHITE%P_TOPAZ+TAL+THUL%NL%%PURPLE%SOC(WP):%WHITE%P_AMETHYST+RAL+AMN%NL%}
 ItemDisplay[hp5]:%RED%[%WHITE%Hp%RED%]<<HP>>
@@ -3267,6 +3268,5 @@ ItemDisplay[(WEAPON OR ARMOR) !RW NMAG CLVL<15]:%GRAY%%NAME%
 ItemDisplay[(WEAPON OR ARMOR) !RW NMAG CLVL>14]:
 ItemDisplay[(WEAPON OR ARMOR) !ID MAG DIFFICULTY=0]:%NAME%
 ItemDisplay[(WEAPON OR ARMOR) !ID MAG DIFFICULTY>0]:
-ItemDisplay[SYNTH]:%RED%St %NAME%{%NAME%} <<SPECIAL>>
 ItemDisplay[(UNI OR SET)]:%NAME%{%NAME%}
 ItemDisplay[RW]:%NAME%{%NAME%}
