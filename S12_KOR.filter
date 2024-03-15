@@ -13,7 +13,7 @@ FilterLevel[7]: +엄선된 유니크만(사용 주의) //FILTLVL>6
 FilterLevel[8]: +모든 베이스템 삭제 //FILTLVL>7
 //                                      Filter Level Disable Item                              //
 ItemDisplay[MAG rin !ID FILTERLVL>0]: 
-ItemDisplay[(cm2) FILTERLVL>1]:
+ItemDisplay[MAG (cm2) FILTERLVL>1]:
 ItemDisplay[(hp5 OR mp5 OR yps) FILTERLVL>2]:
 ItemDisplay[(xvg OR uvg OR xlm OR ulm OR xtb OR utb OR zmb OR umc OR xpk OR upk OR xlt OR ult OR xmg OR umg OR xhl OR uhl OR xmb OR umb OR ztb OR utc OR xts OR uts OR xld OR uld) !ETH MAG !ID FILTERLVL>3]:
 ItemDisplay[(xlg OR ulg OR xsk OR usk OR xlb OR ulb OR zvb OR uvc OR xml OR uml OR xtp OR utp OR xhg OR uhg OR xrn OR urn OR xhb OR uhb OR zlb OR ulc OR xit OR uit OR xrs OR urs) !ETH MAG !ID FILTERLVL>3]:
