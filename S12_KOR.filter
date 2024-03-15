@@ -145,6 +145,7 @@ ItemDisplay[NMAG (ob5) !ID]:%NL%%GREEN%Tal Rasha's Lidless Eye%NL%%ORANGE%	The O
 ItemDisplay[NMAG (am2) !ID]:%NL%  %GREEN%M'avina's Caster%NL%%NL%%GOLD%  Lycander's Aim %GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링 %GOLD%****%NL%
 ItemDisplay[NMAG (am5) !ID]:%NL%%ORANGE%	Titan's Revenge%RED%Thunderstroke%NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%겜블링%NL% 
 ItemDisplay[NMAG (WEAPON OR ARMOR) !ID]: %NL%%LIGHT_GRAY%***** %WHITE%  추천 하지 않음  %LIGHT_GRAY%***** %NL%%NL%%CORAL%[%GRAY%%NAME%%CORAL%]
+ItemDisplay[SYNTH]:%RED%합성 %NAME%{%NAME%} <<SPECIAL>>
 //                                       POTION                                                //
 ItemDisplay[box]:%PURPLE%[%RED%호%WHITE%라%ORANGE%드%GOLD%릭 %PURPLE%큐브 %ORANGE%[L%ILVL%]%PURPLE%] {%NL%%ORANGE%히트파워장갑:%WHITE%P사파이어+쥬얼+부츠+오르트%NL%%RED%블러드투구:%WHITE%P루비+쥬얼+헬멧+투구+랄%NL%%RED%블러드장갑:%WHITE%P루비+쥬얼+장갑+네프%NL%%RED%블러드링:%WHITE%P루비+쥬얼+링+솔%NL%%BLUE%캐스터벨트:%WHITE%P자수정+쥬얼+벨트+아이드%NL%%PURPLE%소켓(갑옷):%WHITE%P토파즈+탈+주울%NL%%PURPLE%소켓(무기):%WHITE%P자수정+랄+앰%NL%}
 ItemDisplay[hp5]:%RED%[%WHITE%Hp%RED%]<<HP>>
@@ -3237,6 +3238,5 @@ ItemDisplay[(WEAPON OR ARMOR) !RW NMAG CLVL<15]:%GRAY%%NAME%
 ItemDisplay[(WEAPON OR ARMOR) !RW NMAG CLVL>14]:
 ItemDisplay[(WEAPON OR ARMOR) !ID MAG DIFFICULTY=0]:%NAME%
 ItemDisplay[(WEAPON OR ARMOR) !ID MAG DIFFICULTY>0]:
-ItemDisplay[SYNTH]:%RED%합성 %NAME%{%NAME%} <<SPECIAL>>
 ItemDisplay[(UNI OR SET)]:%NAME%{%NAME%}
 ItemDisplay[RW]:%NAME%{%NAME%}
