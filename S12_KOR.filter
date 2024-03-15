@@ -1245,10 +1245,10 @@ ItemDisplay[UNI !ID 7sp !ETH]:%NL%%GRAY%*%TAN%악마의 가지%GRAY%*%NL%%LIGHT_
 ItemDisplay[UNI !ID 7sp ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%악마의 가지%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID 7mt !ETH]:%NL%%GRAY%*%TAN%바라나의 별%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID 7mt ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%바라나의 별%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
-ItemDisplay[UNI !ID 7fl !ETH]:%NL%%GRAY%*%TAN%호라즌의 회오리바람 or 천둥채찍 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
-ItemDisplay[UNI !ID 7fl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%호라즌의 회오리바람 or 천둥채찍%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
-ItemDisplay[UNI !ID 7wh !ETH]:%NL%%GRAY%*%TAN%바위 격파기 or 쉐퍼의 망치 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
-ItemDisplay[UNI !ID 7wh ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%바위 격파기 or 쉐퍼의 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7fl !ETH]:%NL%%GRAY%*%RED%호라즌의 회오리바람 %WHITE%Or %GREEN%천둥채찍 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7fl ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%호라즌의 회오리바람 %WHITE%Or %GREEN%천둥채찍%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7wh !ETH]:%NL%%GRAY%*%RED%바위 격파기 %WHITE%Or %GREEN%쉐퍼의 망치 %GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
+ItemDisplay[UNI !ID 7wh ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %RED%바위 격파기 %WHITE%Or %GREEN%쉐퍼의 망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID 7m7 !ETH]:%NL%%GRAY%*%TAN%바람망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID 7m7 ETH]:%NL%%GRAY%*%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %TAN%바람망치%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
 ItemDisplay[UNI !ID bar !ETH]:%NL%%GRAY%*%TAN%디모악의 절단기%GRAY%*%NL%%LIGHT_GRAY%%NAME%%NL% <<UNID>>
