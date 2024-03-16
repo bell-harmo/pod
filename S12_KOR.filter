@@ -218,7 +218,7 @@ ItemDisplay[SOCK=6 !RW]:%NAME% %PURPLE%(6){%NAME%}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) NORM]:%NAME%{%WHITE%[%ORANGE%노말%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) EXC]:%NAME%{%WHITE%[%GREEN%익셉셔널%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) ELT]:%NAME%{%WHITE%[%CORAL%엘리트%WHITE%]}%CONTINUE%
-ItemDisplay[SYNTH]:%RED%합성 %NAME%{%NAME%} <<SPECIAL>>
+ItemDisplay[SYNTH !ID]:%NL%%NL%%RED%합성 %BASENAME%%NL%%NL%%NL%{%NAME%} <<SPECIAL>>
 //                                            Relic                                            //
 ItemDisplay[(ma1) NMAG]:%GRAY%아이시 %WHITE%케이번 %LIGHT_GRAY%렐릭 %CONTINUE%
 ItemDisplay[(ma5) NMAG]:%GRAY%프리지드 %WHITE%플레토우 %LIGHT_GRAY%렐릭 %CONTINUE%
