@@ -218,7 +218,7 @@ ItemDisplay[SOCK=6 !RW]:%NAME% %PURPLE%(6){%NAME%}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) NORM]:%NAME%{%WHITE%[%ORANGE%Normal%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) EXC]:%NAME%{%WHITE%[%GREEN%Exceptional%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) ELT]:%NAME%{%WHITE%[%CORAL%Elite%WHITE%]}%CONTINUE%
-ItemDisplay[SYNTH]:%RED%SYN %NAME%{%NAME%} <<SPECIAL>>
+ItemDisplay[SYNTH !ID]:%NL%%NL%%RED%Syntesized %BASENAME% %NL%%NL%%NL%{%NAME%} <<SPECIAL>>
 //                                            Relic                                            //
 ItemDisplay[(ma1) NMAG]:%GRAY%Icy %WHITE%Cavern %LIGHT_GRAY%Relic %CONTINUE%
 ItemDisplay[(ma5) NMAG]:%GRAY%Frigid %WHITE%Plateau %LIGHT_GRAY%Relic %CONTINUE%
