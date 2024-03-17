@@ -218,7 +218,6 @@ ItemDisplay[SOCK=6 !RW]:%NAME% %PURPLE%(6){%NAME%}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) NORM]:%NAME%{%WHITE%[%ORANGE%Normal%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) EXC]:%NAME%{%WHITE%[%GREEN%Exceptional%WHITE%]}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) ELT]:%NAME%{%WHITE%[%CORAL%Elite%WHITE%]}%CONTINUE%
-ItemDisplay[SYNTH !ID]:%NL%%NL%%RED%Syntesized %BASENAME% %NL%%NL%%NL%{%NAME%} <<SPECIAL>>
 //                                            Relic                                            //
 ItemDisplay[(ma1) NMAG]:%GRAY%Icy %WHITE%Cavern %LIGHT_GRAY%Relic %CONTINUE%
 ItemDisplay[(ma5) NMAG]:%GRAY%Frigid %WHITE%Plateau %LIGHT_GRAY%Relic %CONTINUE%
@@ -2062,6 +2061,7 @@ ItemDisplay[(WEAPON OR ARMOR) ID MAG NORM]:%NAME% {%NAME%}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) ID MAG EXC]:%NAME% {%NAME%}%CONTINUE%
 ItemDisplay[(WEAPON OR ARMOR) ID MAG ELT]:%NAME% {%NAME%}%CONTINUE%
 //                                     Comments Adding                                         //
+ItemDisplay[SYNTH]:%RED%Syn %NAME%{%NAME%}%CONTINUE% <<SPECIAL>>
 ItemDisplay[(RARE OR NMAG OR MAG OR CRAFT) (ARMOR OR WEAPON) PRICE=35000 !STAT360>0]:%NAME%%WHITE%($35K){%NAME%}%CONTINUE%
 ItemDisplay[(RARE OR NMAG OR MAG OR CRAFT) (ARMOR OR WEAPON) PRICE<35000 PRICE>33999 !STAT360>0]:%NAME%%WHITE%($34K){%NAME%}%CONTINUE%
 ItemDisplay[(RARE OR NMAG OR MAG OR CRAFT) (ARMOR OR WEAPON) PRICE<34000 PRICE>32999 !STAT360>0]:%NAME%%WHITE%($33K){%NAME%}%CONTINUE%
