@@ -57,7 +57,8 @@
      6. 18.Mar,2024
       1) Jewel, Unique/Set Rings/Amulet, Charms has "Super Special or their name" Now.
       2) Filter Level change Potion deletion be a filter level 8 from filter level 3
-      2) Bug fixed
+      3) New Relic updated
+      4) Bug fixed
          - Corrupted marks was fixed on the item (Previously, Corrupted item has two "C")
          
 ----------------------------------------------------------------------------------------------------------------------
