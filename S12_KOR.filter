@@ -1934,7 +1934,7 @@ ItemDisplay[WP13 !RW !ETH NMAG SK114>2 SOCK=0]: %GRAY%%NAME% %ORANGE%+3 홀리�
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4]: %GRAY%%NAME%%BLUE% %ORANGE%[초반용]  {%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%BLUE% %ORANGE%[초반용]  {%NAME%}
 //Actication
-//ItemDisplay[NMAG AREALVL=0 !RW]:%GRAY%%NAME%{%NL%%CORAL%이 아이템은 오직 마을에서만 활성화 됩니다. %NL%%WHITE%+%RED%간이 활성화%WHITE%+%NL%%NAME%}
+//ItemDisplay[NMAG AREALVL=0 !RW SOCK=0]:%GRAY%%NAME%{%NL%%WHITE%+%RED%간이 활성화%WHITE%+ %CORAL%이 아이템은 오직 마을에서만 활성화 됩니다.%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
 ItemDisplay[CRAFT amu ID (CLSK1>1 AND STAT105>0)]: %ORANGE%%NAME% %NL% %RED%+2 소서리스 %BLUE%패캐 {%NAME%}%CONTINUE%
 ItemDisplay[CRAFT amu ID (CLSK2>1 AND STAT105>0)]: %ORANGE%%NAME% %NL% %ORANGE%+2 네크로맨서 %BLUE%패캐 {%NAME%}%CONTINUE%
