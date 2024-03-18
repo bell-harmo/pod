@@ -1961,7 +1961,7 @@ ItemDisplay[(wsp OR 7bt OR 2ax) !RW NMAG !ETH !RW SOCK=0]: %GRAY%%NAME% %ORANGE%
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4]: %GRAY%%NAME%%BLUE% %ORANGE%[Leveling] {%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%BLUE% %ORANGE%[Leveling] {%NAME%}
 //Actication
-//ItemDisplay[NMAG AREALVL=0 !RW]:%GRAY%%NAME%{%NL%%CORAL%When Item in town%NL%%WHITE%+%RED%Only Activated%WHITE%+%NL%%NAME%}
+//ItemDisplay[NMAG AREALVL=0 !RW SOCK=0]:%GRAY%%NAME%{%NL%%WHITE%+%RED%Only Activated%WHITE%+ %CORAL%When Item in town%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
 ItemDisplay[CRAFT amu ID (CLSK1>1 AND STAT105>0)]: %ORANGE%%NAME% %NL% %RED%+2 Soc %BLUE%%RED%F%WHITE%c%GREEN%r {%NAME%}%CONTINUE%
 ItemDisplay[CRAFT amu ID (CLSK2>1 AND STAT105>0)]: %ORANGE%%NAME% %NL% %ORANGE%+2 Nec %BLUE%%RED%F%WHITE%c%GREEN%r {%NAME%}%CONTINUE%
