@@ -87,12 +87,12 @@ ItemDisplay[NMAG (ba1) !ID]:%NL% %GOLD%Cyclopean Roar%NL%%GOLD%**** %CORAL%[%RED
 ItemDisplay[NMAG (ba2) !ID]:%NL% %RED%Wolfhowl%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
 ItemDisplay[NMAG (ba3) !ID]:%NL% %GOLD%Demonhorn's Edge%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
 ItemDisplay[NMAG (ba4) !ID]:%NL%%RED%Halaberd's Reign %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
-ItemDisplay[NMAG (ba5) !ID]:%NL%%GREEN%Immortal King's Will%NL%%NL%%ORANGE%Raekor's Virtue%NL%%RED%Arreat's Face %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
+ItemDisplay[NMAG (ba5) !ID]:%NL%%GREEN%Immortal King's Will%NL%%NL%%RED%Arreat's Face %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
 ItemDisplay[NMAG (pa2) !ID]:%NL% %GOLD%Alma Negra%NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
 ItemDisplay[NMAG (pa4) !ID]:%NL%%ORANGE%Dragonscale%NL%%RED%Herald of Zakarum %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
 ItemDisplay[NMAG (pa5) !ID]:%NL%%GREEN%Griswold's Honor %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
-ItemDisplay[NMAG (ne1) !ID]:%NL% %GOLD%Kalan's Legacy %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
-ItemDisplay[NMAG (ne3) !ID]:%NL% %RED%Martyrdom  %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
+ItemDisplay[NMAG (ne1) !ID]:%NL% %GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
+ItemDisplay[NMAG (ne3) !ID]:%NL% %GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
 ItemDisplay[NMAG (ne4) !ID]:%NL% %GREEN%Trang-Oul's Wing %NL%%NL%%RED%Boneflame  %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
 ItemDisplay[NMAG (ne5) !ID]:%NL%%ORANGE%Darkforce Spawn%NL%%RED%Homunculus %NL%%NL% %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling%NL% 
 ItemDisplay[NMAG (axe) !ID]:%NL% %GOLD%Rune Master %NL%%GOLD%**** %CORAL%[%RED%%NAME%%CORAL%]-%WHITE%Best %GOLD%Gambling %GOLD%****%NL%
