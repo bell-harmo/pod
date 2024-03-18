@@ -231,6 +231,7 @@ ItemDisplay[(ma7) NMAG]:%GRAY%Burnt %WHITE%Forest %RED%Relic %CONTINUE%
 ItemDisplay[(maz) NMAG]:Infernal %RED%Trial %CONTINUE%
 ItemDisplay[(ma11) NMAG]:%GRAY%Pleasant %WHITE%Pastures %RED%Relic%CONTINUE%
 ItemDisplay[(ma12) NMAG]:%GRAY%Baleful %WHITE%Alcazar %RED%Relic%CONTINUE%
+ItemDisplay[(ma13) NMAG]:%GRAY%Decomposing %WHITE%Settlement %RED%Relic%CONTINUE%
 ItemDisplay[(ma1) MAG]:%BLUE%Icy %TEAL%Cavern %WHITE%Relic %CONTINUE%
 ItemDisplay[(ma5) MAG]:%BLUE%Frigid %TEAL%Plateau %WHITE%Relic %CONTINUE%
 ItemDisplay[(ma4) MAG]:%BLUE%Desecrated %TEAL%Temple %GREEN%Relic %CONTINUE%
@@ -241,6 +242,7 @@ ItemDisplay[(ma6) MAG]:%BLUE%Ruined %TEAL%Citadel %RED%Relic %CONTINUE%
 ItemDisplay[(ma7) MAG]:%BLUE%Burnt %TEAL%Forest %RED%Relic %CONTINUE%
 ItemDisplay[(ma11) MAG]:%BLUE%Pleasant %TEAL%Pastures %RED%Relic %CONTINUE%
 ItemDisplay[(ma12) MAG]:%BLUE%Baleful %TEAL%Alcazar %RED%Relic %CONTINUE%
+ItemDisplay[(ma13) MAG]:%BLUE%Decomposing %TEAL%Settlement %RED%Relic %CONTINUE%
 ItemDisplay[(ma1) RARE]:%YELLOW%Icy %CORAL%Cavern %WHITE%Relic %CONTINUE%
 ItemDisplay[(ma5) RARE]:%YELLOW%Frigid %CORAL%Plateau %WHITE%Relic %CONTINUE%
 ItemDisplay[(ma4) RARE]:%YELLOW%Desecrated %CORAL%Temple %GREEN%Relic %CONTINUE%
@@ -251,15 +253,16 @@ ItemDisplay[(ma6) RARE]:%YELLOW%Ruined %CORAL%Citadel %RED%Relic %CONTINUE%
 ItemDisplay[(ma7) RARE]:%YELLOW%Burnt %CORAL%Forest %RED%Relic %CONTINUE%
 ItemDisplay[(ma11) RARE]:%YELLOW%Pleasant %CORAL%Pastures %RED%Relic %CONTINUE%
 ItemDisplay[(ma12) RARE]:%YELLOW%Baleful %CORAL%Alcazar %RED%Relic %CONTINUE%
-ItemDisplay[(ma10 OR ma11 OR ma12) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
-ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
-ItemDisplay[(ma4 OR ma8 OR ma9) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
-ItemDisplay[(ma2 OR ma6 OR ma7) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %RED%%PURPLE%T%GOLD%i%WHITE%e%ORANGE%r%PURPLE%3 %WHITE%@%PURPLE%@       %NL% <<SPECIAL>>
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) ID STAT372<800 STAT372>599 !STAT375>0]:%NAME%{%GREEN%O    %RED%Hi%ORANGE%gh %YELLOW%De%PURPLE%ns%GREEN%ity %GOLD%Map    %GREEN%O%NL%%NAME%}%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) ID STAT372>799 !STAT375>0]:%NAME%{%GREEN%O    %RED%Hi%ORANGE%gh %YELLOW%De%PURPLE%ns%GREEN%ity %GOLD%Map    %GREEN%O%NL%%NAME%}%CONTINUE%
+ItemDisplay[(ma13) RARE]:%YELLOW%Decomposing %CORAL%Settlement %RED%Relic %CONTINUE%
+ItemDisplay[(ma10 OR ma11) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %WHITE%@%PURPLE%@       %NL%%NL% <<SPECIAL>>
+ItemDisplay[(ma1 OR ma5) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %DGREEN%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%1 %WHITE%@%PURPLE%@       %NL%%NL% <<SPECIAL>>
+ItemDisplay[(ma4 OR ma8 OR ma9 OR ma13) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %GREEN%%RED%T%GREEN%i%WHITE%e%ORANGE%r%PURPLE%2 %WHITE%@%PURPLE%@       %NL%%NL% <<SPECIAL>>
+ItemDisplay[(ma2 OR ma6 OR ma7 OR ma12) !ID]:%NL%       %PURPLE%@%WHITE%@ %NAME% %RED%%PURPLE%T%GOLD%i%WHITE%e%ORANGE%r%PURPLE%3 %WHITE%@%PURPLE%@       %NL%%NL% <<SPECIAL>>
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13) ID STAT372<800 STAT372>599 !STAT375>0]:%NAME%{%GREEN%O    %RED%Hi%ORANGE%gh %YELLOW%De%PURPLE%ns%GREEN%ity %GOLD%Map    %GREEN%O%NL%%NAME%}%CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13) ID STAT372>799 !STAT375>0]:%NAME%{%GREEN%O    %RED%Hi%ORANGE%gh %YELLOW%De%PURPLE%ns%GREEN%ity %GOLD%Map    %GREEN%O%NL%%NAME%}%CONTINUE%
 ItemDisplay[(ma11) ID]:%NAME%{%GREEN%O      %RED%Co%ORANGE%w %GREEN%Re%PURPLE%lic      %GREEN%O%NL%%NAME%}%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) ID]:%NAME%{%GOLD%Cubing Recipe : %WHITE%Relic %GOLD%T1%LIGHT_GRAY%(White Relic)*%GREEN%4 = %YELLOW%Yellow Relic%WHITE%(T2) %NL%%NAME%}%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) ID]:%NAME%{%GOLD%Cubing Recipe : %YELLOW%Relic %GOLD%T2%LIGHT_GRAY%(Yellow Relic)*%GREEN%4 = %RED%Red Relic%WHITE%(T3) %NL%%NAME%}%CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13) ID]:%NAME%{%GOLD%Cubing Recipe : %WHITE%Relic %GOLD%T1%LIGHT_GRAY%(White Relic)*%GREEN%4 = %YELLOW%Yellow Relic%WHITE%(T2) %NL%%NAME%}%CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13) ID]:%NAME%{%GOLD%Cubing Recipe : %YELLOW%Relic %GOLD%T2%LIGHT_GRAY%(Yellow Relic)*%GREEN%4 = %RED%Red Relic%WHITE%(T3) %NL%%NAME%}%CONTINUE%
 ItemDisplay[ma1 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%RED%1,%YELLOW%2,%WHITE%1,%GREEN%1 %RED%Fire %CORAL%120 %YELLOW%Lightning %ORANGE%100~120 %WHITE%Phys %LIGHT_GRAY%100 %GREEN%Poison %SAGE%120%PURPLE%%NL%%NAME%}%CONTINUE%
 ItemDisplay[ma4 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%BLUE%1,%RED%1,%YELLOW%5,%GREEN%2 %RED%Fire %CORAL%120~140 %BLUE%Cold %TEAL%145~190 %YELLOW%Lightning %ORANGE%100 %GREEN%Poison %SAGE%120%PURPLE%]%NL%%NAME%}%CONTINUE%
 ItemDisplay[ma5 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%BLUE%3,%RED%3,%YELLOW%2,%GREEN%1 %RED%Fire %CORAL%140 %BLUE%Cold %TEAL%150 %YELLOW%Lightning %ORANGE%100 %WHITE%Phys %LIGHT_GRAY%100 %GREEN%Poison %SAGE%120~140%PURPLE%]%NL%%NAME%}%CONTINUE%
@@ -271,9 +274,9 @@ ItemDisplay[ma7 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%BLUE%2,%RED%1,%YELLOW%5,%ORAN
 ItemDisplay[ma10 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%RED%Fire %CORAL%50 %BLUE%Cold %TEAL%50 %YELLOW%Lightning %ORANGE%50 %ORANGE%Magic %YELLOW%33 %WHITE%Phys %LIGHT_GRAY%50 %GREEN%Poison %SAGE%33%PURPLE%]%NL%%NAME%}%CONTINUE%
 ItemDisplay[ma11 ID]:%NAME%{%PURPLE%[%GOLD%Immunes:%RED%Fire %CORAL%50 %BLUE%Cold %TEAL%50 %YELLOW%Lightning %ORANGE%50 %ORANGE%Magic %YELLOW%33 %WHITE%Phys %LIGHT_GRAY%50 %GREEN%Poison %SAGE%33%PURPLE%]%NL%%NAME%}%CONTINUE%
 //ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11) ID]:%NAME%{%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%NL%%NAME%}
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) ID STAT80>0]:%NAME% %SAGE%MF {%NAME%}%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) ID STAT360>0]:%NAME% %RED%C  {%NAME%}%CONTINUE%
-ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12) ID]:%NAME%{%NAME%}
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13) ID STAT80>0]:%NAME% %SAGE%MF {%NAME%}%CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13) ID STAT360>0]:%NAME% %RED%C  {%NAME%}%CONTINUE%
+ItemDisplay[(ma1 OR ma2 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10 OR ma11 OR ma12 OR ma13) ID]:%NAME%{%NAME%}
 //                                            Charms                                           //
 ItemDisplay[cm3 STAT22>13]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%TAN%Max %BLUE%Grand Charm %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%NL% %RED%Su%ORANGE%pe%YELLOW%r S%GREEN%pe%BLUE%ci%PURPLE%al %GOLD%Charms%NL%%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--}
 ItemDisplay[cm3 (STAT22>9 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%TAN%Max %RED%%RED%L%YELLOW%i%ORANGE%f%GOLD%e %BLUE%Grand Charm %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%NL% %RED%Su%ORANGE%pe%YELLOW%r S%GREEN%pe%BLUE%ci%PURPLE%al %GOLD%Charms%NL%%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%--%PURPLE%--}
@@ -547,7 +550,7 @@ ItemDisplay[gpg]: %CORAL%P %GOLD%Perfect %GREEN%Emerald{%NL%%GOLD%Unique Weapon 
 ItemDisplay[gpr]: %CORAL%P %GOLD%Perfect %RED%Ruby{%NL%%GREEN%Set Weapon Up%NL%%ORANGE%EL%WHITE%+%ORANGE%ETH%WHITE%+%RED%P_Ruby%RED%<Exc>%NL%%ORANGE%DOL%WHITE%+%ORANGE%MAL%WHITE%+%RED%P_Ruby%RED%<Elite>%NL%} <<ANTI>>
 ItemDisplay[gpb]: %CORAL%P %GOLD%Perfect %BLUE%sapphire{%NL%%YELLOW%Rare Weapon Up%NL%%ORANGE%ORT%WHITE%+%ORANGE%AMN%WHITE%+%BLUE%P_Sappire%RED%<Exc>%NL%%ORANGE%FAL%WHITE%+%ORANGE%UM%WHITE%+%BLUE%P_Sappire%RED%<Elite>%NL%} <<ANTI>>
 ItemDisplay[gpy]: %CORAL%P %GOLD%Perfect %YELLOW%Topaz{%NL%%GREEN%Set Armor Up%NL%%ORANGE%ELD%WHITE%+%ORANGE%ITH%WHITE%+%YELLOW%P_Topaz%RED%<Exc>%NL%%ORANGE%HEL%WHITE%+%ORANGE%IO%WHITE%+%YELLOW%P_Topaz%RED%<Elite>%NL%} <<ANTI>>
-ItemDisplay[skz]: %CORAL%P %GOLD%Perfect %TAN%Skull{%NL%%YELLOW%Rare Option Change %NL%%ORANGE%P_Skull*6%WHITE%+%YELLOW%Rare Item} <<ANTI>>
+ItemDisplay[skz]: %CORAL%P %GOLD%Perfect %TAN%Skull{%NL%%YELLOW%Rare Option Change %NL%%ORANGE%P_Skull*3%WHITE%+%YELLOW%Rare Item} <<ANTI>>
 //                                       RARE&MAGIC                                            //
 ItemDisplay[am5 MAG TABSK2>1]:Maiden Javelin{%NAME%}%CONTINUE%
 ItemDisplay[ama MAG TABSK2>1]:Ceremonial Javelin{%NAME%}%CONTINUE%
