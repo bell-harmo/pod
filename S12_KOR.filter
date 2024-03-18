@@ -11,7 +11,7 @@ FilterLevel[5]: +매직 아이템 삭제 //FILTLVL>2
 FilterLevel[6]: +세트 아이템 삭제 //FILTLVL>5
 FilterLevel[7]: +엄선된 유니크만(사용 주의) //FILTLVL>6
 FilterLevel[8]: +모든 베이스템 삭제 //FILTLVL>7
-FilterLevel[8]: +포션 삭제 //FILTLVL>8
+FilterLevel[9]: +포션 삭제 //FILTLVL>8
 //                                      Filter Level Disable Item                              //
 ItemDisplay[MAG rin !ID FILTERLVL>0]: 
 ItemDisplay[MAG (cm2) FILTERLVL>1]:
