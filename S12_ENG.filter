@@ -888,16 +888,16 @@ ItemDisplay[UNI !ID tgl !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%Ma%ORAN
 ItemDisplay[UNI !ID tgl ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Ma%ORANGE%ge%GOLD%fi%WHITE%st%NL%%NL%%GOLD%********************* <<UNIQUE2>>
 ItemDisplay[UNI !ID hgl !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%Fr%ORANGE%os%GOLD%tb%WHITE%ur%GOLD%n%NL%%NL%%GOLD%********************* <<UNIQUE2>>
 ItemDisplay[UNI !ID hgl ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Fr%ORANGE%os%GOLD%tb%WHITE%ur%GOLD%n%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID uvg !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%Dr%ORANGE%ac%GOLD%ul%WHITE%'s %GOLD%Gr%ORANGE%as%PURPLE%p%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
+ItemDisplay[UNI !ID uvg !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%Dracul's Grasp%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID uvg ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Dr%ORANGE%ac%GOLD%ul%WHITE%'s %GOLD%Gr%ORANGE%as%PURPLE%p%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID umg !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%So%ORANGE%ul %GOLD%Dr%WHITE%ai%GOLD%ne%ORANGE%r%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
+ItemDisplay[UNI !ID umg !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%So%ORANGE%ul %GOLD%Drainer%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID umg ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%So%ORANGE%ul %GOLD%Dr%WHITE%ai%GOLD%ne%ORANGE%r%NL%%NL%%GOLD%********************* <<UNIQUE2>>
 ItemDisplay[UNI !ID uhg !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%St%ORANGE%ee%GOLD%lr%WHITE%en%GOLD%d%NL%%NL%%GOLD%********************* <<UNIQUE2>>
 ItemDisplay[UNI !ID uhg ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%St%ORANGE%ee%GOLD%lr%WHITE%en%GOLD%d%NL%%NL%%GOLD%********************* <<UNIQUE2>>
 //Unique Boots
 ItemDisplay[UNI !ID xmb !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%Si%ORANGE%lk%GOLD%we%WHITE%av%GOLD%e%NL%%NL%%GOLD%********************* <<UNIQUE2>>
 ItemDisplay[UNI !ID xmb ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Si%ORANGE%lk%GOLD%we%WHITE%av%GOLD%e%NL%%NL%%GOLD%********************* <<UNIQUE2>>
-ItemDisplay[UNI !ID xtb !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%Wa%ORANGE%r T%GOLD%ra%WHITE%ve%GOLD%le%ORANGE%r%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
+ItemDisplay[UNI !ID xtb !ETH]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL%%PURPLE%War %ORANGE%Traveler%NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID xtb ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Wa%ORANGE%r T%GOLD%ra%WHITE%ve%GOLD%le%ORANGE%r%NL%%NL%%GOLD%********************* <<UNIQUE2>>
 ItemDisplay[UNI !ID xhb !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%Go%ORANGE%re %GOLD%Ri%WHITE%de%GOLD%r%NL%%NL%%GOLD%********************* <<UNIQUE2>>
 ItemDisplay[UNI !ID xhb ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Go%ORANGE%re %GOLD%Ri%WHITE%de%GOLD%r%NL%%NL%%GOLD%********************* <<UNIQUE2>>
@@ -972,7 +972,7 @@ ItemDisplay[UNI !ID pa9 ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%
 ItemDisplay[UNI !ID pac !ETH]:%GOLD%*********************%NL%%NL%%PURPLE%Al%ORANGE%ma %GOLD%Ne%WHITE%gr%GOLD%a%NL%%NL%%GOLD%*********************<<UNIQUE2>>
 ItemDisplay[UNI !ID pac ETH]:%GOLD%*********************%NL%%NL%%WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %PURPLE%Al%ORANGE%ma %GOLD%Ne%WHITE%gr%GOLD%a%NL%%NL%%GOLD%*********************<<UNIQUE2>>		
 //Unique Rings Amulets Jewels Charms
-ItemDisplay[UNI !ID (rin)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %CORAL%Ring %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
+ItemDisplay[UNI !ID (rin)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %WHITE%Ring %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (amu)]:%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%*****%NL%%NL% %WHITE%Am%PURPLE%ul%ORANGE%et %NL%%NL%%RED%*****%ORANGE%*****%YELLOW%*****%GREEN%*****%BLUE%*****%PURPLE%***** <<UNIQUE>>
 ItemDisplay[UNI !ID (jew)]:%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%****%NL%%NL% %RED%R%ORANGE%a%YELLOW%i%GREEN%n%BLUE%b%PURPLE%o%WHITE%w %GOLD%Facet %NL%%NL%%RED%****%ORANGE%****%YELLOW%****%GREEN%****%BLUE%****%PURPLE%**** <<UNIQUE>>
 ItemDisplay[UNI (WEAPON OR ARMOR) !ID FILTERLVL>6]:
