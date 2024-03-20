@@ -1530,36 +1530,36 @@ ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %GREEN%--------------------%NL%
 ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%TAL RASHA%NL%%GREEN%-------------------- <<SET>>
 ItemDisplay[SET !ID uth]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%TAL RASHA%NL%%GREEN%-------------------- <<SET>>
 ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%TRANG OUL%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (rng OR sbr)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Angelic%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (skp OR ltp OR wst)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Arcanna%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (qui OR vbl OR tgl OR swb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Arctic%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (hlm OR spl OR 2ax)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Berserker%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (msk OR chn OR bst)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Cathan%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (gsc OR lrg)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Civerb%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (lsd OR mgl OR sml)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Cleglaw%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (wsd OR lgl OR lbl)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Death%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (buc OR mbt)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Hsarus%NL%%GREEN%--------------------
-ItemDisplay[SET !ID mbl]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Hsarus or Hwanin%NL%%GREEN%--------------------
-ItemDisplay[SET !ID cap]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Infernal or Sander%NL%%GREEN%--------------------
-ItemDisplay[SET !ID tbl]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Infernal or Iratha%NL%%GREEN%--------------------
-ItemDisplay[SET !ID gwn]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Infernal%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (bsd OR fhl OR brs OR gts)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Isenhart%NL%%GREEN%--------------------
-ItemDisplay[SET !ID crn]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Milabrega or Iratha%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (aar OR kit OR wsp)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Milabrega%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (ghm OR gth OR hbt OR tow OR hbl OR hgl)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Sigon%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (bhm OR ful OR lbt OR mpi)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Tancred%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (lbb OR lea OR tbt)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Vidala%NL%%GREEN%--------------------
 ItemDisplay[SET !ID (7gd OR 7wd)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Bul-Kathos%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (xap OR stu)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Cow King%NL%%GREEN%--------------------
-ItemDisplay[SET !ID vbt]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Cow King or Sander%NL%%GREEN%--------------------
 ItemDisplay[SET !ID (xar OR urn OR 7ws OR paf)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Griswold%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (xrs OR 7ma OR uts OR uhm)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Heaven%NL%%GREEN%--------------------
-ItemDisplay[SET !ID (xrn OR 9vo OR xcl)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Hwanin%NL%%GREEN%--------------------
 ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Mavina%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (ci0 OR ult OR 6cs)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Naj%NL%%GREEN%--------------------
 ItemDisplay[SET !ID (xhm OR xml OR xvg OR ztb)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Orphan%NL%%GREEN%-------------------- <<SET>>
-ItemDisplay[SET !ID (bwn OR vgl)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Sander%NL%%GREEN%--------------------
 ItemDisplay[SET !ID (xhl OR 7ls OR upl)]: %GREEN%--------------------%NL%%GREEN%%NAME%%NL%%SAGE%Sazabi%NL%%GREEN%-------------------- <<SET>>
+ItemDisplay[SET !ID (rng OR sbr)]: %GREEN%%NAME%%SAGE%[Angelic]
+ItemDisplay[SET !ID (skp OR ltp OR wst)]: %GREEN%%NAME%%SAGE%[Arcanna]
+ItemDisplay[SET !ID (qui OR vbl OR tgl OR swb)]: %GREEN%%NAME%%SAGE%[Arctic]
+ItemDisplay[SET !ID (hlm OR spl OR 2ax)]: %GREEN%%NAME%%SAGE%[Berserker]
+ItemDisplay[SET !ID (msk OR chn OR bst)]: %GREEN%%NAME%%SAGE%[Cathan]
+ItemDisplay[SET !ID (gsc OR lrg)]: %GREEN%%NAME%%SAGE%[Civerb]
+ItemDisplay[SET !ID (lsd OR mgl OR sml)]: %GREEN%%NAME%%SAGE%[Cleglaw]
+ItemDisplay[SET !ID (wsd OR lgl OR lbl)]: %GREEN%%NAME%%SAGE%[Death]
+ItemDisplay[SET !ID (buc OR mbt)]: %GREEN%%NAME%%SAGE%[Hsarus]
+ItemDisplay[SET !ID mbl]: %GREEN%%NAME%%SAGE%[Hsarus or Hwanin]
+ItemDisplay[SET !ID cap]: %GREEN%%NAME%%SAGE%[Infernal or Sander]
+ItemDisplay[SET !ID tbl]: %GREEN%%NAME%%SAGE%[Infernal or Iratha]
+ItemDisplay[SET !ID gwn]: %GREEN%%NAME%%SAGE%[Infernal]
+ItemDisplay[SET !ID (bsd OR fhl OR brs OR gts)]: %GREEN%%NAME%%SAGE%[Isenhart]
+ItemDisplay[SET !ID crn]: %GREEN%%NAME%%SAGE%[Milabrega or Iratha]
+ItemDisplay[SET !ID (aar OR kit OR wsp)]: %GREEN%%NAME%%SAGE%[Milabrega]
+ItemDisplay[SET !ID (ghm OR gth OR hbt OR tow OR hbl OR hgl)]: %GREEN%%NAME%%SAGE%[Sigon]
+ItemDisplay[SET !ID (bhm OR ful OR lbt OR mpi)]: %GREEN%%NAME%%SAGE%Tancred
+ItemDisplay[SET !ID (lbb OR lea OR tbt)]: %GREEN%%NAME%%SAGE%[Vidala]
+ItemDisplay[SET !ID (xap OR stu)]: %GREEN%%NAME%%SAGE%[Cow King]
+ItemDisplay[SET !ID vbt]: %GREEN%%NAME%%SAGE%[Cow King or Sander]
+ItemDisplay[SET !ID (xrs OR 7ma OR uts OR uhm)]: %GREEN%%NAME%%SAGE%[Heaven]
+ItemDisplay[SET !ID (xrn OR 9vo OR xcl)]: %GREEN%%NAME%%SAGE%[Hwanin]
+ItemDisplay[SET !ID (ci0 OR ult OR 6cs)]: %GREEN%%NAME%%SAGE%[Naj]
+ItemDisplay[SET !ID (bwn OR vgl)]: %GREEN%%NAME%%SAGE%[Sander]
 ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*
 //                                     CRAFTING                                               //
 ItemDisplay[(xvg OR uvg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%RED%[Blood]%WHITE%Craft Gloves%YELLOW%[L%ILVL%]
