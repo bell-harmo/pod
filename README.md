@@ -65,7 +65,9 @@
 ----------------------------------------------------------------------------------------------------------------------
      7. 20.Mar,2024
       1) Reduced Highligh of normal set items excepted Sigon.
-      2) Bug fixed
+      2) Runeword comments added
+      3) Shop item added 
+      4) Bug fixed
          - Andariel Visage Crash when dropped
          
 ----------------------------------------------------------------------------------------------------------------------
