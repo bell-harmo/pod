@@ -1,6 +1,6 @@
 Attribute[Author]: 필라(수정:벨하모)
 Attribute[Name]: 한글 필터, 폴더내 Item.Filter로 저장됨
-Attribute[Version]: 1.1
+Attribute[Version]: 1.2
 Attribute[Date]: 2024/03/21 
 //                                      Filter Level                                           //
 FilterLevel[1]: 일반 //FILTLVL>0 
