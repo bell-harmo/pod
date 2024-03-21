@@ -1,6 +1,6 @@
 Attribute[Author]: 필라(수정:벨하모)
 Attribute[Name]: 한글 필터, 폴더내 Item.Filter로 저장됨
-Attribute[Version]: 1.2.2
+Attribute[Version]: 1.2.3
 Attribute[Date]: 2024/03/21 
 //                                      Filter Level                                           //
 FilterLevel[1]: 일반 //FILTLVL>0 
@@ -2159,8 +2159,8 @@ ItemDisplay[WP13 !RW !ETH NMAG SK114>2 SOCK=0]: %GRAY%%NAME% %ORANGE%+3 홀리�
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4]: %GRAY%%NAME%%BLUE% %ORANGE%[초반용]  {%NAME%}
 ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%BLUE% %ORANGE%[초반용]  {%NAME%}
 //활 4솟
-ItemDisplay[(8sb OR 8hb OR 8lb OR 8cb OR 8s8 OR am6) !ETH !RW NMAG (SOCK=0 OR SOCK>3)]: %GRAY%%NAME%%BLUE% %ORANGE%[통찰용]  {%NAME%}
-ItemDisplay[(8sb OR 8hb OR 8lb OR 8cb OR 8s8 OR am6) ETH !RW NMAG (SOCK=0 OR SOCK>3)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%BLUE% %ORANGE%[통찰용]  {%NAME%}
+ItemDisplay[(8sb OR 8hb OR 8lb OR 8cb OR 8s8) !ETH !RW NMAG (SOCK=0 OR SOCK>3)]: %GRAY%%NAME%%BLUE% %ORANGE%[통찰용]  {%NAME%}
+ItemDisplay[(8sb OR 8hb OR 8lb OR 8cb OR 8s8) ETH !RW NMAG (SOCK=0 OR SOCK>3)]: %WHITE%[%PURPLE%E%WHITE%t%BLUE%h%WHITE%] %GRAY%%NAME%%BLUE% %ORANGE%[통찰용]  {%NAME%}
 //Actication
 //ItemDisplay[NMAG AREALVL=0 !RW SOCK=0]:%GRAY%%NAME%{%NL%%WHITE%+%RED%간이 활성화%WHITE%+ %CORAL%이 아이템은 오직 마을에서만 활성화 됩니다.%NL%%NAME%}
 //                                   CRAFT AMULET                                              //
